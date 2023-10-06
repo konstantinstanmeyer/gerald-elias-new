@@ -1,95 +1,58 @@
 import Image from 'next/image'
-import styles from './page.module.css'
+
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
+    <>
+      <div className="landing">
+        <img src="/gerald-elias-profile.jpeg" className="landing-profile" />
+        <div className="landing-text">
+          <h2 className="gerald-elias-name">GERALD ELIAS</h2>
+          <p className="landing-occupation">AUTHOR & MUSICIAN</p>
+          <p className="quote">“Gerald Elias is a maestro of mystery.” - Gabriel Valjan, author of the Shane Cleary Mystery series</p>
+          <a className="">About Me</a>
+        </div>
+        <div className="arrow-container">
+            <img src="/down-arrow.png" className="arrow" />
+        </div>
+      </div>
+      <div className="featured">
+        <img src="/murder-at-the-royal-albert-audiobook.jpeg" className="featured-image" />
+        <div className="featured-text">
+          <h4 className="featured-header">MURDER AT THE ROYAL ALBERT: A DANIEL JACOBUS MYSTERY, WRITTEN BY MYSELF</h4>
+          <p className="">Experience the thrill of live performances woven into the tale, as you unravel a symphony of secrets in the English countryside.</p>
+        </div>
+      </div>
+      <div className="about">
+        <div className="about-text">
+            <h2 className="about-header">About Gerald</h2>
+            <div className="about-line" />
+            <p className="about-description">
+                Gerald Elias, an accomplished author, seamlessly blends his background in music with his passion for writing, creating captivating mystery and crime novels. Before becoming a writer, Elias was a renowned violinist, lending his lyrical and evocative talents to prestigious orchestras. His novels reflect his love for adventure and travel, drawing inspiration from his life's rich experiences. Join us on a literary journey through the works of an author whose past is as diverse and captivating as the stories he crafts, where music and mystery intertwine to transport readers into thrilling realms of suspense and intrigue.
+            </p>
+        </div>
+        <img className="about-image" src="/gerald-elias-portrait.jpeg"/>
+      </div>
+      <div className="home-books-container">
+        <h2 className="home-books-header">Books by Gerald Elias</h2>
+        <div className="home-books-list">
+          <a href="/books/roundtree-days" className="home-book">
+              <img src="/roundtree-days.jpg" />
+          </a>
+          <a href="/books/its-a-crime" className="home-book">
+              <img src="/book-its-a-crime.jpg" />
+          </a>
+          <a href="/books/murder-at-the-royal-albert" className="home-book">
+              <img src="/book-murder-at-the-royal-albert.jpg" />
+          </a>
+          <a href="/books/cloudy-with-a-chance-of-murder" className="home-book">
+              <img src="/book-cloudy-with-a-chance-of-murder.jpg" />
+          </a>
+          <a href="/books" className="home-book">
+              <p href="/books">All Books</p>
           </a>
         </div>
       </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+    </>
   )
 }
