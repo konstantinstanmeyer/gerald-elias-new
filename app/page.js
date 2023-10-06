@@ -14,11 +14,11 @@ export default function Home() {
           <div className="quotes-list">
             <p className="quote">
               <img className="quotation-mark" src="/quotation-mark.png" />
-              Gerald Elias is a maestro of mystery. <span>- Gabriel Valjan, author of the Shane Cleary Mystery series</span>
+              Gerald Elias is a maestro of mystery." <span>– Gabriel Valjan, author of the Shane Cleary Mystery series</span>
             </p>
             <p className="quote">
               <img className="quotation-mark" src="/quotation-mark.png" />
-              Music lovers' favorite curmudgeon is back. <span>- Paul Adam, best-selling author of The Cremona Mysteries.</span>
+              Music lovers' favorite curmudgeon is back." <span>– Paul Adam, bestselling author of <span>The Cremona Mysteries.</span></span>
             </p>
           </div>
           <a className="about-link">ABOUT ME</a>
