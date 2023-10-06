@@ -7,10 +7,22 @@ export default function Home() {
       <div className="landing">
         <img src="/gerald-elias-profile.jpeg" className="landing-profile" />
         <div className="landing-text">
-          <h2 className="gerald-elias-name">GERALD ELIAS</h2>
-          <p className="landing-occupation">AUTHOR & MUSICIAN</p>
-          <p className="quote">“Gerald Elias is a maestro of mystery.” - Gabriel Valjan, author of the Shane Cleary Mystery series</p>
-          <a className="">About Me</a>
+          <div className="landing-header">
+            <h2 className="gerald-elias-name">GERALD ELIAS</h2>
+            <p className="landing-occupation">AUTHOR & MUSICIAN</p>
+          </div>
+          <div className="quotes-list">
+            <p className="quote">
+              <img className="quotation-mark" src="/quotation-mark.png" />
+              Gerald Elias is a maestro of mystery. <span>- Gabriel Valjan, author of the Shane Cleary Mystery series</span>
+            </p>
+            <p className="quote">
+              <img className="quotation-mark" src="/quotation-mark.png" />
+              Music lovers' favorite curmudgeon is back. <span>- Paul Adam, best-selling author of The Cremona Mysteries.</span>
+            </p>
+          </div>
+          <a className="about-link">ABOUT ME</a>
+          <div />
         </div>
         <div className="arrow-container">
             <img src="/down-arrow.png" className="arrow" />
