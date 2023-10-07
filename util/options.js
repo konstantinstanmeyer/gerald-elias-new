@@ -1,7 +1,7 @@
 const music = [
     {
         name: 'CONCERTS & RECORDINGS',
-        url: '/concerts'
+        url: '/concerts-and-recordings'
     },
     {
         name: 'CONDUCTING',

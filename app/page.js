@@ -5,7 +5,7 @@ export default function Home() {
     <>
       <div id="home" className="">
         <div id="landing" className="">
-          <img id="landing-image" src="/murder-at-the-royal-albert-audiobook.jpeg" />
+          <img loading="lazy" id="landing-image" src="/murder-at-the-royal-albert-audiobook.jpeg" />
           <div id="landing-text">
             <h2>PRE-ORDER 'MURDER AT THE ROYAL ALBERT' AUDIOBOOK</h2>
             <p id="landing-description">experience the thrill of live performances woven into the tale</p>
@@ -35,7 +35,7 @@ export default function Home() {
             </a>
           </div>
           <a id="all-books" href="/books">
-            All Books
+            ALL BOOKS
           </a>
         </div>
         <div id="about">
@@ -43,7 +43,7 @@ export default function Home() {
           <div id="about-text">
             <h2 id="about-gerald">About Gerald</h2>
             <p id="about-description">Gerald Elias, an accomplished author, seamlessly blends his background in music with his passion for writing, creating captivating mystery and crime novels. Before becoming a writer, Elias was a renowned violinist, lending his lyrical and evocative talents to prestigious orchestras. His novels reflect his love for adventure and travel, drawing inspiration from his life's rich experiences. Join us on a literary journey through the works of an author whose past is as diverse and captivating as the stories he crafts, where music and mystery intertwine to transport readers into thrilling realms of suspense and intrigue.</p>
-            <a id="about-more">LEARN MORE</a>
+            <a href="/" id="about-more">LEARN MORE</a>
           </div>
         </div>
       </div>

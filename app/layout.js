@@ -54,7 +54,7 @@ const overpass = Overpass({
 
 const red_hat_mono = Red_Hat_Mono({
   subsets: ['latin'],
-  weight: ['300', '400', '600'],
+  weight: ['300', '400', '600', '700'],
   variable: '--font-red-hat-mono',
   style: ['normal', 'italic'],
 })

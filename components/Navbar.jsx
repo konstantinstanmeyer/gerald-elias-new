@@ -12,8 +12,9 @@ export default function Navbar(){
                 <a href="/books">BOOKS & MORE</a>
                 <Dropdown name={'MUSIC'} options={options[0]} />
                 <Dropdown name={'ABOUT'} options={options[1]} />
-                <a href="/">BLOG</a>
-                <a href="/">CONTACT</a>
+                <a href="/events">EVENTS</a>
+                <a href="/blog">BLOG</a>
+                <a href="/contact">CONTACT</a>
             </ul>
         </div>
     )
