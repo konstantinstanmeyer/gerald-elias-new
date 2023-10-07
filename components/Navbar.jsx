@@ -9,9 +9,9 @@ export default function Navbar(){
             <nav className="nav-menu">
                 <a href="/home">HOME</a>
                 <Dropdown name={'BOOKS & MORE'} options={options[0]} />
-                <a href="">MUSIC</a>
+                <Dropdown name={'MUSIC'} options={options[1]} />
                 <a href="/blog">BLOG</a>
-                <a>ABOUT</a>
+                <Dropdown name={'ABOUT'} options={options[2]} />
                 <a href="/events">EVENTS</a>
                 <a href="/contact">CONTACT</a>
             </nav>
