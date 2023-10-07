@@ -7,8 +7,8 @@ export default function Navbar(){
         <div className="navbar">
             <h3 className={`gerald-elias`}>Gerald Elias</h3>
             <nav className="nav-menu">
-                <Dropdown options={options[0]} />
-                <a href="/books">BOOKS AND MORE</a>
+                <a href="/home">HOME</a>
+                <Dropdown name={'BOOKS & MORE'} options={options[0]} />
                 <a href="">MUSIC</a>
                 <a href="/blog">BLOG</a>
                 <a>ABOUT</a>

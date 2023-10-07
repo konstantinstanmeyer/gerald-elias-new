@@ -110,7 +110,11 @@ html {
   left: 0;
   background-color: rgb(66, 66, 66);
   transform: scaleX(0);
-  transition: transform 0.3s ease;
+  transition: transform 0.2s ease;
+}
+
+a:hover::before {
+  transform: scaleX(1);
 }
 
 .na-menu > a:hover::before {
@@ -428,18 +432,19 @@ a:hover::before {
   position: absolute;
   background-color: white;
   display: flex;
+  color: rgb(66, 66, 66);
   flex-direction: column;
-  left: -35px;
-  top: 1.3rem;
+  left: 0;
+  top: 1.7rem;
   margin-left: auto; 
   margin-right: auto; 
-  width: 120px;
+  width: 140px;
   margin-top: 3px;
   padding-bottom: 0.5rem;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-  border-radius: 4px;
+  /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
+  /* border-radius: 4px; */
   justify-content: center;
   animation: fadeIn 0.2s ease-in;
 }
@@ -455,7 +460,9 @@ a:hover::before {
   font-family: var(--font-outfit);
   padding-top: 4px;
   padding-bottom: 4px;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: rgb(66,66,66);
 }
 
 .option:hover {
@@ -487,4 +494,13 @@ a:hover::before {
   border-radius: 99999;
   z-index: 90;
   top: -0px;
+}
+
+.dropdown-hitbox {
+  position: absolute;
+  background-color: transparent;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 100;
 }
