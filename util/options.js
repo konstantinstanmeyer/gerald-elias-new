@@ -1,14 +1,3 @@
-const books = [
-    {
-        name: 'BOOKS & E-BOOKS',
-        url: '/books'
-    },
-    {
-        name: 'AUDIOBOOKS',
-        url: '/audiobooks'
-    }
-]
-
 const music = [
     {
         name: 'CONCERTS & RECORDINGS',
@@ -36,6 +25,6 @@ const about = [
     }
 ]
 
-const options = [books, music, about];
+const options = [music, about];
 
 export default options;

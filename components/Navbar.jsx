@@ -4,19 +4,17 @@ import options from "@/util/options"
 export default function Navbar(){
 
     return (
-        <div className="navbar">
+        <div id="navbar">
             <a href="/">
-                <h3 className={`gerald-elias`}>Gerald Elias</h3>
+                <h3 id="gerald-elias">GERALD ELIAS</h3>
             </a>
-            <nav className="nav-menu">
-                <Dropdown name={'BOOKS & MORE'} options={options[0]} />
-                <Dropdown name={'MUSIC'} options={options[1]} />
-                <a href="/blog">BLOG</a>
-                <Dropdown name={'ABOUT'} options={options[2]} />
-                <a href="/events">EVENTS</a>
-                <a href="/contact">CONTACT</a>
-            </nav>
-            <div className="divider"/>
+            <ul id="nav-links">
+                <a href="/books">BOOKS & MORE</a>
+                <Dropdown name={'MUSIC'} options={options[0]} />
+                <Dropdown name={'ABOUT'} options={options[1]} />
+                <a href="/">BLOG</a>
+                <a href="/">CONTACT</a>
+            </ul>
         </div>
     )
 }

@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Navbar from '../components/Navbar'
 import './globals.css'
-import { Rock_Salt, Outfit, Roboto_Slab, Playfair_Display, Bad_Script, Cormorant, Overpass } from 'next/font/google'
+import { Rock_Salt, Outfit, Roboto_Slab, Playfair_Display, Bad_Script, Cormorant, Overpass, Red_Hat_Mono, Montserrat } from 'next/font/google'
 
 export const metadata = {
   title: 'Gerald Elias',
@@ -28,7 +28,8 @@ const roboto_slab = Roboto_Slab({
 const playfair_display = Playfair_Display({
   subsets: ['latin'],
   weight: ['400'],
-  variable: '--font-playfair-display'
+  variable: '--font-playfair-display',
+  styles: ['normal', 'italic']
 })
 
 const bad_script = Bad_Script({
@@ -42,18 +43,31 @@ const cormorant = Cormorant({
   weight: ['700', '500'],
   style: ['normal', 'italic'],
   variable: '--font-cormorant'
-})
+});
 
 const overpass = Overpass({
   subsets: ['latin'],
   weight: ['400', '700'],
   style: ['normal', 'italic'],
   variable: '--font-overpass'
+});
+
+const red_hat_mono = Red_Hat_Mono({
+  subsets: ['latin'],
+  weight: ['300', '400', '600'],
+  variable: '--font-red-hat-mono',
+  style: ['normal', 'italic'],
+})
+
+const montserrat = Montserrat({
+  subsets: ['latin'],
+  weight: ['300', '400'],
+  variable: '--font-montserrat'
 })
 
 export default function RootLayout({ children }) {
   return (
-    <html className={`${rock_salt.variable} ${outfit.variable} ${roboto_slab.variable} ${playfair_display.variable} ${bad_script.variable} ${cormorant.variable} ${overpass.variable}`} lang="en">
+    <html className={`${rock_salt.variable} ${outfit.variable} ${roboto_slab.variable} ${playfair_display.variable} ${bad_script.variable} ${cormorant.variable} ${overpass.variable} ${red_hat_mono.variable} ${montserrat.variable}`} lang="en">
       <Head>
         <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300&family=Roboto+Slab:wght@300;500&family=Rock+Salt&display=swap" rel="stylesheet"/>
       </Head>
