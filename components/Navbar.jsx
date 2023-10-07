@@ -5,9 +5,10 @@ export default function Navbar(){
 
     return (
         <div className="navbar">
-            <h3 className={`gerald-elias`}>Gerald Elias</h3>
+            <a href="/">
+                <h3 className={`gerald-elias`}>Gerald Elias</h3>
+            </a>
             <nav className="nav-menu">
-                <a href="/home">HOME</a>
                 <Dropdown name={'BOOKS & MORE'} options={options[0]} />
                 <Dropdown name={'MUSIC'} options={options[1]} />
                 <a href="/blog">BLOG</a>

@@ -24,9 +24,6 @@ export default function Home() {
           <a className="about-link">ABOUT ME</a>
           <div />
         </div>
-        <div className="arrow-container">
-            <img src="/down-arrow.png" className="arrow" />
-        </div>
       </div>
       <div className="featured">
         <img src="/murder-at-the-royal-albert-audiobook.jpeg" className="featured-image" />

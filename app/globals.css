@@ -3,6 +3,21 @@
   padding: 0;
 }
 
+.landing {
+  animation: fadeInAnimation ease 2xs;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
 html {
   background-color:whitesmoke;
 }
@@ -28,6 +43,10 @@ html {
   height: 80%;
 }
 
+.navbar > a {
+  text-decoration: none;
+}
+
 .landing-text {
   width: 30%;
   height: 80%;
@@ -38,6 +57,7 @@ html {
 .gerald-elias {
   color: rgb(66, 66, 66);
   font-size: 3.5vw;
+  text-decoration: none;
   font-family: var(--font-bad-script);
   margin-left: 3rem;
 }
@@ -480,8 +500,6 @@ a:hover::before {
   font-family: var(--font-outfit);
   color: rgb(66, 66, 66);
   text-decoration: none;
-  padding-left: 20px;
-  padding-right: 20px;
   padding-top: 4px;
   padding-bottom: 4px;
   position: relative;
