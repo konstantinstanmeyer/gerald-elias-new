@@ -555,7 +555,6 @@ html {
   flex-direction: row;
   align-items:center;
   justify-content: center;
-  padding-left: 6rem;
 }
 
 #landing-image {
@@ -778,11 +777,14 @@ html {
 #about-more {
   color: black;
   width: fit-content;
-  padding: 1rem 1rem 1rem 1rem;
   /* border-radius: 5px; */
   margin-top: 2rem;
   font-family: var(--font-red-hat-mono);
   font-weight: 500;
   word-spacing: 1px;
-  border: 2px solid black;
+}
+
+#about-more:hover {
+  color: red;
+  cursor: pointer;
 }
