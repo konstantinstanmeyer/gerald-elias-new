@@ -33,12 +33,11 @@ html {
   height: 80%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around
 }
 
 .gerald-elias {
   color: rgb(66, 66, 66);
-  font-size: 3vw;
+  font-size: 3.5vw;
   font-family: var(--font-bad-script);
   margin-left: 3rem;
 }
@@ -69,29 +68,26 @@ html {
   padding-top: 1rem;
   background-color: #ffffff;
   padding-bottom: 1rem;
-  transition: all 1s ease;
 }
 
-.nav-menu a {
+.nav-menu > a {
   font-family: var(--font-outfit);
   color: rgb(66, 66, 66);
-  margin-left: 1rem;
-  margin-right: 1rem;
-  margin-right: 2rem;
   text-decoration: none;
   padding-left: 4px;
   padding-right: 4px;
   padding-top: 4px;
   padding-bottom: 4px;
   position: relative;
+  font-size: 1.1rem;
 }
 
-.nav-menu a:hover {
+.nav-menu > a:hover {
   cursor: pointer;
 }
 
 .nav-menu a span {
-  font-size: 0.5rem;
+  font-size: 1rem;
   position: relative;
   top: -1px;
   right: -2px;
@@ -100,11 +96,11 @@ html {
   transition: all 1s;
 }
 
-.nav-menu a:hover {
+.nav-menu > a:hover {
   color: rgb(66, 66, 66);
 }
 
-.nav-menu a::before {
+.nav-menu > a::before {
   content: "";
   position: absolute;
   display: block;
@@ -117,7 +113,7 @@ html {
   transition: transform 0.3s ease;
 }
 
-.na-menu a:hover::before {
+.na-menu > a:hover::before {
   transform: scaleX(1);
 }
 
@@ -129,7 +125,9 @@ a:hover::before {
   display: flex;
   flex-direction: row;
   margin-left: auto;
-  margin-right: ;
+  width: 60%;
+  justify-content: space-around;
+  margin-right: 1rem;
 }
 
 .arrow-container {
@@ -328,6 +326,8 @@ a:hover::before {
 
 .quote {
   display: table;
+  position: relative;
+  top: -20px;
   margin: 0px auto 0px auto;
   font-style: italic;
   font-size: 1.2rem;
@@ -336,11 +336,16 @@ a:hover::before {
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 2vh;
+  font-family: var(--font-overpass);
 }
 
 .quote span {
   color: rgb(80, 80, 80);
   display: inline-block;
+}
+
+.quote span span {
+  font-style: normal;
 }
 
 .mystery-text {
@@ -356,7 +361,7 @@ a:hover::before {
 
 .about-link {
   position: relative;
-  /* top: 3rem; */
+  margin-top: .5rem;
   background-color: rgb(43, 43, 43);
   color:#e4e4dc;
   padding-left: 2rem;
@@ -365,6 +370,121 @@ a:hover::before {
   padding-bottom: 1rem;
   border-radius: 999999px;
   margin-left: 5%;
-  font-family: var(--font-outfit);
+  font-family: var(--font-overpass);
   width: fit-content;
+  border-radius: 4px;
+  border: none;
+  text-align: center;
+  padding: 16px;
+  width: 200px;
+  transition: all 0.7s;
+  cursor: pointer;
+}
+
+.about-link {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.about-link:after {
+  content: '➔';
+  position: absolute;
+  opacity: 0;  
+  top: 16px;
+  right: -60px;
+  transition: 0.3s;
+}
+
+.about-link:hover{
+  padding-right: 24px;
+  padding-left:8px;
+}
+
+.about-link:hover:after {
+  opacity: 1;
+  right: 65px;
+}
+
+.quotes-list {
+  margin-top: 40px;
+}
+
+.dropdown {
+  position: relative;
+  z-index: 50;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  bottom: 0;
+}
+
+.dropdown:hover {
+  cursor:pointer;
+}
+
+.options-list {
+  position: absolute;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  left: -35px;
+  top: 1.3rem;
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 120px;
+  margin-top: 3px;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  border-radius: 4px;
+  justify-content: center;
+  animation: fadeIn 0.2s ease-in;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.option {
+  text-align: center;
+  transition: all 0.3s;
+  font-family: var(--font-outfit);
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-size: 1rem;
+}
+
+.option:hover {
+  cursor: pointer;
+  color: rgb(139, 139, 139);
+}
+
+.down-carrot {
+  font-size: 3rem;
+}
+
+.dropdown p {
+  font-family: var(--font-outfit);
+  color: rgb(66, 66, 66);
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  position: relative;
+  font-size: 1.1rem;
+}
+
+.option-br {
+  width: 100%;
+  position: relative;
+  height: 1.5px;
+  background-color: rgb(212, 212, 212);
+  border-radius: 99999;
+  z-index: 90;
+  top: -0px;
 }

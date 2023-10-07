@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Navbar from '../components/Navbar'
 import './globals.css'
-import { Rock_Salt, Outfit, Roboto_Slab, Playfair_Display, Bad_Script, Cormorant } from 'next/font/google'
+import { Rock_Salt, Outfit, Roboto_Slab, Playfair_Display, Bad_Script, Cormorant, Overpass } from 'next/font/google'
 
 export const metadata = {
   title: 'Gerald Elias',
@@ -44,9 +44,16 @@ const cormorant = Cormorant({
   variable: '--font-cormorant'
 })
 
+const overpass = Overpass({
+  subsets: ['latin'],
+  weight: ['400', '700'],
+  style: ['normal', 'italic'],
+  variable: '--font-overpass'
+})
+
 export default function RootLayout({ children }) {
   return (
-    <html className={`${rock_salt.variable} ${outfit.variable} ${roboto_slab.variable} ${playfair_display.variable} ${bad_script.variable} ${cormorant.variable}`} lang="en">
+    <html className={`${rock_salt.variable} ${outfit.variable} ${roboto_slab.variable} ${playfair_display.variable} ${bad_script.variable} ${cormorant.variable} ${overpass.variable}`} lang="en">
       <Head>
         <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300&family=Roboto+Slab:wght@300;500&family=Rock+Salt&display=swap" rel="stylesheet"/>
       </Head>

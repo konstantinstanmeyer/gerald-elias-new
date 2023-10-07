@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <div className="landing">
-        <img src="/gerald-elias-profile.jpeg" className="landing-profile" />
+        <img src="/gerald-elias-hat.jpg" className="landing-profile" />
         <div className="landing-text">
           <div className="landing-header">
             <h2 className="gerald-elias-name">GERALD ELIAS</h2>
@@ -18,7 +18,7 @@ export default function Home() {
             </p>
             <p className="quote">
               <img className="quotation-mark" src="/quotation-mark.png" />
-              Music lovers' favorite curmudgeon is back." <span>– Paul Adam, bestselling author of <span>The Cremona Mysteries.</span></span>
+              Music lovers' favorite curmudgeon is back." <span>– bestselling author Paul Adam on <span>Murder at the Royal Albert</span></span>
             </p>
           </div>
           <a className="about-link">ABOUT ME</a>
