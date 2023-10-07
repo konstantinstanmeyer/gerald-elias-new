@@ -555,6 +555,7 @@ html {
   flex-direction: row;
   align-items:center;
   justify-content: center;
+  padding-left: 13rem;
 }
 
 #landing-image {
@@ -775,13 +776,13 @@ html {
 }
 
 #about-more {
-  background-color: black;
-  color: rgb(207, 188, 163);
+  color: black;
   width: fit-content;
   padding: 1rem 1rem 1rem 1rem;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   margin-top: 2rem;
   font-family: var(--font-red-hat-mono);
-  font-weight: 400;
+  font-weight: 500;
   word-spacing: 1px;
+  border: 2px solid black;
 }

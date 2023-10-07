@@ -7,7 +7,7 @@ export default function Home() {
         <div id="landing" className="">
           <img id="landing-image" src="/murder-at-the-royal-albert-audiobook.jpeg" />
           <div id="landing-text">
-            <h2>PREORDER 'MURDER AT THE ROYAL ALBERT'</h2>
+            <h2>PRE-ORDER 'MURDER AT THE ROYAL ALBERT' AUDIOBOOK</h2>
             <p id="landing-description">experience the thrill of live performances woven into the tale</p>
             <a id="learn-more" href="/books/audio-books/murder-at-the-royal-albert">MORE DETAILS</a>
           </div>
