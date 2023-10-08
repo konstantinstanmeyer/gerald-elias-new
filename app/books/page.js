@@ -12,23 +12,44 @@ export default function Books(){
                 <a className="book" href="/books/its-a-crime">
                     <img src="/book-its-a-crime.jpg" />
                 </a>
-                <a className="book" href="/books/murder-at-the-royal-albert">
-                    <img src="/book-murder-at-the-royal-albert.jpg" />
+                <a className="book" href="/books/the-beethoven-sequence">
+                    <img src="/the-beethoven-sequence-book.jpg" />
                 </a>
                 <a className="book" href="/books/cloudy-with-a-chance-of-murder">
                     <img src="/book-cloudy-with-a-chance-of-murder.jpg" />
                 </a>
-                <a className="book" href="/books/the-beethoven-sequence">
-                    <img src="/the-beethoven-sequence-book.jpg" />
+                <a className="book" href="/books/spring-break">
+                    <img src="/book-spring-break.jpg" />
                 </a>
-                <a className="book" href="/books/symphonies-&-scorpions">
-                    <img src="/symphonies-and-scorpions.jpeg" />
+                <a className="book" href="/books/playing-with-fire">
+                    <img src="/book-playing-with-fire.jpg" />
                 </a>
                 <a className="book" href="/books/death-and-disfiguration">
                     <img src="/book-death-and-disfiguration.jpg" />
                 </a>
-                <a className="book" href="/books/playing-with-fire">
-                    <img src="/book-playing-with-fire.jpg" />
+                <a className="book" href="/books/death-and-the-maiden">
+                    <img src="/book-death-and-the-maiden.jpeg" />
+                </a>
+                <a className="book" href="/books/danse-macabre">
+                    <img src="/book-danse-macabre.jpeg" />
+                </a>
+                <a className="book" href="/books/devil's-trill">
+                    <img src="/book-devil's-trill.jpg" />
+                </a>
+                <a className="book" href="/books/murder-at-the-royal-albert">
+                    <img src="/book-murder-at-the-royal-albert.jpg" />
+                </a>
+            </div>
+            <h2>More books by Gerald Elias</h2>
+            <div id="books-list">
+                <a className="book" href="/books/symphonies-&-scorpions">
+                    <img src="/symphonies-and-scorpions.jpeg" />
+                </a>
+            </div>
+            <h2>Audiobooks</h2>
+            <div id="books-list">
+                <a className="book" href="/books/symphonies-&-scorpions">
+                    <img src="/symphonies-and-scorpions.jpeg" />
                 </a>
             </div>
         </div>

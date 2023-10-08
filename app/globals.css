@@ -274,6 +274,7 @@ html {
   height: 60vh;
   position: relative;
   background-color: darkgray;
+  margin-bottom: 15vh;
 }
 
 .general-landing img {
@@ -304,16 +305,15 @@ html {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 10vh;
+  margin-top: 4vh;
 }
 
 #books > h2 {
   width: 70%;
   text-align: left;
-  margin-top: 20vh;
-  font-family: var(--font-red-hat-mono);
+  font-family: var(--font-poppins);
   font-weight: 600;
-  font-size: 3rem;
+  font-size: 2rem;
   margin-left: auto;
   margin-right: auto;
 }
