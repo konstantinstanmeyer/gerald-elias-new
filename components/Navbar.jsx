@@ -15,6 +15,7 @@ export default function Navbar(){
                 <a href="/events">EVENTS</a>
                 <a href="/blog">BLOG</a>
                 <a href="/contact">CONTACT</a>
+                {/* <a href="/admin">ADMIN</a> */}
             </ul>
         </div>
     )
