@@ -15,6 +15,6 @@ export async function POST(req){
         textArr: JSON.parse(textArr.replace(/'/g, '"')),
         date: date
     });
-        
+    
     return NextResponse.json({message: 'success'}, { status: 200 });
 }

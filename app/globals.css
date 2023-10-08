@@ -5,6 +5,7 @@
 
 html {
   background-color: rgb(235, 235, 235);
+  scroll-behavior: smooth;
 }
 
 #home {
@@ -65,10 +66,13 @@ html {
 
 .home-book {
   margin-bottom: 5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .home-book img {
   height: 30rem;
+  width: 18.8rem;
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
@@ -85,12 +89,12 @@ html {
 #home-books-list {
   position: relative;
   margin-top: 20vh;
-  width: 70%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between
+  justify-content: space-around;
 }
 
 #home-books-container {
@@ -297,7 +301,7 @@ html {
   transform: translate(-50%, 0);
 }
 
-#books-list {
+.books-list {
   position: relative;
   width: 80%;
   margin-left: auto;
@@ -320,10 +324,64 @@ html {
 
 .book > img {
   height: 22rem;
+  width: 13.8rem;
 }
 
 .book {
   margin-bottom: 4rem;
   margin-left: 2rem;
   margin-right: 2rem;
+}
+
+#books-nav {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 15vh;
+  margin-top: 25vh;
+}
+
+#books-nav a {
+  text-decoration: none;
+  color: white;
+  width: 30%;
+  position: relative;
+  transition: all 0.5s;
+}
+
+#books-nav a:hover {
+  filter: brightness(150%);
+}
+
+#books-nav a > div {
+  width: 100%;
+  height: 15rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-poppins);
+  font-weight: 400;
+  object-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align:center;
+}
+
+#audiobooks-container {
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5) ), url('../public/option-audiobooks.jpg');
+}
+
+#daniel-container {
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5) ), url('../public/option-daniel.jpg');
+}
+
+#more-books-container {
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5) ), url('../public/symphonies-and-scorpions.jpeg');
 }
