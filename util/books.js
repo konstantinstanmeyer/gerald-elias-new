@@ -145,17 +145,44 @@ export const books = {
     "the-beethoven-sequence":{
         name: "The Beethoven Sequence",
         imageUrl: "/the-beethoven-sequence-book.jpg",
-        detail: "Elias tells his nicely plotted tale with brio. Readers looking for plenty of laughs will be more than satisfied. -Publishers Weekly",
+        detail: "…quick, gripping, and disruptive. -The Boston Musical Intelligencer",
         description: [
             "What if the president was a political outsider with no experience in government? What if he was mentally unstable? What if he started eliminating his political opponents, one by one? What if the President of the United States was insane?", 
             "It was as terrifying as it was implausible. Layton Stolz, a humble laborer, concealed a burning core of monomania and suppressed violence. Against all odds, Stolz is swept into the presidency of the United States. Coverup leads to murder as he consolidates authoritarian power.", 
             "Ballard Whitmore, a young teacher falsely imprisoned for sexual misconduct, narrowly escapes assassination. Will high-spirited female reporter Sandy Duckworthy's desperate exposé, laying bare the corruption of a president who lost his grasp of reality, save him in time?"
         ],
         links: {
-            "Bookshop":"https://bookshop.org/p/books/roundtree-days-a-jefferson-dance-western-mystery-gerald-elias/18730608?ean=9781685121709",
-            "Amazon": "https://www.amazon.com/Roundtree-Days-Jefferson-Western-Mystery/dp/1685121705/",
-            "Barnes & Noble": "https://www.barnesandnoble.com/w/roundtree-days-gerald-elias/1142000971?ean=9781685121709",
+            "Bookshop":"https://bookshop.org/p/books/the-beethoven-sequence-gerald-elias/15829334?ean=9781947915848",
+            "Amazon": "https://www.amazon.com/Beethoven-Sequence-Gerald-Elias/dp/1947915843/",
+            "Barnes & Noble": "https://www.barnesandnoble.com/w/the-beethoven-sequence-gerald-elias/1137557411?ean=9781947915848",
         },
-        releaseDate: "2022"
-    }
+        releaseDate: "2020"
+    },
+    "an-eclectic-anthology":{
+        name: "...an eclectic anthology of 28 short mysteries to chill the warmest heart.",
+        imageUrl: "/book-anthology.jpg",
+        description: [
+            `Hailed as "a master story teller" by iBerkshires, award-winning author, Gerald Elias, has gathered all of his short mystery fiction in a single, impossible-to-put-down, volume. Some of the stories have been previously published in other anthologies. Others appear here for the very first time.There are so many kinds of mystery short stories: creepy, clever, humorous, macabre, spooky, wicked, and puzzling. Are all of them traditional whodunits? Feh! Of course not. They can be head-scratchers: “Hmm, what weird thing just happened?” Or, someone's dark, troubled past bubbling up to the surface at the most inopportune time. Mystery short stories can be lightning strike short or as long as an owl's shadow in a full moon. They can take place in the remote Utah desert, the charming Berkshire Hills of Massachusetts, or a trendy coffee shop in midtown Manhattan. Anywhere. Just a word of warning. As you're reading this volume, you might not want to look over your shoulder.`
+        ],
+        links: {
+            "Amazon": "https://www.amazon.com/eclectic-anthology-mysteries-warmest-heart/dp/1687552657/",
+        },
+        releaseDate: "2019"
+    },
+    "symphonies-and-scorpions":{
+        name: "Symphonies and Scorpions",
+        imageUrl: "/the-beethoven-sequence-book.jpg",
+        detail: "…quick, gripping, and disruptive. -The Boston Musical Intelligencer",
+        description: [
+            "What if the president was a political outsider with no experience in government? What if he was mentally unstable? What if he started eliminating his political opponents, one by one? What if the President of the United States was insane?", 
+            "It was as terrifying as it was implausible. Layton Stolz, a humble laborer, concealed a burning core of monomania and suppressed violence. Against all odds, Stolz is swept into the presidency of the United States. Coverup leads to murder as he consolidates authoritarian power.", 
+            "Ballard Whitmore, a young teacher falsely imprisoned for sexual misconduct, narrowly escapes assassination. Will high-spirited female reporter Sandy Duckworthy's desperate exposé, laying bare the corruption of a president who lost his grasp of reality, save him in time?"
+        ],
+        links: {
+            "Bookshop":"https://bookshop.org/p/books/the-beethoven-sequence-gerald-elias/15829334?ean=9781947915848",
+            "Amazon": "https://www.amazon.com/Beethoven-Sequence-Gerald-Elias/dp/1947915843/",
+            "Barnes & Noble": "https://www.barnesandnoble.com/w/the-beethoven-sequence-gerald-elias/1137557411?ean=9781947915848",
+        },
+        releaseDate: "2019"
+    },
 }

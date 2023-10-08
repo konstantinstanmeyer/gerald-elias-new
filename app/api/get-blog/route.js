@@ -1,4 +1,4 @@
-import BlogPost from "@/models/BlogPost";
+import BlogPost from "@/lib/models/BlogPost.js";
 
 export async function GET(){
     const response = await BlogPost.find()

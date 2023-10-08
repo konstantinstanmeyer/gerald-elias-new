@@ -1,5 +1,5 @@
 import mongoDBConnection from "@/lib/mongodb";
-import BlogPost from "@/models/BlogPost";
+import BlogPost from "@/lib/models/BlogPost.js";
 import { NextResponse } from "next/server";
 
 export async function POST(req){
