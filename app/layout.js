@@ -56,9 +56,6 @@ const poppins = Poppins({
 export default function RootLayout({ children }) {
   return (
     <html className={`${outfit.variable} ${playfair_display.variable} ${cormorant.variable} ${overpass.variable} ${red_hat_mono.variable} ${montserrat.variable} ${poppins.variable}`} lang="en">
-      <Head>
-        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300&family=Roboto+Slab:wght@300;500&family=Rock+Salt&display=swap" rel="stylesheet"/>
-      </Head>
       <body className="">
         <Navbar />
         {children}
