@@ -4,7 +4,7 @@ export default function Books(){
     return(
         <div id="books">
             <Landing name="Books & Audiobooks" imageUrl="/books-landing.jpg" />
-            <div id="books-nav">
+            {/* <div id="books-nav">
                 <a href="#daniel-j-header">
                     <div id="daniel-container">
                         <p>Daniel Jacobus Mysteries</p>
@@ -20,7 +20,7 @@ export default function Books(){
                         <p>Audiobooks</p>
                     </div>
                 </a>
-            </div>
+            </div> */}
             <h2 id="daniel-j-header">Daniel Jacobus Mysteries</h2>
             <div className="books-list">
                 <a className="book" href="/books/murder-at-the-royal-albert">

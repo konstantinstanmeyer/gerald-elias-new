@@ -9,7 +9,7 @@ export default function Navbar(){
                 <h3 id="gerald-elias">GERALD ELIAS</h3>
             </a>
             <ul id="nav-links">
-                <a href="/books">BOOKS & MORE</a>
+                <a href="/books">BOOKS</a>
                 <Dropdown name={'MUSIC'} options={options[0]} />
                 <Dropdown name={'ABOUT'} options={options[1]} />
                 <a href="/events">EVENTS</a>
