@@ -22,7 +22,7 @@ const playfair_display = Playfair_Display({
 
 const cormorant = Cormorant({
   subsets: ['latin'],
-  weight: ['700', '500'],
+  weight: ['700', '500', '400', '600'],
   style: ['normal', 'italic'],
   variable: '--font-cormorant'
 });
@@ -43,7 +43,8 @@ const red_hat_mono = Red_Hat_Mono({
 
 const montserrat = Montserrat({
   subsets: ['latin'],
-  weight: ['300', '400'],
+  weight: ['300', '400', '600'],
+  style: ['normal','italic'],
   variable: '--font-montserrat'
 })
 

@@ -148,7 +148,7 @@ html {
   display: flex;
   flex-direction: row;
   align-items: center;
-  box-shadow: 0 4px 2px -2px gray;
+  box-shadow: 0 3px 2px -2px gray;
 }
 
 #gerald-elias {
@@ -384,4 +384,109 @@ html {
 
 #more-books-container {
   background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5) ), url('../public/symphonies-and-scorpions.jpeg');
+}
+
+#book-preview {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 100vw;
+  height: fit-content;
+  justify-content: center;
+  padding-top: 20vh;
+  background-color: rgb(247, 247, 247);
+  min-height: 100vh;
+}
+
+#preview-text-col {
+  width: 40%;
+  color: rgb(44, 44, 44);
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-montserrat);
+}
+
+#preview-text-col > h2 {
+  font-weight: 500;
+  font-size: 2rem;
+  position: relative;
+  font-family: var(--font-montserrat);
+}
+
+#preview-image {
+  width: 80%;
+  height: auto;
+}
+
+#preview-image-container {
+  width: 30%;
+  height: auto;
+  /* display: flex; */
+  justify-content: center;
+}
+
+#series-num {
+  font-size: 70%;
+  margin-left: 1rem;
+  /* word-break:keep-all; */
+  
+  height: 100%;
+  white-space: nowrap;
+  color: rgb(69, 69, 69);
+}
+
+#preview-date {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+#preview-details {
+  font-style: italic;
+  font-family: var(--font-playfair-display);
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+  line-height: fit-content + 1rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+#preview-details-author {
+  white-space: nowrap;
+  font-style: normal;
+}
+
+.preview-paragraph {
+  font-size: 1rem;
+  font-family: var(--font-poppins);
+  font-weight: 300;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.preview-hyperlink {
+  font-weight: 600;
+  color: rgb(95, 170, 255);
+}
+
+#preview-hyperlinks-list {
+  font-size: 1.2rem;
+  margin-bottom: 0.75rem;
+  font-style: italic;
+}
+
+#preview-hyperlinks-list > span {
+  margin-right: 0.4rem;
+}
+
+#audiobook-link-text {
+  font-size: 1.2rem;
+  font-style: italic;
+  margin-bottom: 0.85rem;
+}
+
+#audiobook-link-text > a {
+  font-weight: 600;
+  color: rgb(95, 170, 255);
 }

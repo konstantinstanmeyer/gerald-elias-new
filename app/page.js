@@ -18,7 +18,7 @@ export default function Home() {
             <a className="home-book" href="/books/roundtree-days">
                 <img src="/roundtree-days.jpg" />
             </a>
-            <a className="home-book" href="/books/its-a-crime">
+            <a className="home-book" href="/books/it's-a-crime">
                 <img src="/book-its-a-crime.jpg" />
             </a>
             <a className="home-book" href="/books/murder-at-the-royal-albert">

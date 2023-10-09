@@ -26,7 +26,7 @@ export default function Books(){
                 <a className="book" href="/books/murder-at-the-royal-albert">
                     <img src="/book-murder-at-the-royal-albert.jpg" />
                 </a>
-                <a className="book" href="/books/its-a-crime">
+                <a className="book" href="/books/it's-a-crime">
                     <img src="/book-its-a-crime.jpg" />
                 </a>
                 <a className="book" href="/books/cloudy-with-a-chance-of-murder">
@@ -70,6 +70,9 @@ export default function Books(){
                 </a>
                 <a className="book" href="/books/maestro-the-potbellied-pig">
                     <img src="/book-maestro.jpg" />
+                </a>
+                <a className="book" href="/books/maestro-the-potbellied-pig-es">
+                    <img src="/book-maestro-es.jpg" />
                 </a>
                 <a className="book" href="/books/prince-of-the-leaf-cutters">
                     <img src="/book-prince.jpg" />

@@ -3,7 +3,7 @@ export const books = {
         name: "Devil's Trill: A Daniel Jacobus Mystery",
         numInSeries: "1",
         imageUrl: "/book-devil's-trill.jpg",
-        detail: "…will delight music lovers and mystery fans alike. -Barnes & Noble Great New Writers selection",
+        details: "…will delight music lovers and mystery fans alike. -Barnes & Noble Great New Writers selection",
         description: [
             `Greed, lust, power, and murder are words not commonly associated with the world of classical music. Yet this is the setting into which blind Daniel Jacobus, a reclusive, cantankerous violin teacher living in self-imposed exile in rural New England, is inexorably drawn. For Jacobus, who spends his time chain smoking, listening to old LPs, and berating students in the hope they will flee, the evils of that world are epitomized by the “Piccolino” Stradivarius, a uniquely dazzling violin that has brought misfortune to all who possessed it over the centuries.`,
             `After the Carnegie Hall debut of nine-year old Grimsley Competition winner Kamryn Vander, who is managed by the ruthless Musical Arts Project (MAP), the priceless “Piccolino” is stolen with Jacobus at the scene of the crime.`,
@@ -13,7 +13,9 @@ export const books = {
             "Bookshop": "https://bookshop.org/p/books/devil-s-trill-a-daniel-jacobus-mystery-gerald-elias/17088234?ean=9781953789655&ref=https%3A%2F%2Fgeraldeliasmanofmystery.wordpress.com%2F&source=IndieBound&title=Devil%27s+Trill%3A+A+Daniel+Jacobus+Mystery",
             "Amazon": "https://www.amazon.com/Devils-Trill-Daniel-Jacobus-Mystery/dp/195378965X/",
             "Barnes & Noble": "https://www.barnesandnoble.com/w/devils-trill-gerald-elias/1131817999?ean=9781953789655",
-            "View Audiobook": "/devil's-trill",
+        },
+        audiobook: {
+            "url": "/devil's-trill",
         },
         releaseDate: "2009"
     },
@@ -21,14 +23,16 @@ export const books = {
         name: "Danse Macabre: A Daniel Jacobus Mystery",
         numInSeries: "2",
         imageUrl: "/book-danse-macabre.jpeg",
-        detail: "This book should not be missed. -Aunt Agatha's Top Ten",
+        details: "This book should not be missed. -Aunt Agatha's Top Ten",
         description: [
             "Just after his Carnegie Hall swansong beloved violinist and humanitarian Rene Allard is brutally murdered with a mysterious weapon. His young African American rival, BTower, is spotted at the scene of the crime hovering over the body of Allard with blood on his hands. In short order the aloof and arrogant BTower is convicted and sentenced to death, in part the result of the testimony of blind and curmudgeonly violin pedagogue Daniel Jacobus. Justice has been served...or has it? Jacobus is dragged back into the case kicking and screaming, and reluctantly follows a trail of broken violins and broken lives as it leads inexorably to the truth, and to his own mortal peril.",
         ],
         links: {
             "Amazon": "https://www.amazon.com/Danse-Macabre-Daniel-Jacobus-Mystery/dp/1953789676/",
             "Barnes & Noble": "https://www.barnesandnoble.com/w/danse-macabre-gerald-elias/1100274558",
-            "View Audiobook": "/danse-macabre",
+        },
+        audiobook: {
+            "url": "/danse-macabre",
         },
         releaseDate: "2010"
     },
@@ -36,7 +40,7 @@ export const books = {
         name: "Death and the Maiden: A Daniel Jacobus Mystery",
         numInSeries: "3",
         imageUrl: "/book-death-and-the-maiden.jpeg",
-        detail: "Fast-paced and punchily written. -Library Journal",
+        details: "Fast-paced and punchily written. -Library Journal",
         description: [
             `Dogged by internal dissension and by a potentially devastating lawsuit from its fired second violinist, the famed New Magini String Quartet is on the brink of professional and personal collapse. The quartet pins its hopes on a multi-media Carnegie Hall performance of Franz Schubert's masterpiece, "Death and the Maiden," to resurrect its faltering fortunes. But as the fateful downbeat approaches, a la Agatha Christie, one by one the quartet's musicians mysteriously vanish, including second violinist, Yumi Shinagawa, former student of renowned blind pedagogue and amateur sleuth, Daniel Jacobus. It is left up to the begrudging Jacobus, with his old friend, Nathaniel Williams, and a new member of the detective team, Trotsky the bulldog, to unravel the deadly puzzle. As usual, it ends up more than Jacobus bargained for.`,
         ],
@@ -51,7 +55,7 @@ export const books = {
         name: "Death and Disfiguration: A Daniel Jacobus Mystery",
         numInSeries: "4",
         imageUrl: "/book-death-and-disfiguration.jpg",
-        detail: "Brilliant and captivating on every level. -Booklist",
+        details: "Brilliant and captivating on every level. -Booklist",
         description: [
             "Vaclav Herza, the last of a dying breed of great but tyrannical conductors, has been the long-time music director of the world-famous orchestra, Harmonium, since fleeing political turmoil in Eastern Europe for America in the mid-twentieth century.",
             "When Herza summarily dismisses the acting concertmaster, Scheherazade O'Brien, from an audition she was poised to win and awards the position to Yumi Shinagawa, a former student of blind, cantankerous violin teacher Daniel Jacobus, the results are lethal, convulsing the entire orchestra.",
@@ -68,7 +72,7 @@ export const books = {
         name: "Playing with Fire: A Daniel Jacobus Mystery",
         numInSeries: "5",
         imageUrl: "/book-playing-with-fire.jpg",
-        detail: "...has the reader on the edge of the seat till the end.” -Stringendo Magazine",
+        details: "...has the reader on the edge of the seat till the end. -Stringendo Magazine",
         description: [
             "When an anxious phone call from violinmaker Amadeo Borlotti disturbs Daniel Jacobus's Christmas Eve festivities, he and his dear friends Nathaniel and Yumi make light of it. Surely whatever Amadeo needs to discuss can wait until morning. But shocking news arrives on Christmas Day: Borlotti's home has burned to the ground and Borlotti himself has disappeared—with a fortune far beyond that of a humble violinmaker.",
             "It seems Borlotti had more than his share of secrets. What began for him as an innocent mistake escalated into fraud and larceny. A helpless captive to his past indiscretions, he was consumed by them. Now it is up to Jacobus and his team to find out how and why.",
@@ -84,7 +88,7 @@ export const books = {
         name: "Spring Break: A Daniel Jacobus Mystery",
         numInSeries: "6",
         imageUrl: "/book-spring-break.jpg",
-        detail: "…a very deftly written murder mystery. -The Strad magazine",
+        details: "…a very deftly written murder mystery. -The Strad magazine",
         description: [
             "When reclusive, blind violin pedagogue Daniel Jacobus is invited to speak at a seemingly innocuous symposium on Baroque music at a prestigious music conservatory, he has no idea he is about to become enmeshed in an entrenched culture of sexual harassment and its cover-up at the highest levels.",
             "And when a renowned faculty member dies of apparent natural causes, only the curious behaviour of a violin student at Jacobus’s master class is an indication to him that something may be terribly amiss."
@@ -100,7 +104,7 @@ export const books = {
         name: "Cloudy with a Chance of Murder: A Daniel Jacobus Mystery",
         numInSeries: "7",
         imageUrl: "/book-cloudy-with-a-chance-of-murder.jpg",
-        detail: "What gives this mystery its verve is the vibrant cast of characters and Jacobus's indomitable personality and wry wit. -Publishers Weekly",
+        details: "What gives this mystery its verve is the vibrant cast of characters and Jacobus's indomitable personality and wry wit. -Publishers Weekly",
         description: [
             "A freak summer storm severs an island music festival in the middle of Utah's Great Salt Lake from the mainland. When one festival administrator, and then a second, is found dead, can curmudgeonly Daniel Jacobus solve the murders before his protégée, violinist Yumi Shinagawa, becomes the third victim?",
         ],
@@ -114,8 +118,8 @@ export const books = {
     "murder-at-the-royal-albert":{
         name: "Murder at the Royal Albert: A Daniel Jacobus Mystery",
         numInSeries: "8",
-        imageUrl: "/book-cloudy-with-a-chance-of-murder.jpg",
-        detail: "What gives this mystery its verve is the vibrant cast of characters and Jacobus's indomitable personality and wry wit. -Publishers Weekly",
+        imageUrl: "/murder-at-the-royal-albert.jpg",
+        details: "What gives this mystery its verve is the vibrant cast of characters and Jacobus's indomitable personality and wry wit. -Publishers Weekly",
         description: [
             "A packed house at London's famed Royal Albert Hall.", "Gustav Mahler's monumental 6th Symphony, with its three massive hammer strokes of Fate.", 
             "The first and the second go by uneventfully. But then, the third!", 
@@ -126,12 +130,15 @@ export const books = {
             "Amazon": "https://www.amazon.com/Murder-Royal-Albert-Jacobus-Mystery/dp/1685122388/",
             "Barnes & Noble": "https://www.barnesandnoble.com/w/murder-at-the-royal-albert-gerald-elias/1142832712?ean=9781685122386",
         },
+        audiobook: {
+            "url": "/murder-at-the-royal-albert" 
+        },
         releaseDate: "2023"
     },
     "roundtree-days":{
         name: "Roundtree Days",
         imageUrl: "/roundtree-days.jpg",
-        detail: "Elias tells his nicely plotted tale with brio. Readers looking for plenty of laughs will be more than satisfied. -Publishers Weekly",
+        details: "Elias tells his nicely plotted tale with brio. Readers looking for plenty of laughs will be more than satisfied. -Publishers Weekly",
         description: [
             "Simmering just under the surface of the levity of Roundtree Days, an annual festival celebrating the sensational hit television series, Roundtree, a clash of cultures between traditional and progressive values threatens to tear apart a proud Western town surrounded by an unforgiving desert environment. In a single day, Jefferson Dance, acting sheriff of Loomis City, Utah, confronts a suspected kidnapping, a surreal hostage situation, arson, and murder, while fending off his popular fictional double, who the public perceives as a real life hero. In a setting in which fantasy and reality become blurred, Dance unearths the town's dark secrets as he brings the culprits to justice in the course of twenty-four hours."
         ],
@@ -145,7 +152,7 @@ export const books = {
     "the-beethoven-sequence":{
         name: "The Beethoven Sequence",
         imageUrl: "/the-beethoven-sequence-book.jpg",
-        detail: "…quick, gripping, and disruptive. -The Boston Musical Intelligencer",
+        details: "…quick, gripping, and disruptive. -The Boston Musical Intelligencer",
         description: [
             "What if the president was a political outsider with no experience in government? What if he was mentally unstable? What if he started eliminating his political opponents, one by one? What if the President of the United States was insane?", 
             "It was as terrifying as it was implausible. Layton Stolz, a humble laborer, concealed a burning core of monomania and suppressed violence. Against all odds, Stolz is swept into the presidency of the United States. Coverup leads to murder as he consolidates authoritarian power.", 
@@ -171,18 +178,82 @@ export const books = {
     },
     "symphonies-and-scorpions":{
         name: "Symphonies and Scorpions",
-        imageUrl: "/the-beethoven-sequence-book.jpg",
-        detail: "…quick, gripping, and disruptive. -The Boston Musical Intelligencer",
+        imageUrl: "/symphonies-and-scorpions.jpeg",
+        details: "ascinating storytelling combined with his perceptive backstories. -iBerkshires",
         description: [
-            "What if the president was a political outsider with no experience in government? What if he was mentally unstable? What if he started eliminating his political opponents, one by one? What if the President of the United States was insane?", 
-            "It was as terrifying as it was implausible. Layton Stolz, a humble laborer, concealed a burning core of monomania and suppressed violence. Against all odds, Stolz is swept into the presidency of the United States. Coverup leads to murder as he consolidates authoritarian power.", 
-            "Ballard Whitmore, a young teacher falsely imprisoned for sexual misconduct, narrowly escapes assassination. Will high-spirited female reporter Sandy Duckworthy's desperate exposé, laying bare the corruption of a president who lost his grasp of reality, save him in time?"
+            `"…an amazing journey…nothing less than a musical odyssey of discovery," is how iBerkshires hailed the first edition of Symphonies & Scorpions. Now, with captioned black & white photos, In Symphonies & Scorpions you'll get an insider's view of the glamour and the drudgery of an international concert tour to China and Japan, and gain deep insight into music as an instrument of citizen diplomacy. You'll sit on the hallowed stage of Symphony Hall in Boston and in concert halls in Asia, meeting congenial and occasionally cantankerous colleagues, listening to the Maestro's words of debated wisdom. You'll fly nonstop from Boston to Tokyo, dine on succulent Peking duck, squirm through Beijing alleys crowded with scorpion vendors, and be spiritually restored in a Tokyo park floating in tranquility.This second, enhanced edition of Symphonies & Scorpions adds Elias's prize-winning essay, "War & Peace. And Music," featured in his TEDxSaltLakeCity performance of September, 2019. A preface to the new edition also tackles the tumultuous issue of sexual misconduct by luminaries in the classical music world. This painstakingly revised edition is a must not only for music lovers but also for anyone interested in understanding and enriching human relations at home and abroad.`, 
+        ],
+        links: {
+            "Bookshop":"https://bookshop.org/p/books/symphonies-scorpions-an-international-concert-tour-as-an-instrument-of-citizen-diplomacy-gerald-elias/6848736?ean=9781077632608",
+            "Amazon": "https://www.amazon.com/Symphonies-Scorpions-international-instrument-diplomacy/dp/1077632606",
+        },
+        releaseDate: "2019"
+    },
+    "getting-through":{
+        name: "Getting Through: Tales of Corona and Community",
+        imageUrl: "/book-getting-through.jpeg",
+        description: [
+            "GETTING THROUGH is the fruit of a grassroots effort to grow community through story-telling during this unprecedented period of coronavirus physical isolation. By donating ALL of our profits from book sales to the Red Cross, reaching out to help those who are in desperate need during these harrowing times, we extend that sense of community. The stories, essays, and poems contributed to this collection were mostly written within the first few weeks of confinement by some old friends and many from new friends whose faces I've never seen; from aspiring writers to established authors; from every corner of the US and from around the globe; from scientists, musicians, birders, high school students…you name it. Some pieces are deadly serious, others a touch bizarre, and some I hope will give you a chuckle in these difficult times.`In GETTING THROUGH, you'll find fiction, nonfiction, poetry, dystopia, essay, memoir, humor, science fiction, children's stories. Stories of faith and hope. Stories of biting satire and of empathy. Love letters from parents to children. It's all good. People are creative in many ways. The collaborative effort has given us, the authors, direction and hope and spirit as we face the harsh realities of the COVID-19 pandemic. By sharing the fruits of our labor with you, the reader, we hope you will join us in our community-building aspirations so that when it's finally safe to go outside again--as it will be--we will enter an even better world hand in hand.Here's the honor roll of contributors to GETTING THROUGH: Robert Baldwin, Riccardo Betti, Johanna Fridrich, Dan Blum, Ann Chamberlin, David Cowley, Mi a Bella D'Augelli, Robert Debbaut, Victoria Dougherty, Gerald Elias (author and editor), Katherine Fast, Priscilla Halberg, John Harrison, Jesse Hercules, Rosalind Horton, Stephen Hughes, Tana Hunter, Julie R. Ingelfinger, Janet K. Linder, Cheryl Marceau, Julia Moser, Kim Nagy, Laura Osborne, Steven Sedley, Sam Shames, Cami Shaskin."
+        ],
+        links: {
+            "Amazon": "https://www.amazon.com/Getting-Through-Tales-Corona-Community/dp/B086PLNMYB",
+        },
+        releaseDate: "2020"
+    },
+    "maestro-the-potbellied-pig":{
+        name: "Maestro, the Potbellied Pig (Independently produced)",
+        imageUrl: "/book-maestro.jpg",
+        details: "A thoroughly enjoyable story! The Congratulations! -Ann Pilot (Former principal harp, Boston Symphony Orchestra)",
+        description: [
+            `Cassandra is a talented harp player in a symphony orchestra. When she becomes lonely practicing her music, she comes up with the perfect solution. A music-loving pet potbellied pig, who she names Maestro! But as the rambunctious Maestro grows (and grows) Cassandra has a challenge on her hands. Will she have to say good-bye to Maestro forever? Or will Cassandra's problem-solving skills help her find a happy-ever-after solution? The enchanting story of "Maestro, the Potbellied Pig," by violinist and author Gerald Elias, is now also available as an audiobook at Audible.com, with beautiful music accompanying the magical narration of Alison Larkin.`
+        ],
+        links: {
+            "Amazon": "https://www.amazon.com/Maestro-Potbellied-Pig-Gerald-Elias/dp/1729465943",
+        },
+        audiobook: {
+            "url":"/audiobooks/maestro-the-potbellied-pig"
+        },
+        releaseDate: "2018"
+    },
+    "maestro-the-potbellied-pig-es": {
+        name: "Maestro, el cerdito barrigón (Independently produced)",
+        imageUrl: "/book-maestro-es.jpg",
+        description: [
+            `This children's classic is available in both Spanish and in English, as "Maestro, the Potbellied Pig." Cassandra es una talentosa arpista de una orquesta sinfónica. Al sentirse sola mientras practica su música descubre la solución perfecta, una mascota!, un cerdito barrigón amante de la música a quien llama Maestro! Pero a medida que este alborotado cerdito crece y crece, Cassandra tiene un problema entre sus manos. ¿Tendrá que decir adiós a Maestro para siempre? ¿Será que sus habilidades le ayudarán a resolver el problema y encontrar una solución que los haga felices para siempre?La encantadora historia de Maestro, el cerdito barrigón se encuentra disponible en Inglés y en Español, gracias a la traducción de Mario Andrés Cabrera Salazar, y también como un libro narrado en ambos idiomas a través de Audible.com, enmarcado en la hermosa música interpretada por la arpista Franziska Huhn y las narraciones mágicas de Alison Larkin en la versión inglesa y de Shadai Flores Arce en la versión española.`
+        ],
+        links: {
+            "Amazon": "https://www.amazon.com/Maestro-el-cerdito-barrig%C3%B3n-Spanish/dp/1079497994/",
+        },
+        audiobook: {
+            "url":"/audiobooks/maestro-the-potbellied-pig-es"
+        },
+        releaseDate: "2019"
+    },
+    "prince-of-the-leaf-cutters":{
+        name: "Prince of the Leaf Cutters",
+        imageUrl: "/book-prince.jpg",
+        description: [
+            `"Prince of the Leaf Cutters" calls into question the long held belief that humans are the culmination of evolutionary progress. In the midst of an endless ethnic war, Pavlovic, a simple factory worker, flees his homeland for what he hopes will be a new life in America. However, he is disappointed to find the same animosities he thought he had left behind and a society that is uncaring and indifferent. In desperation, he makes his way to Costa Rica, which by earlier accounts he imagines will be paradise on earth. Pavlovic's initial optimism for the future is soon replaced by despair. Trapped in this never-ending downward spiral of ethnic warfare, indifference and, ultimately, degradation, Pavlovic loses everything, including his mind. The notion of joining a Utopian society of jungle ants, in this dystopian tale reminiscent of Joseph Conrad's "Heart of Darkness" and "An Outcast of the Islands" becomes his one remaining, euphoric hope.`
+        ],
+        links: {
+            "Amazon": "https://www.amazon.com/Prince-Leaf-Cutters-author-Devils/dp/1795779403",
+        },
+        releaseDate: "2019"
+    },
+    "it's-a-crime":{
+        name: "It's a Crime!",
+        imageUrl: "/book-its-a-crime.jpg",
+        description: [
+            `IT'S A CRIME is a collection of 30 eclectic, spellbinding short mysteries, a "new and improved" edition of its 2019 progenitor, newly edited and formatted, with two new stories and two sneak previews of my newest mystery novels.`,
+            `Crime fiction is a pretty broad genre. That's one of the things that makes writing it fun. Sometimes it's hard to even tell if a crime has been committed, as in “Sleeping Beauty,” “The Audition,” or “Prince of the Leafcutters.” Some erudite critics might even bestow upon those particular stories the lofty title of literary fiction.`,
+            `Other crime subgenres include hardboiled, rock 'em sock 'em violent crime, as in “Honey Pot,” to the more gently soft-boiled, as in “Elephant Seals.” Or humorous, as in “Buffaloed” and “Brotherhood.” Then there are the Western mysteries, and I've got five of them starring the introspective cowboy, Jefferson Dance. And the amateur sleuth, featuring the irascible Daniel Jacobus, who you either love to hate or hate to love. And police procedurals, featuring retired NYPD Police Chief, Maury Gross. And how could we forget spy stories, here represented by “The Case of the Burqa-ed Busker” and others? There's even one, “A Family Plot,” which is less of a story and more of a puzzle, though a tragic crime has indeed been committed. Let's see if you can figure it out.`,
+            `Regardless of the subgenre, this collection of short crime fiction is meant to entertain. Whether you're reading outside on your patio on a bright, sunny summer day with your steaming morning coffee or huddled under your blankets on a dark and stormy winter night, don't turn around, because you might not want to know what's behind you.`
         ],
         links: {
             "Bookshop":"https://bookshop.org/p/books/the-beethoven-sequence-gerald-elias/15829334?ean=9781947915848",
             "Amazon": "https://www.amazon.com/Beethoven-Sequence-Gerald-Elias/dp/1947915843/",
             "Barnes & Noble": "https://www.barnesandnoble.com/w/the-beethoven-sequence-gerald-elias/1137557411?ean=9781947915848",
         },
-        releaseDate: "2019"
+        releaseDate: "2020"
     },
 }
