@@ -118,7 +118,7 @@ export const books = {
     "murder-at-the-royal-albert":{
         name: "Murder at the Royal Albert: A Daniel Jacobus Mystery",
         numInSeries: "8",
-        imageUrl: "/murder-at-the-royal-albert.jpg",
+        imageUrl: "/book-murder-at-the-royal-albert.jpg",
         details: "What gives this mystery its verve is the vibrant cast of characters and Jacobus's indomitable personality and wry wit. -Publishers Weekly",
         description: [
             "A packed house at London's famed Royal Albert Hall.", "Gustav Mahler's monumental 6th Symphony, with its three massive hammer strokes of Fate.", 
@@ -211,7 +211,7 @@ export const books = {
             "Amazon": "https://www.amazon.com/Maestro-Potbellied-Pig-Gerald-Elias/dp/1729465943",
         },
         audiobook: {
-            "url":"/audiobooks/maestro-the-potbellied-pig"
+            "url":"/maestro-the-potbellied-pig"
         },
         releaseDate: "2018"
     },
@@ -225,7 +225,7 @@ export const books = {
             "Amazon": "https://www.amazon.com/Maestro-el-cerdito-barrig%C3%B3n-Spanish/dp/1079497994/",
         },
         audiobook: {
-            "url":"/audiobooks/maestro-the-potbellied-pig-es"
+            "url":"/maestro-the-potbellied-pig-es"
         },
         releaseDate: "2019"
     },
@@ -255,5 +255,86 @@ export const books = {
             "Barnes & Noble": "https://www.barnesandnoble.com/w/the-beethoven-sequence-gerald-elias/1137557411?ean=9781947915848",
         },
         releaseDate: "2020"
+    },
+}
+
+export const audiobooks = {
+    "devil's-trill":{
+        name: "Devil's Trill: A Daniel Jacobus Mystery",
+        imageUrl: "/audiobook-devil's-trill.jpeg",
+        description: [
+            `A mystery in sonata-allegro form - is the first-ever audiobook to integrate musical passages that provide clues to solving the mysteries!`,
+            `Author Gerald Elias, a renowned concert violinist himself, performs the music. Blind, sharp-tongued violinist Daniel Jacobus, living in self-imposed exile in rural New England, is drawn into mysterious crimes in New York City. A stolen Stradivarius - a strangled teacher of child prodigies - Jacobus is not only the chief investigator of these misdeeds, he's the prime suspect! A police detective hot on his tail, Jacobus roams the bucolic Berkshires, hallowed Carnegie Hall, and tradition-bound Japan, searching for answers only he can see. With alluring student Yumi and jazz-loving Nathaniel at his side, Jacobus feels his way through self-doubt and darkness.`,
+            `The shadowy spheres of classical music and steamy streets of the Big Apple give noir a new meaning in the first mystery novel in the gripping Daniel Jacobus series.`,
+        ],
+        links: {
+            "Amazon":"https://www.amazon.com/Devils-Trill-Daniel-Jacobus-Mystery/dp/B01MY7P97E/",
+            "Audible":"https://www.audible.com/pd/Devils-Trill-Audiobook/B01NBU682V",
+        },
+        releaseDate: "2017"
+    },
+    "danse-macabre":{
+        name: "Danse Macabre: A Daniel Jacobus Mystery",
+        imageUrl: "/audiobook-danse-macabre.jpeg",
+        description: [
+            `A ground-breaking treat for mystery and music lovers, the audiobook of Elias' first novel, Devil's Trill, introduced a new kind of listening experience, with violin performances by the author providing clues throughout.`,
+            `Now acclaimed author and violinist Gerald Elias is back, bringing more music to his gripping second novel in the Daniel Jacobus mystery series, Danse Macabre, also narrated by Jim Frangione.`,
+            `Just after his Carnegie Hall swan song and before his imminent departure for retirement in France, beloved violinist and humanitarian Rene Allard is brutally murdered with a mysterious weapon. His young African-American rival, crossover artist BTower, is spotted at the scene of the crime, hovering over the contorted body of Allard with blood on his hands. In short order, the aloof and arrogant BTower is convicted and sentenced to death - in part the result of the testimony of blind and curmudgeonly violin pedagogue Daniel Jacobus, who, like millions of others, was an ardent admirer of Allard. Justice has been done... or has it?`,
+            `Jacobus is dragged back into the case kicking and screaming, and reluctantly follows a trail of broken violins and broken lives as it leads inexorably to the truth, and to his own mortal peril.`,
+            `Performers: Gerald Elias, Jason Hardink, The Lydian String Quartet, Abramyan String Quartet, Lucia Lin, Andre Schub`
+        ],
+        links: {
+            "Amazon":"https://www.amazon.com/Danse-Macabre-Daniel-Jacobus-Mystery/dp/B077BGJS2Q/",
+            "Audible":"https://www.audible.com/pd/Devils-Trill-Audiobook/B01NBU682V",
+        },
+        releaseDate: "2017"
+    },
+    "dances-with-death":{
+        name: "Devil's Trill: A Daniel Jacobus Mystery",
+        imageUrl: "/audiobook-dances-with-death.jpeg",
+        description: [
+            `Read by Jim Frangione, with music by Gerald Elias`,
+            `Begin with a critically acclaimed mystery series featuring Daniel Jacobus, a blind, curmudgeonly, reclusive violin teacher. Then add music to Jim Frangione's spot-on narration - and magic ensues.`,
+            `In "Devil's Trill", blind, sharp-tongued violinist Daniel Jacobus, living in self-imposed exile in rural New England, is drawn into mysterious crimes in New York City. A stolen Stradivarius - a strangled teacher of child prodigies - Jacobus is not only the chief investigator of these misdeeds, he's the prime suspect! A police detective hot on his tail, Jacobus roams the bucolic Berkshires, hallowed Carnegie Hall, and tradition-bound Japan, searching for answers only he can see.`,
+            `In "Danse Macabre", the murder of a beloved violinist and humanitarian brings blind and curmudgeonly violin pedagogue Daniel Jacobus to the stand to testify. Jacobus is dragged into the case kicking and screaming and reluctantly follows a trail of broken violins and broken lives as it leads inexorably to the truth and to his own mortal peril.`,
+            `"Slow burn suspense.... Jim Frangione embodies the grizzled music-instructor-turned-gumshoe Jacobus. Violin performances by the author sprinkled throughout provide clues. A solid mystery!” -AudioFile`,
+            `Gerald Elias is a former violinist with the Boston Symphony, conductor, composer, and teacher. This mystery series began his now prolific writing career.`,
+            `Jim Frangione, winner of seven AudioFile Earphones Awards, is a New York City-based actor and co-artistic director of the Berkshire Playwrights Lab, a play-development forum in Great Barrington, Massachusetts. He's performed on TV, in many of the plays and films of David Mamet, on and off-Broadway, and at many theaters across the country.`
+        ],
+        links: {
+            "Amazon":"https://www.amazon.com/Dances-with-Death-Gerald-Elias-audiobook/dp/B07JGH5RXW",
+            "Audible":"https://www.audible.com/pd/Dances-with-Death-Audiobook/B07JFJYSB4",
+        },
+        releaseDate: "2018"
+    },
+    "maestro-the-potbellied-pig":{
+        name: "Maestro, the Potbellied Pig",
+        imageUrl: "/audiobook-maestro.jpeg",
+        description: [
+            `From the author of the critically acclaimed Daniel Jacobus mystery series comes Maestro, the Potbellied Pig, the heartwarming tale of Cassandra, a young harpist who forms a perfect friendship with a unique pet. Well, maybe not exactly perfect!`,
+            `Music performed by Franziska Huhn, harp; and Gerald Elias (aka PJ Pajama), violin. Featured harp excerpts include: Wolfgang Amadeus Mozart: Concerto for Flute and Harp; Nicolai Rimsky-Korsakov: Scheherazade; George Frederic Handel: Harp Concerto in B; Maurice Ravel: Piano Concerto in G; Pyotr Ilyich Tchaikovsky: Waltz of the Flowers, The Nutcracker Ballet; Gabriel Fauré: Impromptu, Op. 86; and Hector Berlioz: Symphonie Fantastique.`,
+            `"A thoroughly enjoyable story! The narrator and musicians were wonderful! Congratulations!" (Ann Pilot, former principal harp, Boston Symphony Orchestra)`,
+            `Alison Larkin is the award-winning narrator of over 200 books including Peter Pan and the Inconsiderate Waiter, Alice in Wonderland and Through the Looking Glass, The Complete Novels of Jane Austen, and Agatha Christie's The Secret Adversary.`,
+            `Franziska Huhn is an internationally renowned harpist and a faculty member of the New England Conservatory of Music and Boston University.`,
+            `Gerald Elias leads a double life as a world class musician and as the author of the award-winning Daniel Jacobus mystery series, Mister E's Mysteries, and other writings.`
+        ],
+        links: {
+            "Amazon":"https://www.amazon.com/Maestro-the-Potbellied-Pig/dp/B07KK22ZCM",
+            "Audible":"https://www.audible.com/pd/Maestro-the-Potbellied-Pig-Audiobook/B07KJT84LL",
+        },
+        releaseDate: "2019"
+    },
+    "maestro-the-potbellied-pig-es":{
+        name: "Maestro, el cerdito barrigón",
+        imageUrl: "/audiobook-maestro-es.jpeg",
+        description: [
+            `Cassandra es una talentosa arpista de una orquesta sinfónica. Al sentirse sola mientras practica su música descubre la solución perfecta, una mascota!, un cerdito barrigón amante de la música a quien llama Maestro!Pero a medida que este alborotado cerdito crece y crece, Cassandra tiene un problema entre sus manos. ¿Tendrá que decir adiós a Maestro para siempre? ¿Será que sus habilidades le ayudarán a resolver el problema y encontrar una solución que los haga felices para siempre?`,
+            `La encantadora historia de Maestro, el cerdito barrigón se encuentra disponible en Inglés y en Español, gracias a la traducción de Mario Andrés Cabrera Salazar, y también como un libro narrado en ambos idiomas a través de Audible.com, enmarcado en la hermosa música interpretada por la arpista Franziska Huhn y las narraciones mágicas de Alison Larkin en la versión inglesa y de Shadai Flores Arce en la versión española.`
+        ],
+        links: {
+            "Amazon":"https://www.amazon.com/Maestro-cerdito-barrigon-audiolibro/dp/B07W81N3P9",
+            "Audible":"https://www.audible.com/pd/Maestro-el-cerdito-barrigon-Master-the-Potbellied-Pig-Audiobook/B07WC5RLZM",
+        },
+        releaseDate: "2019"
     },
 }
