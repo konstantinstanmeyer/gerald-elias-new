@@ -421,7 +421,7 @@ textarea:focus, input:focus{
   justify-content: center;
   padding-top: 20vh;
   background-color: rgb(247, 247, 247);
-  min-height: 100vh;
+  min-height: 80vh;
 }
 
 #preview-text-col {
@@ -430,6 +430,7 @@ textarea:focus, input:focus{
   display: flex;
   flex-direction: column;
   font-family: var(--font-montserrat);
+  margin-bottom: 5rem;
 }
 
 #preview-text-col > h2 {
@@ -446,7 +447,7 @@ textarea:focus, input:focus{
 
 #preview-image-container {
   width: 30%;
-  height: auto;
+  height: fit-content;
   /* display: flex; */
   justify-content: center;
 }
