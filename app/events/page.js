@@ -1,4 +1,6 @@
 import Landing from "@/components/Landing";
+import events from "@/util/events";
+import EventCard from "@/components/EventCard";
 
 export default function Events(){
     return(
@@ -7,18 +9,11 @@ export default function Events(){
             <div id="events-container">
                 <h2>Upcoming Events</h2>
                 <div className="events-list">
-                    <div className="event">
-                        <img src="example-event.jpg" />
-                        <div className="">
-                            <h2>Upcoming Event Example</h2>
-                        </div>
-                    </div>
+                    <EventCard event={events.upcoming[0]} />
                 </div>
                 <h2>Past Events</h2>
                 <div className="events-list">
-                    <div className="event">
-
-                    </div>
+                    <EventCard event={events.pastEvents[0]} />
                 </div>
             </div>
         </div>
