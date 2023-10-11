@@ -404,12 +404,12 @@ textarea:focus, input:focus{
   background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5) ), url('../public/option-audiobooks.jpg');
 }
 
-#daniel-container {
-  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5) ), url('../public/option-daniel.jpg');
-}
-
 #more-books-container {
   background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5) ), url('../public/symphonies-and-scorpions.jpeg');
+}
+
+#daniel-container {
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5) ), url('../public/option-daniel.jpg');
 }
 
 #book-preview {
@@ -618,14 +618,23 @@ textarea:focus, input:focus{
   background-color: rgb(130, 130, 130);
 }
 
+#newsletter-input-container{
+  margin-left: 3rem;
+}
+
 #newsletter-input-container input {
   background: none;
   border: none;
   border-bottom: 1px solid black;
   font-family: var();
+  height: 1.5rem;
+  margin-right: 0.5rem;
+  font-family: var(--font-montserrat);
+  width: 10rem;
 }
 
 #newsletter-input-container button {
   background: none;
   border: none;
+  font-family: var(--font-montserrat);
 }

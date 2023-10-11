@@ -8,7 +8,10 @@ export default function Events(){
                 <h2>Upcoming Events</h2>
                 <div className="events-list">
                     <div className="event">
-                        
+                        <img src="example-event.jpg" />
+                        <div className="">
+                            <h2>Upcoming Event Example</h2>
+                        </div>
                     </div>
                 </div>
                 <h2>Past Events</h2>

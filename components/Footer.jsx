@@ -19,7 +19,7 @@ export default function Footer(){
             </div>
             <div id="newsletter">
                 <div id="newsletter-divider" />
-                <div>
+                <div id="newsletter-text">
                     <h3>NEWSLETTER</h3>
                     <div id="newsletter-input-container">
                         <NewsletterForm />
