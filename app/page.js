@@ -9,7 +9,7 @@ export default function Home() {
           <div id="landing-text">
             <h2>PRE-ORDER 'MURDER AT THE ROYAL ALBERT' AUDIOBOOK</h2>
             <p id="landing-description">experience the thrill of live performances woven into the tale</p>
-            <a id="learn-more" href="/books/audio-books/murder-at-the-royal-albert">MORE DETAILS</a>
+            <a id="learn-more" href="/books/audiobooks/murder-at-the-royal-albert">MORE DETAILS</a>
           </div>
         </div>
         <div id="home-books-container">

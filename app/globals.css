@@ -742,3 +742,94 @@ textarea:focus, input:focus{
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
 }
+
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  font-family: var(--font-montserrat);
+  width: 20%;
+  margin-top :2rem;
+}
+
+#contact-form > input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+  height: 1.5rem;
+  font-size: 1.1rem;
+  font-family: var(--font-montserrat);
+  font-weight: 300;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+#contact-form > h6 {
+  width: 100%;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+#contact-form textarea {
+  background: transparent;
+  width: 100%;
+  height: 8rem;
+  margin-top: 0.5rem;
+}
+
+#contact-form > button {
+  border: none;
+  background-color: lightgray;
+  outline: 1px solid rgb(43, 43, 43);
+  margin-top: 1rem;
+  margin-right: auto;
+  padding: 4px;
+  font-family: var(--font-montserrat);
+  transition: 0.3s all;
+}
+
+#contact-form > button:hover {
+  cursor: pointer;
+  background-color:rgb(176, 176, 176);
+}
+
+#conducting {
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+  align-items: center;
+}
+
+#conducting-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+}
+
+#conducting-content > p {
+  font-family: var(--font-poppins);
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.conducting-quotes {
+  font-style: italic;
+}
+
+.conducting-quotes > span {
+  font-style: normal;
+  font-weight: 600;
+}
+
+#concerts {}
