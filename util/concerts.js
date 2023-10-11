@@ -1,9 +1,4 @@
 const concerts = {
-    adverts: [
-        {
-            text: `NEWS FLASH! WHEN MY RECORDING OF THE 12 SONATAS FOR VIOLIN, OP. 1, BY THE BAROQUE VIRTUOSO PIETRO CASTRUCCI-THE FIRST COMPLETE RECORDING EVER-IT WAS THE #1 BEST-SELLING NEW CHAMBER MUSIC RELEASE ON AMAZON!`,
-        }
-    ],
     sections: {
         orchestraLife: [
             {
@@ -43,3 +38,5 @@ const concerts = {
         ]
     }
 }
+
+export default concerts;

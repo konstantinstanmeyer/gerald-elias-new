@@ -40,7 +40,7 @@ export default function Newsletter(){
 
     return (
         <form onSubmit={submitContact}>
-            <input disabled={status === "success" ? true : false} value={email} onChange={e => handleInputChange(e)} placeholder="Please enter your email" />
+            <input id="newsletter-input" disabled={status === "success" ? true : false} value={email} onChange={e => handleInputChange(e)} placeholder="Please enter your email" />
             {status === "idle" && <button type="submit">SUBMIT</button>}
             {status === "invalid" && <button type="submit">INVALID</button>}
             {status === "success" && <button disabled>SUCCESS</button>}

@@ -832,4 +832,133 @@ textarea:focus, input:focus{
   font-weight: 600;
 }
 
-#concerts {}
+#concerts {
+  margin-bottom: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#concerts-ad {
+  width: 16rem;
+  float: right;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(206, 206, 206);
+  border: 1px solid rgb(142, 142, 142);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+#concerts-ad > p {
+  font-family: var(--font-montserrat);
+  font-size: 0.9rem;
+  width: 14rem;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#concerts-ad > img {
+  width: 14rem;
+  height: 18rem;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+#represented  {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: var(--font-montserrat);
+  margin-bottom: 2rem;
+}
+
+#dev-credits {
+  width: 100vw;
+  background-color: black;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+
+#concerts-content {
+  width: 60%;
+}
+
+#concerts-content p {
+  font-family: var(--font-montserrat);
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+#concerts-content h2 {
+  font-family: var(--font-poppins);
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+#dev-credits > a {
+  color: white;
+  text-decoration: none;
+  margin-left: 2rem;
+  font-family: var(--font-montserrat);
+  font-size: 0.9rem;
+}
+
+.italic {
+  font-style: italic;
+}
+
+#concerts-content span {
+  font-style: normal;
+  font-weight: 600;
+}
+
+#blog-post { 
+  margin-top: 20vh; 
+}
+
+#blog-content {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5rem;
+}
+
+#blog-content h2 {
+  font-family: var(--font-poppins);
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+#blog-content a {
+  font-family: var(--font-poppins);
+  font-weight: 400;
+  text-decoration: underline;
+  color: black;
+  margin-left: 0.5rem;
+}
+
+#blog-content span {
+  color: black;
+  text-decoration: none;
+  margin-left: 2rem;
+}
+
+#blog-post {
+  min-height: 80vh;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: var(--font-playfair-display)
+}
+
+#blog-post p {
+  margin-bottom: 1rem;
+}
+
+#blog-post h2 {
+  margin-bottom: 2rem;
+  font-size: 4rem;
+}
