@@ -639,6 +639,16 @@ textarea:focus, input:focus{
   font-family: var(--font-montserrat);
 }
 
+#bio-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  background-color: lightgray;
+  padding: 2rem;
+  font-family: var(--font-cormorant);
+}
+
 .event-card {
   display: flex;
   flex-direction: row;
@@ -695,4 +705,40 @@ textarea:focus, input:focus{
 
 .event-card h4 {
   margin-bottom: 1rem;
+}
+
+#biography {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+#bio-content p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+#short-bio > img {
+  float: left;
+  margin-right: 1rem;
+  margin-bottom: 0.2rem;
+  width: 15rem;
+  height: 25rem;
+  object-fit: cover;
+}
+
+#long-bio > img {
+  float: right;
+  margin-right: 1rem;
+  margin-bottom: 0.2rem;
+  width: 15rem;
+  height: 25rem;
+  object-fit: cover;
+}
+
+#bio-content h2 {
+  font-family: var(--font-poppins);
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
 }

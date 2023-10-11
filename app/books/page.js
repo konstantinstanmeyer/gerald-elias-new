@@ -63,8 +63,23 @@ export default function Books(){
             </div>
             <h2 id="audiobooks-header">Audiobooks</h2>
             <div className="books-list">
-                <a className="audiobook" href="/books/symphonies-&-scorpions">
-                    <img src="/symphonies-and-scorpions.jpeg" />
+                <a className="audiobook" href="/books/audiobooks/devil's-trill">
+                    <img src="/audiobook-devil's-trill.jpeg" />
+                </a>
+                <a className="audiobook" href="/books/audiobooks/danse-macabre">
+                    <img src="/audiobook-danse-macabre.jpeg" />
+                </a>
+                <a className="audiobook" href="/books/audiobooks/dances-with-death">
+                    <img src="/audiobook-dances-with-death.jpeg" />
+                </a>
+                <a className="audiobook" href="/books/audiobooks/murder-at-the-royal-albert">
+                    <img src="/murder-at-the-royal-albert-audiobook.jpeg" />
+                </a>
+                <a className="audiobook" href="/books/audiobooks/maestro-the-potbellied-pig">
+                    <img src="/audiobook-maestro.jpeg" />
+                </a>
+                <a className="audiobook" href="/books/audiobooks/maestro-the-potbellied-pig-es">
+                    <img src="/audiobook-maestro-es.jpeg" />
                 </a>
             </div>
         </div>
