@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Navbar from '../components/Navbar'
+import Footer from '@/components/Footer'
 import './globals.css'
 import { Outfit, Playfair_Display, Cormorant, Overpass, Red_Hat_Mono, Montserrat, Poppins } from 'next/font/google'
 
@@ -60,6 +61,7 @@ export default function RootLayout({ children }) {
       <body className="">
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   )

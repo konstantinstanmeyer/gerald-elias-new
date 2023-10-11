@@ -328,7 +328,7 @@ export const audiobooks = {
         name: "Maestro, el cerdito barrigón",
         imageUrl: "/audiobook-maestro-es.jpeg",
         description: [
-            `Cassandra es una talentosa arpista de una orquesta sinfónica. Al sentirse sola mientras practica su música descubre la solución perfecta, una mascota!, un cerdito barrigón amante de la música a quien llama Maestro!Pero a medida que este alborotado cerdito crece y crece, Cassandra tiene un problema entre sus manos. ¿Tendrá que decir adiós a Maestro para siempre? ¿Será que sus habilidades le ayudarán a resolver el problema y encontrar una solución que los haga felices para siempre?`,
+            `Cassandra es una talentosa arpista de una orquesta sinfónica. Al sentirse sola mientras practica su música descubre la solución perfecta, una mascota!, un cerdito barrigón amante de la música a quien llama Maestro! Pero a medida que este alborotado cerdito crece y crece, Cassandra tiene un problema entre sus manos. ¿Tendrá que decir adiós a Maestro para siempre? ¿Será que sus habilidades le ayudarán a resolver el problema y encontrar una solución que los haga felices para siempre?`,
             `La encantadora historia de Maestro, el cerdito barrigón se encuentra disponible en Inglés y en Español, gracias a la traducción de Mario Andrés Cabrera Salazar, y también como un libro narrado en ambos idiomas a través de Audible.com, enmarcado en la hermosa música interpretada por la arpista Franziska Huhn y las narraciones mágicas de Alison Larkin en la versión inglesa y de Shadai Flores Arce en la versión española.`
         ],
         links: {
@@ -336,5 +336,20 @@ export const audiobooks = {
             "Audible":"https://www.audible.com/pd/Maestro-el-cerdito-barrigon-Master-the-Potbellied-Pig-Audiobook/B07WC5RLZM",
         },
         releaseDate: "2019"
+    },
+    "murder-at-the-royal-albert":{
+        name: "Murder at the Royal Albert: A Daniel Jacobus Mystery",
+        imageUrl: "/murder-at-the-royal-albert-audiobook.jpeg",
+        preorder: true,
+        description: [
+            `This brilliantly conceived audiobook begins with the sudden death of a young violinist during a concert performance of Gustav Mahler's Sixth Symphony at the Royal Albert Hall in London, with music from the Boston Symphony Orchestra woven throughout this truly classical whodunnit. Blind, curmudgeonly violinist Daniel Jacobus and his companions, Yumi and Nathaniel, join forces with Branwell Small, a questionably trustworthy partner in crime solving, and officious DCI Christopher Mattheson as they follow every baffling clue, twist, and turn.`,
+            `The talents of a world-class orchestra and world-class narrator help create a thrilling audiobook full of secrets and surprises that will keep mystery and classical music lovers on the edge of their seats.`,
+            `Music by Vivaldi, Mahler, Tchaikovsky, Elgar, Mozart, Brahms, Dvorak, Schubert, Beethoven, and others, played by the Boston Symphony orchestra.`,
+        ],
+        links: {
+            "Amazon":"https://www.amazon.com/Murder-Royal-Albert-Jacobus-Mysteries/dp/B0CJCK83JZ",
+            "Audible":"https://www.audible.com/pd/Murder-at-the-Royal-Albert-Audiobook",
+        },
+        releaseDate: "October 30th, 2023"
     },
 }

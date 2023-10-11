@@ -8,6 +8,10 @@ html {
   scroll-behavior: smooth;
 }
 
+textarea:focus, input:focus{
+  outline: none;
+}
+
 #home {
   width: 100vw;
   display: flex;
@@ -532,4 +536,96 @@ html {
 
 #audiobooks-header {
   background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../public/audiobooks-header.jpg');
+}
+
+#events {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#events-container {
+  width: 85vw;
+  position: relative;
+}
+
+#events-container > h2 {
+  font-family: var(--font-poppins);
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+#footer {
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#socials {
+  width: 60%;
+  padding-left: 2rem;
+}
+
+#socials > a {
+  width: fit-content;
+  position: relative;
+}
+
+#socials > a img {
+  width: 3rem;
+  position: relative;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+#footer {
+  background-color: rgb(207, 207, 207);
+}
+
+#footer h3 {
+  margin-left: 3rem;
+  font-family: var(--font-montserrat);
+  margin-bottom: 1rem;
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+#footer h3 span {
+  font-weight: 700;
+}
+
+#newsletter {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  z-index: 100;
+  height: 100%;
+  align-items: center;
+  font-family: var(--font-montserrat);
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+#newsletter-divider {
+  height: 80%;
+  width: 2px;
+  background-color: rgb(130, 130, 130);
+}
+
+#newsletter-input-container input {
+  background: none;
+  border: none;
+  border-bottom: 1px solid black;
+  font-family: var();
+}
+
+#newsletter-input-container button {
+  background: none;
+  border: none;
 }
