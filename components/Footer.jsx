@@ -18,6 +18,7 @@ export default function Footer(){
                         </a>
                     </div>
                 </div>
+                <div id="footer-divider" />
                 <div id="newsletter">
                     <div id="newsletter-divider" />
                     <div id="newsletter-text">

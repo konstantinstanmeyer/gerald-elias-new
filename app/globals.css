@@ -8,6 +8,11 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  overflow-x: hidden;
+  width: 100vw;
+}
+
 textarea:focus, input:focus{
   outline: none;
 }
@@ -566,6 +571,7 @@ textarea:focus, input:focus{
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  background-color: rgb(207, 207, 207);
 }
 
 #socials {
@@ -583,10 +589,6 @@ textarea:focus, input:focus{
   position: relative;
   margin-left: 1rem;
   margin-right: 1rem;
-}
-
-#footer {
-  background-color: rgb(207, 207, 207);
 }
 
 #footer h3 {
@@ -875,6 +877,8 @@ textarea:focus, input:focus{
   color: rgba(0, 0, 0, 0.5);
   font-family: var(--font-montserrat);
   margin-bottom: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 #dev-credits {
@@ -954,7 +958,7 @@ textarea:focus, input:focus{
   width: 40%;
   margin-left: auto;
   margin-right: auto;
-  font-family: var(--font-playfair-display)
+  font-family: var(--font-playfair-display);
 }
 
 #blog-post p {
@@ -1124,10 +1128,66 @@ textarea:focus, input:focus{
   .active #hamburger {
     display: none;
   }
+
+  #footer {
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  #socials {
+    padding: 0;
+    width: 100vw;
+    margin-bottom: 0.5rem;
+    padding-left: 0.5rem;
+  }
+
+  #socials h3 {
+    margin: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 1.3rem;
+  }
+
+  #newsletter {
+    width: 100vw;
+  }
+
+  #newsletter h3 {
+    margin: 0;
+    margin-left: 1.3rem;
+  }
+
+  #newsletter-input-container{
+    margin: 0;
+    margin-left: 1.3rem;
+    margin-bottom: 1rem;
+  }
+
+  #newsletter-input {
+    font-size: 1.2rem;
+    width: 15rem !important;
+    margin-top: 0.3rem;
+  }
+
+  #footer-divider {
+    width: 90vw;
+    background-color: black;
+    height: 2px;
+    z-index: 90;
+    margin-bottom: 1rem;
+  }
+
+  .general-landing {
+    height: 40vh;
+  }
 }
 
 @media (min-width: 751px) {
   #mobile-nav {
+    display: none;
+  }
+
+  #footer-divider {
     display: none;
   }
 }
