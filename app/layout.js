@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar'
 import Footer from '@/components/Footer'
 import './globals.css'
 import { Outfit, Playfair_Display, Cormorant, Overpass, Red_Hat_Mono, Montserrat, Poppins } from 'next/font/google'
+import MobileNav from '@/components/MobileNav'
 
 export const metadata = {
   title: 'Gerald Elias',
@@ -60,6 +61,7 @@ export default function RootLayout({ children }) {
     <html className={`${outfit.variable} ${playfair_display.variable} ${cormorant.variable} ${overpass.variable} ${red_hat_mono.variable} ${montserrat.variable} ${poppins.variable}`} lang="en">
       <body className="">
         <Navbar />
+        <MobileNav />
         {children}
         <Footer />
       </body>

@@ -303,6 +303,7 @@ textarea:focus, input:focus{
   font-size: 2.4rem;
   left: 50%;
   transform: translate(-50%, 0);
+  text-align: center;
 }
 
 .books-list {
@@ -888,15 +889,16 @@ textarea:focus, input:focus{
 }
 
 #concerts-content p {
-  font-family: var(--font-montserrat);
-  font-size: 0.95rem;
+  font-family: var(--font-cormorant);
+  font-size: 1.2rem;
   margin-bottom: 1rem;
 }
 
 #concerts-content h2 {
-  font-family: var(--font-poppins);
+  font-family: var(--font-montserrat);
   font-weight: 600;
   font-size: 1.8rem;
+  margin-bottom: 0.5rem;
 }
 
 #dev-credits > a {
@@ -962,4 +964,170 @@ textarea:focus, input:focus{
 #blog-post h2 {
   margin-bottom: 2rem;
   font-size: 4rem;
+}
+
+@media (max-width: 750px) {
+  #navbar {
+    display: none;
+  }
+
+  #mobile-nav {
+    display: contents;
+    display: flex;
+    flex-direction: column;
+    height: 10vh;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100vw;
+    align-items: center;
+    position: fixed;
+    color: rgb(60,60,60);
+  }
+
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  #hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 22px;
+    width: 22px;
+    margin-left: auto;
+    margin-right: 2rem;
+    transition: 0.5s all;
+  }
+
+  #hamburger:hover {
+    cursor: pointer;
+  }
+
+  #hamburger .bar {
+    height: 2px;
+    width: 100%;
+    background-color: black;
+    border-radius: 3px;
+  }
+  
+  #mobile-nav-header > a {
+    text-decoration: none;
+    color: rgb(60,60,60);
+    z-index: 101;
+  }
+
+  #mobile-nav-header > h3 {
+    font-size: 2rem;
+  }
+
+  #mobile-nav-header {
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    align-items: center;
+    width: 100%;
+    box-shadow: 0 3px 2px -2px gray;
+  }
+
+  #mobile-nav.active {
+    height: 100vh;
+    justify-content: flex-start;
+  }
+
+  #mobile-nav-links {
+    display: none;
+    position: fixed;
+    justify-content: flex-start;
+    height: 90vh;
+    animation: fadeIn 1s;
+    -webkit-animation: fadeIn 0.5s;
+    -moz-animation: fadeIn 0.5s;
+    -o-animation: fadeIn 0.5s;
+    -ms-animation: fadeIn 0.5s;
+    margin-top: 20vh;
+  }
+
+  #mobile-nav-links > a {
+    color: rgb(60,60,60);
+    text-decoration: none;  
+    width: 70vw;
+    transition: 1s;
+    animation: fadeIn 1s;
+    -webkit-animation: fadeIn 1s;
+    -moz-animation: fadeIn 1s;
+    -o-animation: fadeIn 1s;
+    -ms-animation: fadeIn 1s;
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+
+  #mobile-nav.active #mobile-nav-links {
+    display:flex;
+    flex-direction: column;
+    font-family: var(--font-montserrat);
+    height: 40vh;
+  }
+
+  .mobile-options {
+    transition: 1s;
+    animation: fadeIn 1s;
+    -webkit-animation: fadeIn 1s;
+    -moz-animation: fadeIn 1s;
+    -o-animation: fadeIn 1s;
+    -ms-animation: fadeIn 1s;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+    margin-bottom: 0rem;
+    /* margin-top: -0.5rem; */
+  }
+
+  #mobile-nav-header p {
+    display:none;
+  }
+
+  .active p {
+    display: block !important;
+    margin-left: auto;
+    font-size: 4rem;
+    margin-right: 1.4rem;
+    padding-bottom: 0.5rem;
+    transform: rotate(45deg);
+    font-weight: 100;
+    transition: 0.5s all;
+  }
+
+  .mobile-options h3 {
+    font-size: 3rem;
+    font-family: var(--font-montserrat);
+    font-weight: 400;
+    margin-bottom: -0.2rem;
+  }
+
+  #mobile-gerald-elias {
+    font-family: var(--font-montserrat);
+    font-size: 2rem;
+    font-weight: 400;
+    margin-left: 1.2rem;
+  }
+
+  .mobile-options a {
+    text-decoration: none;
+    color: rgb(60,60,60);
+    margin-left: 1rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .active #hamburger {
+    display: none;
+  }
+}
+
+@media (min-width: 751px) {
+  #mobile-nav {
+    display: none;
+  }
 }

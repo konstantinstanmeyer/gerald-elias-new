@@ -16,6 +16,10 @@ export default function Performances(){
                 {concerts.sections.solo.map((textBlock, i) => 
                     <p className={`${textBlock.type === 'quote' ? "italic" : ""} concerts-text`}>{textBlock.text}{textBlock.type === 'quote' ? <span>{" -" + textBlock.author}</span> : ""}</p>
                 )}
+                <h2>Chamber Ensembles</h2>
+                {concerts.sections.chamberEnsembles.map((textBlock, i) => 
+                    <p className={`${textBlock.type === 'quote' ? "italic" : ""} concerts-text`}>{textBlock.text}{textBlock.type === 'quote' ? <span>{" -" + textBlock.author}</span> : ""}</p>
+                )}
             </div>
         </div>
     )

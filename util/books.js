@@ -165,17 +165,6 @@ export const books = {
         },
         releaseDate: "2020"
     },
-    "an-eclectic-anthology":{
-        name: "...an eclectic anthology of 28 short mysteries to chill the warmest heart.",
-        imageUrl: "/book-anthology.jpg",
-        description: [
-            `Hailed as "a master story teller" by iBerkshires, award-winning author, Gerald Elias, has gathered all of his short mystery fiction in a single, impossible-to-put-down, volume. Some of the stories have been previously published in other anthologies. Others appear here for the very first time.There are so many kinds of mystery short stories: creepy, clever, humorous, macabre, spooky, wicked, and puzzling. Are all of them traditional whodunits? Feh! Of course not. They can be head-scratchers: “Hmm, what weird thing just happened?” Or, someone's dark, troubled past bubbling up to the surface at the most inopportune time. Mystery short stories can be lightning strike short or as long as an owl's shadow in a full moon. They can take place in the remote Utah desert, the charming Berkshire Hills of Massachusetts, or a trendy coffee shop in midtown Manhattan. Anywhere. Just a word of warning. As you're reading this volume, you might not want to look over your shoulder.`
-        ],
-        links: {
-            "Amazon": "https://www.amazon.com/eclectic-anthology-mysteries-warmest-heart/dp/1687552657/",
-        },
-        releaseDate: "2019"
-    },
     "symphonies-and-scorpions":{
         name: "Symphonies and Scorpions",
         imageUrl: "/symphonies-and-scorpions.jpeg",
@@ -226,17 +215,6 @@ export const books = {
         },
         audiobook: {
             "url":"/maestro-the-potbellied-pig-es"
-        },
-        releaseDate: "2019"
-    },
-    "prince-of-the-leaf-cutters":{
-        name: "Prince of the Leaf Cutters",
-        imageUrl: "/book-prince.jpg",
-        description: [
-            `"Prince of the Leaf Cutters" calls into question the long held belief that humans are the culmination of evolutionary progress. In the midst of an endless ethnic war, Pavlovic, a simple factory worker, flees his homeland for what he hopes will be a new life in America. However, he is disappointed to find the same animosities he thought he had left behind and a society that is uncaring and indifferent. In desperation, he makes his way to Costa Rica, which by earlier accounts he imagines will be paradise on earth. Pavlovic's initial optimism for the future is soon replaced by despair. Trapped in this never-ending downward spiral of ethnic warfare, indifference and, ultimately, degradation, Pavlovic loses everything, including his mind. The notion of joining a Utopian society of jungle ants, in this dystopian tale reminiscent of Joseph Conrad's "Heart of Darkness" and "An Outcast of the Islands" becomes his one remaining, euphoric hope.`
-        ],
-        links: {
-            "Amazon": "https://www.amazon.com/Prince-Leaf-Cutters-author-Devils/dp/1795779403",
         },
         releaseDate: "2019"
     },
