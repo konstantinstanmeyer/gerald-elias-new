@@ -11,6 +11,8 @@ html {
 body {
   overflow-x: hidden;
   width: 100vw;
+  min-height: 100vh;
+  position: relative;
 }
 
 textarea:focus, input:focus{
@@ -131,7 +133,7 @@ textarea:focus, input:focus{
   width: 100vw;
   display: flex;
   flex-direction: row;
-  height: 90vh;
+  height: fit-content;
   /* background-color: rgb(207, 188, 163); */
   background-color: #242424;
   position: relative;
@@ -139,7 +141,7 @@ textarea:focus, input:focus{
 }
 
 #about-image {
-  width: 50vw;
+  width: 50%;
   position: absolute;
   height: 100%;
   object-fit: cover;
@@ -247,6 +249,7 @@ textarea:focus, input:focus{
   font-weight: 600;
   width: 100%;
   margin-bottom: 2rem;
+  margin-top: 5rem;
 }
 
 #about-text {
@@ -275,6 +278,7 @@ textarea:focus, input:focus{
   letter-spacing: 4px;
   color: #a7a7a7;
   text-decoration: none;
+  margin-bottom: 5rem;
 }
 
 #about-more:hover {
@@ -572,6 +576,7 @@ textarea:focus, input:focus{
   justify-content: center;
   align-items: center;
   background-color: rgb(207, 207, 207);
+  bottom: 0;
 }
 
 #socials {
@@ -908,7 +913,7 @@ textarea:focus, input:focus{
 #dev-credits > a {
   color: white;
   text-decoration: none;
-  margin-left: 2rem;
+  padding-left: 2rem;
   font-family: var(--font-montserrat);
   font-size: 0.9rem;
 }
@@ -1136,9 +1141,8 @@ textarea:focus, input:focus{
 
   #socials {
     padding: 0;
-    width: 100vw;
+    width: 90vw;
     margin-bottom: 0.5rem;
-    padding-left: 0.5rem;
   }
 
   #socials h3 {
@@ -1154,12 +1158,12 @@ textarea:focus, input:focus{
 
   #newsletter h3 {
     margin: 0;
-    margin-left: 1.3rem;
+    margin-left: 2.3rem;
   }
 
   #newsletter-input-container{
     margin: 0;
-    margin-left: 1.3rem;
+    margin-left: 2.3rem;
     margin-bottom: 1rem;
   }
 
@@ -1180,6 +1184,74 @@ textarea:focus, input:focus{
   .general-landing {
     height: 40vh;
   }
+
+  #landing {
+    flex-direction: column;
+    height: fit-content;
+    padding-bottom: 2rem;
+    padding-top: 15vh;
+  }
+
+  #landing img {
+    width: 70%;
+  }
+
+  #landing-text {
+    width: 80%;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+  }
+
+  #about-text {
+   display: none;
+  }
+
+  #about-image {
+    display: none;
+  }
+
+  #about-mobile-img{
+    float: right;
+    width: 12rem;
+    height: 17.5rem;
+    object-fit: cover;
+    object-position: center bottom;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  #about {
+    display: block;
+    flex-direction: unset;
+    padding-bottom: 1.5rem;
+  }
+
+  #about-gerald-mobile {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    font-size: 2.2rem;
+    font-family: var(--font-outfit);
+    font-weight: 600;
+    justify-content: center;
+    margin-left: 1.5rem;
+    width: fit-content;
+  }
+
+  p.about-mobile-text {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+    font-size: 18px !important;
+    margin-bottom: 1.5rem;
+  }
+
+  #about-more.about-mobile {
+    margin-left: 1.5rem;
+    padding-bottom: 4rem;
+    font-size: 1rem;
+  }
 }
 
 @media (min-width: 751px) {
@@ -1189,5 +1261,25 @@ textarea:focus, input:focus{
 
   #footer-divider {
     display: none;
+  }
+
+  #about-text  img {
+    display: none;
+  }
+
+  .about-mobile {
+    display: none !important;
+  }
+
+  #about-mobile-img {
+    display: none;
+  }
+}
+
+@media (max-width: 700px){
+  .home-book img {
+    width: 85vw;
+    height:unset;
+    aspect-ratio: ;
   }
 }
