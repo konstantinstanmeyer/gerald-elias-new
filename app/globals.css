@@ -1021,6 +1021,7 @@ textarea:focus, input:focus{
 
 #blog-post p {
   margin-bottom: 1rem;
+  text-align: justify;
 }
 
 #blog-post h2 {
