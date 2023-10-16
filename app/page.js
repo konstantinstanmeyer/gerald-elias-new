@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <>
       <div id="home" className="">
-        <div id="landing" className="">
+        <div loading="lazy" id="landing" className="">
           <img loading="lazy" id="landing-image" src="/murder-at-the-royal-albert-audiobook.jpeg" />
           <div id="landing-text">
             <h2>PRE-ORDER <span>'MURDER AT THE ROYAL ALBERT'</span> AUDIOBOOK</h2>

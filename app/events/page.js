@@ -16,7 +16,7 @@ export default function Events(){
                     : null}
                     {/* <EventCard event={events.upcoming[0]} /> */}
                 </div>
-                <h2>Past Events</h2>
+                <h2 id="past-events">Past Events</h2>
                 <div className="events-list">
                     {events.pastEvents.length > 0 ? 
                     events.pastEvents.map((entry, i) => 

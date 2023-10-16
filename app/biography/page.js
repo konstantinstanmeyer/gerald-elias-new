@@ -9,13 +9,15 @@ export default function Biography(){
                 <h2>Short Bio</h2>
                 <div id="short-bio">
                     <img src="/short-bio.png" />
+                    <h2 className="bio-mobile">Short Bio</h2>
                     {biography.shortBio.textBlocks.map((block) => 
                         <p>{block}</p>
                     )}
                 </div>
                 <h2>Long Bio</h2>
                 <div id="long-bio">
-                <img src="/long-bio.jpeg" />
+                    <img src="/long-bio.jpeg" />
+                    <h2 className="bio-mobile">Long Bio</h2>
                     {biography.longBio.textBlocks.map((block) => 
                         <p>{block}</p>
                     )}
