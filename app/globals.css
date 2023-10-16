@@ -4,7 +4,7 @@
 }
 
 html {
-  background-color: rgb(235, 235, 235);
+  background-color: white;
   scroll-behavior: smooth;
 }
 
@@ -76,36 +76,48 @@ textarea:focus, input:focus{
 }
 
 .home-book {
-  margin-bottom: 5rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin-bottom: 5%;
+  margin-left: 2.7%;
+  width: 14.6%;
+  /* aspect-ratio: 0.627 / 1; */
+  margin-right: 2.7%;
+  position: relative;
 }
 
 .home-book img {
-  height: 30rem;
-  width: 18.8rem;
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
+ width: 100%;
+ height: 100%;
 }
 
 #home-books-header {
-  position: absolute;
-  font-size: 3rem;
+  /* position: absolute; */
+  font-size: calc(calc(.012 * min(100vh, 900px)) + 1.5vw + 1.4rem) !important;
   top: -6rem;
-  font-family: var(--font-red-hat-mono);
-  font-weight: 600;
+  font-family: var(--font-poppins);
+  font-weight: 400;
+  text-align: left;
+  padding-left: 2.7%;
+  width: 100%;
+  margin-bottom: 3%;
+}
+
+@media (max-width: 900px) {
+  .home-book {
+    width: 45%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
 }
 
 #home-books-list {
   position: relative;
-  margin-top: 20vh;
+  margin-top: 5%;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  /* justify-content: space-around; */
 }
 
 #home-books-container {
@@ -117,14 +129,15 @@ textarea:focus, input:focus{
 }
 
 #all-books {
-  background-color: black;
+  /* background-color: black; */
   padding: 1rem 2rem 1rem 2rem;
   border-radius: 99999px;
-  font-family: var(--font-red-hat-mono);
+  font-family: var(--font-poppins);
   font-weight: 600;
   width: 8rem;
-  color: white;
-  text-decoration: none;
+  color: black;
+  text-decoration: underline;
+  text-underline-offset: 4px;
   text-align: center;
   font-size: 1.2rem;
 }
@@ -188,10 +201,15 @@ textarea:focus, input:focus{
   cursor: pointer;
 }
 
+@keyframes loadIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
 #dropdown-options {
   background-color: white;
   position: absolute;
-  font-family: var(--font-red-hat-mono);
+  font-family: var(--font-poppins);
   font-weight: 400;
   animation: fadeIn 0.2s ease-in;
   padding-left: 1rem;
@@ -205,6 +223,11 @@ textarea:focus, input:focus{
   align-items: flex-end;
   top: 10vh;
   width: fit-content;
+  animation: loadIn 0.3s;
+  -webkit-animation: loadIn 0.3s;
+  -moz-animation: loadIn 0.3s;
+  -o-animation: loadIn 0.3s;
+  -ms-animation: loadIn 0.3s;
 }
 
 #dropdown-options > a {
@@ -222,7 +245,7 @@ textarea:focus, input:focus{
 }
 
 #nav-links {
-  font-family: var(--font-montserrat);
+  font-family: var(--font-poppins);
   font-weight: 400;
   letter-spacing: 2px;
   width: 44rem;
@@ -653,7 +676,6 @@ textarea:focus, input:focus{
   flex-direction: column;
   justify-content: center;
   width: 70%;
-  background-color: lightgray;
   padding: 2rem;
   font-family: var(--font-cormorant);
 }
@@ -1123,9 +1145,20 @@ textarea:focus, input:focus{
   #mobile-gerald-elias {
     font-family: var(--font-montserrat);
     font-size: calc(calc(.012 * min(100vh, 900px)) + 1rem) !important;
-    width: 10rem;
+    /* width: 10rem; */
     font-weight: 400;
     margin-left: 1.2rem;
+    height: 100%;
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    margin-top: -0.2rem;
+  }
+
+  #mobile-nav-header > a {
+    /* width: fit-content;
+    height: fit-content;
+    display: flex; */
   }
 
   .mobile-options a {
@@ -1257,6 +1290,41 @@ textarea:focus, input:focus{
     padding-bottom: 4rem;
     font-size: 1rem;
   }
+
+  #book-preview {
+    flex-direction: column;
+    width: 100vw;
+    position: relative;
+    padding-top: 14vh;
+    align-items: center;
+  }
+
+  #preview-text-col {
+    width: 80%;
+  }
+
+  #book-preview h2 {
+    width: 100% !important;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+
+  #preview-details {
+    font-size:0.9rem;
+  }
+
+  #preview-hyperlinks-list {
+    width: 85%;
+    position: relative;
+    /* display: flex; */
+    word-break: break-all;
+  }
+
+  #preview-image-container {
+    width: 100%;
+    height: unset;
+    display: flex;
+  }
 }
 
 @media (min-width: 751px) {
@@ -1281,10 +1349,21 @@ textarea:focus, input:focus{
   }
 }
 
-@media (max-width: 700px){
+/* @media (max-width: 700px){
   .home-book img {
     width: 85vw;
     height:unset;
     aspect-ratio: ;
+  }
+} */
+
+@media (max-width: 400px){
+  #about-mobile-img {
+    margin: none;
+    margin-left: auto;
+    margin-right: auto;
+    float: unset;
+    width: 80%;
+    margin-left: 10%;
   }
 }

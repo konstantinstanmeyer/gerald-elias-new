@@ -31,6 +31,18 @@ export default function Home() {
             <a className="home-book" href="/books/symphonies-&-scorpions">
                 <img src="/symphonies-and-scorpions.jpeg" />
             </a>
+            <a className="home-book" href="/books/symphonies-&-scorpions">
+                <img src="/symphonies-and-scorpions.jpeg" />
+            </a>
+            <a className="home-book" href="/books/symphonies-&-scorpions">
+                <img src="/symphonies-and-scorpions.jpeg" />
+            </a>
+            <a className="home-book" href="/books/symphonies-&-scorpions">
+                <img src="/symphonies-and-scorpions.jpeg" />
+            </a>
+            <a className="home-book" href="/books/symphonies-&-scorpions">
+                <img src="/symphonies-and-scorpions.jpeg" />
+            </a>
           </div>
           <a id="all-books" href="/books">
             ALL BOOKS
