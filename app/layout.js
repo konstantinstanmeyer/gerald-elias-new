@@ -45,14 +45,14 @@ const red_hat_mono = Red_Hat_Mono({
 
 const montserrat = Montserrat({
   subsets: ['latin'],
-  weight: ['300', '400', '600', '700', '800'],
+  weight: ['300', '400', '500', '600', '700', '800'],
   style: ['normal','italic'],
   variable: '--font-montserrat'
 })
 
 const poppins = Poppins({
   subsets: ['latin'],
-  weight: ['400', '600'],
+  weight: ['300', '400', '500', '600'],
   variable: '--font-poppins'
 })
 

@@ -165,9 +165,9 @@ export const books = {
         },
         releaseDate: "2020"
     },
-    "symphonies-and-scorpions":{
+    "symphonies-&-scorpions":{
         name: "Symphonies and Scorpions",
-        imageUrl: "/symphonies-and-scorpions.jpeg",
+        imageUrl: "/book-symphonies-and-scorpions.jpg",
         details: "ascinating storytelling combined with his perceptive backstories. -iBerkshires",
         description: [
             `"…an amazing journey…nothing less than a musical odyssey of discovery," is how iBerkshires hailed the first edition of Symphonies & Scorpions. Now, with captioned black & white photos, In Symphonies & Scorpions you'll get an insider's view of the glamour and the drudgery of an international concert tour to China and Japan, and gain deep insight into music as an instrument of citizen diplomacy. You'll sit on the hallowed stage of Symphony Hall in Boston and in concert halls in Asia, meeting congenial and occasionally cantankerous colleagues, listening to the Maestro's words of debated wisdom. You'll fly nonstop from Boston to Tokyo, dine on succulent Peking duck, squirm through Beijing alleys crowded with scorpion vendors, and be spiritually restored in a Tokyo park floating in tranquility.This second, enhanced edition of Symphonies & Scorpions adds Elias's prize-winning essay, "War & Peace. And Music," featured in his TEDxSaltLakeCity performance of September, 2019. A preface to the new edition also tackles the tumultuous issue of sexual misconduct by luminaries in the classical music world. This painstakingly revised edition is a must not only for music lovers but also for anyone interested in understanding and enriching human relations at home and abroad.`, 

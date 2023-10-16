@@ -4,8 +4,10 @@ import NotFound from "@/components/NotFound";
 export default function Book({ params }){
     // console.log(params)
     const book = books[params?.name];
+    console.log(params)
+    console.log(book)
     const [quote, author] = book?.details?.split(' -') || [];
-    const linksLength = Object.keys(book.links).length;
+    const linksLength = book ? Object.keys(book?.links)?.length : undefined;
 
     // console.log(linksLength)
     // console.log(book)

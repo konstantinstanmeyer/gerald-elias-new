@@ -43,11 +43,8 @@ export default function Books(){
                 <a className="book" href="/books/the-beethoven-sequence">
                     <img src="/the-beethoven-sequence-book.jpg" />
                 </a>
-                <a className="book" href="/books/an-eclectic-anthology">
-                    <img src="/book-anthology.jpg" />
-                </a>
                 <a className="book" href="/books/symphonies-&-scorpions">
-                    <img src="/symphonies-and-scorpions.jpeg" />
+                    <img src="/book-symphonies-and-scorpions.jpg" />
                 </a>
                 <a className="book" href="/books/getting-through">
                     <img src="/book-getting-through.jpeg" />
@@ -57,9 +54,6 @@ export default function Books(){
                 </a>
                 <a className="book" href="/books/maestro-the-potbellied-pig-es">
                     <img src="/book-maestro-es.jpg" />
-                </a>
-                <a className="book" href="/books/prince-of-the-leaf-cutters">
-                    <img src="/book-prince.jpg" />
                 </a>
             </div>
             <h2 id="audiobooks-header">Audiobooks</h2>

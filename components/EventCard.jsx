@@ -1,14 +1,17 @@
 export default function EventCard({ event }){
+    const { imageUrl, name, date, location, address, hyperlink} = event;
+
     return (
         <div className="event-card">
             <div className="event-image-container">
-                <img src={event.imageUrl} />
+                <img src={imageUrl} />
             </div>
             <div className="event-text">
-                <h2>{event.name}</h2>
-                <h3>{event.date}</h3>
-                <h4>{event.location}<span>&nbsp;{event.address}</span></h4>
+                <h2>{name}</h2>
+                <h3>{date}</h3>
+                {location ? <h4>{event.location}<span>&nbsp;{event.address}</span></h4> : null}
                 <p>{event.description}</p>
+                {hyperlink ? <a className="event-hyperlink" href={event.hyperlink}>Learn more</a> : null}
             </div>
         </div>
     )

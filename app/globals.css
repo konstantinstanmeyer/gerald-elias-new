@@ -6,6 +6,7 @@
 html {
   background-color: white;
   scroll-behavior: smooth;
+  /* z-index: 1; */
 }
 
 body {
@@ -587,7 +588,7 @@ textarea:focus, input:focus{
 
 #events-container > h2 {
   font-family: var(--font-poppins);
-  font-weight: 600;
+  font-weight: 400;
   font-size: 2rem;
 }
 
@@ -636,7 +637,7 @@ textarea:focus, input:focus{
   display: flex;
   flex-direction: row;
   position: relative;
-  z-index: 100;
+  z-index: 50;
   height: 100%;
   align-items: center;
   font-family: var(--font-montserrat);
@@ -683,18 +684,19 @@ textarea:focus, input:focus{
 .event-card {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  /* align-items: center; */
   font-family:var(--font-montserrat);
   font-weight: 400;
-  background-color: lightgray;
+  background-color: rgb(227, 227, 227);
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
   padding-left: 1rem;
   padding-right: 1rem;
   margin-bottom: 1rem;
   margin-top: 1rem;
-  height: 10rem;
+  height: fit-content;
   position: relative;
+  width: 100%;
 }
 
 #events{
@@ -708,24 +710,40 @@ textarea:focus, input:focus{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90%;
-}
-
-.event-card img {
-  height: 100%;
-  object-fit: cover;
-  width: 10rem;
+  height: 12rem;
+  aspect-ratio: 1 / 1;
   margin-right: 2rem;
   margin-left: 1rem;
 }
 
+.event-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .event-card h2 {
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .event-card h3 {
-  font-weight: 400;
+  font-weight: 600;
   font-size: 0.9rem;
+  margin-bottom: 0.2rem;
+}
+
+.event-card a {
+  color: black;
+  font-style: italic;
+  text-underline-offset: 3px;
+  padding-top: 0.3rem !important;
+  display: inline-block;
+}
+
+.event-none {
+  font-family: var(--font-montserrat);
+  margin-top: 2rem;
+  font-weight: 500;
 }
 
 .event-card span {
@@ -736,6 +754,10 @@ textarea:focus, input:focus{
 
 .event-card h4 {
   margin-bottom: 1rem;
+}
+
+.event-card p {
+  font-family:var(--font-montserrat);
 }
 
 #biography {
@@ -881,8 +903,8 @@ textarea:focus, input:focus{
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(206, 206, 206);
-  border: 1px solid rgb(142, 142, 142);
+  background-color: rgb(237, 237, 237);
+  /* border: 1px solid rgb(142, 142, 142); */
   padding-top: 1rem;
   padding-bottom: 1rem;
   margin-left: 1rem;
@@ -998,7 +1020,15 @@ textarea:focus, input:focus{
 
 #blog-post h2 {
   margin-bottom: 2rem;
-  font-size: 4rem;
+  font-size: calc(calc(.012 * min(100vh, 900px)) + 3vw + 1rem) !important;
+}
+
+#not-found {
+  width: 100vw;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (max-width: 750px) {
@@ -1054,8 +1084,9 @@ textarea:focus, input:focus{
     z-index: 101;
   }
 
-  #mobile-nav-header > h3 {
+  .mobile-options > h3 {
     font-size: 2rem;
+    cursor:default;
   }
 
   #mobile-nav-header {
@@ -1065,11 +1096,16 @@ textarea:focus, input:focus{
     align-items: center;
     width: 100%;
     box-shadow: 0 3px 2px -2px gray;
+    /* height: 100%; */
   }
 
   #mobile-nav.active {
     height: 100vh;
     justify-content: flex-start;
+    /* display: block; */
+    /* position: relative; */
+    /* width: 100vh; */
+    z-index: 200;
   }
 
   #mobile-nav-links {
@@ -1083,26 +1119,28 @@ textarea:focus, input:focus{
     -o-animation: fadeIn 0.5s;
     -ms-animation: fadeIn 0.5s;
     margin-top: 20vh;
+    width: 100%;
+    align-items: center;
   }
 
   #mobile-nav-links > a {
     color: rgb(60,60,60);
     text-decoration: none;  
-    width: 70vw;
     transition: 1s;
     animation: fadeIn 1s;
     -webkit-animation: fadeIn 1s;
     -moz-animation: fadeIn 1s;
     -o-animation: fadeIn 1s;
     -ms-animation: fadeIn 1s;
-    font-size: 3rem;
-    margin-bottom: 0.5rem;
+    font-size: calc(calc(.012 * min(100vh, 900px)) + 2vw + 1rem) !important;
+    margin-bottom: 0.3rem;
   }
 
   #mobile-nav.active #mobile-nav-links {
     display:flex;
     flex-direction: column;
-    font-family: var(--font-montserrat);
+    font-family: var(--font-poppins);
+    font-weight: 300;
     height: 40vh;
   }
 
@@ -1136,10 +1174,11 @@ textarea:focus, input:focus{
   }
 
   .mobile-options h3 {
-    font-size: 3rem;
-    font-family: var(--font-montserrat);
-    font-weight: 400;
+    font-size: calc(calc(.012 * min(100vh, 900px)) + 2vw + 1rem) !important;
+    font-family: var(--font-poppins);
+    font-weight: 300;
     margin-bottom: -0.2rem;
+    text-align: center;
   }
 
   #mobile-gerald-elias {
@@ -1155,6 +1194,10 @@ textarea:focus, input:focus{
     margin-top: -0.2rem;
   }
 
+  .mobile-options > a {
+    overscroll-behavior: contain;
+  }
+
   #mobile-nav-header > a {
     /* width: fit-content;
     height: fit-content;
@@ -1163,9 +1206,9 @@ textarea:focus, input:focus{
 
   .mobile-options a {
     text-decoration: none;
-    color: rgb(60,60,60);
-    margin-left: 1rem;
-    margin-bottom: 0.2rem;
+    color: rgb(94, 94, 94);
+    text-align: center;
+    font-size: 1rem;
   }
 
   .active #hamburger {
@@ -1287,8 +1330,12 @@ textarea:focus, input:focus{
 
   #about-more.about-mobile {
     margin-left: 1.5rem;
-    padding-bottom: 4rem;
+    margin-bottom: 4rem;
     font-size: 1rem;
+  }
+
+  #home-books-container {
+    margin-bottom: 3rem;
   }
 
   #book-preview {
@@ -1314,16 +1361,46 @@ textarea:focus, input:focus{
   }
 
   #preview-hyperlinks-list {
-    width: 85%;
+    width: 100%;
     position: relative;
     /* display: flex; */
-    word-break: break-all;
+    word-break:keep-all;
+    font-size: 1.1rem;
+  }
+
+  #audiobook-link-text {
+    font-size: 1.1rem;
   }
 
   #preview-image-container {
     width: 100%;
     height: unset;
     display: flex;
+  }
+
+  #concerts-content {
+    width: 85%;
+  }
+
+  #blog-post {
+    width: 80%;
+    
+  }
+
+  #blog-post {
+    margin-top: 15vh;
+  }
+
+  #concerts-ad{
+    display: none;
+  }
+
+  #conducting-content{
+    width: 80%;
+  }
+
+  #contact-form {
+    width: 70%;
   }
 }
 
@@ -1347,14 +1424,14 @@ textarea:focus, input:focus{
   #about-mobile-img {
     display: none;
   }
+
+  body {
+    overflow: unset !important;
+  }
 }
 
 /* @media (max-width: 700px){
-  .home-book img {
-    width: 85vw;
-    height:unset;
-    aspect-ratio: ;
-  }
+  
 } */
 
 @media (max-width: 400px){
@@ -1365,5 +1442,9 @@ textarea:focus, input:focus{
     float: unset;
     width: 80%;
     margin-left: 10%;
+  }
+
+  #about-gerald-mobile{
+    height: 10vh;
   }
 }
