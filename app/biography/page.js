@@ -8,7 +8,7 @@ export default function Biography(){
             <div id="bio-content">
                 <h2>Short Bio</h2>
                 <div id="short-bio">
-                    <img src="/short-bio.png" />
+                    <img src="/gerald-headshot.jpg" />
                     <h2 className="bio-mobile">Short Bio</h2>
                     {biography.shortBio.textBlocks.map((block) => 
                         <p>{block}</p>
@@ -18,8 +18,11 @@ export default function Biography(){
                 <div id="long-bio">
                     <img src="/long-bio.jpeg" />
                     <h2 className="bio-mobile">Long Bio</h2>
-                    {biography.longBio.textBlocks.map((block) => 
-                        <p>{block}</p>
+                    {biography.longBio.textBlocks.map((block, i) => 
+                        <>
+                            {i === 4 ? <img src="/gerald-desert.jpg" /> : null}
+                            <p>{block}</p>
+                        </>
                     )}
                 </div>
             </div>

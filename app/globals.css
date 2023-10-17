@@ -783,7 +783,7 @@ textarea:focus, input:focus{
   margin-right: 1rem;
   margin-bottom: 0.2rem;
   width: 15rem;
-  height: 25rem;
+  height: 23rem;
   object-fit: cover;
 }
 
@@ -794,6 +794,11 @@ textarea:focus, input:focus{
   width: 15rem;
   height: 25rem;
   object-fit: cover;
+}
+
+#long-bio > img:last-of-type {
+  height: 17rem;
+  margin-bottom: 1rem;
 }
 
 #bio-content h2 {
@@ -1070,11 +1075,80 @@ textarea:focus, input:focus{
   align-items: center;
 }
 
+#composing-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.composition-card {
+  width: 60%;
+  font-family: var(--font-poppins);
+  padding-bottom: 2rem;
+  border-bottom: black solid 1px;
+  margin-top: 2rem;
+}
+
+.composition-card:last-of-type {
+  border-bottom: none !important;
+}
+
+.composition-card > h3 {
+  font-weight: 500;
+  font-size: calc(calc(.012 * min(100vh, 900px)) + 0.5vw + 0.5rem) !important;
+  font-style: italic;
+  /* text-align: justify; */
+  line-height: calc(calc(.012 * min(100vh, 900px)) + 0.65vw + 0.65rem);
+}
+
+.composition-card a {
+  text-decoration: underline;
+  color: darkblue;
+}
+
+.composition-card > h3 span {
+  font-style: normal !important;
+  font-weight: 400;
+  font-size: calc(calc(.012 * min(100vh, 900px)) + 0.3vw + 0.3rem) !important;
+}
+
+.composition-description {
+  font-weight: 300;
+  margin-top: 1rem;
+  font-size: 1rem;
+  text-align: justify;
+}
+
+.composition-card h4 {
+  font-weight: 600;
+  color:rgb(69, 69, 69)
+}
+
+.quotes-wrapper {
+  margin-top: 1rem;
+}
+
+.quotes-wrapper > p {
+  font-style: italic;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  text-align: justify;
+}
+
+.quotes-wrapper > p > span {
+  font-style: normal;
+  font-weight: 600;
+}
+
 #past-events {
   margin-top: 1.5rem;
 }
 
 @media (max-width: 750px) {
+  .composition-card {
+    width: 85%;
+  }
+
   #navbar {
     display: none;
   }

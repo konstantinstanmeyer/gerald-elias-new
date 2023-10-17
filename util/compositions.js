@@ -2,16 +2,20 @@ const compositions = {
     originalCompositions: [
         {
             name: `The Ballad of William Grandstaff`,
-            keywords: "for baritone and piano (8:00) 2015",
-            details: [],
+            keywords: "For baritone and piano",
+            details: [
+                `(8:00) 2015`
+            ],
             links: [],
             quotes: [],
             description: `A sequel to “William Grandstaff,” the ballad was also commissioned by the Moab Music Festival and was premiered September 11, 2015. In a message delivered from the 19th century, Grandstaff challenges the audience to confront the entrenched history of racism in American society.`
         },
         {
             name: `William Grandstaff`,
-            keywords: "Operatic scene for three singers, flute, violin, and piano (10:00) 2014",
-            details: [],
+            keywords: "Operatic scene for three singers, flute, violin, and piano",
+            details: [
+                `(10:00) 2014`
+            ],
             links: [
                 "https://www.youtube.com/watch?v=C4dk8VV5oNs"
             ],
@@ -67,7 +71,7 @@ const compositions = {
         },
         {
             name: `Conversations With Essie`,
-            keywords: "for female narrator and chamber ensemble",
+            keywords: "For female narrator and chamber ensemble",
             details: [
                 `2002 (24:00)`,
                 `Commissioned and premiered by the Moab Music Festival`,
@@ -98,8 +102,8 @@ const compositions = {
             description: `Based upon musical motives inspired by the pugnacious mechanical sputtering of my computer printer (first movement) and a jingle at a Tokyo subway station (last two movements). Three highly concentrated inter-related movements played without interruption. A challenging piece, no doubt, but still very playable.  The Second String Quartet was a finalist in the 2002 International Contemporary Music Contest of Undine, Italy.`
         },
         {
-            name: `First string quartet “When Mr. Mozart Came Home from the Ball”`,
-            keywords: "for string quartet and narrators",
+            name: `First string quartet 'When Mr. Mozart Came Home from the Ball'`,
+            keywords: "For string quartet and narrators",
             details: [
                 `(19:00)`,
                 `Variations on a Theme by Mozart, kv.379, movement 2, Premiere 1998, Abramyan String Quartet, Recorded 2000 Developed for young audiences.`,
