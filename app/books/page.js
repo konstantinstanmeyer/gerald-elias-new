@@ -5,6 +5,11 @@ export default function Books(){
         <div id="books">
             <Landing name="Books & Audiobooks" imageUrl="/books-landing.jpg" />
             <h4 id="represented">REPRESENTED BY JOSH GETZLER, HG LITERARY. PUBLISHER, LEVEL BEST BOOKS</h4>
+            <div id="hint-container">
+                <h5>click covers for more info</h5>
+                &nbsp;
+                <img src="/cursor.png" />
+            </div>
             <h2 id="daniel-j-header">Daniel Jacobus Mysteries</h2>
             <div className="books-list">
                 <a className="book" href="/books/devil's-trill">

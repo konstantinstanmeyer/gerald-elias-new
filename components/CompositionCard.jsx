@@ -4,9 +4,11 @@ export default function CompositionCard({ composition }){
     return (
         <div className="composition-card">
             <h3>
-                {links.length === 1 ? <>"<a target="_blank" href={links[0]}>{name}</a>"</>
-                : links.length === 2 ? <>"{name}"&nbsp;{`(`}<a href={links[0]}>part 1</a>,&nbsp;<a href={links[1]}>part 2</a>{`)`}</>
-                : `"${name}"`}{keywords ? <span>&nbsp;&nbsp;{keywords}</span> : null}
+                {/* {links.length === 1 ? '"' : null} */}
+                {links.length === 1 ? <q><a target="_blank" href={links[0]}>{name}</a></q>
+                : links.length === 2 ? <>{`"${name}"`}&nbsp;{`(`}<a href={links[0]}>part 1</a>,&nbsp;<a href={links[1]}>part 2</a>{`)`}&nbsp;&nbsp;</>
+                : <>"{name}"&nbsp;&nbsp;</>}
+                {keywords ? <span>{keywords}</span> : null}
             </h3>
             {details.length > 0 ? details.map((detail, i) => 
                 <h4 key={`rand` + i}>{detail}</h4>

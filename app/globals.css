@@ -337,7 +337,7 @@ textarea:focus, input:focus{
   bottom: -8vh;
   color: white;
   font-family: var(--font-poppins);
-  font-size: 2.4rem;
+  font-size: calc(calc(.012 * min(100vh, 900px)) + 1.2vw + 0.5rem) !important;
   left: 50%;
   transform: translate(-50%, 0);
   text-align: center;
@@ -355,11 +355,13 @@ textarea:focus, input:focus{
 }
 
 #books > h2 {
-  width: 75%;
+  width: calc(75% - 2rem);
   text-align: left;
   font-family: var(--font-poppins);
   font-weight: 600;
-  font-size: 2rem;
+  font-size: calc(calc(.012 * min(100vh, 900px)) + 1.2vw + 0.5rem) !important;
+  padding-left: 1rem;
+  padding-right: 1rem;
   margin-left: auto;
   margin-right: auto;
   display: flex; 
@@ -649,6 +651,10 @@ textarea:focus, input:focus{
   font-size: 1.3rem;
 }
 
+#newsletter-text {
+  width: calc(100%);
+}
+
 #newsletter-divider {
   height: 80%;
   width: 2px;
@@ -657,23 +663,26 @@ textarea:focus, input:focus{
 
 #newsletter-input-container{
   margin-left: 3rem;
+  width: 80%;
+  position: relative;
 }
 
 #newsletter-input-container input {
   background: none;
   border: none;
   border-bottom: 1px solid black;
-  font-family: var();
   height: 1.5rem;
   margin-right: 0.5rem;
   font-family: var(--font-montserrat);
-  width: 10rem;
+  width: 60%;
+  font-size: calc(calc(.012 * min(100vh, 900px)) + 0.2vw + 0.3rem) !important;
 }
 
 #newsletter-input-container button {
   background: none;
   border: none;
   font-family: var(--font-montserrat);
+  font-size: calc(calc(.012 * min(100vh, 900px)) + 0.2vw + 0.3rem) !important;
 }
 
 #bio-content {
@@ -729,13 +738,14 @@ textarea:focus, input:focus{
 }
 
 .event-card h2 {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .event-card h3 {
   font-weight: 600;
   font-size: 0.9rem;
   margin-bottom: 0.2rem;
+  margin-top: 0.2rem;
 }
 
 .event-card a {
@@ -965,9 +975,32 @@ textarea:focus, input:focus{
   text-align: center;
   color: rgba(0, 0, 0, 0.5);
   font-family: var(--font-montserrat);
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   margin-left: 2rem;
   margin-right: 2rem;
+  font-size: calc(calc(.012 * min(100vh, 900px)) + 0.8vw) !important;
+}
+
+#hint-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;  
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+#hint-container > h5 {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: calc(calc(.012 * min(100vh, 900px)) + 0.5vw) !important;
+  font-family: var(--font-poppins);
+  font-weight: 400;
+}
+
+#hint-container > img {
+  filter: invert(0.5);
+  width: calc(calc(.012 * min(100vh, 900px)) + 0.5vw);
 }
 
 #events-list {
@@ -1100,29 +1133,39 @@ textarea:focus, input:focus{
   font-style: italic;
   /* text-align: justify; */
   line-height: calc(calc(.012 * min(100vh, 900px)) + 0.65vw + 0.65rem);
+  word-break:keep-all;
+  margin-bottom: 0.75rem;
 }
 
 .composition-card a {
   text-decoration: underline;
   color: darkblue;
+  display:inline-block;
+}
+
+.composition-card q {
+  display:inline-block;
+  margin-right: 5px;
 }
 
 .composition-card > h3 span {
   font-style: normal !important;
-  font-weight: 400;
-  font-size: calc(calc(.012 * min(100vh, 900px)) + 0.3vw + 0.3rem) !important;
+  font-weight: 300;
+  font-size: calc(calc(.012 * min(100vh, 900px)) + 0.5vw + 0.3rem) !important;
+  /* margin-left: 5px; */;
 }
 
 .composition-description {
   font-weight: 300;
   margin-top: 1rem;
-  font-size: 1rem;
+  font-size: calc(calc(.012 * min(100vh, 900px)) + 0.3vw + 0.3rem) !important;
   text-align: justify;
 }
 
 .composition-card h4 {
-  font-weight: 600;
-  color:rgb(69, 69, 69)
+  font-weight: 500;
+  font-size: calc(calc(.012 * min(100vh, 900px)) + 0.5vw + 0.1rem) !important;
+  color:rgb(0, 0, 0, 0.7);
 }
 
 .quotes-wrapper {
@@ -1132,7 +1175,7 @@ textarea:focus, input:focus{
 .quotes-wrapper > p {
   font-style: italic;
   margin-bottom: 0.5rem;
-  font-size: 0.9rem;
+  font-size: calc(calc(.012 * min(100vh, 900px)) + 0.3vw + 0.3rem) !important;
   text-align: justify;
 }
 
@@ -1146,8 +1189,12 @@ textarea:focus, input:focus{
 }
 
 @media (max-width: 750px) {
+  #composing-content * {
+    text-align: unset !important;
+  }
+
   .composition-description{
-    font-size: 0.8rem;
+    /* font-size: 0.8rem; */
     text-align: unset;
   }
 
@@ -1170,7 +1217,8 @@ textarea:focus, input:focus{
   }
 
   #books > h2 {
-    width: 90%;
+    width: calc(90% - 2rem);
+    height: 6rem;
   }
 
   #mobile-nav {
@@ -1303,7 +1351,7 @@ textarea:focus, input:focus{
     display: block !important;
     margin-left: auto;
     font-size: 4rem;
-    margin-right: 1.4rem;
+    margin-right: 1.5rem;
     padding-bottom: 0.5rem;
     transform: rotate(45deg);
     font-weight: 100;
@@ -1386,8 +1434,7 @@ textarea:focus, input:focus{
   }
 
   #newsletter-input {
-    font-size: 1.2rem;
-    width: 15rem !important;
+    width: 60% !important;
     margin-top: 0.3rem;
   }
 
@@ -1559,6 +1606,7 @@ textarea:focus, input:focus{
     margin: unset;
     margin-bottom: 0;
     padding-bottom: 0;
+    text-align: center;
   }
 
   img[src="/events-landing.jpg"] {
@@ -1652,7 +1700,8 @@ textarea:focus, input:focus{
 
 @media (max-width: 400px){
   #about-mobile-img {
-    margin: none;
+    margin: unset;
+    margin-top: 10%;
     margin-left: auto;
     margin-right: auto;
     float: unset;
