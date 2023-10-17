@@ -29,7 +29,7 @@ export default function Home() {
                 <img src="/book-murder-at-the-royal-albert.jpg" />
             </a>
             <a className="home-book" href="/books/symphonies-&-scorpions">
-                <img src="/symphonies-and-scorpions.jpeg" />
+                <img src="/book-symphonies-and-scorpions.jpg" />
             </a>
             <a className="home-book" href="/books/roundtree-days">
                 <img src="/roundtree-days.jpg" />

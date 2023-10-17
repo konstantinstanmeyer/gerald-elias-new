@@ -1003,9 +1003,10 @@ textarea:focus, input:focus{
 #dev-credits > a {
   color: white;
   text-decoration: none;
-  padding-left: 2rem;
+  margin-left: 1rem;
   font-family: var(--font-montserrat);
-  font-size: 0.9rem;
+  font-size: 0.8rem;
+  display: block;
 }
 
 .italic {
@@ -1145,6 +1146,15 @@ textarea:focus, input:focus{
 }
 
 @media (max-width: 750px) {
+  .composition-description{
+    font-size: 0.8rem;
+    text-align: unset;
+  }
+
+  #dev-credits > a {
+    font-size: 0.6rem;
+  }
+
   .composition-card {
     width: 85%;
   }
