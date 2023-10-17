@@ -24,10 +24,10 @@ const events = {
         {
             "date":"October 28th, 2023",
             "name":"Vivaldi sonata violin recital & book talk",
-            "location":"Mason Public Libary",
-            "address":"231 Main St, Great Barrington, MA 01230",
-            "imageUrl":"example-event.jpg",
-            "description":"Are you ready for an enchanting adventure that will transport you to a world of books, creativity, and wonder? Look no further than your neighborhood library's upcoming extravaganza!"
+            "location":"Skyline Retirement Community",
+            "address":"725 9th Ave, Seattle, WA 98104",
+            "imageUrl":"event-seattle.jpeg",
+            "description":"Joined by Gus Denhard on theorbo."
         }
     ],
     pastEvents: []

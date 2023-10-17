@@ -759,7 +759,7 @@ textarea:focus, input:focus{
 }
 
 .event-card h4 {
-  margin-bottom: 1rem;
+  margin-bottom: 0.3rem;
 }
 
 .event-card p {
@@ -1031,7 +1031,7 @@ textarea:focus, input:focus{
 #blog-content h2 {
   font-family: var(--font-poppins);
   font-weight: 600;
-  font-size: 3rem;
+  font-size: calc(calc(.012 * min(100vh, 900px)) + 1.5vw + 0.3rem);
 }
 
 #blog-content a {
