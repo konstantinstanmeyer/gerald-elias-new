@@ -1751,6 +1751,10 @@ textarea:focus, input:focus{
   body {
     overflow: unset !important;
   }
+
+  #teaching-image {
+    width: 40%;
+  }
 }
 
 /* @media (max-width: 700px){
