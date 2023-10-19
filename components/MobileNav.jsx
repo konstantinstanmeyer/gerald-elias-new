@@ -18,6 +18,7 @@ export default function MobileNav(){
                     <a href="/concerts-and-recordings">Concerts & Recordings</a>
                     <a href="/conducting">Conducting</a>
                     <a href="/composing">Composing</a>
+                    <a href="/teaching">Teaching</a>
                 </div>
                 <div className="mobile-options">
                     <h3>ABOUT</h3>

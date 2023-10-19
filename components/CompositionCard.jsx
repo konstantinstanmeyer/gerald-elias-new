@@ -12,10 +12,7 @@ import { useState } from "react";
 export default function CompositionCard({ composition }){
     const { name, keywords, details, links, quotes, description } = composition;
     const [open, setOpen] = useState(false);
-
-    function handleClick(){
-
-    }
+    const isLegend = name === "The Legend of William Grandstaff";
 
     return (
         <div className="composition-card">
@@ -36,7 +33,15 @@ export default function CompositionCard({ composition }){
                     )
                     : null}
                 </div>
-                <p className="composition-description">{description}</p>
+                {name === "The Legend of William Grandstaff" ? 
+                    <>
+                        {description.map((text, i) => 
+                            <p key={"leg" + i} className="composition-description">{text}</p>
+                        )}
+                    </>
+                :
+                    <p className="composition-description">{description}</p>
+                }
                 <p onClick={() => setOpen(false)} className="read-more">show less</p>
             </>
             : <p onClick={() => setOpen(true)} className="read-more">more info</p>

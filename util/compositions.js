@@ -1,14 +1,47 @@
 const compositions = {
     originalCompositions: [
         {
-            name: `The Ballad of William Grandstaff`,
+            name: `The Legend of William Grandstaff`,
             keywords: "For baritone and piano",
             details: [
                 `(8:00) 2015`
             ],
             links: [],
             quotes: [],
-            description: `A sequel to “William Grandstaff,” the ballad was also commissioned by the Moab Music Festival and was premiered September 11, 2015. In a message delivered from the 19th century, Grandstaff challenges the audience to confront the entrenched history of racism in American society.`
+            description: [
+                `An outdoor enthusiast, I was introduced to William Grandstaff in a very oblique manner many
+                years ago. Looking for a new place to hike, north of Moab along the Colorado River I saw a sign
+                that said Negro Bill Canyon. When I was commissioned by the Moab Music Festival to write a
+                composition based on local lore, I thought it might be interesting to find out just who this Negro
+                Bill was. Little did I know that this idea was the beginning of an ongoing project that has so far
+                resulted in three compositions. The first, in 2014, was called “William Grandstaff,” a
+                fictionalized operatic scene for three voices and three instruments in which I imagined the
+                moment in Grandstaff's life when he had to decide whether to stay in Moab, where he had
+                thrived as a rancher against all odds from 1877-1881, and fight for his land and liberty, or
+                whether discretion should become the better part of valor.`,
+
+                `A second composition for the Festival—for baritone, string bass, and piano—was called “The
+                Ballad of William Grandstaff,” and was sung by James Martin there in 2015. After the
+                performance, James made some recommendations to provide the piece a broader context. The
+                result of that became “The Legend of William Grandstaff,” again sung beautifully by James
+                Martin. Premiered in 2019 by the Salty Cricket Composers Collective in Salt Lake City, “The
+                Legend” incorporates the Ballad (greatly revised), preceded by an all-new Introduction and
+                Meditation.`,
+
+                `"The Legend" returned to the Moab Music Festival in 2022 as part of the festival's 30 th
+                anniversary celebration, and received a spectacular performance from up-and-coming opera
+                star, Joshua Conyers.`,
+
+                `In "The Legend," the baritone represents the departed soul of Grandstaff looking back on his
+                life, which ended in 1901. Using tantalizing bits and pieces of information we have about his life
+                as a freed slave, soldier, rancher, trader, and prospector, the music provides more questions
+                than answers. With a combination of irony, humor, bitterness, and hope, Grandstaff comments
+                upon the tribulations he endured being a person of color in a white man's world. The music
+                reflects his varying moods, moving from a witty nightclub style introduction (Grandstaff was,
+                for a time, a saloon owner in real life) with snippets of familiar tunes; to a dreamy, reflective
+                meditation; to a driving, sometimes cynical ballad, ending with the statement, "Who you think I
+                was is who you really are."`
+            ]
         },
         {
             name: `William Grandstaff`,

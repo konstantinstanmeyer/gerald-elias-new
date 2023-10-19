@@ -336,6 +336,7 @@ textarea:focus, input:focus{
   position: absolute;
   bottom: -8vh;
   color: white;
+  text-shadow: 0.5px 0.5px 0.5px rgb(172, 172, 172);
   font-family: var(--font-poppins);
   font-size: calc(calc(.012 * min(100vh, 900px)) + 1.2vw + 0.5rem) !important;
   left: 50%;
@@ -809,12 +810,17 @@ textarea:focus, input:focus{
 #long-bio > img:last-of-type {
   height: 17rem;
   margin-bottom: 1rem;
+  /* aspect-ratio: 2/3 */
+  transform: scaleY(1.05);
+  position: relative;
+  top: 10px;
 }
 
 #bio-content h2 {
   font-family: var(--font-poppins);
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
+  font-weight: 500;
 }
 
 #contact {
@@ -1197,7 +1203,43 @@ textarea:focus, input:focus{
   font-style: italic;
 }
 
+#teaching {
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+  align-items: center;
+}
+
+#teaching-content {
+  width: 60%;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+  text-align: justify;
+}
+
+#teaching-content p {
+  font-family: var(--font-poppins);
+  font-weight: 300;
+  font-size: calc(calc(.012 * min(100vh, 900px)) + 0.5vw + 0.3rem) !important;
+  margin-bottom: 2rem;
+}
+
+#teaching-image {
+  width: 50%;
+  float: right;
+  margin-left: 0.75rem;
+}
+
 @media (max-width: 750px) {
+
+  #long-bio > img:last-of-type{
+    margin-bottom: 2rem;
+  }
+
+  #teaching-content {
+    text-align: unset !important;
+  }
+
   #composing-content * {
     text-align: unset !important;
   }
@@ -1592,6 +1634,10 @@ textarea:focus, input:focus{
     width: 80%;
   }
 
+  #teaching-content{
+    width: 80%;
+  }
+
   #contact-form {
     width: 70%;
   }
@@ -1661,6 +1707,11 @@ textarea:focus, input:focus{
 
   #bio-content {
     padding-top: 0;
+    text-align: unset !important;
+  }
+
+  #conducting-content{
+    text-align: unset !important;
   }
 
   #short-bio img {
@@ -1669,7 +1720,6 @@ textarea:focus, input:focus{
 }
 
 @media (min-width: 751px) {
-
   .bio-mobile {
     display: none;
   }

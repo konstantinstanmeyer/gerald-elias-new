@@ -4,7 +4,7 @@ import concerts from "@/util/concerts";
 export default function Performances(){
     return (
         <div id="concerts">
-            <Landing name="Concerts & Recording" imageUrl="/concerts-landing.jpeg" />
+            <Landing name="Concerts & Recordings" imageUrl="/concerts-landing.jpeg" />
             <div id="concerts-content">
                 <div id="play-video-container">
                     <p>Gerald Elias with Gus Denhard</p>
