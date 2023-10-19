@@ -20,7 +20,7 @@ export default function Biography(){
                     <h2 className="bio-mobile">Long Bio</h2>
                     {biography.longBio.textBlocks.map((block, i) => 
                         <>
-                            {i === 4 ? <img src="/gerald-desert.jpg" /> : null}
+                            {i === 4 ? <img src="/gerald-elias-profile.jpeg" /> : null}
                             <p>{block}</p>
                         </>
                     )}

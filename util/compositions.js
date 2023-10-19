@@ -42,7 +42,7 @@ const compositions = {
                     description: `“The musical centerpiece was the premiere of associate concertmaster Gerald Elias' 'The Raven,' after Edgar Allan Poe. Baritone David Power was the soloist, alternating between speaking and singing in a high melodic line reminiscent of Benjamin Britten. The orchestral accompaniment was colorful and cinematic-sounding.”`
                 }
             ],
-            description: `Stylistically haunting echoes of Bartok and Britten will give you the creeps.  The semi-stageable trio version has been performed at the University of Utah and by the Edgar Allen Poe Society in Philadelphia at their conference in October, 2009, celebrating the bicentennial of his birth.`
+            description: `Stylistically haunting echoes of Bartok and Britten will give you the creeps. The semi-stageable trio version has been performed at the University of Utah and by the Edgar Allen Poe Society in Philadelphia at their conference in October, 2009, celebrating the bicentennial of his birth.`
         },
         {
             name: `Concerto Grosso in B-flat for violin and chamber orchestra`,
@@ -60,7 +60,7 @@ const compositions = {
             quotes: [
                 {
                     author: "-Deseret News",
-                    description: `“While the rest of the [Utah Symphony] concert was excellent, Elias's Concerto Grosso was the crowing jewel of the evening.  Elias gave a brilliant performance, and the work was very well-received-the audience gave a standing ovation at intermission.”`
+                    description: `“While the rest of the [Utah Symphony] concert was excellent, Elias's Concerto Grosso was the crowing jewel of the evening. Elias gave a brilliant performance, and the work was very well-received-the audience gave a standing ovation at intermission.”`
                 },
                 {
                     author: "-Deseret News, 2/1/05",
@@ -84,7 +84,7 @@ const compositions = {
                     description: `“But this year, to commemorate the [Moab] festival's 10th anniversary, Barrett decided on a slightly different approach. 'I wanted to do something special to celebrate our anniversary and to celebrate Moab,' Barrett told the Deseret News. So he commissioned a piece written especially for the festival by Utah Symphony associate concertmaster Gerald Elias.”`
                 },
             ],
-            description: `The narrator provides a dramatic reading of the reminiscences of Essie White, a pioneer of the west who ran her own ranch in the harsh wilderness outside of Moab, Utah from the 1930s.  Composed for the 10th anniversary of the Moab Music Festival and premiered on the first anniversary of 9-11.  In four movements in a folksy accessible style reflecting the alternating poignancy and humor of Essie's narrative.  “Conversations” has also been performed at the University of Utah, and in New York City by North/South Consonance. As an aside, Essie, then in her 97, mostly blind and hard of hearing, attended the premiere.  It was the first classical concert she ever went to.  Her whole family was there with her.  She said she really enjoyed it.  She passed away about a year later.`
+            description: `The narrator provides a dramatic reading of the reminiscences of Essie White, a pioneer of the west who ran her own ranch in the harsh wilderness outside of Moab, Utah from the 1930s. Composed for the 10th anniversary of the Moab Music Festival and premiered on the first anniversary of 9-11. Enthusiastically received by the Moab Festival audiences, "Conversations With Essie" was reprised on the 20th and 30th anniversaries of the Festival. In four movements in a folksy accessible style reflecting the alternating poignancy and humor of Essie's narrative. “Conversations” has also been performed at the University of Utah, and in New York City by North/South Consonance. As an aside, Essie, then in her 97, mostly blind and hard of hearing, attended the premiere. It was the first classical concert she ever went to. Her whole family was there with her. She said she really enjoyed it. She passed away about a year later.`
         },
         {
             name: `Second String Quartet`,

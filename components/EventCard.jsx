@@ -11,7 +11,7 @@ export default function EventCard({ event }){
                 <h3>{date}</h3>
                 {location ? <h4>{event.location}<span>&nbsp;{event.address}</span></h4> : null}
                 {event?.description ? <p>{event.description}</p> : null}
-                {hyperlink ? <a className="event-hyperlink" href={event.hyperlink}>Learn more</a> : null}
+                {hyperlink ? <a target="_blank" className="event-hyperlink" href={event.hyperlink}>Learn more</a> : null}
             </div>
         </div>
     )

@@ -1188,6 +1188,15 @@ textarea:focus, input:focus{
   margin-top: 1.5rem;
 }
 
+.read-more {
+  margin-top: 0.5rem;
+  text-decoration: underline;
+  cursor: pointer;
+  width: fit-content;
+  font-weight: 700;
+  font-style: italic;
+}
+
 @media (max-width: 750px) {
   #composing-content * {
     text-align: unset !important;

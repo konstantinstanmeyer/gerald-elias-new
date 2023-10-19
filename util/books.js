@@ -22,7 +22,7 @@ export const books = {
     "danse-macabre":{
         name: "Danse Macabre: A Daniel Jacobus Mystery",
         numInSeries: "2",
-        imageUrl: "/book-danse-macabre.jpeg",
+        imageUrl: "/book-danse-macabre.jpg",
         details: "This book should not be missed. -Aunt Agatha's Top Ten",
         description: [
             "Just after his Carnegie Hall swansong beloved violinist and humanitarian Rene Allard is brutally murdered with a mysterious weapon. His young African American rival, BTower, is spotted at the scene of the crime hovering over the body of Allard with blood on his hands. In short order the aloof and arrogant BTower is convicted and sentenced to death, in part the result of the testimony of blind and curmudgeonly violin pedagogue Daniel Jacobus. Justice has been served...or has it? Jacobus is dragged back into the case kicking and screaming, and reluctantly follows a trail of broken violins and broken lives as it leads inexorably to the truth, and to his own mortal peril.",
@@ -39,7 +39,7 @@ export const books = {
     "death-and-the-maiden": {
         name: "Death and the Maiden: A Daniel Jacobus Mystery",
         numInSeries: "3",
-        imageUrl: "/book-death-and-the-maiden.jpeg",
+        imageUrl: "/book-death-and-the-maiden.jpg",
         details: "Fast-paced and punchily written. -Library Journal",
         description: [
             `Dogged by internal dissension and by a potentially devastating lawsuit from its fired second violinist, the famed New Magini String Quartet is on the brink of professional and personal collapse. The quartet pins its hopes on a multi-media Carnegie Hall performance of Franz Schubert's masterpiece, "Death and the Maiden," to resurrect its faltering fortunes. But as the fateful downbeat approaches, a la Agatha Christie, one by one the quartet's musicians mysteriously vanish, including second violinist, Yumi Shinagawa, former student of renowned blind pedagogue and amateur sleuth, Daniel Jacobus. It is left up to the begrudging Jacobus, with his old friend, Nathaniel Williams, and a new member of the detective team, Trotsky the bulldog, to unravel the deadly puzzle. As usual, it ends up more than Jacobus bargained for.`,

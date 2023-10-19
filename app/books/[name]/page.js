@@ -3,7 +3,7 @@ import NotFound from "@/components/NotFound";
 
 export default function Book({ params }){
     // console.log(params)
-    const book = books[params?.name];
+    const book = books[params?.name?.replace("%26", "&")];
     console.log(params)
     console.log(book)
     const [quote, author] = book?.details?.split(' -') || [];

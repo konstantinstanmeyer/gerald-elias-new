@@ -1,3 +1,7 @@
+"use client"
+
+import { useState } from "react";
+
 // coditional logic map:
 // if (links.length === 1), return the name as an <a> tag wrapped with <q> tag, allowing for "display: inline" (on the parent <h3>) to be inherited on the quotations
 // possible alternative: wrap <a> tag with <p> tag container quotations, change <a> to be "display: inline-block" on the parent
@@ -7,6 +11,11 @@
 
 export default function CompositionCard({ composition }){
     const { name, keywords, details, links, quotes, description } = composition;
+    const [open, setOpen] = useState(false);
+
+    function handleClick(){
+
+    }
 
     return (
         <div className="composition-card">
@@ -19,13 +28,19 @@ export default function CompositionCard({ composition }){
             {details.length > 0 ? details.map((detail, i) => 
                 <h4 key={`rand` + i}>{detail}</h4>
             ): null}
-            <div className="quotes-wrapper">
-                {quotes.length > 0 ? quotes.map((quote, i) =>
-                    <p key={`com` + i} className="composition-quote">{quote.description}<span>&nbsp;{quote.author}</span></p>
-                )
-                : null}
-            </div>
-            <p className="composition-description">{description}</p>
+            {open ?
+            <>
+                <div className="quotes-wrapper">
+                    {quotes.length > 0 ? quotes.map((quote, i) =>
+                        <p key={`com` + i} className="composition-quote">{quote.description}<span>&nbsp;{quote.author}</span></p>
+                    )
+                    : null}
+                </div>
+                <p className="composition-description">{description}</p>
+                <p onClick={() => setOpen(false)} className="read-more">show less</p>
+            </>
+            : <p onClick={() => setOpen(true)} className="read-more">more info</p>
+            }
         </div>
     )
 }

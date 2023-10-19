@@ -16,10 +16,10 @@ export default function Books(){
                     <img src="/book-devil's-trill.jpg" />
                 </a>
                 <a className="book" href="/books/danse-macabre">
-                    <img src="/book-danse-macabre.jpeg" />
+                    <img src="/book-danse-macabre.jpg" />
                 </a>
                 <a className="book" href="/books/death-and-the-maiden">
-                    <img src="/book-death-and-the-maiden.jpeg" />
+                    <img src="/book-death-and-the-maiden.jpg" />
                 </a>
                 <a className="book" href="/books/death-and-disfiguration">
                     <img src="/book-death-and-disfiguration.jpg" />

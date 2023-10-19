@@ -39,7 +39,7 @@ const concerts = {
         chamberEnsembles: [
             {
                 type: 'text',
-                text: `Abramyan String Quartet I was the first violinist of the Abramyan String Quartet, which in its ten year existence (1993-2003) not only achieved extraordinarily high artistic standards, but toured Japan six times and had an enviable program of education and outreach that extended to schools, senior citizen centers, hospitals, and corrections facilities. The Abramyan Sting Quartet can be heard on CRI, Centaur, Tantarus, Off The Record, and Albany labels. I include just a few reviews we received over the years:`,
+                text: `I was the first violinist of the Abramyan String Quartet, which in its ten year existence (1993-2003) not only achieved extraordinarily high artistic standards, but toured Japan six times and had an enviable program of education and outreach that extended to schools, senior citizen centers, hospitals, and corrections facilities. The Abramyan Sting Quartet can be heard on CRI, Centaur, Tantarus, Off The Record, and Albany labels. I include just a few reviews we received over the years:`,
             },
             {
                 type: 'quote',
@@ -68,7 +68,7 @@ const concerts = {
             },
             {
                 type: 'text',
-                text: `During my Boston years I was the violinist in the Andover Trio with cellist William Thomas and pihich for many years was the resident piano trio of Phillips Academy in Andover, Massachusetts. Violinist Ronan Lefkowitz and I paired up for several years to form the vaunted Elias/Lefkowitz Duo which performed regularly at Boston's Institute for Contemporary Art. Among our greatest feats was a three-concert series including all 44 Bartok duos. I've also had the pleasure of performing as a free-lance chamber musician in series such as Nova, New Music Ensemble, and Canyonlands in Salt Lake City, Collage in Boston, and the Moab Music Festival. For three years (1989-91) between Thanksgiving and Christmas, my wife, Cecily, and I organized, hosted, and performed in a dozen chamber music concerts in our home, the proceeds of which went to the Salt Lake City Homeless Shelter.`
+                text: `During my Boston years I was the violinist in the Andover Trio with cellist William Thomas and pianist Barbara Kautzman, which for many years was the resident piano trio of Phillips Academy in Andover, Massachusetts. Violinist Ronan Lefkowitz and I paired up for several years to form the vaunted Elias/Lefkowitz Duo which performed regularly at Boston's Institute for Contemporary Art. Among our greatest feats was a three-concert series including all 44 Bartok duos. I've also had the pleasure of performing as a free-lance chamber musician in series such as Nova, New Music Ensemble, and Canyonlands in Salt Lake City, Collage in Boston, and the Moab Music Festival. For three years (1989-91) between Thanksgiving and Christmas, my wife, Cecily, and I organized, hosted, and performed in a dozen chamber music concerts in our home, the proceeds of which went to the Salt Lake City Homeless Shelter.`
             }
         ]
     }
