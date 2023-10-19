@@ -1220,7 +1220,7 @@ textarea:focus, input:focus{
 #teaching-content p {
   font-family: var(--font-poppins);
   font-weight: 300;
-  font-size: calc(calc(.012 * min(100vh, 900px)) + 0.5vw + 0.3rem) !important;
+  font-size: calc(calc(.012 * min(100vh, 900px)) + 0.3vw + 0.3rem) !important;
   margin-bottom: 2rem;
 }
 
