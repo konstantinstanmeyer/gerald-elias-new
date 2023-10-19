@@ -30,7 +30,6 @@ const events = {
             "address":"725 9th Ave, Seattle, WA 98104",
             "imageUrl":"event-seattle.jpeg",
             "description":"Joined by Gus Denhard on theorbo.",
-            "hyperlink":"https://skylineseattle.org/"
         }
     ],
     pastEvents: []
