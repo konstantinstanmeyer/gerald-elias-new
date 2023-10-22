@@ -28,21 +28,6 @@ export default function Home() {
             <a className="home-book" href="/books/murder-at-the-royal-albert">
                 <img src="/book-murder-at-the-royal-albert.jpg" />
             </a>
-            <a className="home-book" href="/books/symphonies-&-scorpions">
-                <img src="/book-symphonies-and-scorpions.jpg" />
-            </a>
-            <a className="home-book" href="/books/roundtree-days">
-                <img src="/roundtree-days.jpg" />
-            </a>
-            <a className="home-book" href="/books/it's-a-crime">
-                <img src="/book-its-a-crime.jpg" />
-            </a>
-            <a className="home-book" href="/books/the-beethoven-sequence">
-                <img src="/the-beethoven-sequence-book.jpg" />
-            </a>
-            <a className="home-book" href="/books/maestro-the-potbellied-pig">
-                <img src="/book-maestro.jpg" />
-            </a>
           </div>
           <a id="all-books" href="/books">
             ALL BOOKS

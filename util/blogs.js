@@ -2,6 +2,9 @@ const blogs = {
     index: {
         "2023": [
             "The Day After Memorial Day",
+            "The Burden of the Backlist",
+            "Buried Treasure",
+            "Passed Ball: MLB RIP",
         ]
     },
     blogsContent: {
@@ -41,6 +44,89 @@ const blogs = {
                 `Sei gutes Muts! ich bin nicht wild,`,
                 `Sollst sanft in meinen Armen schlafen!”`,
                 `Soon, the only sound in the Rockdale graveyard was the John Deere engine, and when the fuel was all spent, that, too, went silent, and the grass grew over the gravestones.`,
+            ]
+        },
+        "The Burden of the Backlist": {
+            name: "The Burden of the Backlist",
+            date: "FEBRUARY 16, 2023",
+            textBlocks: [
+                `I consider myself extremely fortunate. I’ve just released a self-published collection of 30 short mysteries entitled IT’S A CRIME! I’ve written a mystery series of eight books featuring the iconoclastic sleuth, Daniel Jacobus; two stand-alone mysteries, ROUNDTREE DAYS and THE BEETHOVEN SEQUENCE; a musical memoir called SYMPHONIES & SCORPIONS; a children’s book, MAESTRO, THE POTBELLIED PIG; and many more published short stories and essays. And all that in 14 years. I’m probably leaving some things out. Oh, yes. I have another collection of short stories featuring a very empathetic protagonist, a retired NYPD Police Chief named Maury Gross. The name of the collection is MURDER ON VACATION, and I’m in search of a publisher. Let me know if you’d like to be it. They’re terrific stories, if I do say so myself.`,
+                `So, what’s troubling me? I’ll tell you. It’s that with all these books, I now spend more time trying to promote (i.e. sell) them than I do writing. Email blasts, Facebook posts, Instagram photos, Amazon promotions, attending Zoom meetings of author organizations, doing events at bookstores, meeting with book clubs – that’s what I do.`,
+                `But when I speak to other authors, I realize I’ve just scratched the surface. There’s so much more that can be done. In just the past few days, one author told me how she is able to get customers to buy books directly from her website. Another author told me “how easy it is” to create audiobooks on Audible without having to pay any upfront money. But, isn’t it true that there are still only 24 hours in the day?`,
+                `In the old days, or so I’m told, the publisher was the driving force in the marketing of its books, but these ain’t the old days. These days, authors need to be social media experts to make a living. Try as I might, I haven’t developed the knack, perhaps because I really don’t like it. Thank God, I don’t have to rely on book sales to get by, because royalties and 50¢ (okay, $3.00) will get you a cup of coffee.`,
+                `Maybe it’s that I still have one foot in the 20th century. Maybe it’s that I’m 70. Or maybe it’s that I’ve just run out of good ideas, because it’s getting harder and harder to start – let alone finish – anything new. On the other hand, I know from speaking with authors who write better than I do how hard and frustrating it is for them to even get through the door to get one book published. Every once in a while, I’ll read one of my earlier books, come across a line I had forgotten I had written, and think, “Hey, that’s pretty good.” So, I can’t complain…but I guess I just did.`,
+
+            ]
+        },
+        "Buried Treasure": {
+            name: "Buried Treasure",
+            date: 'MARCH 12, 2022',
+            textBlocks: [
+                `Go to England or Israel with a shovel and start digging, and pretty soon you’re likely to unearth a bit of history or prehistory. Chances are it will be a mere bauble or broken potsherd, but if you’re lucky you’ll strike it rich, discovering an entire Roman mosaic or an Old Testament scroll.`,
+                `I’ve been that lucky, because the same, in a sense, is true for Baroque music repertoire. Even with the hundreds of composers we know of and their thousands of compositions, we’ve hardly scratched the surface. Less than a hundred years ago, for example, the gold mine named Antonio Vivaldi was virtually unknown. And the more we dig, the more we uncover. It’s as if the reservoirs of music are as unlimited as the earth’s vast stores of oil, and are much more environmentally friendly.`,
+                `Several years ago, I was researching repertoire for the annual Vivaldi by Candlelight chamber orchestra concert that I conduct, seeking “new” music by tapping into that bottomless reserve of Baroque repertoire. I stumbled across a composer I’d never heard of, Pietro Castrucci. A YouTube performance of six concerti grossi he had composed immediately grabbed my attention: They were dramatic, expressive, dynamic, and most impressively, his was a unique voice, distinct from his more illustrious contemporaries, Handel, Corelli, Vivaldi, and Bach.`,
+                `I immediately added his music on the program. But, in addition, as a violinist I’m always trying to expand my own repertoire to perform in recital. I was delighted to discover that Castrucci also composed 12 violin sonatas as his opus 1. To my chagrin, I was not only unable to find a recording of more than one or two of them (though a few had been transcribed for flute), the only print edition of his sonatas was the original one from 1718!`,
+                `The more I learned about Castrucci, the more I felt a kinship. His music will never see the kind of revival that Vivaldi’s had, not that it is in any way inferior, but because he composed so little of it. And the reason? He had a day job. In 1715, he and his brother Prospero were recruited to go to London from their homes in Italy in order to become the concertmaster and principal second violinist, respectively, of an opera company orchestra that had been created expressly for Handel. Pietro remained in that position for twenty years, and in that period he only had time to compose two sets of violin sonatas and the one set of twelve concerti grossi referenced above. As a full-time orchestra player myself for 36 years–and for most of that time an associate concertmaster–I felt like I knew this guy: practicing new repertoire every week, going to endless rehearsals, late night performances, and fitting in recitals and compositions when time (and energy) permitted.`,
+                `If I ever needed a mission in life, I now had one. This man’s music needed to be heard. To make a long story very, very short, I’ve made the first recording in history of the entire opus 1 by Pietro Castrucci, in collaboration with harpsichordist Pamela Palmer-Jones and cellist Noriko Kishi. These sonatas are fantastic, traversing as wide an expressive spectrum as one could hope for, from darkly turbulent to light-as-a-feather charming. The 18th-century music historian, Charles Burney wrote, “[Castrucci] was long thought insane…his compositions were too mad for his own age.” They might not seem as insane to us today, but they remain as fresh distinctive as on the day they were composed. The recording will be released by Centaur Records on April 1.`,
+                `To “launch” the recording, my colleagues and I are presenting a free lecture and performance at the University of Utah School of Music on Friday, April 22. If you can make it, you’ll experience buried treasure that’s been hidden for 300 years.`,
+            ]
+        },
+        "Passed Ball: MLB RIP": {
+            name: "Passed Ball: MLB RIP",
+            date: "MARCH 3, 2022",
+            textBlocks: [
+                `Why Does No One Give a Damn About Major League Baseball Anymore? Let Me Count The Ways.`,
+                `Back in the day:`,
+                `There was no pitch count.`,
+                `There was no metadata.`,
+                `There was no designated hitter.`,
+                `There was no automatic walk.`,
+                `There was no instant replay.`,
+                `There was no strike zone graphic.`,
+                `There was no radar gun.`,
+                `There was no slow motion replay.`,
+                `There was no Jumbotron.`,
+                `There were no agents or free agents.`,
+                `There were no batting gloves.`,
+                `There were no new baseballs for every pitch.`,
+                `There was no umpire video review.`,
+                `There were no multi-million dollar players.`,
+                `There was no home-run bat toss.`,
+                `There was no pointing towards heaven for a two-out walk.`,
+                `There was no infield shift.`,
+                `There was no bench coach.`,
+                `There were no six-inning, “value” starts.`,
+                `There were no relief pitchers every inning.`,
+                `They didn’t celebrate walk-off singles.`,
+                `There were no strikes or lockouts.`,
+                `On the other hand:`,
+                `There were day games.`,
+                `There were affordable tickets.`,
+                `There were doubleheaders (Sunday, Lady’s Day, Labor Day, Twi-night).`,
+                `There was playing for a run.`,
+                `There was hit and run.`,
+                `There were sacrifice bunts.`,
+                `There were bunts for base hits.`,
+                `There were squeeze plays.`,
+                `There was hitting behind the runner.`,
+                `There were players with nicknames like Lefty, Whitey, and Moose.`,
+                `There were media photographers on the field.`,
+                `There were players, including stars, drafted into the armed forces.`,
+                `There were players who owned hardware stores to make ends meet in the offseason.`,
+                `There were arguments with umpires and civility in the stands.`,
+                `There was Robert Merrill singing the national anthem.`,
+                `There was real organ music.`,
+                `There was high-and-tight: brushback, not retaliation.`,
+                `There were stolen bases.`,
+                `There were double steals.`,
+                `There was something in between hitting homeruns and striking out.`,
+                `There was a World Series in October.`,
+                `There was an Old Timers game.`,
+                `The closer came in when the starter got in a jam, not in the 9th inning when the score was 5-2.`,
+                `There were complete games.`,
+                `There were knuckleball pitchers.`,
+                `There were teams, not individual players.`,
+                `When baseball was baseball.`
             ]
         }
     }

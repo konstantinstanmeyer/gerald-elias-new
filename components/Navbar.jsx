@@ -3,9 +3,6 @@ import options from "@/util/options"
 import Hamburger from "./Hamburger"
 
 export default function Navbar(){
-
-
-
     return (
         <div id="navbar">
             <a href="/">
