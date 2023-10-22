@@ -4,6 +4,7 @@ import Footer from '@/components/Footer'
 import './globals.css'
 import { Outfit, Playfair_Display, Cormorant, Overpass, Red_Hat_Mono, Montserrat, Poppins } from 'next/font/google'
 import MobileNav from '@/components/MobileNav'
+import { NextAuthProvider } from './providers'
 
 export const metadata = {
   title: 'Gerald Elias',
@@ -59,12 +60,14 @@ const poppins = Poppins({
 export default function RootLayout({ children }) {
   return (
     <html className={`${outfit.variable} ${playfair_display.variable} ${cormorant.variable} ${overpass.variable} ${red_hat_mono.variable} ${montserrat.variable} ${poppins.variable}`} lang="en">
-      <body className="">
-        <Navbar />
-        <MobileNav />
-        {children}
-        <Footer />
-      </body>
+      <NextAuthProvider>
+        <body className="">
+          <Navbar />
+          <MobileNav />
+          {children}
+          <Footer />
+        </body>
+      </NextAuthProvider>
     </html>
   )
 }

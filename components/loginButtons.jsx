@@ -6,6 +6,6 @@ export default function LoginButtons(){
     return (
         <p onClick={() => {
             signIn("google");
-        }}></p>
+        }}>login</p>
     )
 }

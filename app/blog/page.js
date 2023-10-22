@@ -1,6 +1,6 @@
 import Landing from "@/components/Landing";
 import blogs from "@/util/blogs";
-import LoginButtons from "@/components/loginButtons";
+import LoginButtons from "@/components/LoginButtons";
 
 export default function Blog(){
     return(
