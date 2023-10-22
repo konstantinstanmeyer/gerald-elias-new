@@ -2,6 +2,8 @@
 
 import { useState } from "react";
 
+const BASE_URL = "https://mysteriesandmusic.com";
+
 export default function Contact(){
     // const [captchaVal, setCaptchaVal] = useState(null);
     const [status, setStatus] = useState("");
@@ -25,7 +27,7 @@ export default function Contact(){
             return setStatus("invalid");
         } else {
             try {
-                const response = await fetch('/api/post-email', {
+                const response = await fetch(BASE_URL + '/api/post-email', {
                     method: 'POST',
                     body: JSON.stringify(body),
                     headers: {
