@@ -37,6 +37,7 @@ export default function Contact(){
                     setStatus("success")
                 } else {
                     setStatus("error");
+                    console.log(response)
                 };
             } catch(e) {
                 setStatus("error");
