@@ -838,12 +838,12 @@ textarea:focus, input:focus{
 
 #contact {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
-  height: 80vh;
+  height: 60vh;
   flex-direction: column;
-  padding-top: 15vh;
-  padding-bottom: 15vh;
+  padding-top: 20vh;
+  /* padding-bottom: 15vh; */
   margin-bottom: 5vh;
 }
 
@@ -859,7 +859,7 @@ textarea:focus, input:focus{
   position: relative;
   font-family: var(--font-montserrat);
   width: 20%;
-  margin-top :2rem;
+  /* margin-top :2rem; */
   z-index: 40;
 }
 
@@ -873,7 +873,8 @@ textarea {
   width: 100%;
   margin-top: 0.3rem;
   position: absolute;
-  bottom: -20px;
+  bottom: -30px;
+  display:flex;
 }
 
 .error {
@@ -959,6 +960,7 @@ textarea {
   margin-right: auto;
   padding: 4px;
   font-family: var(--font-montserrat);
+  font-size: 1.2rem;
   transition: 0.3s all;
 }
 
