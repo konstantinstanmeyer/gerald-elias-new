@@ -9,6 +9,12 @@ button {
   appearance: none;
 }
 
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
 html {
   background-color: white;
   scroll-behavior: smooth;
@@ -834,9 +840,10 @@ textarea:focus, input:focus{
   display: flex;
   justify-content: center;
   align-items: center;
-  /* height: 80vh; */
+  height: 80vh;
   flex-direction: column;
   padding-top: 15vh;
+  padding-bottom: 15vh;
   margin-bottom: 5vh;
 }
 
