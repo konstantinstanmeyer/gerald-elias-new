@@ -10,9 +10,11 @@ export default function Newsletter(){
     async function submitContact(e){
         e.preventDefault();
 
-        console.log('in function')
+        setStatus("loading");
 
-        if(emailRegex.test(email)) {
+        // console.log('in function')
+
+        if (emailRegex.test(email)) {
             const response = await fetch('/api/post-contact', {
                 method: 'POST',
                 headers: {
@@ -26,6 +28,8 @@ export default function Newsletter(){
             if(response.status === 200){
                 setStatus("success");
                 setEmail("")
+            } else {
+                setStatus("error");
             }
         } else { 
             setStatus("invalid");
@@ -42,6 +46,8 @@ export default function Newsletter(){
         <form onSubmit={submitContact}>
             <input id="newsletter-input" disabled={status === "success" ? true : false} value={email} onChange={e => handleInputChange(e)} placeholder="Please enter your email" />
             {status === "idle" && <button type="submit">SUBMIT</button>}
+            {status === "loading" && <button type="submit">LOADING...</button>}
+            {status === "error" && <button type="submit">SERVER ERROR</button>}
             {status === "invalid" && <button type="submit">INVALID</button>}
             {status === "success" && <button disabled>SUCCESS</button>}
         </form>

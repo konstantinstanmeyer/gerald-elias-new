@@ -6,13 +6,15 @@
 button {
   -webkit-appearance: none;
   -moz-appearance: none;
-  appearance: none;
+  appearance: none !important;
 }
 
 input {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  outline: none !important;
+  box-shadow: none !important;
 }
 
 html {
@@ -67,7 +69,8 @@ textarea:focus, input:focus{
 #landing-text {
   font-family: var(--font-playfair-display);
   color: white;
-  font-size: 1.5rem;
+  /* inherits: none; */
+  font-size: calc(calc(.012 * min(100vh, 900px)) + 1.2vw + 0.5rem) !important;
   width: 25%;
   margin-left: 2rem;
 }
@@ -76,20 +79,26 @@ textarea:focus, input:focus{
   text-decoration: none;
   width: fit-content;
   height: fit-content;
-  border: 2px solid white;
+  /* border: 2px solid white; */
   color: white;
   font-family: var(--font-red-hat-mono);
-  font-size: 1rem;
-  padding: 2px 8px 2px 8px;
+  font-size: calc(calc(.012 * min(100vh, 900px)) + 0.5vw + 0.1rem) !important;
+  /* padding: 2px 8px 2px 8px; */
   word-spacing: 1px;
-  font-weight: 400;
+  font-weight: 600;
+  top: -1rem;
+  position: relative;
+  text-decoration: underline;
+  margin-left: 2px;
+  text-underline-offset: 5px;
 }
 
 #landing-description {
   font-family: var(--font-playfair-display);
   font-weight: 400;
   font-style: italic;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: calc(calc(.012 * min(100vh, 900px)) + 0.8vw + 0.3rem) !important;
 }
 
 .home-book {
@@ -633,11 +642,14 @@ textarea:focus, input:focus{
   position: relative;
 }
 
-#socials > a img {
+#socials-images img {
   width: 3rem;
   position: relative;
-  margin-left: 1rem;
   margin-right: 1rem;
+}
+
+#socials-images {
+  margin-left: 10%;
 }
 
 #footer h3 {
@@ -689,7 +701,7 @@ textarea:focus, input:focus{
   margin-right: 0.5rem;
   font-family: var(--font-montserrat);
   width: 60%;
-  font-size: calc(calc(.012 * min(100vh, 900px)) + 0.2vw + 0.3rem) !important;
+  font-size: calc(calc(.012 * min(100vh, 900px)) + 0.3vw + 0.1rem) !important;
 }
 
 #newsletter-input-container button {
@@ -1066,6 +1078,7 @@ textarea {
   font-size: calc(calc(.012 * min(100vh, 900px)) + 0.5vw) !important;
   font-family: var(--font-poppins);
   font-weight: 400;
+  cursor: default;
 }
 
 #hint-container > img {
@@ -1083,6 +1096,10 @@ textarea {
   background-color: black;
   padding-top: 0.3rem;
   padding-bottom: 0.3rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #concerts-content {
@@ -1103,10 +1120,10 @@ textarea {
   margin-bottom: 0.5rem;
 }
 
-#dev-credits > a {
+#dev-credits > * {
   color: white;
   text-decoration: none;
-  margin-left: 1rem;
+  /* margin-left: 1rem; */
   font-family: var(--font-montserrat);
   font-size: 0.8rem;
   display: block;
@@ -1296,6 +1313,10 @@ textarea {
 
 @media (max-width: 750px) {
 
+  #learn-more {
+    margin-left: 0px;
+  }
+
   #long-bio > img:last-of-type{
     margin-bottom: 2rem;
   }
@@ -1400,7 +1421,7 @@ textarea {
   }
 
   #mobile-nav.active {
-    height: 100vh;
+    height: 100vh !important;
     justify-content: flex-start;
     /* display: block; */
     /* position: relative; */
@@ -1418,9 +1439,10 @@ textarea {
     -moz-animation: fadeIn 0.5s;
     -o-animation: fadeIn 0.5s;
     -ms-animation: fadeIn 0.5s;
-    margin-top: 15vh;
+    margin-top: 10vh;
     width: 100%;
     align-items: center;
+    overflow-y: scroll;
   }
 
   #mobile-nav-links > a {
@@ -1436,12 +1458,16 @@ textarea {
     margin-bottom: 0.3rem;
   }
 
+  #mobile-nav-links > a:first-child{
+    margin-top: 5vh;
+  }
+
   #mobile-nav.active #mobile-nav-links {
     display:flex;
     flex-direction: column;
     font-family: var(--font-poppins);
     font-weight: 300;
-    height: 40vh;
+    height: 90vh;
   }
 
   .mobile-options {
@@ -1522,15 +1548,38 @@ textarea {
 
   #socials {
     padding: 0;
-    width: 90vw;
-    margin-bottom: 0.5rem;
+    width: 100vw;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  #footer h3:first-child {
+    width: fit-content !important;
+    margin-left: 10% !important;
+    /* margin-left: 0 !important; */
+    margin-right: 0 !important;
+
+  }
+
+  #socials-images img {
+    /* margin-right: 0; */
+    /* justify-content:space-around; */
+  }
+
+  #socials-images {
+    display: flex;
+    flex-direction: row;
   }
 
   #socials h3 {
     margin: 0;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    padding-left: 1.3rem;
+    /* padding-left: 1.3rem; */
+    text-align: center;
+    width: 100%;
   }
 
   #newsletter {
@@ -1544,7 +1593,8 @@ textarea {
 
   #newsletter-input-container{
     margin: 0;
-    margin-left: 2.3rem;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 1rem;
   }
 
@@ -1577,9 +1627,12 @@ textarea {
   }
 
   #landing-text {
-    width: 80%;
+    width: 70%;
     margin-top: 1rem;
-    font-size: 1.2rem;
+    /* font-size: 1.2rem !important; */
+    margin-left: 0;
+    /* display: flex;
+    align-items: center; */
   }
 
   #about-text {
@@ -1616,19 +1669,19 @@ textarea {
     font-family: var(--font-outfit);
     font-weight: 600;
     justify-content: center;
-    margin-left: 1.5rem;
+    margin-left: 10%;
     width: fit-content;
   }
 
   p.about-mobile-text {
-    padding-left: 1.5rem !important;
+    padding-left: 10% !important;
     padding-right: 1.5rem !important;
     font-size: 18px !important;
     margin-bottom: 1.5rem;
   }
 
   #about-more.about-mobile {
-    margin-left: 1.5rem;
+    margin-left: 10%;
     margin-bottom: 4rem;
     font-size: 1rem;
   }
@@ -1830,6 +1883,13 @@ textarea {
 } */
 
 @media (max-width: 400px){
+  /* #socials-images {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content:space-around;
+  } */
+
   #about-mobile-img {
     margin: unset;
     margin-top: 10%;
@@ -1838,6 +1898,7 @@ textarea {
     float: unset;
     width: 80%;
     margin-left: 10%;
+    margin-right: 10%;
   }
 
   #about-gerald-mobile{

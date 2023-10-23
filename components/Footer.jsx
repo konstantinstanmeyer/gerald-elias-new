@@ -6,7 +6,7 @@ export default function Footer(){
             <div id="footer">
                 <div id="socials">
                     <h3>FOLLOW <span>GERALD</span></h3>
-                    <div id="socials">
+                    <div id="socials-images">
                         <a target="_blank" href="https://www.facebook.com/EliasBooks/">
                             <img src="/facebook.png" />
                         </a>
@@ -30,7 +30,7 @@ export default function Footer(){
                 </div>
             </div>
             <div id="dev-credits">
-                <a target="_blank" href="https://www.linkedin.com/in/konstantin-stanmeyer/">Website design by Konstantin Stanmeyer</a>
+                <p>&#169; Gerald Elias | All Rights Reserved | Website by </p>&nbsp;<a target="_blank" href="https://www.linkedin.com/in/konstantin-stanmeyer/"><strong>Konstantin Stanmeyer</strong></a>
             </div>
         </>
     )

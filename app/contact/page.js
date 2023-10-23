@@ -58,12 +58,12 @@ export default function Contact(){
                 <h6>Message*</h6>
                 <textarea name="message" />
                 <button disabled={status === "success" ? true : false} type="submit">SUBMIT</button>
-                {status === "invalid" && <span className="error">invalid email address</span>}
-                {status === "success" && <span className="success">success</span>}
+                {status === "invalid" && <span className="error">Invalid email address</span>}
+                {status === "success" && <span className="success">Success! Thank you for reaching out</span>}
                 {status === "loading" && <span>loading...</span>}
-                {status === "error" && <span className="error">error</span>}
-                {status === "captcha" && <span className="error">error</span>}
-                {status === "empty" && <span className="error">fill all required fields (marked by "*")</span>}
+                {status === "error" && <span className="error">Error</span>}
+                {status === "captcha" && <span className="error">Error</span>}
+                {status === "empty" && <span className="error">Fill all required fields (marked by *)</span>}
                 {/* {status} */}
             </form>
             {/* <ReCAPTCHA 

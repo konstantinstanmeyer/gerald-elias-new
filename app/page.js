@@ -5,7 +5,7 @@ export default function Home() {
         <div loading="lazy" id="landing" className="">
           <img loading="lazy" id="landing-image" src="/murder-at-the-royal-albert-audiobook.jpeg" />
           <div id="landing-text">
-            <h2>PRE-ORDER <span>'MURDER AT THE ROYAL ALBERT'</span> AUDIOBOOK</h2>
+            <p>PRE-ORDER <span>'MURDER AT THE ROYAL ALBERT'</span> AUDIOBOOK</p>
             <p id="landing-description">experience the thrill of live performances woven into the tale</p>
             <a id="learn-more" href="/books/audiobooks/murder-at-the-royal-albert">MORE DETAILS</a>
           </div>
@@ -13,20 +13,20 @@ export default function Home() {
         <div id="home-books-container">
           <div id="home-books-list">
             <h2 id="home-books-header">Books</h2>
-            <a className="home-book" href="/books/death-and-disfiguration">
-                <img src="/book-death-and-disfiguration.jpg" />
+            <a className="home-book" href="/books/murder-at-the-royal-albert">
+                <img src="/book-murder-at-the-royal-albert.jpg" />
             </a>
-            <a className="home-book" href="/books/playing-with-fire">
-                <img src="/book-playing-with-fire.jpg" />
+            <a className="home-book" href="/books/roundtree-days">
+                <img src="/roundtree-days.jpg" />
             </a>
-            <a className="home-book" href="/books/spring-break">
-                <img src="/book-spring-break.jpg" />
+            <a className="home-book" href="/books/symphonies-&-scorpions">
+                <img src="/book-symphonies-and-scorpions.jpg" />
+            </a>
+            <a className="home-book" href="/books/it's-a-crime">
+                <img src="/book-its-a-crime.jpg" />
             </a>
             <a className="home-book" href="/books/cloudy-with-a-chance-of-murder">
                 <img src="/book-cloudy-with-a-chance-of-murder.jpg" />
-            </a>
-            <a className="home-book" href="/books/murder-at-the-royal-albert">
-                <img src="/book-murder-at-the-royal-albert.jpg" />
             </a>
           </div>
           <a id="all-books" href="/books">

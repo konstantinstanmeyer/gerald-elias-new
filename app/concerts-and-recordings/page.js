@@ -16,7 +16,7 @@ export default function Performances(){
                     <p>News flash! When my recording of the <span>12 Sonatas for violin, OP. 1</span>, by the Baroque Virtuoso Pietro Castrucci-the first complete recording ever-it was the #1 best-selling new chamber music release on Amazon! It is also available for streaming and download on major listening platforms <a target="_blank" href="https://www.amazon.com/dp/B09T77XL2D">here</a>.</p>
                 </div> */}
                 <div id="concerts-advert">
-                    <p>When my recording of the <span>12 Sonatas for violin, OP. 1</span>, by the Baroque Virtuoso Pietro Castrucci-the first complete recording ever-it was the #1 best-selling new chamber music release on Amazon! It is also available for streaming and download on major listening platforms <a target="_blank" href="https://www.amazon.com/dp/B09T77XL2D">here</a>.</p>
+                    <p>When my recording of the <span>12 Sonatas for violin, OP. 1</span>, by the <span>Baroque Virtuoso Pietro Castrucci</span> was released in 2021-the first complete recording ever-it was the #1 best-selling new chamber music release on Amazon! It is also available for streaming on major listening platforms.</p>
                     <p>Read <a target="_blank" href="https://www.thestrad.com/reviews/gerald-elias-pietro-castrucci/15073.article">this incredible review</a> from <span>The Strad!</span></p>
                 </div>
                 <h2>Orchestra Life</h2>

@@ -24,7 +24,7 @@ const events = {
             "hyperlink":"https://utahglobaldiplomacy.org/events/vivaldi"
         },
         {
-            "date":"October 28th, 2023",
+            "date":"January 12th, 2024",
             "name":"Vivaldi sonata violin recital & book talk",
             "location":"Skyline Retirement Community",
             "address":"725 9th Ave, Seattle, WA 98104",
