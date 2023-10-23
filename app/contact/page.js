@@ -25,7 +25,7 @@ export default function Contact(){
             return setStatus("invalid");
         } else {
             try {
-                const response = await fetch('https://mysteriesandmusic.com/api/post-email', {
+                const response = await fetch('https://www.mysteriesandmusic.com/api/post-email', {
                     method: 'POST',
                     body: JSON.stringify(body),
                     headers: {
