@@ -30,7 +30,7 @@ export default function Footer(){
                 </div>
             </div>
             <div id="dev-credits">
-                <p>&#169; Gerald Elias | All Rights Reserved | Website by </p>&nbsp;<a target="_blank" href="https://www.linkedin.com/in/konstantin-stanmeyer/"><strong>Konstantin Stanmeyer</strong></a>
+                <p>&#169; Gerald Elias | All Rights Reserved | Website by&nbsp;<a target="_blank" href="https://www.linkedin.com/in/konstantin-stanmeyer/"><strong>Konstantin Stanmeyer</strong></a></p>
             </div>
         </>
     )
