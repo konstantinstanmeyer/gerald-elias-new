@@ -25,7 +25,7 @@ const events = {
         },
         {
             "date":"January 12th, 2024",
-            "name":"Vivaldi sonata violin recital & book talk",
+            "name":"Vivaldi violin sonata recital & book talk",
             "location":"Skyline Retirement Community",
             "address":"725 9th Ave, Seattle, WA 98104",
             "imageUrl":"event-seattle.jpeg",
