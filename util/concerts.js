@@ -14,12 +14,12 @@ const concerts = {
             {
                 type: 'quote',
                 text: `“Particularly impressive from Elias' standpoint were the mounting passion and incisiveness of the unaccompanied introduction, [Ravel 'Tzigane', Utah Symphony]  In short, a virtuoso performance, and not just from Ravel.”`,
-                author: 'Deseret News 3/28/93'
+                author: 'Deseret News'
             },
             {
                 type: 'quote',
                 text: `“[Elias] turned in a pleasingly uninsistent account, [Mozart Concerto #3, Utah Symphony] ennobled by natural phrasing and, in the warmly aromatic slow movement, easeful ornaments and an unerring sense of line . . . he pretty much let the music speak for itself. Which, I suppose, is not an inconsiderable interpretive gift on its own.”`,
-                author: 'Deseret News, 3/5/90'
+                author: 'Deseret News'
             },
             {
                 type: 'text',
@@ -28,12 +28,12 @@ const concerts = {
             {
                 type: 'quote',
                 text: `“Elias ... showed himself to be an outstanding recitalist. He is an exceptionally talented and sublime musician. His musicality is impressive, and his technical skill is unsurpassed.”`,
-                author: 'Deseret News, 4/06/01'
+                author: 'Deseret News'
             },
             {
                 type: 'quote',
                 text: `“Arguably the most rewarding of these surprises was Elias' stunning performance of Eugene Ysaye's Unaccompanied Sonata No. 2. [Elias] wowed the audience with his musicianship and conviction in this virtuoso tour-de-force.”`,
-                author: "Salt Lake Tribune, 6/1/03"
+                author: "Salt Lake Tribune"
             }
         ],
         chamberEnsembles: [
@@ -44,27 +44,27 @@ const concerts = {
             {
                 type: 'quote',
                 text: `“The Abramyan is without question one of the finest string quartets around. As with the Janacek, the [Berg] 'Lyric Suite' is an intense, gripping and totally enthralling work. And the Abramyan was unbelievable in their performance of this hypnotic work.”`,
-                author: 'Deseret News, 1/31/00'
+                author: 'Deseret News'
             },
             {
                 type: 'quote',
                 text: `“I don't think it's an exaggeration to say that the Abramyan has a fresher and more creative approach to the quartet repertoire than many full-time groups. Its performances have consistently been vibrant and dynamic, never routine or mechanical.”`,
-                author: 'Deseret News, 5/25/03'
+                author: 'Deseret News'
             },
             {
                 type: 'quote',
                 text: `“I don't think it's an exaggeration to say that the Abramyan has a fresher and more creative approach to the quartet repertoire than many full-time groups. Its performances have consistently been vibrant and dynamic, never routine or mechanical.”`,
-                author: 'Deseret News, 5/25/03'
+                author: 'Deseret News'
             },
             {
                 type: 'quote',
                 text: `Sunday evening, Schub made his local chamber-music debut performing with the Abramyan Quartet. And together, these five musicians gave an exceptionally dynamic and electrifying performance of Schumann's great Piano Quintet in E flat major, op. 44. Their interpretation was passionate, refreshingly bold, and yet full of subtle nuances that gave the music depth and a dramatic and distinctively unique personality. It would be difficult indeed to find an interpretation of the Schumann quintet that could surpass this emotionally charged and vivid performance.”`,
-                author: 'Deseret News, 10/30/00'
+                author: 'Deseret News'
             },
             {
                 type: 'quote',
                 text: `The four musicians played the Beethoven (opus 130) work magnificently. Their interpretation was imbued with power and passion, and in their hands, it became a very personal statement. They brought out all of the work's intensity and emotions in a performance that was quite simply electrifying and stupendous.”`,
-                author: 'Deseret News, 4/17/00'
+                author: 'Deseret News'
             },
             {
                 type: 'text',

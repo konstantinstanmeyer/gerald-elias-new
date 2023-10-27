@@ -128,6 +128,13 @@ const blogs = {
                 `There were teams, not individual players.`,
                 `When baseball was baseball.`
             ]
+        },
+        "“Killing the Conductor” and a lot more": {
+            name: "“Killing the Conductor” and a lot more",
+            date: "NOVEMBER 28, 2022",
+            textBlocks: [
+                ``
+            ]
         }
     }
 }

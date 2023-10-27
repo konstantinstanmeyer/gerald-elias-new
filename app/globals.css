@@ -590,15 +590,15 @@ textarea:focus, input:focus{
 }
 
 #daniel-j-header {
-  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../public/mystery-header.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../public/mystery.jpg');
 }
 
 #more-books-header {
-  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../public/more-books-header.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../public/boy-reading.jpg');
 }
 
 #audiobooks-header {
-  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../public/audiobooks-header.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../public/audio.jpg');
 }
 
 #events {
