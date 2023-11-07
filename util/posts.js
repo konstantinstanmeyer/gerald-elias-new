@@ -1,10 +1,10 @@
 const posts = {
     index: {
         "2023": [
+            "Wanna Be a Crime Writer?",
             "Gerald Elias's Three Favorite Reads of 2023",
             "The Day After Memorial Day",
             "The Burden of the Backlist",
-            "Wanna Be a Crime Writer?"
         ],
         "2022": [
             "Buried Treasure",
