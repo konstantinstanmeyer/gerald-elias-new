@@ -1,13 +1,34 @@
-const blogs = {
+const posts = {
     index: {
         "2023": [
+            "Gerald Elias's Three Favorite Reads of 2023",
             "The Day After Memorial Day",
             "The Burden of the Backlist",
+            "Wanna Be a Crime Writer?"
+        ],
+        "2022": [
             "Buried Treasure",
             "Passed Ball: MLB RIP",
         ]
     },
     blogsContent: {
+        "Wanna Be a Crime Writer": {
+            name: "Wanna Be a Crime Writer?",
+            date: 'NOV 7, 2023',
+            textBlocks: [
+                `Wanna be a crime writer? Of course you do! I'm having a contest open to all, and here's your chance to be A PUBLISHED AUTHOR!`,
+                `Write a short story of up to 500 words using ALL of the following terms, and I'll publish my five favorites on my brand new super-duper website.`,
+                `Here you go: (1) Moonlight Sonata (2) Grand Slam (3) Slinky (4) Chain Saw (5) Turkey`,
+                `Submit your story by Thanksgiving on my website contact page. This is NOT a competition. (Yes, actually it is.) Feel free to invite family and friends to participate, though that might lower your chances of winning to nil.`,
+                `Okay, get started. You've got a deadline to meet!`,
+            ],
+        },
+        "Gerald Elias's Three Favorite Reads of 2023": {
+            name: "Gerald Elias's Three Favorite Reads of 2023",
+            date: 'NOV 6, 2023',
+            textBlocks: [],
+            hyperlink: "https://shepherd.com/bboy/2023/f/gerald-elias"
+        },
         "The Day After Memorial Day": {
             name: "The Day After Memorial Day",
             date: "MAY 31, 2023",
@@ -129,14 +150,7 @@ const blogs = {
                 `When baseball was baseball.`
             ]
         },
-        "“Killing the Conductor” and a lot more": {
-            name: "“Killing the Conductor” and a lot more",
-            date: "NOVEMBER 28, 2022",
-            textBlocks: [
-                ``
-            ]
-        }
     }
 }
 
-export default blogs;
+export default posts;

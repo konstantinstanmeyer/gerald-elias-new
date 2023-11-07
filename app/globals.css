@@ -1146,6 +1146,7 @@ textarea {
 
 #blog-post { 
   margin-top: 20vh; 
+  margin-bottom: 10vh;
 }
 
 #blog-content {
@@ -1172,7 +1173,7 @@ textarea {
 #blog-content span {
   color: black;
   text-decoration: none;
-  margin-left: 2rem;
+  margin-left: 0.75rem;
 }
 
 #blog-post {

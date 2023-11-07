@@ -14,7 +14,7 @@ export default function Navbar(){
                 <Dropdown name={'MUSIC'} options={options[0]} />
                 <Dropdown name={'ABOUT'} options={options[1]} />
                 <a href="/events">EVENTS</a>
-                <a href="/blog">BLOG</a>
+                <a href="/posts">POSTS</a>
                 <a href="/contact">CONTACT</a>
                 {/* <a href="/admin">ADMIN</a> */}
             </ul>
