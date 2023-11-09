@@ -20,7 +20,7 @@ export default function Events(){
                 <div className="events-list">
                     {events.pastEvents.length > 0 ? 
                     events.pastEvents.map((entry, i) => 
-                        <EventCard event={entry} />
+                        <EventCard key={i + "event"} event={entry} />
                     )
                     : <h3 className="event-none">nothing to find here, yet...</h3>}
                 </div>

@@ -1,7 +1,7 @@
 const events = {
     upcoming: [
         {
-            "date":"Saturday, November 18th, 2023",
+            "date":"Saturday, November 18th, 2023 @ 6:30pm PST",
             "name":"Author Roundtable",
             "location":"Folio Library",
             "address":"93 Pike St #307, Seattle, WA 98101",
@@ -9,7 +9,7 @@ const events = {
             "hyperlink":"https://www.folioseattle.org/event-details/musical-murder-mystery-an-author-roundtable"
         },
         {
-            "date":"December 1st, 2023",
+            "date":"Friday, December 1st, 2023",
             "name":"Let It Snow",
             "location":"Online Event",
             "imageUrl":"let-it-snow.jpeg",
@@ -17,7 +17,7 @@ const events = {
             "hyperlink":"https://www.facebook.com/events/821999746332037/"
         },
         {
-            "date":"Saturday, December 2nd, 2023",
+            "date":"Saturday, December 2nd, 2023 @ 8:00pm MST",
             "name":"Conducting the annual Vivaldi by Candlelight Concert",
             "location":"First Presbyterian Church of Salt Lake City",
             "address":"12 C St E, Salt Lake City, UT 84103",
@@ -25,7 +25,15 @@ const events = {
             "hyperlink":"https://utahglobaldiplomacy.org/events/vivaldi"
         },
         {
-            "date":"January 12th, 2024",
+            "date":"Thursday, December 14th, 2023",
+            "name":"AUTHOR EVENT WITH STITCH",
+            "location":"Online Event",
+            "description": "Stitch is the world's largest companionship community created by members, for members, creating community and companionship for anyone over 50. Meet Gerald Elias and learn about writing mysteries, his writing process, and his books.",
+            "imageUrl":"stitch.png",
+            "hyperlink":"https://www.stitch.net/app/event/486764/united-states-crown-hill/author-eventgerald-elias"
+        },
+        {
+            "date":"Friday, January 12th, 2024",
             "name":"Vivaldi violin sonata recital & book talk",
             "location":"Skyline Retirement Community",
             "address":"725 9th Ave, Seattle, WA 98104",

@@ -1,8 +1,8 @@
-export default function EventCard({ event }){
+export default function EventCard({ event, key }){
     const { imageUrl, name, date, location, address, hyperlink} = event;
 
     return (
-        <div className="event-card">
+        <div key={key} className="event-card">
             <div className="event-image-container">
                 <img src={imageUrl} />
             </div>
