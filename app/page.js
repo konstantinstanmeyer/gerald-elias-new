@@ -6,7 +6,7 @@ export default function Home() {
           <img loading="lazy" id="landing-image" src="/murder-at-the-royal-albert-audiobook.jpeg" />
           <div id="landing-text">
             <p>NEW RELEASE: <span>'MURDER AT THE ROYAL ALBERT'</span> AUDIOBOOK</p>
-            <p id="landing-description">""...an altogether delightful listen." -AudioFile Magazine</p>
+            <p id="landing-description">"...an altogether delightful listen." -AudioFile Magazine</p>
             <a id="learn-more" href="/books/audiobooks/murder-at-the-royal-albert">MORE DETAILS</a>
           </div>
         </div>
