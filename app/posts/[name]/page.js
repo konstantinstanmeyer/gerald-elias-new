@@ -16,7 +16,7 @@ export default function BlogByName({ params }){
             {post.textBlocks.map((block, i) =>
                 <>
                     <p id={"123" + i}>{block}</p>
-                    {post?.image && i===4 ? <a id="thanksgiving-hyperlink" target="_blank" href="https://www.mysteriesandmusic.com/books">{post.textHyperlink}</a>:null}
+                    {post?.image && i===4 ? <a style={{marginBottom: "2rem"}} id="thanksgiving-hyperlink" target="_blank" href="https://www.mysteriesandmusic.com/books">{post.textHyperlink}</a>:null}
                 </>
             )}
             {post?.advert ? 

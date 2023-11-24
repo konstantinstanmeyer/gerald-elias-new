@@ -1960,5 +1960,6 @@ textarea {
 
 #thanksgiving-hyperlink {
   word-break:break-all;
-  margin-bottom: 3rem;
+  display: block;
+  margin-bottom: 2rem;
 }
