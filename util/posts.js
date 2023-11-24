@@ -224,6 +224,69 @@ const posts = {
                 my turn.”`,
                 '...',
                 '...',
+                `HOLIDAY LIGHTS: Jane Johnson`,
+                `“It’s about time, Zelensky!” Lieutenant Bronson bellowed. “What
+                took you so long?”`,
+                `“Sorry, Lieutenant,” Detective Zelensky replied. “It’s
+                Thanksgiving.”`,
+                `“Well, let’s wrap this up so we can all go home,” Bronson
+                said. “This is the fourth murder this week. If we can solve this
+                it will be a Grand Slam.”`,
+                `“Where’s the body?” asked Zelensky, looking around the room
+                for the first time.`,
+                `“Over there, under the chandelier. We covered it with the
+                pool table cover,” replied Bronson.`,
+                `“Pretty gruesome stuff,” Detective Hickey inserted,
+                sauntering up. “Looks like someone took a chainsaw to him. Kinda
+                like carving a turkey,” he added, laughing at his own joke.`,
+                `“Shut up, Hickey, and get back to work,” Bronson grumbled.`,
+                `“Let’s arrest the dame in the slinky dress standing over by
+                the French doors,” Zelensky said. “She looks guilty.”`,
+                `“That reminds me,” Hickey mused. “My kids want a Slinky for
+                Christmas. Hot toy this year, hard to find.”`,
+                `“Hickey!” Bronson yelled. “Get back to work!”`,
+                `“Yes, Boss!” Hickey mock saluted before he marched off.`,
+                `“Idiot,” Bronson murmured under his breath.`,
+                `“So, what’s the story on that girl?” Zelensky asked.`,
+                `“Name’s Laura Morton,” Bronson answered. “The deceased,
+                Joseph Morton, is her uncle.”`,
+                `“Why is she all dressed up?” Zelensky asked. “Kind of fancy
+                for the morning isn’t it?”`,
+                `“There was a big party last night. Claims she felt faint
+                and went out in the garden to get some fresh air and fell
+                asleep,” Bronson explained. “Came inside this morning and found
+                the body.”`,
+                `“Anybody else in the house?” queried Zelensky.`,
+                `“Butler and housekeeper are in the kitchen,” Bronson
+                answered. “We’ve kept them sequestered there until you could
+                interview them.”`,
+                `“How was the deceased dressed? Formal or night clothes?”`,
+                `“Look for yourself.”`,
+                `“No thanks,” Zelensky said quickly.`,
+                `“What’s the matter, squeamish?’ Bronson laughed.`,
+                `“I might be coming down with something,” Zelensky admitted.`,
+                `“Well, why don’t you go interview the staff in the
+                kitchen,” Bronson suggested. “Maybe the housekeeper will brew
+                you a cup of tea.”`,
+                `In the kitchen, Zelensky found a distinguished older
+                gentleman and a sour-faced middle-aged woman.`,
+                `“It’s about time someone came to interview us,” the woman
+                said before Zelensky could say a word. “I need to get back to
+                work. This place is a mess since that party last night.”`,
+                `“I just have a few questions for both of you,” Zelensky
+                replied. “But you can’t get back to work until we release the
+                crime scene.”`,
+                `“Well, glad I hoisted up the chandelier to its rightful
+                place and cleaned off the blood before the police arrived,” she
+                complained. “One less thing for me to clean later.”
+                “What?” Zelensky asked, in shock.`,
+                `“I walked into the game room this morning and there was Mr.
+                Morton on the floor with the chandelier on top of him and that
+                stupid player piano was playing Moonlight Sonata. Probably
+                passed out from too much booze and the vibration from the piano
+                made the chandelier fall. Those spiky dangly things are sharp.”`,
+                "...",
+                "...",
                 "STRANGERS IN THE NIGHT: April Kelly",
                 `Hours after last call, as disheveled gumshoe Clint Vole
                 staggered alongside a railroad track, he spotted something on

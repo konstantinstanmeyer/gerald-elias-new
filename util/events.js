@@ -1,14 +1,6 @@
 const events = {
     upcoming: [
         {
-            "date":"Saturday, November 18th, 2023 @ 6:30pm PST",
-            "name":"Author Roundtable",
-            "location":"Folio Library",
-            "address":"93 Pike St #307, Seattle, WA 98101",
-            "imageUrl":"folio.jpeg",
-            "hyperlink":"https://www.folioseattle.org/event-details/musical-murder-mystery-an-author-roundtable"
-        },
-        {
             "date":"Friday, December 1st, 2023",
             "name":"Let It Snow",
             "location":"Online Event",
@@ -42,6 +34,14 @@ const events = {
         }
     ],
     pastEvents: [
+        {
+            "date":"Saturday, November 18th, 2023 @ 6:30pm PST",
+            "name":"Author Roundtable",
+            "location":"Folio Library",
+            "address":"93 Pike St #307, Seattle, WA 98101",
+            "imageUrl":"folio.jpeg",
+            "hyperlink":"https://www.folioseattle.org/event-details/musical-murder-mystery-an-author-roundtable"
+        },
         {
             "date":"Monday, October 30th, 2023",
             "name":"AUDIOBOOK RELEASE! Murder at the Royal Albert",
