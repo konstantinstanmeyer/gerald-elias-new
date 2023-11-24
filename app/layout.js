@@ -1,7 +1,7 @@
 import Navbar from '../components/Navbar'
 import Footer from '@/components/Footer'
 import './globals.css'
-import { Outfit, Playfair_Display, Cormorant, Overpass, Red_Hat_Mono, Montserrat, Poppins } from 'next/font/google'
+import { Outfit, Playfair_Display, Cormorant, Overpass, Red_Hat_Mono, Montserrat, Poppins, Courier_Prime } from 'next/font/google'
 import MobileNav from '@/components/MobileNav'
 
 export const metadata = {
@@ -19,6 +19,13 @@ const playfair_display = Playfair_Display({
   weight: ['400'],
   variable: '--font-playfair-display',
   styles: ['normal', 'italic']
+})
+
+const courier_prime = Courier_Prime({
+  subsets: ['latin'],
+  weight: ['700','400'],
+  style: ['normal', 'italic'],
+  variable: '--font-courier-prime'
 })
 
 const cormorant = Cormorant({
@@ -57,7 +64,7 @@ const poppins = Poppins({
 
 export default function RootLayout({ children }) {
   return (
-    <html className={`${outfit.variable} ${playfair_display.variable} ${cormorant.variable} ${overpass.variable} ${red_hat_mono.variable} ${montserrat.variable} ${poppins.variable}`} lang="en">
+    <html className={`${outfit.variable} ${playfair_display.variable} ${cormorant.variable} ${overpass.variable} ${courier_prime.variable} ${red_hat_mono.variable} ${montserrat.variable} ${poppins.variable}`} lang="en">
       <body className="">
         <Navbar />
         <MobileNav />
