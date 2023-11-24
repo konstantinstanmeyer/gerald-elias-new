@@ -15,8 +15,9 @@ const posts = {
     blogsContent: {
         '"TURKEY IN THE SAW" SHORT STORY CONTEST': {
             image: "/thanksgiving-blog.png",
-            name: 'TURKEY IN THE SAW" SHORT STORY CONTEST',
+            name: '"TURKEY IN THE SAW" SHORT STORY CONTEST',
             date: 'NOV 24, 2023',
+            textHyperlink: "https://www.mysteriesandmusic.com/books",
             advert: {
                 image: "/murder-at-the-royal-albert-audiobook.jpeg",
                 text1: `LOOKING FOR THAT PERFECT (AND EASY) HOLIDAY GIFT? HOW ABOUT AN AUDIOBOOK?`,
