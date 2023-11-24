@@ -15,10 +15,9 @@ export default function BlogByName({ params }){
             <h4>{post.date}</h4>
             {post.textBlocks.map((block, i) =>
                 <>
-                <p id={"123" + i}>{block}</p>
-                {post?.image && i===5 ? <a id="thanksgiving-hyperlink" target="_blank" href="https://www.mysteriesandmusic.com/books">{post.textHyperlink}</a>:null}
+                    <p id={"123" + i}>{block}</p>
+                    {post?.image && i===4 ? <a id="thanksgiving-hyperlink" target="_blank" href="https://www.mysteriesandmusic.com/books">{post.textHyperlink}</a>:null}
                 </>
-                
             )}
             {post?.advert ? 
             <div id="post-advert">

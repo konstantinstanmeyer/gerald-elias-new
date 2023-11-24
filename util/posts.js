@@ -33,13 +33,13 @@ const posts = {
                 `A wonderful thing about running my own writing contest is that I
                 can change the rules if I feel like it and no one can do
                 anything about it.`,
-                `So, instead of five winners, I've decided to post my dozen
+                `So, instead of five winners, I've decided to post my baker's dozen
                 favorite entries, here set out in all their gory glory in
                 diplomatically astute alphabetical order, lovingly formatted and
                 mildly edited by yours truly.`,
                 `And, you know what else? I think I’ll offer a free Kindle
                 edition of any of my books, including my own short story
-                collection, It’s a Crime! as a prize to all twelve winners!!
+                collection, It’s a Crime! as a prize to all thirteen winners!!
                 Check them out on my website and let me know which book you’d
                 like.`,
                 `Congratulations, All! To those who didn’t win, don’t worry. I’m
