@@ -1,22 +1,6 @@
 const events = {
     upcoming: [
         {
-            "date":"Friday, December 1st, 2023",
-            "name":"Let It Snow",
-            "location":"Online Event",
-            "imageUrl":"let-it-snow.jpeg",
-            "description":"A select group of authors joins forces with Uvi Poznansky to bring you amazing audiobooks!",
-            "hyperlink":"https://www.facebook.com/events/821999746332037/"
-        },
-        {
-            "date":"Saturday, December 2nd, 2023 @ 8:00pm MST",
-            "name":"Conducting the annual Vivaldi by Candlelight Concert",
-            "location":"First Presbyterian Church of Salt Lake City",
-            "address":"12 C St E, Salt Lake City, UT 84103",
-            "imageUrl":"vivaldi.jpeg",
-            "hyperlink":"https://utahglobaldiplomacy.org/events/vivaldi"
-        },
-        {
             "date":"Thursday, December 14th, 2023",
             "name":"AUTHOR EVENT WITH STITCH",
             "location":"Online Event",
@@ -34,6 +18,22 @@ const events = {
         }
     ],
     pastEvents: [
+        {
+            "date":"Friday, December 1st, 2023",
+            "name":"Let It Snow",
+            "location":"Online Event",
+            "imageUrl":"let-it-snow.jpeg",
+            "description":"A select group of authors joins forces with Uvi Poznansky to bring you amazing audiobooks!",
+            "hyperlink":"https://www.facebook.com/events/821999746332037/"
+        },
+        {
+            "date":"Saturday, December 2nd, 2023 @ 8:00pm MST",
+            "name":"Conducting the annual Vivaldi by Candlelight Concert",
+            "location":"First Presbyterian Church of Salt Lake City",
+            "address":"12 C St E, Salt Lake City, UT 84103",
+            "imageUrl":"vivaldi.jpeg",
+            "hyperlink":"https://utahglobaldiplomacy.org/events/vivaldi"
+        },
         {
             "date":"Saturday, November 18th, 2023 @ 6:30pm PST",
             "name":"Author Roundtable",
