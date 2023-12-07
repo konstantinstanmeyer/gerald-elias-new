@@ -4,6 +4,9 @@ export default function Books(){
     return(
         <div id="books">
             <Landing name="Books & Audiobooks" imageUrl="/books-landing.jpg" />
+            <div id="award">
+                <img src="/insignia.png" />
+            </div>
             <h4 id="represented">REPRESENTED BY JOSH GETZLER, HG LITERARY. PUBLISHER, LEVEL BEST BOOKS</h4>
             <div id="hint-container">
                 <h5>click covers for more info</h5>

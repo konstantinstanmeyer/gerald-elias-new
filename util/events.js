@@ -9,6 +9,14 @@ const events = {
             "hyperlink":"https://www.stitch.net/app/event/486764/united-states-crown-hill/author-eventgerald-elias"
         },
         {
+            "date":"Friday, December 15th, 2023",
+            "name":"House of Mystery",
+            "location":"ABC News Radio",
+            "description": "Radio Interview and Podcast with Alan R. Warren.",
+            "imageUrl":"house-of-mystery.png",
+            "hyperlink":"https://www.alanrwarren.com/house-of-mystery-radioshow"
+        },
+        {
             "date":"Friday, January 12th, 2024",
             "name":"Vivaldi violin sonata recital & book talk",
             "location":"Skyline Retirement Community",

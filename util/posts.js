@@ -1,6 +1,7 @@
 const posts = {
     index: {
         "2023": [
+            'NEW BOOK SIGNING',
             `"TURKEY IN THE SAW" SHORT STORY CONTEST`,
             "Wanna Be a Crime Writer?",
             "Gerald Elias's Three Favorite Reads of 2023",
@@ -13,6 +14,43 @@ const posts = {
         ]
     },
     blogsContent: {
+        "NEW BOOK SIGNING": {
+            name: "NEW BOOK SIGNING",
+            date: 'DEC 6, 2023',
+            textBlocks: [
+                `Gerald Elias has just signed a new contract with Level Best Books for two additional mysteries, "Murder
+                on Vacation: From the Files of Maury Gross, NYPD" (Ret.) and "Wild Horses: A Jefferson Dance Western
+                Mystery."`,
+                `A big shout out to my publisher, Verena Rose at Level Best Books and my agent, Josh Getzler (HG Literary) for
+                putting together this exciting deal.`,
+                `...`,
+                `...`,
+                `Murder on Vacation: From the Files of Maury Gross, NYPD (Ret.)`,
+                `Summer 2024 release`,
+                `This collection of lighthearted short mysteries is a calm oasis within the whirlwind of the contentious debate
+                over policing in our society, of the seemingly diametrically opposed notions of public safety versus social
+                justice.`,
+                `Maury Gross, a retired, Jewish NYPD police chief, is a good, respected cop. He’s ethical, honest, thoughtful,
+                and considerate even of the perpetrators of the crimes that he solves. He doesn’t look for trouble, but
+                trouble seems to find him whenever and wherever his devoted wife Bobbi takes them on what they hope will
+                be a relaxing, carefree vacation.`,
+                `Maury is a good guy who likes a nice sandwich and watching the Mets on television. That might make him an
+                improbable hero in this shades-of-gray day and age, where TV cops seem to gravitate towards being divorced
+                alcoholics with fathers suffering from Alzheimer’s and with maturing daughters whose growing-up problems
+                are clear as a bell to everyone but somehow not to a trained detective. No thanks. I like my Maury just the
+                way he is.`,
+                `...`,
+                `...`,
+                `Wild Horses: A Jefferson Dance Western Mystery`,
+                `Summer 2025 release`,
+                `Wild Horses is a sequel to Roundtree Days, a 2023 Silver Falchion Award Finalist, and again features Jefferson
+                Dance as a sympathetic, straight-talking Western lawman.`,
+                `The carcass of a wild horse is discovered in Utah’s remote West Desert. Not only was it killed, it was also
+                butchered. A human corpse is found nearby. Are the two deaths related? The most likely explanation involves
+                the heated conflict between wild horse lovers and cattle interests competing for precious grazing land until
+                Dance and his dog, Smoke, discover a fanatical, cult-like caravan community hidden from civilization.`
+            ]
+        },
         '"TURKEY IN THE SAW" SHORT STORY CONTEST': {
             image: "/thanksgiving-blog.png",
             name: '"TURKEY IN THE SAW" SHORT STORY CONTEST',

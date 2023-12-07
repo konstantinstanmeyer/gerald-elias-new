@@ -10,6 +10,15 @@ export default function Home() {
             <a id="learn-more" href="/books/audiobooks/murder-at-the-royal-albert">MORE DETAILS</a>
           </div>
         </div>
+        <div id="home-announcement">
+          <h1>NEW BOOK DEAL SIGNED WITH LEVEL BEST BOOKS</h1>
+          <p>
+            Gerald Elias has just signed a new contract with Level Best Books for two additional mysteries,&nbsp;
+            <strong>Murder on Vacation: From the Files of Maury Gross, NYPD (Ret.) and Wild Horses: A Jefferson Dance Western Mystery.&nbsp;</strong>
+            <em>A big shout out to my publisher, Verena Rose at Level Best Books and my agent, Josh Getzler (HG Literary) for putting together this exciting deal.</em>
+          </p>
+          <a href="/posts">Read More</a>
+        </div>
         <div id="home-books-container">
           <div id="home-books-list">
             <h2 id="home-books-header">Books</h2>
