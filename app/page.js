@@ -17,7 +17,7 @@ export default function Home() {
             <strong>Murder on Vacation: From the Files of Maury Gross, NYPD (Ret.) and Wild Horses: A Jefferson Dance Western Mystery.&nbsp;</strong>
             <em>A big shout out to my publisher, Verena Rose at Level Best Books and my agent, Josh Getzler (HG Literary) for putting together this exciting deal.</em>
           </p>
-          <a href="/posts">Read More</a>
+          <a href="/posts/NEW%20BOOK%20SIGNING">Read More</a>
         </div>
         <div id="home-books-container">
           <div id="home-books-list">
