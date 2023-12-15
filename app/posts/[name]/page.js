@@ -2,7 +2,8 @@ import NotFound from "@/components/NotFound";
 import posts from "@/util/posts";
 
 export default function BlogByName({ params }){
-    const { name = undefined } = params;
+    let { name = undefined } = params;
+    name = name?.replace("%2C", ",")
     const post = posts.blogsContent[decodeURI(name?.replace("%3A", ":"))];
 
     if(!post) return <NotFound />;
