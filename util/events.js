@@ -1,6 +1,24 @@
 const events = {
     upcoming: [
         {
+            "date":"Friday, January 12th, 2024",
+            "name":"Vivaldi violin sonata recital & book talk",
+            "location":"Skyline Retirement Community",
+            "address":"725 9th Ave, Seattle, WA 98104",
+            "imageUrl":"event-seattle.jpeg",
+            "description":"Joined by Gus Denhard on theorbo.",
+        },
+        {
+            "date":"Thursday, May 16th, 2024",
+            "name":"Mystery & Music at Oak Harbor Library",
+            "location":"Skyline Retirement Community",
+            "address":"1000 SE Regatta Dr, Oak Harbor, WA 98277",
+            "imageUrl":"oak-harbor.jpeg",
+            "description":"Critically acclaimed author and musician Gerald Elias blends music and mystery for a presentation to indulge the senses! He will discuss his books and play snippets of pieces featured in his novels.",
+        }
+    ],
+    pastEvents: [
+        {
             "date":"Thursday, December 14th, 2023",
             "name":"AUTHOR EVENT WITH STITCH",
             "location":"Online Event",
@@ -16,16 +34,6 @@ const events = {
             "imageUrl":"house-of-mystery.png",
             "hyperlink":"https://www.alanrwarren.com/house-of-mystery-radioshow"
         },
-        {
-            "date":"Friday, January 12th, 2024",
-            "name":"Vivaldi violin sonata recital & book talk",
-            "location":"Skyline Retirement Community",
-            "address":"725 9th Ave, Seattle, WA 98104",
-            "imageUrl":"event-seattle.jpeg",
-            "description":"Joined by Gus Denhard on theorbo.",
-        }
-    ],
-    pastEvents: [
         {
             "date":"Friday, December 1st, 2023",
             "name":"Let It Snow",

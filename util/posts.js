@@ -16,6 +16,7 @@ const posts = {
     },
     blogsContent: {
         "You're not bad, for a Democrat": {
+            image: "/donkey.png",
             name: "You're not bad, for a Democrat",
             date: 'DEC 15, 2023',
             textBlocks: [
