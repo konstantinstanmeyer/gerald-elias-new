@@ -1,28 +1,40 @@
 import Landing from "@/components/Landing";
 import events from "@/util/events";
 import EventCard from "@/components/EventCard";
+import formatDate from "@/util/formatDate";
 
 export default function Events(){
+    const upcomingEvents = [];
+    const pastEvents = [];
+
+    // sorts dates by convertion to supported string(DAY MONTH DATE YYYY) then compared via conversion to milliseconds
+    function sortEvents(events){
+        events.forEach((event) => {
+            let date = formatDate(event.date);
+            // console.log((new Date(date)).getTime() > (new Date()).getTime());
+            (new Date(date)).getTime() > (new Date()).getTime() ? upcomingEvents.push(event) : pastEvents.push(event);
+            // console.log(upcomingEvents);
+        });
+    }
+
+    sortEvents(events);
+
     return(
         <div id="events">
             <Landing name="Events" imageUrl='/events-landing.jpg' />
             <div id="events-container">
                 <h2>Upcoming Events</h2>
                 <div className="events-list">
-                    {events.upcoming.length > 0 ? 
-                        events.upcoming.map((entry, i) => 
+                    {upcomingEvents.map((entry, i) => 
                             <EventCard event={entry} />
-                        )
-                    : null}
+                        )}
                     {/* <EventCard event={events.upcoming[0]} /> */}
                 </div>
                 <h2 id="past-events">Past Events</h2>
                 <div className="events-list">
-                    {events.pastEvents.length > 0 ? 
-                    events.pastEvents.map((entry, i) => 
+                    {pastEvents.map((entry, i) => 
                         <EventCard key={i + "event"} event={entry} />
-                    )
-                    : <h3 className="event-none">nothing to find here, yet...</h3>}
+                    )}
                 </div>
             </div>
         </div>

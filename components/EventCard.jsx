@@ -1,5 +1,9 @@
+import formatDate from "@/util/formatDate";
+
 export default function EventCard({ event, key }){
     const { imageUrl, name, date, location, address, hyperlink} = event;
+
+    console.log(new Date(formatDate(date)) > new Date());
 
     return (
         <div key={key} className="event-card">

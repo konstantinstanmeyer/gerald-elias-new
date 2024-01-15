@@ -24,6 +24,7 @@ export default function MobileNav(){
                     <h3>ABOUT</h3>
                     <a href="/biography">Biography</a>
                     <a target="_blank" href="https://www.goodreads.com/goodreadscomauthorgeraldelias">Goodreads</a>
+                    <a href="/connections">Connections</a>
                 </div>
                 <a href="/events">EVENTS</a>
                 <a href="/posts">POSTS</a>

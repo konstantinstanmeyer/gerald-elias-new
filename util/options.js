@@ -26,6 +26,10 @@ const about = [
         name: 'GOODREADS',
         url: 'https://www.goodreads.com/goodreadscomauthorgeraldelias',
         externalLink: true,
+    },
+    {
+        name: 'CONNECTIONS',
+        url: '/connections'
     }
 ]
 
