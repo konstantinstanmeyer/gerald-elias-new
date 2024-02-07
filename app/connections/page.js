@@ -16,7 +16,7 @@ export default function Connections(){
                     <p>Learn more about the inner workings of Gerald's book, "Murder at the Royal Albert," and more! Interviewed by Alan Warren.&nbsp;<a target="_blank" href="https://open.spotify.com/episode/6dneVCl0qUGq6w7IwGLJCk">here</a></p>
                     <h3>September 2023</h3>
                     <p>Watch a short spotlight on Gerald's book "The Devil's Trill".&nbsp;<a target="_blank" href="https://www.youtube.com/watch?v=uF1tMWBmSH0">here</a></p>
-                    <p>YouTube channel "Viridian Tea House" thoughtful reviews of books by Gerald Elias&nbsp;<a target="_blank" href="https://www.youtube.com/watch?v=YsmFv6nE1GA">here</a></p>
+                    <p>YouTube channel "Viridian Tea House"'s thoughtful reviews of books by Gerald Elias&nbsp;<a target="_blank" href="https://www.youtube.com/watch?v=YsmFv6nE1GA">here</a></p>
                     <h3>February 2023</h3>
                     <p>Carol Goodman Kaufman dives deep into music and mystery with Gerald, also discussing the Daniel Jacobus series.&nbsp;<a target="_blank" href="https://open.spotify.com/episode/3KlAOvhzJpOjRAiJtytqcS">here</a></p>
                     <h3>January 2022</h3>
