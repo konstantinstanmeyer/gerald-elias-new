@@ -1,5 +1,14 @@
 const events = [
     {
+        "date":"Thursday, February 29th, 2024 @ 3:30PT",
+        "name":"Noir at the Bar Radio, Episode 6, with Allen Warren",
+        "location":"Skyline Retirement Community",
+        "address":"725 9th Ave, Seattle, WA 98104",
+        "imageUrl":"noir-at-the-bar.jpg",
+        "description":"Episode also airs on KKNY Radio @ 1150AM",
+        "hyperlink":"https://www.alanrwarren.com/noir-at-the-bar-radioshow"
+    },
+    {
         "date":"Friday, January 12th, 2024",
         "name":"Vivaldi violin sonata recital & book talk",
         "location":"Skyline Retirement Community",
