@@ -9,6 +9,10 @@ button {
   appearance: none !important;
 }
 
+.new-post-images {
+  width: 100%;
+}
+
 input {
   -webkit-appearance: none !important;
   -moz-appearance: none !important;

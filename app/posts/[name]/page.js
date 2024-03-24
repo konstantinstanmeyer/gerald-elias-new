@@ -1,3 +1,4 @@
+import NewPost from "@/components/NewPost";
 import NotFound from "@/components/NotFound";
 import posts from "@/util/posts";
 
@@ -5,9 +6,11 @@ export default function BlogByName({ params }){
     let { name = undefined } = params;
     name = name?.replace("%2C", ",")
     const post = posts.blogsContent[decodeURI(name?.replace("%3A", ":"))];
+    // console.log(name);
 
+    if (name === "A%20Strange%20and%20Wonderful%20Concert") return <div className={post?.image ? "thanksgiving-font" : ""} id="blog-post"><NewPost /></div>;
+    
     if(!post) return <NotFound />;
-    // console.log(post)
 
     return (
         <div className={post?.image ? "thanksgiving-font" : ""} id="blog-post">

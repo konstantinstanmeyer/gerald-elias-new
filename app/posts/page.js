@@ -9,6 +9,12 @@ export default function Blog(){
         <div id="blog">
             <Landing name="Posts" imageUrl="/blog-landing.jpg"/>
             <div id="blog-content">
+                <h2>{2024}</h2>
+                {posts.index["2024"].map((value, i) => 
+                    <div>
+                        <span>-<a target={value === hyperlinkName ? "_blank" : null} href={value !== hyperlinkName ? "/posts/" + value : hyperlinkUrl}>{value}</a></span>
+                    </div>
+                )}
                 <h2>{2023}</h2>
                 {posts.index["2023"].map((value, i) => 
                     <div>

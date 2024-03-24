@@ -1,5 +1,8 @@
 const posts = {
     index: {
+        "2024": [
+            "A Strange and Wonderful Concert"
+        ],
         "2023": [
             `You're not bad, for a Democrat`,
             'NEW BOOK SIGNING',
