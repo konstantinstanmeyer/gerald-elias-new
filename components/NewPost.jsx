@@ -235,17 +235,17 @@ export default function NewPost(){
                     <a href="https://www.mysteriesandmusic.com/contact" target="_blank">https://www.mysteriesandmusic.com/contact</a> I’d love to hear from you!
                 </i>
             </p>
-            <img className="new-post-images" src="/Mar24-1.png" />
+            <img className="new-post-images" src="https://cdn.discordapp.com/attachments/1028812502835925052/1221581641647132672/Mar24-1.png?ex=6613198f&is=6600a48f&hm=d339f261bf693d36da3d654803f2efcb2eb7661a450f6575a02ca5c962cd2a0e&" />
             <p>Terry, Raisa, me, Igor (mostly hidden), and Olivia</p>
-            <img className="new-post-images" src="/Mar24-3.png" />
+            <img className="new-post-images" src="https://cdn.discordapp.com/attachments/1028812502835925052/1221581660605382677/Mar24-3.png?ex=66131993&is=6600a493&hm=7f75d448ce38b709159c079f730aa2d00ba878a96e461c516296291a0f22f64b&" />
             <p>One of the island’s residents</p>
-            <img className="new-post-images" src="/Mar24-4.png" />
+            <img className="new-post-images" src="https://cdn.discordapp.com/attachments/1028812502835925052/1221581685145993367/Mar24-4.png?ex=66131999&is=6600a499&hm=db90162d9fd1c2c9df02a9a6063f1b2ceacd4632346b6e270e769b65d966de36&" />
             <p>A unique concert hall</p>
-            <img className="new-post-images" src="/Mar24-2.png" />
+            <img className="new-post-images" src="https://cdn.discordapp.com/attachments/1028812502835925052/1221581884157460561/Mar24-2.png?ex=661319c9&is=6600a4c9&hm=78d01bbdabfd41baff10f93e391dca8662d3438e3d1d2605f4f451b847b1efe4&" />
             <p>One of the island’s residents</p>
-            <img className="new-post-images" src="/Mar24-6.png" />
+            <img className="new-post-images" src="https://cdn.discordapp.com/attachments/1028812502835925052/1221581708785356850/Mar24-6.png?ex=6613199f&is=6600a49f&hm=1e9dccc58843ca4fdd8c97c91dec14c6745f98fd376c4dc4bf8f04065ba15780&" />
             <p>Our program (insert)</p>
-            <img className="new-post-images" src="/Mar24-5.png" />
+            <img className="new-post-images" src="https://cdn.discordapp.com/attachments/1028812502835925052/1221581620193005768/Mar24-5.png?ex=6613198a&is=6600a48a&hm=8f21fc0456f02a0874f8616d24a49ef64d18d5e466ba7c63872548c03eb82d05&" />
             <p>Our program (cover)</p>
         </>
     )
