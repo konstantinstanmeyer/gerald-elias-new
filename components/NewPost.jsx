@@ -242,7 +242,7 @@ export default function NewPost(){
             <img className="new-post-images" src="https://cdn.discordapp.com/attachments/1028812502835925052/1221581685145993367/Mar24-4.png?ex=66131999&is=6600a499&hm=db90162d9fd1c2c9df02a9a6063f1b2ceacd4632346b6e270e769b65d966de36&" />
             <p>A unique concert hall</p>
             <img className="new-post-images" src="https://cdn.discordapp.com/attachments/1028812502835925052/1221581884157460561/Mar24-2.png?ex=661319c9&is=6600a4c9&hm=78d01bbdabfd41baff10f93e391dca8662d3438e3d1d2605f4f451b847b1efe4&" />
-            <p>One of the island’s residents</p>
+            <p>Me, Igor, Olivia</p>
             <img className="new-post-images" src="https://cdn.discordapp.com/attachments/1028812502835925052/1221581708785356850/Mar24-6.png?ex=6613199f&is=6600a49f&hm=1e9dccc58843ca4fdd8c97c91dec14c6745f98fd376c4dc4bf8f04065ba15780&" />
             <p>Our program (insert)</p>
             <img className="new-post-images" src="https://cdn.discordapp.com/attachments/1028812502835925052/1221581620193005768/Mar24-5.png?ex=6613198a&is=6600a48a&hm=8f21fc0456f02a0874f8616d24a49ef64d18d5e466ba7c63872548c03eb82d05&" />
