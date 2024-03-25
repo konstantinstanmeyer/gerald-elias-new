@@ -40,7 +40,7 @@ export default function NewPost(){
             </p>
             <p>
                 <i>
-                    I know this is coming out of the blue -- or the salty waters of our Inland Sea -- but I&#39;d
+                    I know this is coming out of the blue -- or the salty waters of our Inland Sea -- but I'd
                     love to know your thoughts -- if you are interested or even have the time -- and if it
                     is something that moves you, what ideas you might have.
                     You are a hero of mine.
@@ -57,8 +57,7 @@ export default function NewPost(){
                 </i>
             </p>
             <p>
-                Terry and I have known each other since the mid-90s, when the Utah composer Phillip <a href="https://bimstein.com/" target="_blank">Bimstein</a>
-                composed a work for the Abramyan String Quartet (of which I was the first violinist) plus
+                Terry and I have known each other since the mid-90s, when the Utah composer Phillip <a href="https://bimstein.com/" target="_blank">Bimstein</a> composed a work for the Abramyan String Quartet (of which I was the first violinist) plus
                 excerpts of Terry reading from her book, <a target="_blank" href="https://www.goodreads.com/book/show/820924.Refuge"><i>Refuge</i></a>, which were manipulated on computer by
                 Phillip. (The composition is called “<a target="_blank" href="https://open.spotify.com/album/7engKpS1njDPNEkTyHEB75">Refuge</a>”, by the way, and is available on Spotify and other
                 streaming sites.)
@@ -85,18 +84,19 @@ export default function NewPost(){
             </p>
             <p>
                 Over a period of a couple weeks, we honed things down to the following: Igor and I combined
-                forces to compose music for a substantial 10-stanza poem called “Dear Great Salt Lake” by
-                <a href="https://raisatolchinsky.com/" target="_blank">Raisa Tolchinsky</a>. Since there would essentially be no rehearsal time with Raisa for this, Igor and
+                forces to compose music for a substantial 10-stanza poem called “Dear Great Salt Lake”
+                by <a href="https://raisatolchinsky.com/" target="_blank">Raisa Tolchinsky</a>. Since there would essentially be no rehearsal time with Raisa for this, Igor and
                 I alternated writing 1-2 minute musical “essays” in between the stanzas, reflecting the sentiment
                 and text of what had just been recited. The music was for violin, cimbalom, and flute, played by
                 Igor’s talented daughter, Olivia. One day I would email Igor the score of one of my interstitial
                 extravaganzas, and the next day he would send me his. We alternated like this over a period of a
                 few weeks.
             </p>
+            <img className="new-post-images" src="https://cdn.discordapp.com/attachments/1028812502835925052/1221581641647132672/Mar24-1.png?ex=6613198f&is=6600a48f&hm=d339f261bf693d36da3d654803f2efcb2eb7661a450f6575a02ca5c962cd2a0e&" />
+            <p className="new-post-descriptions">Terry, Raisa, me, Igor (mostly hidden), and Olivia</p>
             <p>
                 But one poem does not a program make! As politely as possible, I kept asking Terry for more
-                poems. In the meantime, another composer at the U stepped forward. <a href="https://faculty.utah.edu/u0380320-MATTHEW_RUSSELL_DURRANT/hm/index.hml" target="_blank">Matthew Russell Durrant</a>
-                had composed a prize-winning piece on computer a few years back entitled “<a href="https://www.youtube.com/watch?v=EwzeUbzzmes" target="_blank">Arsenic Requiem</a>,”
+                poems. In the meantime, another composer at the U stepped forward. <a href="https://faculty.utah.edu/u0380320-MATTHEW_RUSSELL_DURRANT/hm/index.hml" target="_blank">Matthew Russell Durrant</a> had composed a prize-winning piece on computer a few years back entitled “<a href="https://www.youtube.com/watch?v=EwzeUbzzmes" target="_blank">Arsenic Requiem</a>,”
                 about humanity’s destructive incursion into the Great Salt Lake ecosystem over the past two
                 centuries. I gave it a listen and an immediate thumbs up. The only problem: We needed to make
                 sure we had electricity where we were performing to which to connect the computer and
@@ -110,6 +110,8 @@ export default function NewPost(){
                 now a ranch museum with several small buildings, a small ranch house, and a large, open ended
                 barn.
             </p>
+            <img className="new-post-images" src="https://cdn.discordapp.com/attachments/1028812502835925052/1221581660605382677/Mar24-3.png?ex=66131993&is=6600a493&hm=7f75d448ce38b709159c079f730aa2d00ba878a96e461c516296291a0f22f64b&" />
+            <p className-="new-post-descriptions">One of the island’s residents</p>
             <p>
                 It turned out that both of those venues had electricity. I opted for the Garr Ranch because in my
                 mind it had the proper rustic feel to support Terry’s vision of nature and preservation. But I
@@ -178,6 +180,8 @@ export default function NewPost(){
                 was totally open at both ends, so the chill wind tended to whip through. It did, however, have
                 electricity, as evidenced by overhead lights that actually worked, plus a few modern outlets.
             </p>
+            <img className="new-post-images" src="https://cdn.discordapp.com/attachments/1028812502835925052/1221581685145993367/Mar24-4.png?ex=66131999&is=6600a499&hm=db90162d9fd1c2c9df02a9a6063f1b2ceacd4632346b6e270e769b65d966de36&" />
+            <p>A unique concert hall</p>
             <p>
                 I managed to find someone in the office tucked away in a corner of one of the outbuildings. He
                 informed me that the ranch house electricity had been shut down many years ago. That made
@@ -224,6 +228,10 @@ export default function NewPost(){
                 us all, who attended the concert though she is encountering serious health issues. We love you,
                 Geralyn.
             </p>
+            <img className="new-post-images" src="https://cdn.discordapp.com/attachments/1028812502835925052/1221581708785356850/Mar24-6.png?ex=6613199f&is=6600a49f&hm=1e9dccc58843ca4fdd8c97c91dec14c6745f98fd376c4dc4bf8f04065ba15780&" />
+            <p className="new-post-descriptions">Our program (insert)</p>
+            <img className="new-post-images" src="https://cdn.discordapp.com/attachments/1028812502835925052/1221581620193005768/Mar24-5.png?ex=6613198a&is=6600a48a&hm=8f21fc0456f02a0874f8616d24a49ef64d18d5e466ba7c63872548c03eb82d05&" />
+            <p className="new-post-descriptions">Our program (cover)</p>
             <p>
                 Here’s a lovely write-up we received in the <a href="https://www.standard.net/news/environment/2024/mar/18/great-salt-lake-inspired-words-music-shared-by-visiting-group-from-harvard/" target="_blank">Ogden Standard Examiner</a>.
                 I’ve mentioned quite a few names here. There were so many others who were involved in this
@@ -231,22 +239,11 @@ export default function NewPost(){
             </p>
             <p>
                 <i>
-                    You’re welcome to sign up for my occasional newsletters or contact me directly at
-                    <a href="https://www.mysteriesandmusic.com/contact" target="_blank">https://www.mysteriesandmusic.com/contact</a> I’d love to hear from you!
+                    You’re welcome to sign up for my occasional newsletters or contact me directly at <a href="https://www.mysteriesandmusic.com/contact" target="_blank">https://www.mysteriesandmusic.com/contact</a> I’d love to hear from you!
                 </i>
             </p>
-            <img className="new-post-images" src="https://cdn.discordapp.com/attachments/1028812502835925052/1221581641647132672/Mar24-1.png?ex=6613198f&is=6600a48f&hm=d339f261bf693d36da3d654803f2efcb2eb7661a450f6575a02ca5c962cd2a0e&" />
-            <p>Terry, Raisa, me, Igor (mostly hidden), and Olivia</p>
-            <img className="new-post-images" src="https://cdn.discordapp.com/attachments/1028812502835925052/1221581660605382677/Mar24-3.png?ex=66131993&is=6600a493&hm=7f75d448ce38b709159c079f730aa2d00ba878a96e461c516296291a0f22f64b&" />
-            <p>One of the island’s residents</p>
-            <img className="new-post-images" src="https://cdn.discordapp.com/attachments/1028812502835925052/1221581685145993367/Mar24-4.png?ex=66131999&is=6600a499&hm=db90162d9fd1c2c9df02a9a6063f1b2ceacd4632346b6e270e769b65d966de36&" />
-            <p>A unique concert hall</p>
             <img className="new-post-images" src="https://cdn.discordapp.com/attachments/1028812502835925052/1221581884157460561/Mar24-2.png?ex=661319c9&is=6600a4c9&hm=78d01bbdabfd41baff10f93e391dca8662d3438e3d1d2605f4f451b847b1efe4&" />
             <p>Me, Igor, Olivia</p>
-            <img className="new-post-images" src="https://cdn.discordapp.com/attachments/1028812502835925052/1221581708785356850/Mar24-6.png?ex=6613199f&is=6600a49f&hm=1e9dccc58843ca4fdd8c97c91dec14c6745f98fd376c4dc4bf8f04065ba15780&" />
-            <p>Our program (insert)</p>
-            <img className="new-post-images" src="https://cdn.discordapp.com/attachments/1028812502835925052/1221581620193005768/Mar24-5.png?ex=6613198a&is=6600a48a&hm=8f21fc0456f02a0874f8616d24a49ef64d18d5e466ba7c63872548c03eb82d05&" />
-            <p>Our program (cover)</p>
         </>
     )
 }

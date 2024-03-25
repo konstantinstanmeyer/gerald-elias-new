@@ -1107,6 +1107,10 @@ textarea {
   text-align: center;
 }
 
+.new-post-descriptions {
+  filter: opacity(75%);
+}
+
 #dev-credits p {
   width: 85%;
 }
