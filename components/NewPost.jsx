@@ -181,7 +181,7 @@ export default function NewPost(){
                 electricity, as evidenced by overhead lights that actually worked, plus a few modern outlets.
             </p>
             <img className="new-post-images" src="https://cdn.discordapp.com/attachments/1028812502835925052/1221581685145993367/Mar24-4.png?ex=66131999&is=6600a499&hm=db90162d9fd1c2c9df02a9a6063f1b2ceacd4632346b6e270e769b65d966de36&" />
-            <p>A unique concert hall</p>
+            <p className="new-post-descriptions">A unique concert hall</p>
             <p>
                 I managed to find someone in the office tucked away in a corner of one of the outbuildings. He
                 informed me that the ranch house electricity had been shut down many years ago. That made
@@ -243,7 +243,7 @@ export default function NewPost(){
                 </i>
             </p>
             <img className="new-post-images" src="https://cdn.discordapp.com/attachments/1028812502835925052/1221581884157460561/Mar24-2.png?ex=661319c9&is=6600a4c9&hm=78d01bbdabfd41baff10f93e391dca8662d3438e3d1d2605f4f451b847b1efe4&" />
-            <p>Me, Igor, Olivia</p>
+            <p className="new-post-descriptions">Me, Igor, Olivia</p>
         </>
     )
 }
