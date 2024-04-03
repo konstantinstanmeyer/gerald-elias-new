@@ -10,6 +10,12 @@ export default function Events(){
     // sorts dates by convertion to supported string(DAY MONTH DATE YYYY) then compared via conversion to milliseconds
     function sortEvents(events){
         events.forEach((event) => {
+            // temporary fix for handling the single "extended date" value, meaning the event spans muliple days, breaking the current event sorting function
+            if(event?.name === "Left Coast Crime 2024: Seattle Shakedown mystery book convention"){
+                console.log(event.date)
+                event.date = "Thursday, April 14th, 2024"
+            }
+
             let date = formatDate(event.date);
             // console.log((new Date(date)).getTime() > (new Date()).getTime());
             (new Date(date)).getTime() > (new Date()).getTime() ? upcomingEvents.push(event) : pastEvents.push(event);

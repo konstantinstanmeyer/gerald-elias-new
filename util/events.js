@@ -1,6 +1,14 @@
 const events = [
     {
-        "date":"Thursday, February 29th, 2024 @ 3:30PT",
+        "date": "April 11th-14th, 2024",
+        "name":"Left Coast Crime 2024: Seattle Shakedown mystery book convention",
+        "location":"Hyatt Regency Bellevue",
+        "address":"900 Bellevue Way NE, Bellevue, WA 98004",
+        "imageUrl":"left-coast-crime.png",
+        "hyperlink":"https://leftcoastcrime.org/2024/index.html"
+    },
+    {
+        "date":"Thursday, February 29th, 2024 @ 3:30PM PST",
         "name":"Noir at the Bar Radio, Episode 6, with Allen Warren",
         "location":"Skyline Retirement Community",
         "address":"725 9th Ave, Seattle, WA 98104",
@@ -17,12 +25,37 @@ const events = [
         "description":"Joined by Gus Denhard on theorbo.",
     },
     {
-        "date":"Thursday, May 16th, 2024",
+        "date":"Thursday, May 16th, 2024 @ 4:00PM PST",
         "name":"Mystery & Music at Oak Harbor Library",
-        "location":"Skyline Retirement Community",
+        "location":"Oak Harbor Library",
         "address":"1000 SE Regatta Dr, Oak Harbor, WA 98277",
         "imageUrl":"oak-harbor.jpeg",
         "description":"Critically acclaimed author and musician Gerald Elias blends music and mystery for a presentation to indulge the senses! He will discuss his books and play snippets of pieces featured in his novels.",
+    },
+    {
+        "date": "Saturday, June 8th, 2024",
+        "name":"Book presentation with music, Murder at the Royal Albert",
+        "location":"Inglewood Golf Club (WA)",
+        "address":"900 Bellevue Way NE, Bellevue, WA 98004",
+        "imageUrl":"inglewood-golf-club.jpeg",
+        "hyperlink":"https://leftcoastcrime.org/2024/index.html"
+    },
+    {
+        "date": "Monday, June 17th, 2024 @ 7PM",
+        "name":`LAUNCH book event. "Murder on Vacation"`,
+        "location":"Third Place Books",
+        "address":"17171 Bothell Way NE #A101, Lake Forest Park, WA 98155",
+        "imageUrl":"third-place-books.png",
+        "hyperlink":"https://www.thirdplacebooks.com/lake-forest-park"
+    },
+    {
+        "date": "Wednesday, August 14th, 2024",
+        "name":"Joint Book Event",
+        "location":"West Stockbridge Old Town Hall",
+        "address":"9 Main St, West Stockbridge, MA 01266",
+        "description":"Joined by authors Erica Miner and Charles Philipp Martin",
+        "imageUrl":"west-stockbridge-town-hall.jpeg",
+        "hyperlink":"https://weststockbridgepl.org/about-us/"
     },
     {
         "date":"Thursday, December 14th, 2023",
@@ -70,6 +103,14 @@ const events = [
         "imageUrl":"murder-at-the-royal-albert-audiobook.jpeg",
         "description":`Step into the world of intrigue and suspense with Gerald Elias' latest audiobook, 'Murder at the Royal Albert,' expertly narrated by Alison Larkin. A musical mystery masterpiece awaits your ears! Click "learn more" to pre-order!`,
         "hyperlink":"/books/audiobooks/murder-at-the-royal-albert"
+    },
+    {
+        "date": "Saturdy, December 7th, 2024",
+        "name":"Annual Vivaldi by Candlelight concert",
+        "location":"First Presbyterian Church of Salt Lake City",
+        "address":"12 C St E, Salt Lake City, UT 84103",
+        "imageUrl":"vivaldi.jpeg",
+        "hyperlink":"https://utahglobaldiplomacy.org/events/vivaldi"
     },
 ];
 
