@@ -29,7 +29,7 @@ const events = [
         "name":"Mystery & Music at Oak Harbor Library",
         "location":"Oak Harbor Library",
         "address":"1000 SE Regatta Dr, Oak Harbor, WA 98277",
-        "imageUrl":"oak-harbor.jpeg",
+        "imageUrl":"IG-MysteryAndMusic.jpg",
         "description":"Critically acclaimed author and musician Gerald Elias blends music and mystery for a presentation to indulge the senses! He will discuss his books and play snippets of pieces featured in his novels.",
     },
     {
@@ -39,14 +39,6 @@ const events = [
         "address":"900 Bellevue Way NE, Bellevue, WA 98004",
         "imageUrl":"inglewood-golf-club.jpeg",
         "hyperlink":"https://leftcoastcrime.org/2024/index.html"
-    },
-    {
-        "date": "Monday, June 17th, 2024 @ 7PM",
-        "name":`LAUNCH book event. "Murder on Vacation"`,
-        "location":"Third Place Books",
-        "address":"17171 Bothell Way NE #A101, Lake Forest Park, WA 98155",
-        "imageUrl":"third-place-books.png",
-        "hyperlink":"https://www.thirdplacebooks.com/lake-forest-park"
     },
     {
         "date": "Wednesday, August 14th, 2024",
