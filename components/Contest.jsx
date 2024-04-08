@@ -12,6 +12,8 @@ books.</strong></p>
             VACATION</strong>, starring everyone’s favorite retired NYPD Police Chief, Maury
             Gross. Never heard of him? You’ll love him.
         </p>
+        <p>I’ll also post a whole bunch of the photos on my website. It doesn’t get
+much better than that.</p>
         <p>
             If I get more than 100 photos I might hand out more prizes. If I get more
             than 1,000, I’ll retire. Did I hear someone say, “Good riddance?”
