@@ -1,14 +1,18 @@
 import NewPost from "@/components/NewPost";
 import NotFound from "@/components/NotFound";
+import Contest from "@/components/Contest";
 import posts from "@/util/posts";
 
 export default function BlogByName({ params }){
     let { name = undefined } = params;
     name = name?.replace("%2C", ",")
     const post = posts.blogsContent[decodeURI(name?.replace("%3A", ":"))];
-    // console.log(name);
+    console.log(name);
 
+    
     if (name === "A%20Strange%20and%20Wonderful%20Concert") return <div className={post?.image ? "thanksgiving-font" : ""} id="blog-post"><NewPost /></div>;
+    if (name === "FREE%20PHOTO%20CONTEST%3A%20%22YOU%20DON%E2%80%99T%20WANT%20TO%20BE%20CAUGHT%20DEAD%20WITH%20THIS%22") return <div id="blog-post"><Contest /></div>;
+
     
     if(!post) return <NotFound />;
 

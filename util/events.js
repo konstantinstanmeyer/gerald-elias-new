@@ -25,15 +25,16 @@ const events = [
         "description":"Joined by Gus Denhard on theorbo.",
     },
     {
-        "date":"Thursday, May 16th, 2024 @ 4:00PM PST",
+        "date":"Thursday, May 16th, 2024 @ 3:30-5:00PM PST",
         "name":"Mystery & Music at Oak Harbor Library",
         "location":"Oak Harbor Library",
         "address":"1000 SE Regatta Dr, Oak Harbor, WA 98277",
         "imageUrl":"IG-MysteryAndMusic.jpg",
         "description":"Critically acclaimed author and musician Gerald Elias blends music and mystery for a presentation to indulge the senses! He will discuss his books and play snippets of pieces featured in his novels.",
+        "hyperlink":"https://sno-isle.bibliocommons.com/events/6579ff940825261328f3514c"
     },
     {
-        "date": "Saturday, June 8th, 2024",
+        "date": "Saturday, June 8th, 2024 @ 10:00AM",
         "name":"Book presentation with music, Murder at the Royal Albert",
         "location":"Inglewood Golf Club (WA)",
         "address":"900 Bellevue Way NE, Bellevue, WA 98004",
@@ -41,13 +42,22 @@ const events = [
         "hyperlink":"https://leftcoastcrime.org/2024/index.html"
     },
     {
-        "date": "Wednesday, August 14th, 2024",
-        "name":"Joint Book Event",
+        "date": "Wednesday, August 14th, 2024 @ 6:00PM",
+        "name":"Book Presentation with Music",
         "location":"West Stockbridge Old Town Hall",
         "address":"9 Main St, West Stockbridge, MA 01266",
-        "description":"Joined by authors Erica Miner and Charles Philipp Martin",
+        "description":"Daniel Jacobus series and Murder on Vacation presented by Friends of the Library. Reception and book signing afterwards!",
         "imageUrl":"west-stockbridge-town-hall.jpeg",
         "hyperlink":"https://weststockbridgepl.org/about-us/"
+    },
+    {
+        "date": "SATURDAY, November 2nd, 2024",
+        "name":"Joint Book Event",
+        "location":"The Seattle Public Library - West Seattle",
+        "address":"2306 42nd Ave SW, Seattle, WA 98116",
+        "description":"Joined by authors Erica Miner and Charles Philipp Martin",
+        "imageUrl":"west-seattle.jpeg",
+        "hyperlink":"https://www.spl.org/hours-and-locations/west-seattle-branch"
     },
     {
         "date":"Thursday, December 14th, 2023",
