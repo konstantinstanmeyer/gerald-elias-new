@@ -107,7 +107,7 @@ const events = [
         "hyperlink":"/books/audiobooks/murder-at-the-royal-albert"
     },
     {
-        "date": "Saturdy, December 7th, 2024",
+        "date": "Saturday, December 7th, 2024",
         "name":"Annual Vivaldi by Candlelight concert",
         "location":"First Presbyterian Church of Salt Lake City",
         "address":"12 C St E, Salt Lake City, UT 84103",
