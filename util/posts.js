@@ -8,7 +8,7 @@ const posts = {
         "2023": [
             `You're not bad, for a Democrat`,
             `"TURKEY IN THE SAW" SHORT STORY CONTEST`,
-            "Wanna Be a Crime Writer?",
+            "Wanna Be a Crime Writer? (ENDED)",
             "Gerald Elias's Three Favorite Reads of 2023",
             "The Day After Memorial Day",
             "The Burden of the Backlist",
