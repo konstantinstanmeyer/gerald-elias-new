@@ -2,7 +2,7 @@ export default function Lacrymosa(){
     return (
         <>
 		<div id="blog-post-image-container">
-		<img id="blog-post-image" src="/constanze.png"/>
+		<img scale={{transform: "scale(0.7)"}} id="blog-post-image" src="/constanze.png"/>
 		</div>
         <h2 style={{transform: "scale(0.7)"}}>LACRYMOSA, AND THE TRIUMPH OF CONSTANZE MOZART</h2>
         <p>
