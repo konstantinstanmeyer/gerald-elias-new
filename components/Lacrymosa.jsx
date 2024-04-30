@@ -1,6 +1,9 @@
 export default function Lacrymosa(){
     return (
         <>
+		<div id="blog-post-image-container">
+		<img id="blog-post-image" src="/constanze.png"/>
+		</div>
         <h2 style={{transform: "scale(0.7)"}}>LACRYMOSA, AND THE TRIUMPH OF CONSTANZE MOZART</h2>
         <p>
 				<em><span >Constanze Mozart, wife of the great composer, is treated rather shabbily––and in my view, unfairly––by almost all of Mozart’s biographers. She’s variously described as being vacuous, manipulative, self-centered; not being very pretty, not having as beautiful a voice as her two sisters who were successful opera singers, and––horror of horrors––being an inadequate housekeeper. However, when one considers the almost insurmountable challenges she faced as a young, penniless widow with two small children at a critical moment in her life, what she was able to accomplish seems to belie the assertions of her worst critics. It’s also worth noting that almost all of Mozart’s biographers have been men.</span></em>
