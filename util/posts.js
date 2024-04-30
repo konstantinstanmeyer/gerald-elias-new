@@ -1,7 +1,7 @@
 const posts = {
     index: {
         "2024": [
-            `FREE PHOTO CONTEST: "YOU DON’T WANT TO BE CAUGHT DEAD WITH THIS"`,
+            // `FREE PHOTO CONTEST: "YOU DON’T WANT TO BE CAUGHT DEAD WITH THIS"`,
             "A Strange and Wonderful Concert"
         ],
         "2023": [

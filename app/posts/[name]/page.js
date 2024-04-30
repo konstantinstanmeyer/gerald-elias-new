@@ -11,7 +11,6 @@ export default function BlogByName({ params }){
 
     
     if (name === "A%20Strange%20and%20Wonderful%20Concert") return <div className={post?.image ? "thanksgiving-font" : ""} id="blog-post"><NewPost /></div>;
-    if (name === "FREE%20PHOTO%20CONTEST%3A%20%22YOU%20DON%E2%80%99T%20WANT%20TO%20BE%20CAUGHT%20DEAD%20WITH%20THIS%22") return <div id="blog-post"><Contest /></div>;
 
     
     if(!post) return <NotFound />;
