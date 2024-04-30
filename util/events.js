@@ -60,14 +60,6 @@ const events = [
         "hyperlink":"https://www.spl.org/hours-and-locations/west-seattle-branch"
     },
     {
-        "date":"Thursday, December 14th, 2023",
-        "name":"AUTHOR EVENT WITH STITCH",
-        "location":"Online Event",
-        "description": "Stitch is the world's largest companionship community created by members, for members, creating community and companionship for anyone over 50. Meet Gerald Elias and learn about writing mysteries, his writing process, and his books.",
-        "imageUrl":"stitch.png",
-        "hyperlink":"https://www.stitch.net/app/event/486764/united-states-crown-hill/author-eventgerald-elias"
-    },
-    {
         "date":"Friday, December 15th, 2023",
         "name":"House of Mystery",
         "location":"ABC News Radio",
@@ -76,12 +68,12 @@ const events = [
         "hyperlink":"https://www.alanrwarren.com/house-of-mystery-radioshow"
     },
     {
-        "date":"Friday, December 1st, 2023",
-        "name":"Let It Snow",
+        "date":"Thursday, December 14th, 2023",
+        "name":"AUTHOR EVENT WITH STITCH",
         "location":"Online Event",
-        "imageUrl":"let-it-snow.jpeg",
-        "description":"A select group of authors joins forces with Uvi Poznansky to bring you amazing audiobooks!",
-        "hyperlink":"https://www.facebook.com/events/821999746332037/"
+        "description": "Stitch is the world's largest companionship community created by members, for members, creating community and companionship for anyone over 50. Meet Gerald Elias and learn about writing mysteries, his writing process, and his books.",
+        "imageUrl":"stitch.png",
+        "hyperlink":"https://www.stitch.net/app/event/486764/united-states-crown-hill/author-eventgerald-elias"
     },
     {
         "date":"Saturday, December 2nd, 2023 @ 8:00pm MST",
@@ -90,6 +82,14 @@ const events = [
         "address":"12 C St E, Salt Lake City, UT 84103",
         "imageUrl":"vivaldi.jpeg",
         "hyperlink":"https://utahglobaldiplomacy.org/events/vivaldi"
+    },
+    {
+        "date":"Friday, December 1st, 2023",
+        "name":"Let It Snow",
+        "location":"Online Event",
+        "imageUrl":"let-it-snow.jpeg",
+        "description":"A select group of authors joins forces with Uvi Poznansky to bring you amazing audiobooks!",
+        "hyperlink":"https://www.facebook.com/events/821999746332037/"
     },
     {
         "date":"Saturday, November 18th, 2023 @ 6:30pm PST",
