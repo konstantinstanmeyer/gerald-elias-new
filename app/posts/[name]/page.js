@@ -2,6 +2,7 @@ import NewPost from "@/components/NewPost";
 import NotFound from "@/components/NotFound";
 import Contest from "@/components/Contest";
 import posts from "@/util/posts";
+import Lacrymosa from "@/components/Lacrymosa";
 
 export default function BlogByName({ params }){
     let { name = undefined } = params;
@@ -11,7 +12,7 @@ export default function BlogByName({ params }){
 
     
     if (name === "A%20Strange%20and%20Wonderful%20Concert") return <div className={post?.image ? "thanksgiving-font" : ""} id="blog-post"><NewPost /></div>;
-
+    if (name === "Lacrymosa,%20and%20the%20Triumph%20of%20Constanze%20Mozart") return <div id="blog-post"><Lacrymosa /></div>;
     
     if(!post) return <NotFound />;
 
