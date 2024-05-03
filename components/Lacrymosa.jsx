@@ -524,6 +524,8 @@ export default function Lacrymosa(){
 			<p>
 				<span></span><span>I imagine there may be one question you have been wondering about: Did I reward Franz Süssmayr for completing the </span><em><span >Requiem</span></em><span>, as I had promised? Had he not lived up to his side of the bargain? Did I fulfill my carnal obligation? Well, that is one mystery I will let the music historians argue among themselves.</span>
 			</p>
+			<p style={{transform: "scale(0.9)"}}>© 2020 by Gerald Elias</p>
+			<p style={{transform: "scale(0.9)"}}>All Rights Reserved</p>
         </>
     )
 }
