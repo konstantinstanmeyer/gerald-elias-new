@@ -8,6 +8,15 @@ const events = [
         "hyperlink":"https://leftcoastcrime.org/2024/index.html"
     },
     {
+        "date": "Monday, July 22nd, 2024 @ 5:30PM",
+        "name":"Joint Book Presentation with author, Carol Goodman Kaufman",
+        "location":"The Bookstore in Lenox",
+        "address":"11 Housatonic Street, Lenox, MA",
+        "imageUrl":"the-bookstore.png",
+        "description":"In conversation with Kaufman about her novel, The First Murder and Elias's most recent Daniel Jacobus mystery, Murder at the Royal Albert.",
+        "hyperlink":"https://www.bookstoreinlenox.com/events/"
+    },
+    {
         "date":"Thursday, February 29th, 2024 @ 3:30PM PST",
         "name":"Noir at the Bar Radio, Episode 6, with Allen Warren",
         "location":"Skyline Retirement Community",
@@ -42,7 +51,7 @@ const events = [
         "hyperlink":"https://leftcoastcrime.org/2024/index.html"
     },
     {
-        "date": "Wednesday, August 14th, 2024 @ 6:00PM",
+        "date": "Wednesday, August 14th, 2024 @ 4:00-6:00PM",
         "name":"Book Presentation with Music",
         "location":"West Stockbridge Old Town Hall",
         "address":"9 Main St, West Stockbridge, MA 01266",
@@ -51,13 +60,28 @@ const events = [
         "hyperlink":"https://weststockbridgepl.org/about-us/"
     },
     {
-        "date": "SATURDAY, November 2nd, 2024",
-        "name":"Joint Book Event",
+        "date": "Friday, October 25th, 2024 @ 7:00-8:00PM",
+        "name":"Interview and Performance on Northwest Focus",
+        "location":"KING-FM Radio, Seattle, WA",
+        "description":"Discussion with host Dave Beck about Elias's music and literary career, including performance of selections from his upcoming violin recitals.",
+        "imageUrl":"king-fm.png",
+    },
+    {
+        "date": "Saturday, November 2nd, 2024 @ 1PM",
+        "name":"Joint Book Presentation",
         "location":"The Seattle Public Library - West Seattle",
         "address":"2306 42nd Ave SW, Seattle, WA 98116",
-        "description":"Joined by authors Erica Miner and Charles Philipp Martin",
+        "description":"Joined by authors Erica Miner and Charles Philipp Martin. A discussion and music about the authors' recently released mysteries",
         "imageUrl":"west-seattle.jpeg",
         "hyperlink":"https://www.spl.org/hours-and-locations/west-seattle-branch"
+    },
+    {
+        "date": "Sunday, November 10th, 2024 @ 3:00-4:15PM followed by reception",
+        "name": `Violoin Recital, "A Classical Kaleidoscope"`,
+        "location":"Folio Anthenaeum Library, 93 Park St. #307, Seattle, WA",
+        "description":"Joined by pianist Michelle Huang. A selection of virtuoso violin repertoire found in Elias's Daniel Jacobus mystery series",
+        "imageUrl":"kaleidoscope.png",
+        "hyperlink":"https://www.folioseattle.org/event-details/a-classical-kaleidoscope"
     },
     {
         "date":"Friday, December 15th, 2023",
