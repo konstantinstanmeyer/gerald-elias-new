@@ -77,7 +77,7 @@ const events = [
     },
     {
         "date": "Sunday, November 10th, 2024 @ 3:00-4:15PM followed by reception",
-        "name": `Violoin Recital, "A Classical Kaleidoscope"`,
+        "name": `Violin Recital, "A Classical Kaleidoscope"`,
         "location":"Folio Anthenaeum Library, 93 Park St. #307, Seattle, WA",
         "description":"Joined by pianist Michelle Huang. A selection of virtuoso violin repertoire found in Elias's Daniel Jacobus mystery series",
         "imageUrl":"kaleidoscope.png",
