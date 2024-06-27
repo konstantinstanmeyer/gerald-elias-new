@@ -56,7 +56,7 @@ const events = [
         "location":"West Stockbridge Old Town Hall",
         "address":"9 Main St, West Stockbridge, MA 01266",
         "description":"Daniel Jacobus series and Murder on Vacation presented by Friends of the Library. Reception and book signing afterwards!",
-        "imageUrl":"west-stockbridge-town-hall.jpeg",
+        "imageUrl":"west-stockbridge-event.png",
         "hyperlink":"https://weststockbridgepl.org/about-us/"
     },
     {
