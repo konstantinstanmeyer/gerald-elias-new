@@ -2,6 +2,7 @@ const posts = {
     index: {
         "2024": [
             // `FREE PHOTO CONTEST: "YOU DON’T WANT TO BE CAUGHT DEAD WITH THIS"`,
+            "Tchaikovsky and the Future of Contemporary Music",
             "Lacrymosa, and the Triumph of Constanze Mozart",
             "A Strange and Wonderful Concert"
         ],
