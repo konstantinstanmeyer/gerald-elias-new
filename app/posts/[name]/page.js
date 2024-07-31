@@ -10,7 +10,7 @@ export async function generateMetadata({ params, searchParams }){
         return {
             openGraph: {
               title: "Tchaikovsky and the Future of Contemporary Music",
-              image: "/selfie.png"
+              images: "/selfie.png"
             },
         }
     }
