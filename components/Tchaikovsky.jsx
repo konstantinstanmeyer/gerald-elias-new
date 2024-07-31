@@ -1,4 +1,6 @@
-export default function Tchaikovsky(){
+
+
+export default function Tchaikovsky({ params, searchParams }){
     return (
         <>
             <h2 style={{transform: "scale(0.7)"}}>Tchaikovsky and the Future of Contemporary Music</h2>

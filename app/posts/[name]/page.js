@@ -5,6 +5,17 @@ import posts from "@/util/posts";
 import Lacrymosa from "@/components/Lacrymosa";
 import Tchaikovsky from "@/components/Tchaikovsky";
 
+export async function generateMetadata({ params, searchParams }){
+    if(params?.name === "Tchaikovsky%20and%20the%20Future%20of%20Contemporary%20Music"){
+        return {
+            openGraph: {
+              title: "Tchaikovsky and the Future of Contemporary Music",
+              image: "/selfie.png"
+            },
+        }
+    }
+}
+
 export default function BlogByName({ params }){
     let { name = undefined } = params;
     name = name?.replace("%2C", ",")

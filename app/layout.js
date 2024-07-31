@@ -5,8 +5,7 @@ import { Outfit, Playfair_Display, Cormorant, Overpass, Red_Hat_Mono, Montserrat
 import MobileNav from '@/components/MobileNav'
 
 export const metadata = {
-  title: 'Gerald Elias',
-  description: 'Hello :)',
+  title: "Gerald Elias"
 }
 
 const outfit = Outfit({
