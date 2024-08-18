@@ -376,6 +376,13 @@ textarea:focus, input:focus{
   text-align: center;
 }
 
+.kindest-image-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .books-list {
   position: relative;
   width: 80%;

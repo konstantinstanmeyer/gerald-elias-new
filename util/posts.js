@@ -2,9 +2,10 @@ const posts = {
     index: {
         "2024": [
             // `FREE PHOTO CONTEST: "YOU DON’T WANT TO BE CAUGHT DEAD WITH THIS"`,
+            "The Most Kindest Cut of All",
             "Tchaikovsky and the Future of Contemporary Music",
             "Lacrymosa, and the Triumph of Constanze Mozart",
-            "A Strange and Wonderful Concert"
+            "A Strange and Wonderful Concert",
         ],
         "2023": [
             `You're not bad, for a Democrat`,

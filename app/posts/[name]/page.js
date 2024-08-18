@@ -4,13 +4,14 @@ import Contest from "@/components/Contest";
 import posts from "@/util/posts";
 import Lacrymosa from "@/components/Lacrymosa";
 import Tchaikovsky from "@/components/Tchaikovsky";
+import MostKindest from "@/components/MostKindest";
 
 export async function generateMetadata({ params, searchParams }){
     if(params?.name === "Tchaikovsky%20and%20the%20Future%20of%20Contemporary%20Music"){
         return {
             openGraph: {
               title: "Tchaikovsky and the Future of Contemporary Music",
-              images: "/selfie.png"
+              images: "/selfie.png",
             },
         }
     }
@@ -26,6 +27,7 @@ export default function BlogByName({ params }){
     if (name === "A%20Strange%20and%20Wonderful%20Concert") return <div className={post?.image ? "thanksgiving-font" : ""} id="blog-post"><NewPost /></div>;
     if (name === "Lacrymosa,%20and%20the%20Triumph%20of%20Constanze%20Mozart") return <div id="blog-post"><Lacrymosa /></div>;
     if (name === "Tchaikovsky%20and%20the%20Future%20of%20Contemporary%20Music") return <div id="blog-post"><Tchaikovsky/></div>;
+    if (name === "The%20Most%20Kindest%20Cut%20of%20All") return <div id="blog-post"><MostKindest/></div>;
     
     if(!post) return <NotFound />;
 
