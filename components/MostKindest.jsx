@@ -51,7 +51,7 @@ export default function MostKindest(){
                     So, there you go. Oh, before I forget… Guess which great pianist made ten minutes of cuts in the Rachmaninoff Piano Concerto No. 3 when he recorded it with Eugene Ormandy and the Philadelphia Orchestra in 1940? You guessed it. Serge Rachmaninoff.
                 </p>
                 <p>
-                    Practicality and common sense rule the day. And you thought Liberace and Brahms had nothing in common. 
+                    Practicality and common sense rule the day. And you thought Rachmaninoff and Brahms had nothing in common. 
                 </p>
                 <p>
                     <em>Want more provocative reading? Try my best-selling insider’s look at the life of a symphony orchestra musician, </em><a target="_blank" href="https://www.amazon.com/Symphonies-Scorpions-international-instrument-diplomacy/dp/B0CJ46LP2T/ref=tmm_pap_swatch_0?_encoding=UTF8&amp;qid=1695502565&amp;sr=1-5">Symphonies &amp; Scorpions</a><em>.</em>
