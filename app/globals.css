@@ -19,6 +19,7 @@ input {
   appearance: none !important;
   outline: none !important;
   box-shadow: none !important;
+  -webkit-border-radius: 0;
 }
 
 html {
@@ -208,9 +209,10 @@ textarea:focus, input:focus{
 #gerald-elias {
   font-family: var(--font-montserrat);
   font-weight: 300;
-  font-size: calc(calc(.012 * min(100vh, 900px)) + 1.2vw + 0.5rem) !important;
+  font-size: calc(calc(.010 * min(100vh, 900px)) + 1.2vw + 0.5rem) !important;
   letter-spacing: 5px;
   margin-left: 2rem;
+  line-height:0.9em;
 }
 
 #navbar > a {
@@ -1422,8 +1424,8 @@ textarea {
     z-index: 100;
     width: 100vw;
     align-items: center;
-    position: fixed;
     color: rgb(60,60,60);
+
   }
 
   @keyframes fadeIn {
@@ -1497,6 +1499,7 @@ textarea {
     width: 100%;
     align-items: center;
     overflow-y: scroll;
+    margin-bottom: 10vh;
   }
 
   #mobile-nav-links > a {
@@ -2046,6 +2049,8 @@ textarea {
   margin-bottom: 12vh;
 }
 
+
+
 #connections-content {
   width: 80%;
   margin-left: auto;
@@ -2064,6 +2069,10 @@ textarea {
 #connections-list p {
   font-size: 1rem;
   margin-bottom: 1.5rem;
+}
+
+#connections-list a {
+  font-style: italic;
 }
 
 .sub-link {
