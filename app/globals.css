@@ -729,6 +729,7 @@ textarea:focus, input:focus{
   border: none;
   font-family: var(--font-montserrat);
   font-size: calc(calc(.012 * min(100vh, 900px)) + 0.2vw + 0.3rem) !important;
+  color: black !important;
 }
 
 #bio-content {
