@@ -1499,7 +1499,7 @@ textarea {
     width: 100%;
     align-items: center;
     overflow-y: scroll;
-    margin-bottom: 10vh;
+    margin-bottom: 30vh;
   }
 
   #mobile-nav-links > a {
