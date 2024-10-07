@@ -8,9 +8,9 @@ export default function Composing(){
         <div id="composing">
             <Landing name="Composing" imageUrl="composing.jpeg" />
             <div id="composing-content">
-                {compositions.originalCompositions.map((comp, i) => 
-                    <CompositionCard composition={comp} />
-                )}
+                {/* {compositions.originalCompositions.map((comp, i) =>  */}
+                    <CompositionCard />
+                {/* )} */}
             </div>
         </div>
     )

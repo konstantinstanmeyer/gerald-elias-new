@@ -1257,6 +1257,7 @@ textarea {
   padding-bottom: 2rem;
   border-bottom: black solid 1px;
   margin-top: 2rem;
+  margin-bottom: 10vh;
 }
 
 .composition-card:last-of-type {
@@ -1264,13 +1265,12 @@ textarea {
 }
 
 .composition-card > h3 {
-  font-weight: 500;
+  font-weight: 600;
   font-size: calc(calc(.012 * min(100vh, 900px)) + 0.5vw + 0.5rem) !important;
-  font-style: italic;
   /* text-align: justify; */
   line-height: calc(calc(.012 * min(100vh, 900px)) + 0.65vw + 0.65rem);
   word-break:keep-all;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.5rem;
 }
 
 .composition-card a {
@@ -1302,6 +1302,14 @@ textarea {
   font-weight: 500;
   font-size: calc(calc(.012 * min(100vh, 900px)) + 0.5vw + 0.1rem) !important;
   color:rgb(0, 0, 0, 0.7);
+}
+
+.section-bottom {
+  margin-bottom: 3rem !important;
+}
+
+.composition-card p {
+  margin-bottom: 0.6rem;
 }
 
 .quotes-wrapper {
