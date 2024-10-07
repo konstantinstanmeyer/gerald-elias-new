@@ -46,6 +46,9 @@ export default function CompositionCard({ composition }){
             </>
             : <p onClick={() => setOpen(true)} className="read-more">more info</p>
             } */}
+            <h1 className="composition-header">Original Compositions and Transcriptions by Gerald Elias</h1>
+            <h5>Parts, recordings, and reviews available upon request</h5>
+            <div className="composition-divider" />
             <h3>Concerto Cadenzas</h3>
             <p>Brahms</p>
             <p>Mozart No. 3 in G Major</p>

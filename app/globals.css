@@ -1251,6 +1251,25 @@ textarea {
   align-items: center;
 }
 
+.composition-header {
+  font-size: calc(calc(.025 * min(100vh, 900px)) + 1vw) !important;
+  width: 80%;
+}
+
+.composition-divider {
+  width: 80%;
+  height: 2px;
+  background-color: rgb(133, 133, 133);
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  border-radius: 5px;
+}
+
+.composition-card h5 {
+  color: rgb(104, 104, 104);
+  width: 80%;
+}
+
 .composition-card {
   width: 60%;
   font-family: var(--font-poppins);
