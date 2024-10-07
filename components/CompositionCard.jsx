@@ -79,7 +79,8 @@ export default function CompositionCard({ composition }){
             <h3>Orchestra</h3>
             <p>Transcription of the Aaron Copland Sonata for violin and orchestra. [Pub. Boosey &amp; Hawkes]</p>
             <p>“The Raven,” Monodrama for Baritone and Orchestra (also a chamber music version for voice, viola, and piano), based upon the poem by Edgar Allan Poe</p>
-            <p className="section-bottom">Concerto Grosso for Violin and Chamber Orchestra (also for violin and piano)</p>
+            <p>Concerto Grosso for Violin and Chamber Orchestra (also for violin and piano)</p>
+            <p className="section-bottom">"Dear Great Salt Lake," for narrator, violin, flute, and cimbalom. (Co-composed with Igor Iachimciuc, poem by Raisa Tolchinsky)</p>
 
             <h3>Overture in the Classical Style</h3>
             <p>Transcription of &quot;Devil&#39;s Trill&quot; Sonata for string orchestra</p>
