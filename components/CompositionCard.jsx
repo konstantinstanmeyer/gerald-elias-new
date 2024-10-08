@@ -67,22 +67,20 @@ export default function CompositionCard({ composition }){
             <p className="section-bottom">William Walton, &quot;Touch Her Soft Lips and Part,&quot; from the film Henry V.</p>
 
             <h3>Chamber Music</h3>
-            <p>String Quartet No. 1: &quot;When Mr. Mozart Went to the Ball.&quot; Variations (a la Young Persons Guide to the Orchestra by Benjamin Britten) on Mozart&#39;s Violin Sonata in G</p>
-            <p>Major, K.379, for string quartet and narrators</p>
+            <p>String Quartet No. 1: &quot;When Mr. Mozart Went to the Ball.&quot; Variations (a la Young Persons Guide to the Orchestra by Benjamin Britten) on Mozart&#39;s Violin Sonata in G Major, K.379, for string quartet and narrators</p>
             <p>String Quartet No. 2</p>
             <p>&quot;Mack the Knife&quot; Fantasy for String Quartet</p>
             <p>&quot;V&#39;adoro&quot; Variations for Violin Solo and tape (Handel&#39;s &quot;V&#39;adoro Pupille)</p>
             <p>&quot;William Grandstaff,&quot; Operatic Scene for 3 voices, violin, flute, and piano</p>
             <p>&quot;The Legend of William Grandstaff&quot; for baritone, string bass and piano</p>
             <p>&quot;Conversations with Essie&quot; for female narrator and chamber ensemble</p>
-            <p className="section-bottom">&quot;Piccolino&#39;s Sarabanda&quot; for solo violin</p>
+            <p>&quot;Piccolino&#39;s Sarabanda&quot; for solo violin</p>
+            <p className="section-bottom">"Dear Great Salt Lake," for narrator, violin, flute, and cimbalom. (Co-composed with Igor Iachimciuc, poem by Raisa Tolchinsky)</p>
             <h3>Orchestra</h3>
             <p>Transcription of the Aaron Copland Sonata for violin and orchestra. [Pub. Boosey &amp; Hawkes]</p>
             <p>“The Raven,” Monodrama for Baritone and Orchestra (also a chamber music version for voice, viola, and piano), based upon the poem by Edgar Allan Poe</p>
             <p>Concerto Grosso for Violin and Chamber Orchestra (also for violin and piano)</p>
-            <p className="section-bottom">"Dear Great Salt Lake," for narrator, violin, flute, and cimbalom. (Co-composed with Igor Iachimciuc, poem by Raisa Tolchinsky)</p>
-
-            <h3>Overture in the Classical Style</h3>
+            <p>Overture in the Classical Style</p>
             <p>Transcription of &quot;Devil&#39;s Trill&quot; Sonata for string orchestra</p>
             <p>Transcription of the Andante from Bach&#39;s Violin Sonata in A Minor for string orchestra (can be used as a 2nd mvt. in the 3rd Brandenburg Concerto)</p>
         </div>
