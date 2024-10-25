@@ -46,9 +46,11 @@ export default function Composing(){
                     <p>Brahms</p>
                     <p>Mozart No. 3 in G Major</p>
                     <p className="section-bottom">Mozart No. 5 in A Major</p>
+                    
                     <h3>Transcriptions for Violin and Piano</h3>
                     <p>Bartok, &quot;Intermezzo Interrotto&quot; from Concerto for Orchestra</p>
                     <p>Bazzini, &quot;Second Round of the Goblins&quot; (a parody for 4 violins)</p>
+                    <p>Amy Beach, "Three Browning Songs"  (violin solo)</p>
                     <p>Faure, &quot;Pavane&quot;</p>
                     <p>Gottschalk, &quot;Pasquinade&quot; (also arranged for 8 flutes and orchestra)</p>
                     <p>Kodaly, &quot;Intermezzo&quot; from the Hary Janos Suite</p>

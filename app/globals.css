@@ -1268,6 +1268,7 @@ textarea {
 .composition-card h5 {
   color: rgb(104, 104, 104);
   width: 80%;
+  font-size:calc(calc(.012 * min(100vh, 900px)) + 0.5vw + 0.4rem) !important;
 }
 
 .composition-card {
