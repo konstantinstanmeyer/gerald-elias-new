@@ -3,11 +3,11 @@ export default function Home() {
     <>
       <div id="home" className="">
         <div loading="lazy" id="landing" className="">
-          <img loading="lazy" id="landing-image" src="/murder-at-the-royal-albert-audiobook.jpeg" />
+          <img loading="lazy" id="landing-image" src="/murder-on-vacation.jpg" />
           <div id="landing-text">
-            <p>NEW RELEASE: <span>'MURDER AT THE ROYAL ALBERT'</span> AUDIOBOOK</p>
-            <p id="landing-description">"...an altogether delightful listen." -AudioFile Magazine</p>
-            <a id="learn-more" href="/books/audiobooks/murder-at-the-royal-albert">MORE DETAILS</a>
+            <p>COMING SOON! <span>'MURDER ON VACATION'</span></p>
+            <p id="landing-description">Maury Gross thought retirement meant relaxation, travel, and quality time with his wife, Bobbi. Instead, he's tripping over dead bodies from coast to coast.</p>
+            <a id="learn-more" href="/books/murder-on-vacation">MORE DETAILS</a>
           </div>
         </div>
         <div id="home-books-container">

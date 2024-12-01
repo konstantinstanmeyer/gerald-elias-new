@@ -2,7 +2,8 @@ import { books } from "@/util/books"
 import NotFound from "@/components/NotFound";
 
 export default function Book({ params }){
-    // console.log(params)
+    console.log(params)
+    console.log(books);
     const book = books[params?.name?.replace("%26", "&")];
     // console.log(params)
     // console.log(book)
@@ -25,7 +26,7 @@ export default function Book({ params }){
                 {!quote ? null : 
                     <p id="preview-details">{book.details.split(' -')[0] + " "}<span id="preview-details-author">{"-" + author}</span></p>
                 }
-                <p id="preview-hyperlinks-list">Buy on {
+                <p id="preview-hyperlinks-list">{book?.preorder ? "Pre-order on" : "Buy on"} {
                     Object.entries(book.links).map(([siteName,url], i) => 
                     <>
                         <a target="_blank" className="preview-hyperlink" key={i+'50'} href={url}>{siteName}</a>{i < linksLength - 1 ? <span>,</span> : null}

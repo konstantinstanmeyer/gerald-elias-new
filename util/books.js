@@ -234,6 +234,28 @@ export const books = {
         },
         releaseDate: "2020"
     },
+    "murder-on-vacation":{
+        name: "Murder On Vacation",
+        imageUrl: "/murder-on-vacation.jpg",
+        preorder: true,
+        description: [
+            `Maury Gross thought retirement meant relaxation, travel, and quality time with his wife, Bobbi. Instead, he's tripping over dead bodies from coast to coast.`,
+            `Meet Maury Gross: retired NYPD Police Chief, reluctant vacationer, and accidental detective extraordinaire. With his sharp wit, keen eye, and long-suffering wife by his side, Maury can't seem to take a trip without stumbling into a mystery.`,
+            `From the sun-soaked beaches of California to the snowy peaks of Utah, from the quaint towns of New England to the bustling streets of Tokyo, Maury's "golden years" are filled with anything but rest. Each destination brings a new adventure, a baffling crime, and a cast of colorful suspects.`,
+            `In this collection of 16 short stories, you'll join Maury as he:`,
+            `• Unravels a perplexing murder at a ski resort`,
+            `• Investigates a suspicious death among the elephant seals`,
+            `• Solves a puzzling case of sushi and sabotage in Japan`,
+            `• And much more!`,
+            `With a perfect blend of humor, suspense, and armchair travel, "Retirement is Murder" offers a fresh take on the mystery genre. Maury's dry wit, Bobbi's pragmatic wisdom, and their endearing relationship anchor each story, while exotic locales and intricate plots keep the pages turning.`,
+            `Ideal for fans of cozy mysteries, travel enthusiasts, and anyone who believes that retirement should be anything but boring. Whether you're a seasoned mystery lover or new to the genre, Maury Gross will charm you with his reluctant heroics and sharp deductions.`,
+            `Pack your bags, bring your reading glasses, and join Maury and Bobbi on a globetrotting adventure where the only thing deadlier than the criminals... is retirement itself!`
+        ],
+        links: {
+            "Amazon":"https://www.amazon.com/Murder-Vacation-Gerald-Elias-ebook/dp/B0DKKZ6ZD1",
+        },
+        releaseDate: "May 1st, 2025"
+    },
 }
 
 export const audiobooks = {

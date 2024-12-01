@@ -48,7 +48,7 @@ textarea:focus, input:focus{
 #landing {
   width: 100vw;
   background-color: gray;
-  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('../public/orchestra.jpeg');
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('../public/beach-scene.jpg');
   height: 80vh;
   background-position: center center;
   object-fit: cover;
@@ -67,8 +67,8 @@ textarea:focus, input:focus{
 }
 
 #landing-image {
-  width: 30%;
-  aspect-ratio: 1/1;
+  height: 60vh;
+  aspect-ratio:1/1.5;
 }
 
 #landing-text {
@@ -102,8 +102,9 @@ textarea:focus, input:focus{
   font-family: var(--font-playfair-display);
   font-weight: 400;
   font-style: italic;
-  margin-bottom: 0.5rem;
-  font-size: calc(calc(.012 * min(100vh, 900px)) + 0.8vw + 0.3rem) !important;
+  margin-bottom: 0.7rem;
+  margin-top: 0.3rem;
+  font-size: calc(calc(.005 * min(100vh, 900px)) + 0.8vw + 0.3rem) !important;
 }
 
 .home-book {
@@ -1709,7 +1710,8 @@ textarea {
   }
 
   #landing img {
-    width: 70%;
+    height: 60vh;
+    aspect-ratio: 1/1.5;
   }
 
   #landing-text {

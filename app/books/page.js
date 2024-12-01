@@ -42,6 +42,9 @@ export default function Books(){
             </div>
             <h2 id="more-books-header">More books by Gerald Elias</h2>
             <div className="books-list">
+                <a className="book" href="/books/murder-on-vacation">
+                    <img src="/murder-on-vacation.jpg" />
+                </a>
                 <a className="book" href="/books/roundtree-days">
                     <img src="/roundtree-days.jpg" />
                 </a>
