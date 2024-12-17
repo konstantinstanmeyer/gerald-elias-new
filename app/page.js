@@ -12,7 +12,7 @@ export default function Home() {
         </div>
         <div id="home-books-container">
           <div id="home-books-list">
-            <h2 id="home-books-header">Books</h2>
+            <h2 id="home-books-header">Featured Titles</h2>
             <a className="home-book" href="/books/murder-on-vacation">
               <img src="/murder-on-vacation.jpg" />
             </a>
