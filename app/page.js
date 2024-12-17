@@ -13,6 +13,9 @@ export default function Home() {
         <div id="home-books-container">
           <div id="home-books-list">
             <h2 id="home-books-header">Books</h2>
+            <a className="home-book" href="/books/murder-on-vacation">
+              <img src="/murder-on-vacation.jpg" />
+            </a>
             <a className="home-book" href="/books/murder-at-the-royal-albert">
                 <img src="/book-murder-at-the-royal-albert.jpg" />
             </a>
@@ -24,9 +27,6 @@ export default function Home() {
             </a>
             <a className="home-book" href="/books/it's-a-crime">
                 <img src="/book-its-a-crime.jpg" />
-            </a>
-            <a className="home-book" href="/books/cloudy-with-a-chance-of-murder">
-                <img src="/book-cloudy-with-a-chance-of-murder.jpg" />
             </a>
           </div>
           <a id="all-books" href="/books">

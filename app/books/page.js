@@ -23,6 +23,9 @@ export default function Books(){
                 <a className="book" href="/books/roundtree-days">
                     <img src="/roundtree-days.jpg" />
                 </a>
+                <a className="book" href="/books/symphonies-&-scorpions">
+                    <img src="/book-symphonies-and-scorpions.jpg" />
+                </a>
             </div>
             <h2 id="daniel-j-header">Daniel Jacobus Mysteries</h2>
             <div className="books-list">
