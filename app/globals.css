@@ -610,6 +610,13 @@ textarea:focus, input:focus{
   margin-bottom: 8vh;
 }
 
+.speakeasy {
+  margin-bottom: 0.75rem;
+  font-style: italic;
+  font-weight: 500;
+  font-size: small;
+}
+
 #daniel-j-header {
   background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../public/mystery.jpg');
 }
@@ -620,6 +627,10 @@ textarea:focus, input:focus{
 
 #audiobooks-header {
   background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../public/audio.jpg');
+}
+
+#featured-titles-header {
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../public/starry-sky.jpg');
 }
 
 #events {

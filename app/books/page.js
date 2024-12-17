@@ -7,11 +7,22 @@ export default function Books(){
             <div id="award">
                 <img src="/insignia.png" />
             </div>
-            <h4 id="represented">REPRESENTED BY JOSH GETZLER, HG LITERARY. PUBLISHER, LEVEL BEST BOOKS</h4>
             <div id="hint-container">
                 <h5>click covers for more info</h5>
                 &nbsp;
                 <img src="/cursor.png" />
+            </div>
+            <h2 id="featured-titles-header">Featured Titles</h2>
+            <div className="books-list">
+                <a className="book" href="/books/murder-on-vacation">
+                    <img src="/murder-on-vacation.jpg" />
+                </a>
+                <a className="book" href="/books/murder-at-the-royal-albert">
+                    <img src="/book-murder-at-the-royal-albert.jpg" />
+                </a>
+                <a className="book" href="/books/roundtree-days">
+                    <img src="/roundtree-days.jpg" />
+                </a>
             </div>
             <h2 id="daniel-j-header">Daniel Jacobus Mysteries</h2>
             <div className="books-list">

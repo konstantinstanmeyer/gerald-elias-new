@@ -33,6 +33,7 @@ export default function Book({ params }){
                         </>
                     )
                 }</p>
+                {book?.subtext ? <p className="speakeasy">From Speakeasy Editions</p> : null}
                 {!book?.audiobook ? null : <p id="audiobook-link-text">Check out the audiobook version, too!&nbsp;<a href={'/books/audiobooks/' + book.audiobook.url} id="audiobook-link">More Details</a></p>}
                 {book.description.map((textBlock, i) => 
                     <p key={i+'40'} className="preview-paragraph">{textBlock}</p>
