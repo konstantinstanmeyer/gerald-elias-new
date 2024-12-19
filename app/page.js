@@ -25,9 +25,6 @@ export default function Home() {
             <a className="home-book" href="/books/symphonies-&-scorpions">
                 <img src="/book-symphonies-and-scorpions.jpg" />
             </a>
-            <a className="home-book" href="/books/it's-a-crime">
-                <img src="/book-its-a-crime.jpg" />
-            </a>
           </div>
           <a id="all-books" href="/books">
             ALL BOOKS
