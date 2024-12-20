@@ -7,7 +7,7 @@ export default function Home() {
           <div id="landing-text">
             <p>COMING SOON! <span>'MURDER ON VACATION'</span></p>
             <p id="landing-description">Maury Gross thought retirement meant relaxation, travel, and quality time with his wife, Bobbi. Instead, he's tripping over dead bodies from coast to coast.</p>
-            <a id="learn-more" href="/books/murder-on-vacation">MORE DETAILS</a>
+            <a id="learn-more" target="_blank" href="https://www.amazon.com/Murder-Vacation-Gerald-Elias-ebook/dp/B0DKKZ6ZD1">MORE DETAILS</a>
           </div>
         </div>
         <div id="home-books-container">
