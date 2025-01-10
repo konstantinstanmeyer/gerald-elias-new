@@ -255,7 +255,6 @@ export const books = {
             "Amazon":"https://www.amazon.com/Murder-Vacation-Gerald-Elias-ebook/dp/B0DKKZ6ZD1",
         },
         releaseDate: "May 1st, 2025",
-        subtext: "From Speakeasy Editions"
     },
 }
 
