@@ -48,7 +48,7 @@ textarea:focus, input:focus{
 #landing {
   width: 100vw;
   background-color: gray;
-  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('../public/beach-scene.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('../public/orchestra.jpeg');
   height: 80vh;
   background-position: center center;
   object-fit: cover;
@@ -67,8 +67,8 @@ textarea:focus, input:focus{
 }
 
 #landing-image {
-  height: 60vh;
-  aspect-ratio:1/1.5;
+  width: 30%;
+  aspect-ratio: 1/1;
 }
 
 #landing-text {

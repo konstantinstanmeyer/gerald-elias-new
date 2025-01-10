@@ -3,19 +3,16 @@ export default function Home() {
     <>
       <div id="home" className="">
         <div loading="lazy" id="landing" className="">
-          <img loading="lazy" id="landing-image" src="/murder-on-vacation.jpg" />
+          <img loading="lazy" id="landing-image" src="/murder-at-the-royal-albert-audiobook.jpeg" />
           <div id="landing-text">
-            <p>COMING SOON! <span>'MURDER ON VACATION'</span></p>
-            <p id="landing-description">Maury Gross thought retirement meant relaxation, travel, and quality time with his wife, Bobbi. Instead, he's tripping over dead bodies from coast to coast.</p>
-            <a id="learn-more" target="_blank" href="https://www.amazon.com/Murder-Vacation-Gerald-Elias-ebook/dp/B0DKKZ6ZD1">MORE DETAILS</a>
+            <p>NEW RELEASE: <span>'MURDER AT THE ROYAL ALBERT'</span> AUDIOBOOK</p>
+            <p id="landing-description">"...an altogether delightful listen." -AudioFile Magazine</p>
+            <a id="learn-more" href="/books/audiobooks/murder-at-the-royal-albert">MORE DETAILS</a>
           </div>
         </div>
         <div id="home-books-container">
           <div id="home-books-list">
             <h2 id="home-books-header">Featured Titles</h2>
-            <a className="home-book" target="_blank" href="https://www.amazon.com/Murder-Vacation-Gerald-Elias-ebook/dp/B0DKKZ6ZD1">
-              <img src="/murder-on-vacation.jpg" />
-            </a>
             <a className="home-book" href="/books/murder-at-the-royal-albert">
                 <img src="/book-murder-at-the-royal-albert.jpg" />
             </a>

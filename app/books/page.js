@@ -14,9 +14,6 @@ export default function Books(){
             </div>
             <h2 id="featured-titles-header">Featured Titles</h2>
             <div className="books-list">
-                <a className="book" target="_blank" href="https://www.amazon.com/Murder-Vacation-Gerald-Elias-ebook/dp/B0DKKZ6ZD1">
-                    <img src="/murder-on-vacation.jpg" />
-                </a>
                 <a className="book" href="/books/murder-at-the-royal-albert">
                     <img src="/book-murder-at-the-royal-albert.jpg" />
                 </a>
@@ -59,9 +56,6 @@ export default function Books(){
             </div>
             <h2 id="more-books-header">More books by Gerald Elias</h2>
             <div className="books-list">
-                <a className="book" href="/books/murder-on-vacation">
-                    <img src="/murder-on-vacation.jpg" />
-                </a>
                 <a className="book" href="/books/roundtree-days">
                     <img src="/roundtree-days.jpg" />
                 </a>
