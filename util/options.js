@@ -1,7 +1,7 @@
 const music = [
     {
         name: 'CONCERTS & RECORDINGS',
-        url: '/concerts'
+        url: '/concerts-and-recordings'
     },
     {
         name: 'CONDUCTING',
@@ -10,6 +10,10 @@ const music = [
     {
         name: 'COMPOSING',
         url: '/composing'
+    },
+    {
+        name: 'TEACHING',
+        url: '/teaching'
     }
 ]
 
@@ -22,6 +26,10 @@ const about = [
         name: 'GOODREADS',
         url: 'https://www.goodreads.com/goodreadscomauthorgeraldelias',
         externalLink: true,
+    },
+    {
+        name: 'CONNECTIONS',
+        url: '/connections'
     }
 ]
 

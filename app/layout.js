@@ -1,28 +1,16 @@
-import Head from 'next/head'
 import Navbar from '../components/Navbar'
+import Footer from '@/components/Footer'
 import './globals.css'
-import { Rock_Salt, Outfit, Roboto_Slab, Playfair_Display, Bad_Script, Cormorant, Overpass, Red_Hat_Mono, Montserrat } from 'next/font/google'
+import { Outfit, Playfair_Display, Cormorant, Overpass, Red_Hat_Mono, Montserrat, Poppins, Courier_Prime } from 'next/font/google'
+import MobileNav from '@/components/MobileNav'
 
 export const metadata = {
-  title: 'Gerald Elias',
-  description: 'Hello :)',
+  title: "Gerald Elias"
 }
-
-const rock_salt = Rock_Salt({
-  weight: '400',
-  subsets: ['latin'],
-  variable: '--font-rock-salt'
-})
 
 const outfit = Outfit({
   subsets: ['latin'],
   variable: '--font-outfit'
-})
-
-const roboto_slab = Roboto_Slab({
-  weight: ['300', '500'],
-  subsets: ['latin'],
-  variable: '--font-roboto-slab'
 })
 
 const playfair_display = Playfair_Display({
@@ -32,15 +20,16 @@ const playfair_display = Playfair_Display({
   styles: ['normal', 'italic']
 })
 
-const bad_script = Bad_Script({
+const courier_prime = Courier_Prime({
   subsets: ['latin'],
-  weight: ['400'],
-  variable: '--font-bad-script'
+  weight: ['700','400'],
+  style: ['normal', 'italic'],
+  variable: '--font-courier-prime'
 })
 
 const cormorant = Cormorant({
   subsets: ['latin'],
-  weight: ['700', '500'],
+  weight: ['700', '500', '400', '600'],
   style: ['normal', 'italic'],
   variable: '--font-cormorant'
 });
@@ -54,26 +43,32 @@ const overpass = Overpass({
 
 const red_hat_mono = Red_Hat_Mono({
   subsets: ['latin'],
-  weight: ['300', '400', '600'],
+  weight: ['300', '400', '600', '700'],
   variable: '--font-red-hat-mono',
   style: ['normal', 'italic'],
 })
 
 const montserrat = Montserrat({
   subsets: ['latin'],
-  weight: ['300', '400'],
+  weight: ['300', '400', '500', '600', '700', '800'],
+  style: ['normal','italic'],
   variable: '--font-montserrat'
+})
+
+const poppins = Poppins({
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '600'],
+  variable: '--font-poppins'
 })
 
 export default function RootLayout({ children }) {
   return (
-    <html className={`${rock_salt.variable} ${outfit.variable} ${roboto_slab.variable} ${playfair_display.variable} ${bad_script.variable} ${cormorant.variable} ${overpass.variable} ${red_hat_mono.variable} ${montserrat.variable}`} lang="en">
-      <Head>
-        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300&family=Roboto+Slab:wght@300;500&family=Rock+Salt&display=swap" rel="stylesheet"/>
-      </Head>
+    <html className={`${outfit.variable} ${playfair_display.variable} ${cormorant.variable} ${overpass.variable} ${courier_prime.variable} ${red_hat_mono.variable} ${montserrat.variable} ${poppins.variable}`} lang="en">
       <body className="">
         <Navbar />
+        <MobileNav />
         {children}
+        <Footer />
       </body>
     </html>
   )
