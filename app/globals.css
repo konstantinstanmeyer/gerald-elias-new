@@ -77,12 +77,12 @@ textarea:focus, input:focus{
   color: white;
   /* inherits: none; */
   font-size: calc(0.5vw + 1rem + 0.4rem) !important;
-  width: 50%;
+  width: 30%;
   height: 60%;
   font-weight: 400;
   display: flex;
-  justify-content: space-between;
   flex-direction: column;
+  justify-content: center;
   position: relative;
   margin-right: 1rem;
   margin-left: 1rem;
@@ -94,7 +94,7 @@ textarea:focus, input:focus{
   flex-direction: row;
   position: relative;
   align-items: center;
-
+  margin-bottom: 1rem;
 }
 
 #subtext {
@@ -150,6 +150,7 @@ textarea:focus, input:focus{
 .button-container {
   display: flex;
   flex-direction: row;
+  margin-top: 1.3rem;
 }
 
 .button-container a {

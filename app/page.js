@@ -8,12 +8,11 @@ export default function Home() {
               <p id="subtext">JACOB ELIAS</p>
               <div id="line" />
             </div>
-            <p><span className="embolden">Gerald Elias</span> proudly performs using violins made by his son, <span className="embolden">Jacob</span></p>
-            <p id="landing-description">Jacob Elias creates bespoke violins in Brooktondale, NY, combining traditional craftsmanship with innovative techniques to produce high-quality, personalized instruments.</p>
+            <p><span className="embolden">Gerald Elias</span> proudly performs on violins made by his son, <span className="embolden">Jacob</span></p>
+            {/* <p id="landing-description">Jacob Elias creates bespoke violins in Brooktondale, NY, combining traditional craftsmanship with innovative techniques to produce high-quality, personalized instruments.</p> */}
             {/* <a id="learn-more" target="_blank" href="https://jacobeliasdotart.wordpress.com/">MORE DETAILS</a>
             <a id="learn-more" href="mailto:eliasviolins@gmail.com">CONTACT</a> */}
             <div className="button-container">
-              <a target="_blank" href="https://jacobeliasdotart.wordpress.com/" className="landing-button">Visit Page</a>
               <a href="mailto:eliasviolins@gmail.com" className="landing-button">Contact</a>
             </div>
           </div>
