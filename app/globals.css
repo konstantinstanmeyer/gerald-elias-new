@@ -1486,6 +1486,10 @@ textarea {
   #landing-text {
     margin-bottom: 1.2rem;
   }
+
+  #line {
+    width: inherit;
+  }
 }
 
 @media (max-width: 750px) {
