@@ -3,12 +3,21 @@ export default function Home() {
     <>
       <div id="home" className="">
         <div loading="lazy" id="landing" className="">
-          <img loading="lazy" id="landing-image" src="/murder-at-the-royal-albert-audiobook.jpeg" />
           <div id="landing-text">
-            <p>NEW RELEASE: <span>'MURDER AT THE ROYAL ALBERT'</span> AUDIOBOOK</p>
-            <p id="landing-description">"...an altogether delightful listen." -AudioFile Magazine</p>
-            <a id="learn-more" href="/books/audiobooks/murder-at-the-royal-albert">MORE DETAILS</a>
+            <div id="subtext-container">
+              <p id="subtext">JACOB ELIAS</p>
+              <div id="line" />
+            </div>
+            <p><span className="embolden">Gerald Elias</span> proudly performs using violins made by his son, <span className="embolden">Jacob</span></p>
+            <p id="landing-description">Jacob Elias creates bespoke violins in Brooktondale, NY, combining traditional craftsmanship with innovative techniques to produce high-quality, personalized instruments.</p>
+            {/* <a id="learn-more" target="_blank" href="https://jacobeliasdotart.wordpress.com/">MORE DETAILS</a>
+            <a id="learn-more" href="mailto:eliasviolins@gmail.com">CONTACT</a> */}
+            <div className="button-container">
+              <a target="_blank" href="https://jacobeliasdotart.wordpress.com/" className="landing-button">Visit Page</a>
+              <a href="mailto:eliasviolins@gmail.com" className="landing-button">Contact</a>
+            </div>
           </div>
+          <img loading="lazy" id="landing-image" src="/new-violins.jpg" />
         </div>
         <div id="home-books-container">
           <div id="home-books-list">
