@@ -1463,8 +1463,8 @@ textarea {
   #landing {
     flex-direction: column;
     height: fit-content;
-    padding-bottom: 2rem;
     padding-top: 15vh;
+    padding-bottom: 8vh;
   }
 
   #landing-image {
@@ -1805,7 +1805,7 @@ textarea {
     flex-direction: column;
     min-height: 75vh;
     max-height: fit-content;
-    padding-bottom: 2rem;
+    padding-bottom: 8vh;
     padding-top: 15vh;
   }
 
