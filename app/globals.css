@@ -73,7 +73,7 @@ textarea:focus, input:focus{
 }
 
 #landing-text {
-  font-family: var(--font-montserrat);
+  font-family: var(--font-quattrocento);
   color: white;
   /* inherits: none; */
   font-size: calc(0.5vw + 1rem + 0.4rem) !important;
@@ -114,7 +114,7 @@ textarea:focus, input:focus{
 }
 
 .embolden {
-  font-weight: 800;
+  font-weight: 700;
 }
 
 #learn-more {
@@ -137,7 +137,7 @@ textarea:focus, input:focus{
 }
 
 #landing-description {
-  font-family: var(--font-montserrat);
+  font-family: var(--font-playfair-display);
   font-weight: 300;
   /* font-style: italic; */
   margin-bottom: 0.7rem;
@@ -151,6 +151,7 @@ textarea:focus, input:focus{
   display: flex;
   flex-direction: row;
   margin-top: 1.3rem;
+  font-family: var(--font-quattrocento)
 }
 
 .button-container a {
@@ -160,7 +161,7 @@ textarea:focus, input:focus{
   background-color: white;
   margin-right: 1rem;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 700;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1469,12 +1470,12 @@ textarea {
   }
 
   #landing-image {
-    width: 70%;
+    width: 90%;
     margin-right: 0;
   }
 
   #landing-text {
-    width: 70%;
+    width: 90%;
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 0.5rem;
@@ -1815,13 +1816,13 @@ textarea {
   }
 
   #landing img {
-    max-width: 70%;
+    max-width: 90%;
     height: unset;
     aspect-ratio: 1.3/1 !important;
   }
 
   #landing-text {
-    width: 70%;
+    width: 90%;
     margin-top: 1rem;
     /* font-size: 1.2rem !important; */
     margin-left: 0;
