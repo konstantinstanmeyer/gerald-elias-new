@@ -48,7 +48,7 @@ textarea:focus, input:focus{
 #landing {
   width: 100vw;
   background-color: gray;
-  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../public/landing-background.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../public/landing-background.jpg');
   height: 80vh;
   background-position: center center;
   object-fit: cover;
