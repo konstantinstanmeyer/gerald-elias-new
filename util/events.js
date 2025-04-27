@@ -15,6 +15,14 @@ const events = [
         "hyperlink":"https://berkshireonstage.blog/2025/04/25/great-barrington-public-theater-announces-cast-for-madame-mozart-the-lacrimosa/"
     },
     {
+        "date":"Monday, March 3rd, 2025",
+        "name":"Händel and Friends: A Baroque Tapestry",
+        "location":"The Seattle Athenaeum",
+        "description": "Join Gerald Elias and cellist Meeka Quan DiLorenzo at the Seattle Athenaeum for a captivating recital celebrating the brilliance and lasting influence of Georg Frideric Händel.",
+        "imageUrl":"folio2.jpeg",
+        "hyperlink":"https://www.folioseattle.org/event-details/handel-and-friends-a-baroque-tapestry"
+    },
+    {
         "date": "Sunday, November 10th, 2024 @ 3:00-4:15PM followed by reception",
         "name": `Violin Recital, "A Classical Kaleidoscope"`,
         "location":"Folio Anthenaeum Library, 93 Park St. #307, Seattle, WA",
@@ -97,14 +105,6 @@ const events = [
         "address":"725 9th Ave, Seattle, WA 98104",
         "imageUrl":"event-seattle.jpeg",
         "description":"Joined by Gus Denhard on theorbo.",
-    },
-    {
-        "date":"Monday, March 3rd, 2025",
-        "name":"Händel and Friends: A Baroque Tapestry",
-        "location":"The Seattle Athenaeum",
-        "description": "Join Gerald Elias and cellist Meeka Quan DiLorenzo at the Seattle Athenaeum for a captivating recital celebrating the brilliance and lasting influence of Georg Frideric Händel.",
-        "imageUrl":"folio2.jpeg",
-        "hyperlink":"https://www.folioseattle.org/event-details/handel-and-friends-a-baroque-tapestry"
     },
     {
         "date":"Friday, December 15th, 2023",
