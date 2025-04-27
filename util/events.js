@@ -1,5 +1,20 @@
 const events = [
     {
+        "date": "Thursday, July 31st, 2025",
+        "name": `Fiddlers Four`,
+        "hyperlink":"https://astonmagna.org/summer-festival/",
+        "imageUrl":"MadameMozart.png",
+    },
+    {
+        "date": "Sunday, July 27th, 2025",
+        "name": `Madame Mozart, the Lacrimosa`,
+        "location":"Great Barrington Public Theater, Daniel Arts Center located at Bard College at Simon’s Rock",
+        "address":"84 Alford Rd, Great Barrington, MA 01230",
+        "description":"A stage adaptation of an Elias short story by playwright Anne Undeland of the miraculous achievement of Constanze Mozart to have her husband's final work, the immortal Requiem, completed and performed.",
+        "imageUrl":"berkshire-on-stage.jpg",
+        "hyperlink":"https://berkshireonstage.blog/2025/04/25/great-barrington-public-theater-announces-cast-for-madame-mozart-the-lacrimosa/"
+    },
+    {
         "date": "Sunday, November 10th, 2024 @ 3:00-4:15PM followed by reception",
         "name": `Violin Recital, "A Classical Kaleidoscope"`,
         "location":"Folio Anthenaeum Library, 93 Park St. #307, Seattle, WA",

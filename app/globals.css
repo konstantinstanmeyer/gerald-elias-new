@@ -66,6 +66,10 @@ textarea:focus, input:focus{
   text-align: justify;
 }
 
+#slight-lower {
+  margin-bottom: 0.5rem;
+}
+
 #landing-image {
   height: 82%;
   aspect-ratio: auto;

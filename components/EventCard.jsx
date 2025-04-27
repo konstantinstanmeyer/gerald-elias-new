@@ -6,6 +6,23 @@ import VivaldiConcert from "./VivaldiConcert";
 export default function EventCard({ event, key }){
     const { imageUrl, name, date, location, address, hyperlink} = event;
 
+    if (name === "Fiddlers Four") return (
+        <div key={key} className="event-card">
+            <div className="event-image-container">
+                <img src={imageUrl} />
+            </div>
+            <div className="event-text">
+                <h2>Fiddlers Four</h2>
+                <h3>Thursday, July 31st, 2025</h3>
+                <h4 id="slight-lower">Allen Center at Newton Cultural Alliance<span>&nbsp;35 Webster Street, Newton, MA 02465</span></h4>
+                <h3>Sunday, August 3rd, 2025</h3>
+                <h4>Saint James Place<span>&nbsp;352 Main Street, Great Barrington, MA 01230</span></h4>
+                <p>Program includes Vivaldi's ever-popular Four Seasons and music by Purcell, Pachelbel, Legrenzi and Telemann</p>
+                {hyperlink ? <a target="_blank" className="event-hyperlink" href={event.hyperlink}>Learn more</a> : null}
+            </div>
+        </div>
+    )
+
     return (
         <div key={key} className="event-card">
             <div className="event-image-container">
@@ -13,7 +30,7 @@ export default function EventCard({ event, key }){
             </div>
             <div className="event-text">
                 <h2>{name}</h2>
-                <h3>{event?.name !== "Left Coast Crime 2024: Seattle Shakedown mystery book convention" ? date : "April 11th-14th, 2024"}</h3>
+                <h3>{event?.name === "Left Coast Crime 2024: Seattle Shakedown mystery book convention" ? "April 11th-14th, 2024" : event?.name === "Madame Mozart, the Lacrimosa" ? "July 10-27, 2025": date}</h3>
                 {location ? <h4>{event.location}<span>&nbsp;{event.address}</span></h4> : null}
                 {event?.description ? <p>{event.description}</p> : null}
                 {event?.name === "Left Coast Crime 2024: Seattle Shakedown mystery book convention" ? <LeftCoastCrime /> : null}
