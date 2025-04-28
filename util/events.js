@@ -1,11 +1,5 @@
 const events = [
     {
-        "date": "Thursday, July 31st, 2025",
-        "name": `Fiddlers Four`,
-        "hyperlink":"https://astonmagna.org/summer-festival/",
-        "imageUrl":"st-james.jpg",
-    },
-    {
         "date": "Sunday, July 27th, 2025",
         "name": `Madame Mozart, the Lacrimosa`,
         "location":"Great Barrington Public Theater, Daniel Arts Center located at Bard College at Simon’s Rock",
@@ -13,6 +7,12 @@ const events = [
         "description":"A stage adaptation of an Elias short story by playwright Anne Undeland of the miraculous achievement of Constanze Mozart to have her husband's final work, the immortal Requiem, completed and performed.",
         "imageUrl":"MadameMozart.png",
         "hyperlink":"https://berkshireonstage.blog/2025/04/25/great-barrington-public-theater-announces-cast-for-madame-mozart-the-lacrimosa/"
+    },
+    {
+        "date": "Thursday, July 31st, 2025",
+        "name": `Fiddlers Four`,
+        "hyperlink":"https://astonmagna.org/summer-festival/",
+        "imageUrl":"st-james.jpg",
     },
     {
         "date":"Monday, March 3rd, 2025",
