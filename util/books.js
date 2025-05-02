@@ -173,8 +173,7 @@ export const books = {
             `"…an amazing journey…nothing less than a musical odyssey of discovery," is how iBerkshires hailed the first edition of Symphonies & Scorpions. Now, with captioned black & white photos, In Symphonies & Scorpions you'll get an insider's view of the glamour and the drudgery of an international concert tour to China and Japan, and gain deep insight into music as an instrument of citizen diplomacy. You'll sit on the hallowed stage of Symphony Hall in Boston and in concert halls in Asia, meeting congenial and occasionally cantankerous colleagues, listening to the Maestro's words of debated wisdom. You'll fly nonstop from Boston to Tokyo, dine on succulent Peking duck, squirm through Beijing alleys crowded with scorpion vendors, and be spiritually restored in a Tokyo park floating in tranquility.This second, enhanced edition of Symphonies & Scorpions adds Elias's prize-winning essay, "War & Peace. And Music," featured in his TEDxSaltLakeCity performance of September, 2019. A preface to the new edition also tackles the tumultuous issue of sexual misconduct by luminaries in the classical music world. This painstakingly revised edition is a must not only for music lovers but also for anyone interested in understanding and enriching human relations at home and abroad.`, 
         ],
         links: {
-            "Bookshop":"https://bookshop.org/p/books/symphonies-scorpions-an-international-concert-tour-as-an-instrument-of-citizen-diplomacy-gerald-elias/6848736?ean=9781077632608",
-            "Amazon": "https://www.amazon.com/Symphonies-Scorpions-international-instrument-diplomacy/dp/1077632606",
+            "Amazon": "https://www.amazon.com/Symphonies-Scorpions-international-instrument-diplomacy/dp/B0CJ46LP2T",
         },
         releaseDate: "2019"
     },

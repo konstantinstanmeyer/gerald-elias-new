@@ -34,6 +34,51 @@ export default function Home() {
             ALL BOOKS
           </a>
         </div>
+        <div id="book-deal-landing">
+          <p id="ad-coming-soon">COMING SOON!</p>
+          <p className="ad-block">
+            I’m very pleased to announce a two-book deal with publisher Aakenbaaken &amp; Kent, for the publication of two
+            volumes featuring retired NYPD police chief Maury Gross. <em>Murder on Vacation</em>, a collection of 16 short
+            mysteries, will be released this fall, followed by three novelettes in <em>Murder Goes Abroad</em>.
+          </p>
+          <p className="ad-block">
+            <strong>Maury Gross thought retirement meant relaxation, travel, and quality time with his wife, Bobbi. Instead, he&#39;s tripping over dead bodies from coast to coast.</strong>
+          </p>
+          <p className="ad-block">
+            Meet Maury Gross: retired NYPD Police Chief, reluctant vacationer, and accidental detective extraordinaire.
+            With his sharp wit, keen eye, and long-suffering wife Bobbi by his side, Maury can&#39;t seem to take a trip without
+            stumbling into a mystery.
+          </p>
+          <p className="ad-block">
+            From the sun-soaked beaches of California to the snowy peaks of Utah, from the quaint towns of New England
+            to the bustling streets of Tokyo, Maury's &quot;golden years&quot; are filled with anything but rest. Each destination brings
+            a new adventure, a baffling crime, and a cast of colorful suspects.
+          </p>
+          <p className="ad-block">In this collection of 16 short stories, you'll join Maury as he:</p>
+          <p className="ad-block">• Unravels a perplexing murder at a ski resort</p>
+          <p className="ad-block">• Investigates a suspicious death among the elephant seals</p>
+          <p className="ad-block">• Solves a puzzling case of sushi and sabotage in Japan</p>
+          <p className="ad-block">• And much more!</p>
+          <p className="ad-block">
+            With a perfect blend of humor, suspense, and armchair travel, &quot;Murder on Vacation&quot; offers a fresh take on the
+            mystery genre. Maury&#39;s dry wit, Bobbi&#39;s pragmatic wisdom, and their endearing relationship anchor each story,
+            while exotic locales and intricate plots keep the pages turning.
+          </p>
+          <p className="ad-block">
+            Ideal for fans of cozy mysteries, travel enthusiasts, and anyone who believes that retirement should be
+            anything but boring. Whether you&#39;re a seasoned mystery lover or new to the genre, Maury Gross will charm
+            you with his reluctant heroics and sharp deductions.
+          </p>
+          <p className="ad-block">
+            Pack your bags, bring your reading glasses, and join Maury and Bobbi on a globetrotting adventure where the
+            only thing deadlier than the criminals... is retirement itself!
+          </p>
+          <img id="ad-image" src="/murder-on-vacation.jpg"/>
+          <p id="ad-quote">
+            <em>“Move over Nick and Nora, there’s a new crime-fighting duo in town. The game’s afoot with this fun and
+            endearing couple.”</em> — James L’Etoile, award-winning author of <em>Face of Greed</em> and <em>River of Lies</em>.
+          </p>
+        </div>
         <div id="about">
           <img src="/gerald-elias-statues.jpeg" id="about-image" />
           <div id="about-text">
