@@ -14,26 +14,6 @@ export default function Home() {
           </div>
           <img loading="lazy" id="landing-image" src="/new-violins.jpg" />
         </div>
-        <div id="home-books-container">
-          <div id="home-books-list">
-            <h2 id="home-books-header">Featured Titles</h2>
-            <a className="home-book" href="/books/murder-at-the-royal-albert">
-                <img src="/book-murder-at-the-royal-albert.jpg" />
-            </a>
-            <a className="home-book" href="/books/audiobooks/murder-at-the-royal-albert">
-                <img src="/albert-audiobook-transparent.png" />
-            </a>
-            <a className="home-book" href="/books/roundtree-days">
-                <img src="/roundtree-days.jpg" />
-            </a>
-            <a className="home-book" href="/books/symphonies-&-scorpions">
-                <img src="/book-symphonies-and-scorpions.jpg" />
-            </a>
-          </div>
-          <a id="all-books" href="/books">
-            ALL BOOKS
-          </a>
-        </div>
         <div id="book-deal-landing">
           <p id="ad-coming-soon">COMING SOON!</p>
           <p className="ad-block">
@@ -78,6 +58,26 @@ export default function Home() {
             <em>“Move over Nick and Nora, there’s a new crime-fighting duo in town. The game’s afoot with this fun and
             endearing couple.”</em> — James L’Etoile, award-winning author of <em>Face of Greed</em> and <em>River of Lies</em>.
           </p>
+        </div>
+        <div id="home-books-container">
+          <div id="home-books-list">
+            <h2 id="home-books-header">Featured Titles</h2>
+            <a className="home-book" href="/books/murder-at-the-royal-albert">
+                <img src="/book-murder-at-the-royal-albert.jpg" />
+            </a>
+            <a className="home-book" href="/books/audiobooks/murder-at-the-royal-albert">
+                <img src="/albert-audiobook-transparent.png" />
+            </a>
+            <a className="home-book" href="/books/roundtree-days">
+                <img src="/roundtree-days.jpg" />
+            </a>
+            <a className="home-book" href="/books/symphonies-&-scorpions">
+                <img src="/book-symphonies-and-scorpions.jpg" />
+            </a>
+          </div>
+          <a id="all-books" href="/books">
+            ALL BOOKS
+          </a>
         </div>
         <div id="about">
           <img src="/gerald-elias-statues.jpeg" id="about-image" />
