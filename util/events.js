@@ -1,5 +1,12 @@
 const events = [
     {
+        "date": "Tuesday, September 9th, 2025",
+        "name": `"In the Mood"`,
+        "description":`Release date of my quirky short story, "In the Mood," in Crimeucopia's mystery magazine, What the Butler Didn't See, published by Murderous Ink Press.`,
+        "imageUrl":"crimeuc.png",
+        "hyperlink":"https://www.amazon.com/Crimeucopia-What-Butler-Didnt-See/dp/190949870X/ref=sr_1_1?crid=KCSIMNAZBOF2&dib=eyJ2IjoiMSJ9.wcV0bbR5PTa2sBOAgJ8tRaZJa2vDTPp9fIa1kscJBYg.mj_dpOO2RdLU1LSxxVYGOrvl55L3RqsKBnYe4FtjzIA&dib_tag=se&keywords=what+the+butler+didn%27t+see&qid=1755653856&s=books&sprefix=what+the+butler+didn%27t+see%2Cstripbooks%2C139&sr=1-1"
+    },
+    {
         "date": "Sunday, July 27th, 2025",
         "name": `Madame Mozart, the Lacrimosa`,
         "location":"Great Barrington Public Theater, Daniel Arts Center located at Bard College at Simon’s Rock",

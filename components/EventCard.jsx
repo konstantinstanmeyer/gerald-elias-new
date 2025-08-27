@@ -23,6 +23,22 @@ export default function EventCard({ event, key }){
         </div>
     )
 
+    if (name === `"In the Mood"`) return (
+        <div key={key} className="event-card">
+            <div className="event-image-container">
+                <img src={imageUrl} />
+            </div>
+            <div className="event-text">
+                <h2>"In the Mood"</h2>
+                <h3>Tuesday, September 9th, 2025</h3>
+                <p>Release date of my quirky short story, "In the Mood," in Crimeucopia's mystery magazine, What the Butler Didn't See, published by Murderous Ink Press.</p>
+                <p><em>A murder in an assisted living residence? Couldn't happen! Or could it?</em></p>
+                <p>Now available for preorder.</p>
+                {hyperlink ? <a target="_blank" className="event-hyperlink" href={event.hyperlink}>Learn more</a> : null}
+            </div>
+        </div>
+    )
+
     return (
         <div key={key} className="event-card">
             <div className="event-image-container">
