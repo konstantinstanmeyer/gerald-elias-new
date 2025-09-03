@@ -2,14 +2,14 @@ export default function AI(){
     return (
         <>
             <h2 style={{transform: "scale(0.7)"}}>Scam, AI, or Am I Paranoid?</h2>
-            <p>It’s common for authors to receive a pitch from out of the blue from some promoter who
+            <p className="personal-text">It’s common for authors to receive a pitch from out of the blue from some promoter who
 promises to turn your book into a bestseller. This one was a little different because it appeared
 that the correspondent had actually read my memoir, <i>Symphonies &amp; Scorpions</i>. “Appeared” is
 the operative word.</p>
-            <p>This recent email exchange, which took place over the course of two days, was like the
+            <p className="personal-text">This recent email exchange, which took place over the course of two days, was like the
 beginning of a terrifying Stephen King suspense thriller. Except that this, which went from
 interesting to annoying to, frankly frightening, was all too real.</p>
-            <p>I’ve kept the text exactly intact, including “Mariann’s” mistakes in spelling, punctuation,
+            <p className="personal-text">I’ve kept the text exactly intact, including “Mariann’s” mistakes in spelling, punctuation,
 capitalization, and grammar, which weirdly got progressively worse throughout the thread. The
 only changes I’ve made are the name of the correspondent and her (its) image from one AI to
 another, mainly for the purposes of self-protection.</p>
