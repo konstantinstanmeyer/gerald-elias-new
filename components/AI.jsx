@@ -10,7 +10,7 @@ the operative word.</p>
 beginning of a terrifying Stephen King suspense thriller. Except that this, which went from
 interesting to annoying to, frankly frightening, was all too real.</p>
             <p>I’ve kept the text exactly intact, including “Mariann’s” mistakes in spelling, punctuation,
-capitalization, and grammar, which weirdly got progressively worse throughout the thread.The
+capitalization, and grammar, which weirdly got progressively worse throughout the thread. The
 only changes I’ve made are the name of the correspondent and her (its) image from one AI to
 another, mainly for the purposes of self-protection.</p>
             <p><img src="/AI-portrait.png"/><strong>mariannexpert to me 10:13am</strong></p>
