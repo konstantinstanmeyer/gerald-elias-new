@@ -2297,3 +2297,8 @@ textarea {
 .personal-text{
   font-weight: 400 !important;
 }
+
+.cormorant {
+  font-family: var(--font-cormorant);
+  font-size: 1.2rem;
+}

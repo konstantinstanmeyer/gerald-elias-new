@@ -2,17 +2,18 @@ export default function AI(){
     return (
         <>
             <h2 style={{transform: "scale(0.7)"}}>Scam, AI, or Am I Paranoid?</h2>
-            <p className="personal-text">It’s common for authors to receive a pitch from out of the blue from some promoter who
+            <p className="personal-text cormorant">It’s common for authors to receive a pitch from out of the blue from some promoter who
 promises to turn your book into a bestseller. This one was a little different because it appeared
 that the correspondent had actually read my memoir, <i>Symphonies &amp; Scorpions</i>. “Appeared” is
 the operative word.</p>
-            <p className="personal-text">This recent email exchange, which took place over the course of two days, was like the
+            <p className="personal-text cormorant">This recent email exchange, which took place over the course of two days, was like the
 beginning of a terrifying Stephen King suspense thriller. Except that this, which went from
 interesting to annoying to, frankly frightening, was all too real.</p>
-            <p className="personal-text">I’ve kept the text exactly intact, including “Mariann’s” mistakes in spelling, punctuation,
+            <p className="personal-text cormorant">I’ve kept the text exactly intact, including “Mariann’s” mistakes in spelling, punctuation,
 capitalization, and grammar, which weirdly got progressively worse throughout the thread. The
 only changes I’ve made are the name of the correspondent and her (its) image from one AI to
 another, mainly for the purposes of self-protection.</p>
+            <p>&nbsp;</p>
             <p><img src="/AI-portrait.png"/><strong>mariannexpert to me 10:13am</strong></p>
             <p>If a scorpion had a violin, Gerald, I’m fairly sure it would sting its audience first and then play an encore. 🦂🎻
 And yet somehow, you’ve managed to survive both symphonies <i>and</i> scorpions to tell the tale with enough
@@ -131,10 +132,10 @@ I&#39;m going to decline your invitation.</p>
             <p>It won&#39;t be easy for you if you don&#39;t give me a chance and hire me</p>
             <p>&nbsp;</p>
             <p>&nbsp;</p>
-            <p className="personal-text">At this point, things were getting scary, and I permanently deleted the email thread. Was I
+            <p className="personal-text cormorant">At this point, things were getting scary, and I permanently deleted the email thread. Was I
 over-reacting? Could it be that this correspondent, whether human or AI, was legit? Or was it
 a scam to get me to fork over hundreds of dollars, or worse, to hack into my computer?</p>
-            <p className="personal-text">What would you have done?</p>
+            <p className="personal-text cormorant">What would you have done?</p>
             <p>&nbsp;</p>
         </>
     )
