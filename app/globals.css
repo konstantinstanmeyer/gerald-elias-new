@@ -2291,7 +2291,7 @@ textarea {
   width: 50px;
   vertical-align: bottom;
   display: inline-block;
-  margin-right: 5px;
+  margin-right: 5px !important;
 }
 
 .personal-text{
