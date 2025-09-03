@@ -2,6 +2,7 @@ const posts = {
     index: {
         "2024": [
             // `FREE PHOTO CONTEST: "YOU DON’T WANT TO BE CAUGHT DEAD WITH THIS"`,
+            "Scam, AI, or Am I Paranoid",
             "The Most Kindest Cut of All",
             "Tchaikovsky and the Future of Contemporary Music",
             "Lacrymosa, and the Triumph of Constanze Mozart",

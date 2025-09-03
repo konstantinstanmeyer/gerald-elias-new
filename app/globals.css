@@ -2282,3 +2282,18 @@ textarea {
   margin-right: auto;
   width: 40%;
 }
+
+.AI strong{
+  font-weight: 600 !important;
+}
+
+.AI img {
+  width: 50px;
+  vertical-align: bottom;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.personal-text{
+  font-weight: 400 !important;
+}
