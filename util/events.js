@@ -7,6 +7,15 @@ const events = [
         "hyperlink":"https://www.amazon.com/Crimeucopia-What-Butler-Didnt-See/dp/190949870X/ref=sr_1_1?crid=KCSIMNAZBOF2&dib=eyJ2IjoiMSJ9.wcV0bbR5PTa2sBOAgJ8tRaZJa2vDTPp9fIa1kscJBYg.mj_dpOO2RdLU1LSxxVYGOrvl55L3RqsKBnYe4FtjzIA&dib_tag=se&keywords=what+the+butler+didn%27t+see&qid=1755653856&s=books&sprefix=what+the+butler+didn%27t+see%2Cstripbooks%2C139&sr=1-1"
     },
     {
+        "date": "Saturday, December 6th, 2025 @ 7:00PM",
+        "name": `Vivaldi by Candlelight: From Discord to Harmony`,
+        "location":"Concert at First United Methodist Church",
+        "address":"203 South 200 East, Salt Lake City",
+        "description":`Presented by Utah Global Diplomacy, Gerald Elias returns to conduct the premier Baroque music series in Salt Lake City in a diverse and unusual program.`,
+        "imageUrl":"vivaldi-2025.jpg",
+        "hyperlink":"https://utahglobaldiplomacy.org/events/vivaldi"
+    },
+    {
         "date": "Thursday, July 31st, 2025",
         "name": `Fiddlers Four`,
         "hyperlink":"https://astonmagna.org/summer-festival/",
