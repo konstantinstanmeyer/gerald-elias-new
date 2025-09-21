@@ -3,10 +3,12 @@ import Landing from "@/components/Landing"
 export default function Connections(){
     return (
         <div id="connections">
-            <Landing name="Connections" imageUrl="snow.jpg" />
+            <Landing name="Media Features" imageUrl="snow.jpg" />
             <div id="connections-content">
                 <h2>Past Media Features and Ways to Connect</h2>
                 <div id="connections-list">
+                    <h3>September 2025</h3>
+                    <p>A reading of Chapter 1 of Murder at the Royal Albert on Kings River Life Mysteryrat's Maze Podcast. <a target="_blank" href="https://mysteryratsmaze.podbean.com/e/murder-at-the-royal-albert-by-gerald-elias/">here</a></p>
                     <h3>January 2024</h3>
                     <p>Read Gerald's blog post for #WriterWednesday on author Heather Weidner's website.&nbsp;<a target="_blank" href="https://www.heatherweidner.com/blog/2024/1/3/writerwednesday-interview-with-gerald-elias">here</a></p>
                     <h3>December 2023</h3>

@@ -28,8 +28,8 @@ const about = [
         externalLink: true,
     },
     {
-        name: 'CONNECTIONS',
-        url: '/connections'
+        name: 'MEDIA FEATURES',
+        url: '/media-features'
     }
 ]
 

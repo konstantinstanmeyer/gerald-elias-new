@@ -335,6 +335,7 @@ textarea:focus, input:focus{
   color: black;
   margin-right: auto;
   font-size: 1.1rem;
+  text-align: left;
 }
 
 #nav-links a:hover {
