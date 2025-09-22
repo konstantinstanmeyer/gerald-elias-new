@@ -2303,7 +2303,3 @@ textarea {
   font-family: var(--font-cormorant);
   font-size: 1.2rem;
 }
-
-.mobile-options a {
-  word-spacing: 20px;
-}
