@@ -27,10 +27,6 @@ const about = [
         url: 'https://www.goodreads.com/goodreadscomauthorgeraldelias',
         externalLink: true,
     },
-    {
-        name: 'MEDIA FEATURES',
-        url: '/media-features'
-    }
 ]
 
 const options = [music, about];

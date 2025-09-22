@@ -5,7 +5,6 @@ export default function Connections(){
         <div id="connections">
             <Landing name="Media Features" imageUrl="snow.jpg" />
             <div id="connections-content">
-                <h2>Past Media Features and Ways to Connect</h2>
                 <div id="connections-list">
                     <h3>September 2025</h3>
                     <p>A reading of Chapter 1 of Murder at the Royal Albert on Kings River Life Mysteryrat's Maze Podcast. <a target="_blank" href="https://mysteryratsmaze.podbean.com/e/murder-at-the-royal-albert-by-gerald-elias/">here</a></p>

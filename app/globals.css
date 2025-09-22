@@ -1554,7 +1554,7 @@ textarea {
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 1000px) {
   #award img {
     width: 50% !important;
   }
@@ -2094,7 +2094,7 @@ textarea {
   }
 }
 
-@media (min-width: 751px) {
+@media (min-width: 1000px) {
   .bio-mobile {
     display: none;
   }
@@ -2302,4 +2302,8 @@ textarea {
 .cormorant {
   font-family: var(--font-cormorant);
   font-size: 1.2rem;
+}
+
+.mobile-options a {
+  word-spacing: 20px;
 }
