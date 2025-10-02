@@ -6,6 +6,8 @@ export default function Connections(){
             <Landing name="Media Features" imageUrl="snow.jpg" />
             <div id="connections-content">
                 <div id="connections-list">
+                    <h3>October 2025</h3>
+                    <p>A podcast with Gerald Elias about the role of music as an instrument of international diplomacy. <a target="_blank" href="https://www.youtube.com/watch?v=yYLVlgLTHdo">here</a></p>
                     <h3>September 2025</h3>
                     <p>A reading of Chapter 1 of Murder at the Royal Albert on Kings River Life Mysteryrat's Maze Podcast. <a target="_blank" href="https://mysteryratsmaze.podbean.com/e/murder-at-the-royal-albert-by-gerald-elias/">here</a></p>
                     <h3>January 2024</h3>
