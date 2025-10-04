@@ -2303,3 +2303,31 @@ textarea {
   font-family: var(--font-cormorant);
   font-size: 1.2rem;
 }
+
+#music-diplomacy {
+  min-height: 105vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 20vh;
+  width: 100vw;
+  position: relative;
+}
+
+#music-diplomacy iframe {
+  width: 100%;
+  position: relative;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.play-video-container {
+  width: 60%;
+}
+
+@media (max-width: 750px) {
+  .play-video-container{
+    width: 80%;
+  }
+}

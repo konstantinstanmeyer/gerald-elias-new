@@ -55,7 +55,7 @@ const red_hat_mono = Red_Hat_Mono({
   style: ['normal', 'italic'],
 })
 
-const montserat = Montserrat({
+const montserrat = Montserrat({
   subsets: ['latin'],
   weight: ['300', '400', '500', '600', '700', '800'],
   style: ['normal','italic'],
@@ -70,7 +70,7 @@ const poppins = Poppins({
 
 export default function RootLayout({ children }) {
   return (
-    <html className={`${outfit.variable} ${playfair_display.variable} ${cormorant.variable} ${overpass.variable} ${courier_prime.variable} ${red_hat_mono.variable} ${montserat.variable} ${poppins.variable} ${quattrocento.variable}`} lang="en">
+    <html className={`${outfit.variable} ${playfair_display.variable} ${cormorant.variable} ${overpass.variable} ${courier_prime.variable} ${red_hat_mono.variable} ${montserrat.variable} ${poppins.variable} ${quattrocento.variable}`} lang="en">
       <body className="">
         <Navbar />
         <MobileNav />
