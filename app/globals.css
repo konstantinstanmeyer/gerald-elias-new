@@ -2432,6 +2432,7 @@ textarea {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  margin-top: 10vh !important;
 }
 
 .bonbons h3 {
