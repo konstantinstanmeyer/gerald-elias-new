@@ -12,7 +12,11 @@ export default function MobileNav(){
                 <CloseMenu />
             </div>
             <div id="mobile-nav-links">
-                <a href="/books">BOOKS</a>
+                <div className="mobile-options">
+                    <h3>BOOKS</h3>
+                    <a href="/books">Books</a>
+                    <a href="/free-story">Free Story</a>
+                </div>
                 <div className="mobile-options">
                     <h3>MUSIC</h3>
                     <a href="/concerts-and-recordings">Concerts & Recordings</a>

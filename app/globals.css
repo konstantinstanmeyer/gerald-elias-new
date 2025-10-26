@@ -1710,7 +1710,7 @@ textarea {
     margin-bottom: 0.3rem;
   }
 
-  #mobile-nav-links > a:first-child{
+  #mobile-nav-links > div:first-child{
     margin-top: 5vh;
   }
 
