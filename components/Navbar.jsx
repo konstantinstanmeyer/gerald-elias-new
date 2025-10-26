@@ -10,7 +10,8 @@ export default function Navbar(){
             </a>
             <Hamburger />
             <ul id="nav-links">
-                <a href="/books">BOOKS</a>
+                
+                <Dropdown name={'BOOKS'} options={options[2]} />
                 <Dropdown name={'MUSIC'} options={options[0]} />
                 <Dropdown name={'ABOUT'} options={options[1]} />
                 <a href="/media-features">MEDIA FEATURES</a>

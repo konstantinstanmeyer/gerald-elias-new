@@ -15,8 +15,8 @@ export default function Dropdown({ name, options }){
             {name}
             {!isHover ? null : 
                 <div id="dropdown-options">
-                    {options.map((option) => 
-                       <a href={option.url} target={option?.externalLink ? "_blank" : null} className="option">{option.name}</a>
+                    {options.map((option, i) => 
+                       <a key={"drop" + i} href={option.url} target={option?.externalLink ? "_blank" : null} className="option">{option.name}</a>
                     )}
                 </div>
             } 

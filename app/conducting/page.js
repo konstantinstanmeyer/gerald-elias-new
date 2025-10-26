@@ -1,5 +1,5 @@
-import Landing from "@/components/Landing";
-import conducting from "@/util/conducting";
+import Landing from "../../components/Landing";
+import conducting from "../../util/conducting";
 
 export default function Conducting(){
     return (

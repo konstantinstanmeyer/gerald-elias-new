@@ -29,6 +29,17 @@ const about = [
     },
 ]
 
-const options = [music, about];
+const books = [
+    {
+        name: 'BOOKS',
+        url: '/books'
+    },
+    {
+        name: 'FREE STORY',
+        url: '/free-story'
+    }
+]
+
+const options = [music, about, books];
 
 export default options;

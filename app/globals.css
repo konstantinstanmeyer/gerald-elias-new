@@ -2331,3 +2331,42 @@ textarea {
     width: 80%;
   }
 }
+
+#free-story {
+  display: flex;
+  flex-direction:column;
+  min-height: 100vh;
+  align-items:center;
+  margin-bottom: 20vh;
+  font-family: var(--font-cormorant)
+}
+
+#free-story h2 {
+ font-size: 1.5rem;
+ color: black;
+ font-weight: 500;
+ margin-top: 2rem;
+ margin-bottom: 2rem;
+}
+
+#story-container {
+  margin-top: 2rem;
+  width: 80vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 1.1rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-bottom: 4rem;
+}
+
+.story p {
+  margin-top: 0.5rem;
+}

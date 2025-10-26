@@ -14,6 +14,9 @@ export default function Home() {
           </div>
           <img loading="lazy" id="landing-image" src="/new-violins.jpg" />
         </div>
+        <div className="white-city">
+
+        </div>
         <div id="home-books-container">
           <div id="home-books-list">
             <h2 id="home-books-header">Featured Titles</h2>
