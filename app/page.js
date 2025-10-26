@@ -15,7 +15,13 @@ export default function Home() {
           <img loading="lazy" id="landing-image" src="/new-violins.jpg" />
         </div>
         <div className="white-city">
-
+          <div id="white-city-container">
+            <img src="/publishers-marketplace.jpg" />
+            <div id="white-city-text">
+              <h2>BREAKING NEWS</h2>
+              <p>Gerald Elias and White City Press have a new, four-book deal! Keep your eyes out for NYPD Chief Maury Gross and Western lawman Jefferson Dance in 2026.</p>
+            </div>
+          </div>
         </div>
         <div id="home-books-container">
           <div id="home-books-list">

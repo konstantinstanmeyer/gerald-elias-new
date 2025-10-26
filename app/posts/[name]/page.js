@@ -18,9 +18,9 @@ export async function generateMetadata({ params, searchParams }){
     }
 }
 
-export default function BlogByName({ params }){
+export default async function BlogByName({ params }){
     console.log("hello")
-    let { name = undefined } = params;
+    let { name = undefined } = await params;
     name = name?.replaceAll("%2C", ",")
     const post = posts.blogsContent[decodeURI(name?.replace("%3A", ":"))];
 

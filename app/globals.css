@@ -2365,8 +2365,78 @@ textarea {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
   margin-bottom: 4rem;
+  text-decoration: none;
+  color: black;
 }
 
 .story p {
   margin-top: 0.5rem;
+}
+
+.white-city{
+  width: 100vw;
+  background-color: #C3C0BC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#white-city-container{
+  width: 85vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+}
+
+#white-city-text{
+  width: 30%;
+  font-family: var(--font-quattrocento);
+  margin-left: 5rem;
+}
+
+#white-city-text h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.white-city img {
+  width: 40%;
+  padding-left: 1rem;
+  background-color: white;
+}
+
+@media (max-width: 1000px) {
+  #white-city-container{
+    flex-direction: column;
+    width: 90vw;
+  }
+
+  #white-city-text{
+    margin-left: 0 !important;
+    width: 80%;
+    margin-top: 2rem;
+  }
+
+  .white-city img {
+    width: 80%;
+  }
+}
+
+.bonbons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.bonbons h3 {
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
 }

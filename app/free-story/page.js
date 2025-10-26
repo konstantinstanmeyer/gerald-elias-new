@@ -6,7 +6,7 @@ export default function FreeStory(){
             <Landing name="Free Story" imageUrl='/events-landing.jpg' />
             <h2>Stories</h2>
             <div id="story-container">
-                <a className="story">
+                <a href="/free-story/bonbons" className="story">
                     <img src="/egg.png" />
                     <p>Bonbons</p>
                 </a>
