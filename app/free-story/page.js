@@ -3,7 +3,7 @@ import Landing from "@/components/Landing"
 export default function FreeStory(){
     return (
         <div id="free-story">
-            <Landing name="Free Story" imageUrl='/open-book.jpg' />
+            <Landing imageUrl='/open-book.jpg' />
             <div className="bonbons" id="blog-post">
             <h3>Chocolate-Inspired Flash Fiction</h3>
             <img id="blog-post-image" src="/egg.png" />
