@@ -11,7 +11,7 @@ export const metadata = {
       images: [
         {
           url: "https://www.mysteriesandmusic.com/egg.png",
-          width: 1200,
+          width: 630,
           height: 630,
           alt: "Bonbons cover image",
         },
