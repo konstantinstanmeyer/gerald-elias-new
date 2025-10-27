@@ -6,7 +6,7 @@ export default function FreeStory(){
         <>
             <Head>
                 <meta propery="og:title" content="Bonbons" />
-                <meta propery="og:image" content="https://www.mysteriesandmusic.com/public/egg.png" />
+                <meta propery="og:image" content="https://www.mysteriesandmusic.com/egg.png" />
             </Head>
             <div id="free-story">
                 <Landing imageUrl='/open-book.jpg' />
