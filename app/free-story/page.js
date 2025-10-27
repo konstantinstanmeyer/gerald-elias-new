@@ -1,16 +1,33 @@
 import Landing from "@/components/Landing"
-import Head from "next/head"
+
+export const metadata = {
+    title: "Bonbons",
+    description: "Chocolate-Inspired Flash Fiction",
+    openGraph: {
+      title: "Bonbons",
+      description: "Chocolate-Inspired Flash Fiction",
+      url: "https://www.mysteriesandmusic.com/free-story",
+      type: "website",
+      images: [
+        {
+          url: "https://www.mysteriesandmusic.com/egg.png",
+          width: 1200,
+          height: 630,
+          alt: "Bonbons cover image",
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: "Bonbons",
+      description: "Chocolate-Inspired Flash Fiction",
+      images: ["https://www.mysteriesandmusic.com/egg.png"],
+    },
+  }
 
 export default function FreeStory(){
     return (
         <>
-            <Head>
-                <meta property="og:title" content="Bonbons" />
-                <meta property="og:image" content="https://www.mysteriesandmusic.com/egg.png" />
-                <meta property="og:type" content="website" />
-                <meta property="og:url" content="https://www.mysteriesandmusic.com" />
-                <meta property="og:description" content="Chocolate-Inspired Flash Fiction" />
-            </Head>
             <div id="free-story">
                 <Landing imageUrl='/open-book.jpg' />
                 <div className="bonbons" id="blog-post">
