@@ -39,7 +39,7 @@ export default function FreeStory(){
     shipping, of course.”</p>
                 <p>“Never mind, I’ll just contact the police and my lawyer.”</p>
                 <p>“Please, madame. There’s no need to get hasty. What if you were to simply text
-    us a photo in order for us to consider a how best to compensate you for
+    us a photo in order for us to consider how best to compensate you for
     your…unpleasantness?”</p>
                 <p>“You don’t want me to do that.”</p>
                 <p>“Why not?”</p>
