@@ -19,7 +19,8 @@ export default function Home() {
             <img src="/publishers-marketplace.jpg" />
             <div id="white-city-text">
               <h2>BREAKING NEWS</h2>
-              <p>Gerald Elias and White City Press have a new, four-book deal! Keep your eyes out for NYPD Chief Maury Gross and Western lawman Jefferson Dance in 2026.</p>
+              <div className="white-city-line" />
+              <p><span className="white-city-emph">Gerald Elias</span> and <span className="white-city-emph">White City Press</span> have a new, four-book deal! Keep your eyes out for <span className="white-city-title">NYPD Chief Maury Gross</span> and Western lawman <span className="white-city-title">Jefferson Dance</span> in 2026.</p>
             </div>
           </div>
         </div>
@@ -51,7 +52,7 @@ export default function Home() {
             <a href="/biography" id="about-more">LEARN MORE</a>
           </div>
           <img id="about-mobile-img" src="/about-mobile.jpeg" />
-          <h2 className="about-mobile" id="about-gerald-mobile">About Gerald</h2>
+          <p className="about-mobile" id="about-gerald-mobile">About Gerald</p>
           <p className="about-mobile about-mobile-text" id="about-description">Gerald Elias, an accomplished author, seamlessly blends his background in music with his passion for writing, creating captivating mystery and crime novels. Before becoming a writer, Elias was a renowned violinist, lending his lyrical and evocative talents to prestigious orchestras. His novels reflect his love for adventure and travel, drawing inspiration from his life's rich experiences. Join us on a literary journey through the works of an author whose past is as diverse and captivating as the stories he crafts, where music and mystery intertwine to transport readers into thrilling realms of suspense and intrigue.</p>
           <a className="about-mobile about-mobile-text" href="/" id="about-more">LEARN MORE</a>
         </div>

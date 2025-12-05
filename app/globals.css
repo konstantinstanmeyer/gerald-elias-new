@@ -2375,7 +2375,7 @@ textarea {
 
 .white-city{
   width: 100vw;
-  background-color: #C3C0BC;
+  background-color: #f1efeb;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2400,12 +2400,29 @@ textarea {
 
 #white-city-text h2 {
   font-size: 2rem;
-  margin-bottom: 0.5rem;
-  margin-top: 0.5rem;
+  font-weight: 500;
 }
 
+.white-city-emph {
+  color: rgb(136, 122, 103) !important;
+  font-weight: 600;
+}
+
+.white-city-title {
+  font-weight: 600;
+}
+
+.white-city-line {
+  height: 1.5px;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  background-color: rgb(136, 122, 103);
+  width: 60px;
+}
+
+
 .white-city img {
-  width: 40%;
+  width: 30%;
   padding-left: 1rem;
   background-color: white;
 }
