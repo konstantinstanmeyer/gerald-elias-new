@@ -1,61 +1,173 @@
+import Image from "next/image";
+import Link from "next/link";
+
 export default function Home() {
   return (
-    <>
-      <div id="home" className="">
-        <div loading="lazy" id="landing" className="">
-          <div id="landing-text">
-            <p><span className="embolden">Gerald Elias</span> proudly performs on violins made by his son, <span className="embolden">Jacob</span></p>
-            {/* <p id="landing-description">Jacob Elias creates bespoke violins in Brooktondale, NY, combining traditional craftsmanship with innovative techniques to produce high-quality, personalized instruments.</p> */}
-            {/* <a id="learn-more" target="_blank" href="https://jacobeliasdotart.wordpress.com/">MORE DETAILS</a>
-            <a id="learn-more" href="mailto:eliasviolins@gmail.com">CONTACT</a> */}
-            <div className="button-container">
-              <a href="mailto:eliasviolins@gmail.com" className="landing-button">Contact Jacob Elias</a>
-            </div>
+    <main id="home">
+      {/* Hero / Landing Section */}
+      <section id="landing">
+        <div id="landing-text">
+          <div id="subtext-container">
+            <div id="line" />
           </div>
-          <img loading="lazy" id="landing-image" src="/new-violins.jpg" />
-        </div>
-        <div className="white-city">
-          <div id="white-city-container">
-            <img src="/publishers-marketplace.jpg" />
-            <div id="white-city-text">
-              <h2>BREAKING NEWS</h2>
-              <p>Gerald Elias and White City Press have a new, four-book deal! Keep your eyes out for NYPD Chief Maury Gross and Western lawman Jefferson Dance in 2026.</p>
-            </div>
-          </div>
-        </div>
-        <div id="home-books-container">
-          <div id="home-books-list">
-            <h2 id="home-books-header">Featured Titles</h2>
-            <a className="home-book" href="/books/murder-at-the-royal-albert">
-                <img src="/book-murder-at-the-royal-albert.jpg" />
+          <h1 id="landing-title">
+            <strong>Gerald Elias</strong> proudly performs on violins made by
+            his son, <strong className="gold-accent">Jacob</strong>
+          </h1>
+          <p id="landing-description">
+            Bespoke violins handcrafted in Brooktondale, NY — where traditional
+            craftsmanship meets innovative artistry.
+          </p>
+          <div className="button-container">
+            <a href="mailto:eliasviolins@gmail.com" className="btn-primary">
+              Contact Jacob Elias
             </a>
-            <a className="home-book" href="/books/audiobooks/murder-at-the-royal-albert">
-                <img src="/albert-audiobook-transparent.png" />
-            </a>
-            <a className="home-book" href="/books/roundtree-days">
-                <img src="/roundtree-days.jpg" />
-            </a>
-            <a className="home-book" href="/books/symphonies-&-scorpions">
-                <img src="/book-symphonies-and-scorpions.jpg" />
+            <a
+              href="https://jacobeliasdotart.wordpress.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-secondary"
+            >
+              Learn More
             </a>
           </div>
-          <a id="all-books" href="/books">
-            ALL BOOKS
-          </a>
         </div>
-        <div id="about">
-          <img src="/gerald-elias-statues.jpeg" id="about-image" />
-          <div id="about-text">
-            <h2 id="about-gerald">About Gerald</h2>
-            <p id="about-description">Gerald Elias, an accomplished author, seamlessly blends his background in music with his passion for writing, creating captivating mystery and crime novels. Before becoming a writer, Elias was a renowned violinist, lending his lyrical and evocative talents to prestigious orchestras. His novels reflect his love for adventure and travel, drawing inspiration from his life's rich experiences. Join us on a literary journey through the works of an author whose past is as diverse and captivating as the stories he crafts, where music and mystery intertwine to transport readers into thrilling realms of suspense and intrigue.</p>
-            <a href="/biography" id="about-more">LEARN MORE</a>
+        <div id="landing-image-container">
+          {/* <Image
+            id="landing-image"
+            src="/new-violins.jpg"
+            alt="Violins crafted by Jacob Elias"
+            width={600}
+            height={450}
+            priority
+          /> */}
+        </div>
+      </section>
+
+      {/* Breaking News Section */}
+      <section id="breaking-news">
+        <div id="breaking-news-container">
+          <div id="breaking-news-image">
+            <Image
+              src="/publishers-marketplace.jpg"
+              alt="Publishers Marketplace announcement"
+              width={500}
+              height={350}
+            />
           </div>
-          <img id="about-mobile-img" src="/about-mobile.jpeg" />
-          <h2 className="about-mobile" id="about-gerald-mobile">About Gerald</h2>
-          <p className="about-mobile about-mobile-text" id="about-description">Gerald Elias, an accomplished author, seamlessly blends his background in music with his passion for writing, creating captivating mystery and crime novels. Before becoming a writer, Elias was a renowned violinist, lending his lyrical and evocative talents to prestigious orchestras. His novels reflect his love for adventure and travel, drawing inspiration from his life's rich experiences. Join us on a literary journey through the works of an author whose past is as diverse and captivating as the stories he crafts, where music and mystery intertwine to transport readers into thrilling realms of suspense and intrigue.</p>
-          <a className="about-mobile about-mobile-text" href="/" id="about-more">LEARN MORE</a>
+          <div id="breaking-news-text">
+            <span className="section-label">Breaking News</span>
+            <h2>
+              A New Four-Book Deal with{" "}
+              <em className="gold-accent">White City Press</em>
+            </h2>
+            <div className="accent-line" />
+            <p>
+              Gerald Elias and White City Press have announced an exciting new
+              partnership. Keep your eyes out for{" "}
+              <strong>NYPD Chief Maury Gross</strong> and Western lawman{" "}
+              <strong>Jefferson Dance</strong> in 2026.
+            </p>
+            <Link href="/books" className="text-link">
+              Explore All Books <span className="arrow">→</span>
+            </Link>
+          </div>
         </div>
-      </div>
-    </>
-  )
+      </section>
+
+      {/* Featured Books Section */}
+      <section id="home-books-container">
+        <div id="home-books-list">
+          <h2 id="home-books-header">Featured Titles</h2>
+          <Link className="home-book" href="/books/murder-at-the-royal-albert">
+            <Image
+              src="/book-murder-at-the-royal-albert.jpg"
+              alt="Murder at the Royal Albert"
+              width={220}
+              height={350}
+            />
+          </Link>
+          <Link
+            className="home-book"
+            href="/books/audiobooks/murder-at-the-royal-albert"
+          >
+            <Image
+              src="/albert-audiobook-landing.png"
+              alt="Murder at the Royal Albert Audiobook"
+              width={220}
+              height={350}
+            />
+          </Link>
+          <Link className="home-book" href="/books/roundtree-days">
+            <Image
+              src="/roundtree-days.jpg"
+              alt="Roundtree Days"
+              width={220}
+              height={350}
+            />
+          </Link>
+          <Link className="home-book" href="/books/symphonies-&-scorpions">
+            <Image
+              src="/book-symphonies-and-scorpions.jpg"
+              alt="Symphonies and Scorpions"
+              width={220}
+              height={350}
+            />
+          </Link>
+        </div>
+        <Link id="all-books" href="/books">
+          View All Books
+        </Link>
+      </section>
+
+      {/* About Section */}
+      <section id="about">
+        <Image
+          src="/gerald-elias-statues.jpeg"
+          id="about-image"
+          alt="Gerald Elias"
+          fill
+          style={{ objectFit: "cover" }}
+        />
+        <div id="about-text">
+          <span className="section-label light">About the Author</span>
+          <h2 id="about-gerald">Gerald Elias</h2>
+          <p id="about-description">
+            Gerald Elias, an accomplished author, seamlessly blends his
+            background in music with his passion for writing, creating
+            captivating mystery and crime novels. Before becoming a writer,
+            Elias was a renowned violinist, lending his lyrical and evocative
+            talents to prestigious orchestras. His novels reflect his love for
+            adventure and travel, drawing inspiration from his life's rich
+            experiences.
+          </p>
+          <Link href="/biography" id="about-more">
+            Read Full Biography
+          </Link>
+        </div>
+
+        {/* Mobile About */}
+        <div id="about-mobile">
+          <Image
+            id="about-mobile-img"
+            src="/about-mobile.jpeg"
+            alt="Gerald Elias"
+            width={200}
+            height={280}
+          />
+          <h2 id="about-gerald-mobile">About Gerald</h2>
+          <p className="about-mobile-text">
+            Gerald Elias, an accomplished author, seamlessly blends his
+            background in music with his passion for writing, creating
+            captivating mystery and crime novels. Before becoming a writer,
+            Elias was a renowned violinist, lending his lyrical and evocative
+            talents to prestigious orchestras.
+          </p>
+          <Link href="/biography" className="about-mobile-link">
+            Read Full Biography
+          </Link>
+        </div>
+      </section>
+    </main>
+  );
 }
