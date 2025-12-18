@@ -73,7 +73,7 @@ export default function RootLayout({ children }) {
     <html className={`${outfit.variable} ${playfair_display.variable} ${cormorant.variable} ${overpass.variable} ${courier_prime.variable} ${red_hat_mono.variable} ${montserrat.variable} ${poppins.variable} ${quattrocento.variable}`} lang="en">
       <body className="">
         <Navbar />
-        <MobileNav />
+        {/* <MobileNav /> */}
         {children}
         <Footer />
       </body>
