@@ -51,11 +51,6 @@ input {
   -webkit-appearance: none;
 }
 
-input {
-  outline: none;
-  box-shadow: none;
-}
-
 textarea:focus,
 input:focus {
   outline: none;
@@ -493,6 +488,7 @@ textarea {
 .home-book {
   position: relative;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: fit-content;
 }
 
 .home-book:hover {
@@ -501,9 +497,9 @@ textarea {
 }
 
 .home-book img {
-  display: block;
   width: 100%;
-  height: auto;
+  height: fit-content;
+  display: block
 }
 
 #all-books {
@@ -603,8 +599,20 @@ textarea {
 #footer h3 {
   font-family: var(--font-display);
   font-size: 1.2rem;
-  font-weight: 400;
+  font-weight: 500;
   color: var(--color-charcoal);
+}
+
+#footer input {
+  -webkit-border-radius: 0;
+  appearance: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+  border: none;
+  background: none;
+  border-bottom: 1px solid #000000;
+  font-size: 1.2rem;
+  font-family: var(--font-display);
 }
 
 #socials-images {
