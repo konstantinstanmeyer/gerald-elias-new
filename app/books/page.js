@@ -110,39 +110,45 @@ const AUDIOBOOKS = [
         href: "/books/audiobooks/devil's-trill",
         src: "/audiobook-devil's-trill.jpeg",
         alt: "Devil's Trill Audiobook",
+        audiobook: true
     },
     {
         href: "/books/audiobooks/danse-macabre",
         src: "/audiobook-danse-macabre.jpeg",
         alt: "Danse Macabre Audiobook",
+        audiobook: true
     },
     {
         href: "/books/audiobooks/dances-with-death",
         src: "/audiobook-dances-with-death.jpeg",
         alt: "Dances with Death Audiobook",
+        audiobook: true
     },
     {
         href: "/books/audiobooks/murder-at-the-royal-albert",
         src: "/murder-at-the-royal-albert-audiobook.jpeg",
         alt: "Murder at the Royal Albert Audiobook",
+        audiobook: true
     },
     {
         href: "/books/audiobooks/maestro-the-potbellied-pig",
         src: "/audiobook-maestro.jpeg",
         alt: "Maestro the Potbellied Pig Audiobook",
+        audiobook: true
     },
     {
         href: "/books/audiobooks/maestro-the-potbellied-pig-es",
         src: "/audiobook-maestro-es.jpeg",
         alt: "Maestro the Potbellied Pig (Spanish) Audiobook",
+        audiobook: true
     },
 ]
 
-function BookCard({ href, src, alt, aud }){
+function BookCard({ href, src, alt, audiobook = false }){
     return (
         <a href={href}>
             <Image
-                height={318}
+                height={audiobook ? 200 : 318}
                 width={200}
                 src={src}
                 alt={alt}
@@ -162,6 +168,7 @@ function BookSection({ name, books }){
                         href={book.href}
                         src={book.src}
                         alt={book.alt}
+                        audiobook={book?.audiobook}
                         key={"book-item-" + i}
                     />
                 )}
