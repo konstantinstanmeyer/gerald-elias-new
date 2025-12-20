@@ -342,6 +342,8 @@ textarea {
   max-width: 400px;
   height: auto;
   object-fit: cover;
+  padding-left: 1rem;
+  background-color: white;
 }
 
 #breaking-news-text {
