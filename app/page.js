@@ -14,6 +14,16 @@ export default function Home() {
             <strong>Gerald Elias</strong> proudly performs on violins made by
             his son, <strong className="gold-accent">Jacob</strong>
           </h1>
+          <div id="landing-image-container-mobile">
+            <Image
+              id="landing-image-mobile"
+              src="/new-violins.jpg"
+              alt="Violins crafted by Jacob Elias"
+              width={600}
+              height={450}
+              priority
+            />
+          </div>
           <p id="landing-description">
             Handcrafted, bespoke violins from Brooktondale, NY — craftsmanship meets innovative artistry.
           </p>

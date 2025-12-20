@@ -206,6 +206,100 @@ textarea {
 
 /* General CSS */
 
+#navbar {
+  position: fixed;
+  height: 80px;
+  width: 100vw;
+  top: 0;
+  background-color: rgba(250, 248, 245, 0.95);
+  backdrop-filter: blur(10px);
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+#gerald-elias {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: 2rem;
+  letter-spacing: 3px;
+  margin-left: var(--space-lg);
+  color: var(--color-charcoal);
+}
+
+#navbar > a {
+  text-decoration: none;
+  color: var(--color-charcoal);
+}
+
+#nav-links {
+  font-family: var(--font-accent);
+  font-weight: 400;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  display: flex;
+  gap: 2.5rem;
+  margin-left: auto;
+  margin-right: var(--space-lg);
+  height: 100%;
+  align-items: center;
+}
+
+#nav-links > p {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+#nav-links > p:hover {
+  color: var(--color-gold);
+  transition: color 0.2s ease;
+}
+
+#nav-links > a,
+#nav-links > div {
+  color: var(--color-warm-gray);
+  text-decoration: none;
+  transition: color 0.2s ease;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#nav-links > a:hover,
+#nav-links > div:hover {
+  color: var(--color-gold);
+  cursor: pointer;
+}
+
+#dropdown-options {
+  background-color: white;
+  position: absolute;
+  font-family: var(--font-accent);
+  font-weight: 400;
+  padding: var(--space-sm) var(--space-md);
+  border-top: 2px solid var(--color-gold);
+  display: flex;
+  flex-direction: column;
+  top: 79px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  animation: fadeInUp 0.1s ease-out;
+}
+
+#dropdown-options > a {
+  padding: 0.75rem 0;
+  text-decoration: none;
+  color: var(--color-warm-gray);
+  font-size: 0.85rem;
+  transition: color 0.2s ease;
+}
+
+#dropdown-options > a:hover {
+  color: var(--color-gold);
+}
+
 #home {
   width: 100vw;
   display: flex;
@@ -314,6 +408,10 @@ textarea {
   object-fit: cover;
 }
 
+#landing-image-mobile {
+  display: none;
+}
+
 #breaking-news {
   width: 100vw;
   padding: 8rem 8%;
@@ -376,88 +474,6 @@ textarea {
 #breaking-news-text p strong {
   font-weight: 500;
   color: var(--color-charcoal);
-}
-
-#navbar {
-  position: fixed;
-  height: 80px;
-  width: 100vw;
-  top: 0;
-  background-color: rgba(250, 248, 245, 0.95);
-  backdrop-filter: blur(10px);
-  z-index: 100;
-  display: flex;
-  align-items: center;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-}
-
-#gerald-elias {
-  font-family: var(--font-display);
-  font-weight: 400;
-  font-size: 2rem;
-  letter-spacing: 3px;
-  margin-left: var(--space-lg);
-  color: var(--color-charcoal);
-}
-
-#navbar > a {
-  text-decoration: none;
-  color: var(--color-charcoal);
-}
-
-#nav-links {
-  font-family: var(--font-accent);
-  font-weight: 400;
-  font-size: 0.8rem;
-  letter-spacing: 2px;
-  display: flex;
-  gap: 2.5rem;
-  margin-left: auto;
-  margin-right: var(--space-lg);
-  height: 100%;
-  align-items: center;
-}
-
-#nav-links > a,
-#nav-links > div {
-  color: var(--color-warm-gray);
-  text-decoration: none;
-  transition: color 0.2s ease;
-  height: 100%;
-  display: flex;
-  align-items: center;
-}
-
-#nav-links > a:hover,
-#nav-links > div:hover {
-  color: var(--color-gold);
-  cursor: pointer;
-}
-
-#dropdown-options {
-  background-color: white;
-  position: absolute;
-  font-family: var(--font-accent);
-  font-weight: 400;
-  padding: var(--space-sm) var(--space-md);
-  border-top: 2px solid var(--color-gold);
-  display: flex;
-  flex-direction: column;
-  top: 80px;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
-  animation: fadeInUp 0.2s ease-out;
-}
-
-#dropdown-options > a {
-  padding: 0.75rem 0;
-  text-decoration: none;
-  color: var(--color-warm-gray);
-  font-size: 0.85rem;
-  transition: color 0.2s ease;
-}
-
-#dropdown-options > a:hover {
-  color: var(--color-gold);
 }
 
 #home-books-container {
