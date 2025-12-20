@@ -67,9 +67,80 @@ const JACOBUS_BOOKS = [
     },
 ]
 
-function BookCard({ href, src, alt }){
+const MORE_BOOKS = [
+    {
+        href: "/books/roundtree-days",
+        src: "/roundtree-days.jpg",
+        alt: "Roundtree Days",
+    },
+    {
+        href: "/books/it's-a-crime",
+        src: "/book-its-a-crime.jpg",
+        alt: "It's a Crime",
+    },
+    {
+        href: "/books/the-beethoven-sequence",
+        src: "/the-beethoven-sequence-book.jpg",
+        alt: "The Beethoven Sequence",
+    },
+    {
+        href: "/books/symphonies-&-scorpions",
+        src: "/book-symphonies-and-scorpions.jpg",
+        alt: "Symphonies & Scorpions",
+    },
+    {
+        href: "/books/getting-through",
+        src: "/book-getting-through.jpeg",
+        alt: "Getting Through",
+    },
+    {
+        href: "/books/maestro-the-potbellied-pig",
+        src: "/book-maestro.jpg",
+        alt: "Maestro the Potbellied Pig",
+    },
+    {
+        href: "/books/maestro-the-potbellied-pig-es",
+        src: "/book-maestro-es.jpg",
+        alt: "Maestro the Potbellied Pig (Spanish)",
+    },
+];
+
+const AUDIOBOOKS = [
+    {
+        href: "/books/audiobooks/devil's-trill",
+        src: "/audiobook-devil's-trill.jpeg",
+        alt: "Devil's Trill Audiobook",
+    },
+    {
+        href: "/books/audiobooks/danse-macabre",
+        src: "/audiobook-danse-macabre.jpeg",
+        alt: "Danse Macabre Audiobook",
+    },
+    {
+        href: "/books/audiobooks/dances-with-death",
+        src: "/audiobook-dances-with-death.jpeg",
+        alt: "Dances with Death Audiobook",
+    },
+    {
+        href: "/books/audiobooks/murder-at-the-royal-albert",
+        src: "/murder-at-the-royal-albert-audiobook.jpeg",
+        alt: "Murder at the Royal Albert Audiobook",
+    },
+    {
+        href: "/books/audiobooks/maestro-the-potbellied-pig",
+        src: "/audiobook-maestro.jpeg",
+        alt: "Maestro the Potbellied Pig Audiobook",
+    },
+    {
+        href: "/books/audiobooks/maestro-the-potbellied-pig-es",
+        src: "/audiobook-maestro-es.jpeg",
+        alt: "Maestro the Potbellied Pig (Spanish) Audiobook",
+    },
+]
+
+function BookCard({ href, src, alt, aud }){
     return (
-        <a className="">
+        <a href={href}>
             <Image
                 height={318}
                 width={200}
@@ -81,12 +152,48 @@ function BookCard({ href, src, alt }){
     )
 }
 
+function BookSection({ name, books }){
+    return(
+        <section className="books-page-section">
+            <h3>{name}</h3>
+            <div classNae="books-page-list">
+                {books.map((book, i) => 
+                    <BookCard 
+                        href={book.href}
+                        src={book.src}
+                        alt={book.alt}
+                        key={"book-item-" + i}
+                    />
+                )}
+            </div>
+        </section>
+    )
+}
+
 export default function Books(){
     return(
         <main id="books">
             <Landing name="Books & Audiobooks" imageUrl="/books-landing.jpg" />
             <div id="books-content">
-
+                <div id="book-award">
+                    <Image alt="KILLER NASHVILLE SILVER FALCHION AWARD" width={216} height={161} src="/insignia.png" />
+                </div>
+                <BookSection 
+                    name="Featured Titles"
+                    books={FEATURED_BOOKS}
+                />
+                <BookSection 
+                    name="Daniel Jacobus Mysteries"
+                    books={JACOBUS_BOOKS}
+                />
+                <BookSection 
+                    name="More Books"
+                    books={MORE_BOOKS}
+                />
+                <BookSection 
+                    name="Audiobooks"
+                    books={AUDIOBOOKS}
+                />
             </div>
         </main>
     )
