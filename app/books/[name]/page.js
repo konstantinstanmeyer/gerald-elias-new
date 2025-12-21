@@ -1,10 +1,10 @@
 import { books } from "@/util/books"
 import NotFound from "@/components/NotFound";
 
-export default function Book({ params }){
-    console.log(params)
-    console.log(books);
-    const book = books[params?.name?.replace("%26", "&")];
+export default async function Book({ params }){
+    // console.log(params)
+    // console.log(books);
+    const book = books[(await params)?.name?.replace("%26", "&")];
     // console.log(params)
     // console.log(book)
     const [quote, author] = book?.details?.split(' -') || [];
