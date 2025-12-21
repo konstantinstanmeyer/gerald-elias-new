@@ -495,7 +495,7 @@ textarea {
   font-weight: 400;
   color: var(--color-charcoal);
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: var(--space-lg);
   position: relative;
 }
 
@@ -505,7 +505,7 @@ textarea {
   justify-content: center;
   gap: 2rem;
   max-width: 1200px;
-  margin-bottom: 3rem;
+  margin-bottom: var(--space-lg);
 }
 
 .home-book {
@@ -656,7 +656,7 @@ textarea {
   width: 2.5rem;
   /* opacity: 0.7; */
   transition: opacity 0.2s ease;
-  margin-top: 1rem;
+  margin-top: var(--space-md);
 }
 
 #socials-images img:hover {
@@ -686,7 +686,7 @@ textarea {
   height: 50vh;
   position: relative;
   margin-top: 80px;
-  margin-bottom: 4rem;
+  margin-bottom: var(--space-xl);
   animation: fadeIn 0.5s ease;
 }
 
@@ -762,7 +762,7 @@ textarea {
   flex-wrap: wrap;
   /* justify-content: center; */
   max-width: 1200px;
-  gap: 3rem;
+  gap: var(--space-xl);
 }
 
 .books-page-list img {
@@ -781,7 +781,40 @@ textarea {
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 }
 
+.blog-post {
+  display: flex;
+  justify-content: center;
+}
 
+.blog-content {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+}
+
+.blog-content h3 {
+  font-family: var(--font-display);
+  margin-bottom: var(--space-xs);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.blog-content h2 {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 2rem;
+  margin-top: var(--space-lg);
+}
+
+.blog-content p {
+
+}
+
+#bonbons img {
+  border-radius: 5px;
+}
 
 @media (max-width: 1000px) {
   #navbar {
@@ -791,7 +824,7 @@ textarea {
   #landing {
     flex-direction: column;
     padding: 12vh 6% 6vh;
-    gap: 3rem;
+    gap: var(--space-xl);
     min-height: auto;
   }
 
@@ -822,7 +855,7 @@ textarea {
 
   #breaking-news-container {
     flex-direction: column;
-    gap: 3rem;
+    gap: var(--space-xl);
     text-align: center;
   }
 
@@ -871,7 +904,7 @@ textarea {
 
   #about-gerald-mobile {
     font-family: var(--font-display);
-    font-size: 2rem;
+    font-size: var(--space-lg);
     font-weight: 400;
     margin-bottom: var(--space-md);
     color: white;
@@ -898,7 +931,7 @@ textarea {
 
   #footer {
     flex-direction: column;
-    gap: 2rem;
+    gap: var(--space-lg);
     text-align: center;
   }
 
