@@ -787,29 +787,34 @@ textarea {
 }
 
 .blog-content {
-  width: 40%;
+  width: 30%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: justify;
 }
 
 .blog-content h3 {
   font-family: var(--font-display);
   margin-bottom: var(--space-xs);
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 500;
 }
 
 .blog-content h2 {
   font-family: var(--font-display);
   font-weight: 800;
-  font-size: 2rem;
+  font-size: 3rem;
   margin-top: var(--space-lg);
+  margin-bottom: var(--space-lg);
 }
 
-.blog-content p {
+.blog-post-body {
+  text-align: justify;
+}
 
+.blog-post-body p {
+  font-family: var(--font-body);
+  margin-bottom: var(--space-lg);
 }
 
 #bonbons img {
