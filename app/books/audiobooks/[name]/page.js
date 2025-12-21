@@ -1,9 +1,8 @@
 import { audiobooks } from "@/util/books"
 import NotFound from "@/components/NotFound";
 
-export default function Audiobook({ params }){
-    // console.log(params)
-    const book = audiobooks[params?.name];
+export default async function Audiobook({ params }){
+    const book = audiobooks[(await params)?.name];
     const linksLength = Object.keys(book.links).length;
 
     // console.log(linksLength)
