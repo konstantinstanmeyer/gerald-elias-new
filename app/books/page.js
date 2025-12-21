@@ -148,7 +148,7 @@ function BookCard({ href, src, alt, audiobook = false }){
     return (
         <a href={href}>
             <Image
-                height={audiobook ? 200 : 318}
+                height={audiobook ? 200 : 280}
                 width={200}
                 src={src}
                 alt={alt}
@@ -162,7 +162,7 @@ function BookSection({ name, books }){
     return(
         <section className="books-page-section">
             <h3>{name}</h3>
-            <div classNae="books-page-list">
+            <div className="books-page-list">
                 {books.map((book, i) => 
                     <BookCard 
                         href={book.href}
@@ -183,7 +183,7 @@ export default function Books(){
             <Landing name="Books & Audiobooks" imageUrl="/books-landing.jpg" />
             <div id="books-content">
                 <div id="book-award">
-                    <Image alt="KILLER NASHVILLE SILVER FALCHION AWARD" width={216} height={161} src="/insignia.png" />
+                    <Image alt="KILLER NASHVILLE SILVER FALCHION AWARD" width={300} height={225} src="/insignia.png" />
                 </div>
                 <BookSection 
                     name="Featured Titles"
