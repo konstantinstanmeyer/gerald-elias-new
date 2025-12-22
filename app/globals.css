@@ -780,11 +780,11 @@ textarea {
   transform: translateY(-8px);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 }
-
+/* 
 .blog-post {
   display: flex;
   justify-content: center;
-}
+} */
 
 .blog-content {
   width: 30%;
@@ -969,4 +969,8 @@ textarea {
   #breaking-news-text h2 {
     font-size: 1.4rem;
   }
+}
+
+.font-testing {
+  font-size: 10rem !important;
 }

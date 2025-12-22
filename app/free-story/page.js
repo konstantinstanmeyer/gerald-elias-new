@@ -1,37 +1,16 @@
+"use client"
+
 import Landing from "@/components/Landing"
 import Image from "next/image"
-
-export const metadata = {
-  title: "Bonbons",
-  description: "Chocolate-Inspired Flash Fiction",
-  openGraph: {
-    title: "Bonbons",
-    description: "Chocolate-Inspired Flash Fiction",
-    url: "https://www.mysteriesandmusic.com/free-story",
-    type: "website",
-    images: [
-      {
-        url: "https://www.mysteriesandmusic.com/egg.png",
-        width: 630,
-        height: 630,
-        alt: "Bonbons cover image",
-      },
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Bonbons",
-    description: "Chocolate-Inspired Flash Fiction",
-    images: ["https://www.mysteriesandmusic.com/egg.png"],
-  },
-}
+import MDX from '@/markdown/free-story.mdx'
 
 export default function FreeStory(){
     return (
       <div id="free-story">
         <Landing imageUrl='/open-book.jpg' />
         <section id="bonbons" className="blog-post">
-          <div className="blog-content">
+          <MDX />
+          {/* <div className="blog-content">
             <h3>Chocolate-Inspired Flash Fiction</h3>
             <Image id="blog-post-image" src="/egg.png" width={350} height={350} />
             <h2>Bonbons</h2>
@@ -71,7 +50,7 @@ export default function FreeStory(){
               <p><i>If you enjoyed this story, I hope you’ll take a look at my mystery novels and sign up for my newsletter.</i></p>
               <p><i>Thank you!</i></p>
             </div>
-          </div>
+          </div> */}
         </section>
       </div>
     )
