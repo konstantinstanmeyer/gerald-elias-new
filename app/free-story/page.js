@@ -6,10 +6,12 @@ import MDX from '@/markdown/free-story.mdx'
 
 export default function FreeStory(){
     return (
-      <div id="free-story">
+      <main id="free-story">
         <Landing imageUrl='/open-book.jpg' />
-        <section id="bonbons" className="blog-post">
-          <MDX />
+        <section id="bonbons" className="blog-content">
+          <div className="blog-content">
+            <MDX />
+          </div>
           {/* <div className="blog-content">
             <h3>Chocolate-Inspired Flash Fiction</h3>
             <Image id="blog-post-image" src="/egg.png" width={350} height={350} />
@@ -52,6 +54,6 @@ export default function FreeStory(){
             </div>
           </div> */}
         </section>
-      </div>
+      </main>
     )
 }
