@@ -1047,7 +1047,7 @@ textarea {
 }
 
 #concerts-advert {
-  width: 100;
+  width: 100%;
   position: relative;
   height: fit-content;
   background-color: rgb(217, 217, 217);
