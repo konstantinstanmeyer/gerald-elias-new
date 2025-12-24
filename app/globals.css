@@ -244,7 +244,7 @@ textarea {
   font-size: 0.8rem;
   letter-spacing: 2px;
   display: flex;
-  gap: 2rem;
+  gap: 1.8rem;
   margin-left: auto;
   margin-right: var(--space-lg);
   height: 100%;
@@ -695,6 +695,7 @@ textarea {
   height: 100%;
   object-fit: cover;
   filter: brightness(0.7);
+  object-position: top;
 }
 
 .general-landing h3 {
@@ -847,6 +848,23 @@ textarea {
 #bonbons img {
   width: 250px !important;
   height: 250px !important;
+}
+
+#posts-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+#posts-content {
+  width: 60%;
+}
+
+#posts-content h2 {
+  font-size: 1.8rem;
+  font-family: var(--font-accent);
+  font-weight: 800;
 }
 
 @media (max-width: 1000px) {
