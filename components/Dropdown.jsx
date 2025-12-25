@@ -6,10 +6,6 @@ import { useState } from "react"
 export default function Dropdown({ name, options }){
     const [isHover, setIsHover] = useState(false);
 
-    // const option = {
-    //     externalLink: false,
-    // }
-
     return (
         <div id="nav-music" onMouseEnter={() => setIsHover(true)} onMouseLeave={() => setIsHover(false)}>
             <p>{name}</p>
