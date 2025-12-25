@@ -1282,6 +1282,19 @@ textarea {
   #play-video-container > p:first-child {
     font-size: 0.9rem;
   }
+
+  #conducting-content {
+    padding: 2rem 1.5rem;
+    padding-bottom: var(--space-xl);
+  }
+
+  #conducting-content p {
+    font-size: 0.95rem;
+  }
+
+  .conducting-quotes {
+    padding: 1.5rem;
+  }
 }
 
 /* .blog-content {
