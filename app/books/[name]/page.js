@@ -1,44 +1,77 @@
-import { books } from "@/util/books"
-import NotFound from "@/components/NotFound";
+import Image from 'next/image';
+import Link from 'next/link';
+import { books } from '@/util/books';
+import NotFound from '@/components/NotFound';
 
-export default async function Book({ params }){
-    // console.log(params)
-    // console.log(books);
-    const book = books[(await params)?.name?.replace("%26", "&")];
-    // console.log(params)
-    // console.log(book)
-    const [quote, author] = book?.details?.split(' -') || [];
-    const linksLength = book ? Object.keys(book?.links)?.length : undefined;
+export default async function Book({ params }) {
+  const bookKey = (await params)?.name?.replace('%26', '&');
+  const book = books[bookKey];
 
-    // console.log(linksLength)
-    // console.log(book)
+  if (!book) return <NotFound />;
 
-    if (!book) return <NotFound />;
+  const [quote, author] = book?.details?.split(' -') || [];
+  
+  const purchaseLinks = Object.entries(book.links);
 
-    return (
-        <div id="book-preview">
-            <div id="preview-image-container">
-                <img src={book.imageUrl} id="preview-image" />
-            </div>
-            <div id="preview-text-col">
-                <h2>{book.name}<span id="series-num">{book?.numInSeries ? "Book #" + book.numInSeries : null}</span></h2>
-                <p id="preview-date">{book.releaseDate}</p>
-                {!quote ? null : 
-                    <p id="preview-details">{book.details.split(' -')[0] + " "}<span id="preview-details-author">{"-" + author}</span></p>
-                }
-                <p id="preview-hyperlinks-list">{book?.preorder ? "Pre-order on" : "Buy on"} {
-                    Object.entries(book.links).map(([siteName,url], i) => 
-                    <>
-                        <a target="_blank" className="preview-hyperlink" key={i+'50'} href={url}>{siteName}</a>{i < linksLength - 1 ? <span>,</span> : null}
-                        </>
-                    )
-                }</p>
-                {book?.subtext ? <p className="speakeasy">From Speakeasy Editions</p> : null}
-                {!book?.audiobook ? null : <p id="audiobook-link-text">Check out the audiobook version, too!&nbsp;<a href={'/books/audiobooks/' + book.audiobook.url} id="audiobook-link">More Details</a></p>}
-                {book.description.map((textBlock, i) => 
-                    <p key={i+'40'} className="preview-paragraph">{textBlock}</p>
-                )}
-            </div>
+  return (
+    <main id="book-preview">
+        <div id="preview-image-container">
+        <Image
+            src={book.imageUrl}
+            alt={book.name}
+            width={350}
+            height={525}
+            id="preview-image"
+            priority
+        />
         </div>
-    )
+        <section id="preview-text-col">
+        <h2>
+            {book.name}
+            {book?.numInSeries && (
+            <span id="series-num">Book #{book.numInSeries}</span>
+            )}
+        </h2>
+        <p id="preview-date">{book.releaseDate}</p>
+        {quote && (
+            <p id="preview-details">
+            {quote}{' '}
+            <span id="preview-details-author">—{author}</span>
+            </p>
+        )}
+        <p id="preview-hyperlinks-list">
+            {book?.preorder ? 'Pre-order on' : 'Buy on'}{' '}
+            {purchaseLinks.map(([siteName, url], index) => (
+            <span key={`link-${index}`}>
+                <a
+                href={url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="preview-hyperlink"
+                >
+                {siteName}
+                </a>
+                {index < purchaseLinks.length - 1 && <span>,</span>}
+            </span>
+            ))}
+        </p>
+        {book?.subtext && (
+            <p className="speakeasy">From Speakeasy Editions</p>
+        )}
+        {book?.audiobook && (
+            <p id="audiobook-link-text">
+            Check out the audiobook version, too!{' '}
+            <Link href={`/books/audiobooks${book.audiobook.url}`} id="audiobook-link">
+                More Details
+            </Link>
+            </p>
+        )}
+        {book.description.map((textBlock, index) => (
+            <p key={`description-${index}`} className="preview-paragraph">
+            {textBlock}
+            </p>
+        ))}
+        </section>
+    </main>
+  );
 }

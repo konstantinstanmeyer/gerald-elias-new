@@ -713,8 +713,6 @@ textarea {
   text-align: center;
 }
 
-/* Books Page */
-
 #books {
   width: 100%;
   display: flex;
@@ -1519,6 +1517,138 @@ textarea {
   color: #d0d0d0;
 }
 
+#book-preview {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5rem 2rem;
+  display: flex;
+  gap: 4rem;
+  background-color: var(--color-cream);
+  margin-top: var(--space-2xl);
+}
+
+#preview-image-container {
+  flex-shrink: 0;
+  width: 350px;
+}
+
+#preview-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+#preview-text-col {
+  flex: 1;
+  max-width: 700px;
+}
+
+#preview-text-col h2 {
+  font-family: var(--font-accent);
+  font-size: 2rem;
+  font-weight: 500;
+  color: #1a1a1a;
+  margin-bottom: 0.5rem;
+  line-height: 1.3;
+}
+
+#series-num {
+  font-family: var(--font-accent);
+  font-size: 1rem;
+  font-weight: 400;
+  color: #999999;
+  margin-left: 1rem;
+  font-style: italic;
+}
+
+#preview-date {
+  font-family: var(--font-accent);
+  font-size: 0.95rem;
+  color: #999999;
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+
+#preview-details {
+  font-family: var(--font-accent);
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #4a4a4a;
+  font-style: italic;
+  background-color: #fafafa;
+  padding: 1.5rem;
+  border-left: 2px solid #d0d0d0;
+  margin-bottom: 2rem;
+}
+
+#preview-details-author {
+  font-weight: 600;
+  color: #1a1a1a;
+  font-style: normal;
+}
+
+#preview-hyperlinks-list {
+  font-family: var(--font-accent);
+  font-size: 1rem;
+  color: #4a4a4a;
+  margin-bottom: 1.5rem;
+}
+
+.preview-hyperlink {
+  color: #1a1a1a;
+  text-decoration: underline;
+  font-weight: 500;
+  transition: opacity 0.2s ease;
+}
+
+.preview-hyperlink:hover {
+  opacity: 0.7;
+}
+
+#preview-hyperlinks-list span {
+  margin: 0 0.25rem;
+}
+
+.speakeasy {
+  font-family: var(--font-accent);
+  font-size: 0.9rem;
+  color: #999999;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+}
+
+#audiobook-link-text {
+  font-family: var(--font-accent);
+  font-size: 1rem;
+  color: #4a4a4a;
+  margin-bottom: 2rem;
+  padding: 1rem 1.5rem;
+  background-color: #f9f9f9;
+  border: 1px solid #e5e5e5;
+}
+
+#audiobook-link {
+  color: #1a1a1a;
+  text-decoration: underline;
+  font-weight: 500;
+  transition: opacity 0.2s ease;
+}
+
+#audiobook-link:hover {
+  opacity: 0.7;
+}
+
+.preview-paragraph {
+  font-family: var(--font-accent);
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #4a4a4a;
+  margin-bottom: 1.5rem;
+}
+
 @media (max-width: 480px) {
   #concerts-content {
     padding: 2rem 1rem;
@@ -1662,6 +1792,22 @@ textarea {
 
   .blog-content {
     width: 60%;
+  }
+
+  #book-preview {
+    flex-direction: column;
+    gap: 2.5rem;
+    padding: 3rem 2rem;
+  }
+
+  #preview-image-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  #preview-text-col {
+    max-width: 100%;
   }
 }
 
@@ -1846,5 +1992,28 @@ textarea {
 
   .event-card-description {
     font-size: 0.9rem;
+  }
+
+  #book-preview {
+    padding: 2rem 1.5rem;
+  }
+
+  #preview-text-col h2 {
+    font-size: 1.6rem;
+  }
+
+  #series-num {
+    display: block;
+    margin-left: 0;
+    margin-top: 0.5rem;
+  }
+
+  #preview-details {
+    padding: 1.25rem;
+    font-size: 0.95rem;
+  }
+
+  .preview-paragraph {
+    font-size: 0.95rem;
   }
 }
