@@ -18,6 +18,7 @@
   --space-lg: 2rem;
   --space-xl: 3rem;
   --space-2xl: 5rem;
+  --space-3xl: 7rem;
 
   --font-display: var(--font-cormorant), Georgia, serif;
   --font-body: var(--font-montserrat), system-ui, sans-serif;
@@ -838,6 +839,32 @@ textarea {
   width: 40%;
   align-items:center;
   margin-bottom: var(--space-2xl);
+  margin-top: var(--space-3xl);
+}
+
+.blog-content h1 {
+  font-family: var(--font-display);
+  /* margin-bottom: var(--space-lg); */
+  font-size: 5rem;
+  font-weight: 800;
+  /* width: 30%; */
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.blog-content h2 {
+  font-size: 1rem;
+  text-align: left;
+  font-weight: 400;
+  font-family: var(--font-body);
+  margin-bottom: var(--space-lg);
+}
+
+.blog-content h3 {
+  font-weight: 400;
+  font-size: 1rem;
+  margin-bottom: var(--space-lg);
 }
 
 .blog-content h4 {
@@ -849,15 +876,11 @@ textarea {
   text-align:center;
 }
 
-.blog-content h1 {
-  font-family: var(--font-display);
-  margin-bottom: var(--space-lg);
-  font-size: 5rem;
-  font-weight: 800;
-  /* width: 30%; */
-  display: flex;
-  justify-content: center;
-  text-align: center;
+.blog-content h5 {
+  text-align: left;
+  width: 100%;
+  font-size: 1rem;
+  margin-bottom: var(--space-sm);
 }
 
 .blog-content p {

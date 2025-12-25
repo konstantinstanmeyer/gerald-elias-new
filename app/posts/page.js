@@ -39,7 +39,7 @@ const POSTS_BY_YEAR = [
       year: 2022,
       posts: [
         { href: "/posts/buried-treasure", title: "Buried Treasure" },
-        { href: "/posts/passed-ball", title: "Passed Ball: MLB RIP" },
+        { href: "/posts/passed-ball-mlb-rip", title: "Passed Ball: MLB RIP" },
       ],
     },
   ];
