@@ -3,9 +3,9 @@ import conducting from '@/util/conducting';
 
 export default function Conducting() {
   return (
-    <div id="conducting">
+    <main id="conducting">
       <Landing name="Conducting" imageUrl="/conducting-landing.jpg" />
-      <div id="conducting-content">
+      <section id="conducting-content">
         {conducting.textBlocks.map((block, index) => (
           <p key={`text-${index}`}>{block}</p>
         ))}
@@ -14,7 +14,7 @@ export default function Conducting() {
             {quote.content} <span>—{quote.author}</span>
           </p>
         ))}
-      </div>
-    </div>
+      </section>
+    </main>
   );
 }

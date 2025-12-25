@@ -1,6 +1,4 @@
 import Landing from "@/components/Landing";
-import CompositionCard from "@/components/CompositionCard";
-import compositions from "@/util/compositions";
 
 
 export default function Composing(){
@@ -9,36 +7,6 @@ export default function Composing(){
             <Landing name="Composing" imageUrl="composing.jpeg" />
             <div id="composing-content">
                 <div className="composition-card">
-                    {/* <h3>
-                        {links.length === 1 ? <q><a target="_blank" href={links[0]}>{name}</a></q>
-                        : links.length === 2 ? <>{`"${name}"`}&nbsp;{`(`}<a href={links[0]}>part 1</a>,&nbsp;<a href={links[1]}>part 2</a>{`)`}&nbsp;&nbsp;</>
-                        : <>"{name}"&nbsp;&nbsp;</>}
-                        {keywords ? <span>{keywords}</span> : null}
-                    </h3>
-                    {details.length > 0 ? details.map((detail, i) => 
-                        <h4 key={`rand` + i}>{detail}</h4>
-                    ): null}
-                    {open ?
-                    <>
-                        <div className="quotes-wrapper">
-                            {quotes.length > 0 ? quotes.map((quote, i) =>
-                                <p key={`com` + i} className="composition-quote">{quote.description}<span>&nbsp;{quote.author}</span></p>
-                            )
-                            : null}
-                        </div>
-                        {name === "The Legend of William Grandstaff" ? 
-                            <>
-                                {description.map((text, i) => 
-                                    <p key={"leg" + i} className="composition-description">{text}</p>
-                                )}
-                            </>
-                        :
-                            <p className="composition-description">{description}</p>
-                        }
-                        <p onClick={() => setOpen(false)} className="read-more">show less</p>
-                    </>
-                    : <p onClick={() => setOpen(true)} className="read-more">more info</p>
-                    } */}
                     <h1 className="composition-header">Original Compositions and Transcriptions by Gerald Elias</h1>
                     <h5>Parts, recordings, and reviews available upon request</h5>
                     <div className="composition-divider" />
