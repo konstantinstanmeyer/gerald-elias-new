@@ -787,6 +787,45 @@ textarea {
   justify-content: center;
 } */
 
+#posts-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-bottom: var(--space-2xl);
+}
+
+#posts-content {
+  width: 60%;
+}
+
+#posts-content h2 {
+  font-size: 1.8rem;
+  font-family: var(--font-accent);
+  font-weight: 800;
+  color: var(--color-charcoal);
+  margin-top: var(--space-md);
+}
+
+#posts-content ul {
+  list-style: none;
+}
+
+#posts-content li {
+  margin-bottom: var(--space-xs);
+}
+
+#posts-content li::before {
+  content: "- ";
+}
+
+#posts-content a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
+  color: var(--color-charcoal);
+}
+
 .blog-post {
   display: flex;
   align-items: center;
@@ -821,7 +860,6 @@ textarea {
   text-align: center;
 }
 
-
 .blog-content p {
   text-align: justify;
   width: 100%;
@@ -848,23 +886,6 @@ textarea {
 #bonbons img {
   width: 250px !important;
   height: 250px !important;
-}
-
-#posts-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-}
-
-#posts-content {
-  width: 60%;
-}
-
-#posts-content h2 {
-  font-size: 1.8rem;
-  font-family: var(--font-accent);
-  font-weight: 800;
 }
 
 @media (max-width: 1000px) {

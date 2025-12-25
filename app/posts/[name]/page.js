@@ -1,6 +1,7 @@
 import NewPost from "@/components/NewPost";
 import NotFound from "@/components/NotFound";
-import Contest from "@/components/Contest";
+
+
 import posts from "@/util/posts";
 import Lacrymosa from "@/components/Lacrymosa";
 import Tchaikovsky from "@/components/Tchaikovsky";
@@ -34,24 +35,11 @@ export default async function BlogByName({ params }){
     if(!post) return <NotFound />;
 
     return (
-        <div className={post?.image ? "thanksgiving-font" : ""} id="blog-post">
-            {post?.image ? <div id="blog-post-image-container"><img id="blog-post-image" src={post.image} /></div>  : null}
-            <h2>{post.name}</h2>
-            <h4>{post.date}</h4>
-            {post?.textBlocks?.map((block, i) =>
-                <>
-                    <p id={"123" + i}>{block}</p>
-                    {post?.image && i===4 ? <a style={{marginBottom: "2rem"}} id="thanksgiving-hyperlink" target="_blank" href="https://www.mysteriesandmusic.com/books">{post.textHyperlink}</a>:null}
-                </>
-            )}
-            {post?.advert ? 
-            <div id="post-advert">
-                <p>{post.advert.text1}</p>
-                <a href={post.advert.hyperlink}>{post.advert.hyperlinkText}</a>
-                <p>{post.advert.text2}</p>
-                <img src={post.advert.image} />
-            </div> : null
-            }
-        </div>
+        <main className="blog-post" id="free-story">
+            <Landing imageUrl='/open-book.jpg' />
+            <section id="bonbons" className="blog-content">
+            <MDX />
+            </section>
+        </main>
     )
 }
