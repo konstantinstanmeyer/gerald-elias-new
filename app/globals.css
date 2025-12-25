@@ -1193,6 +1193,103 @@ textarea {
   clear: both;
 }
 
+#biography {
+  width: 100%;
+  background-color: var(--color-cream);
+}
+
+#bio-content {
+  padding: 0rem 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-bottom: var(--space-2xl);
+}
+
+#bio-content h2 {
+  font-family: 'Georgia', serif;
+  font-size: 1.75rem;
+  font-weight: 400;
+  color: #1a1a1a;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #d0d0d0;
+  letter-spacing: 1px;
+}
+
+#bio-content h2:first-of-type {
+  margin-top: 0;
+}
+
+.bio-mobile {
+  display: none;
+}
+
+/* Short Bio Section */
+#short-bio {
+  margin-bottom: 4rem;
+}
+
+#short-bio img {
+  float: left;
+  width: 280px;
+  height: auto;
+  margin-right: 2.5rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #e5e5e5;
+}
+
+#short-bio p {
+  font-family: 'Georgia', serif;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #4a4a4a;
+  margin-bottom: 1.75rem;
+}
+
+#short-bio::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Long Bio Section */
+#long-bio {
+  margin-bottom: 2rem;
+}
+
+#long-bio img:first-child {
+  float: right;
+  width: 280px;
+  height: auto;
+  margin-left: 2.5rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #e5e5e5;
+}
+
+#long-bio img:not(:first-child) {
+  float: left;
+  width: 280px;
+  height: auto;
+  margin-right: 2.5rem;
+  margin-bottom: 1.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid #e5e5e5;
+}
+
+#long-bio p {
+  font-family: 'Georgia', serif;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #4a4a4a;
+  margin-bottom: 1.75rem;
+}
+
+#long-bio::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 @media (max-width: 480px) {
   #concerts-content {
@@ -1428,5 +1525,52 @@ textarea {
 
   #teaching-content p {
     font-size: 0.95rem;
+  }
+
+  #bio-content h2 {
+    display: none;
+  }
+
+  .bio-mobile {
+    display: block !important;
+    font-size: 1.3rem;
+    margin-top: 0 !important;
+    margin-bottom: 1.5rem !important;
+    border-bottom: 1px solid #d0d0d0;
+    padding-bottom: 0.5rem;
+  }
+
+  #short-bio img,
+  #long-bio img:first-child,
+  #long-bio img:not(:first-child) {
+    float: none;
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto 2rem;
+    display: block;
+  }
+
+  #short-bio,
+  #long-bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #short-bio p,
+  #long-bio p {
+    width: 100%;
+    font-size: 0.95rem;
+  }
+
+  #bio-content {
+    padding: 2rem 1.5rem;
+    padding-bottom: var(--space-xl);
+  }
+
+  #short-bio img,
+  #long-bio img:first-child,
+  #long-bio img:not(:first-child) {
+    max-width: 100%;
   }
 }
