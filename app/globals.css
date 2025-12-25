@@ -837,6 +837,7 @@ textarea {
   display: flex;
   flex-direction: column;
   width: 40%;
+  min-height: 70vh;
   align-items:center;
   margin-bottom: var(--space-2xl);
   margin-top: var(--space-3xl);
@@ -929,7 +930,6 @@ textarea {
   padding-bottom: var(--space-2xl);
 }
 
-/* Video Container */
 #play-video-container {
   margin-bottom: 4rem;
   text-align: center;
@@ -1225,7 +1225,6 @@ textarea {
   display: none;
 }
 
-/* Short Bio Section */
 #short-bio {
   margin-bottom: 4rem;
 }
@@ -1289,6 +1288,69 @@ textarea {
   content: "";
   display: table;
   clear: both;
+}
+
+#connections {
+  width: 100%;
+  background-color: var(--color-cream);
+}
+
+#connections-content {
+  padding: 0rem 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-bottom: var(--space-2xl);
+}
+
+#connections-list {
+  background-color: #fafafa;
+  padding: 3rem;
+}
+
+#connections-list h3 {
+  font-family: 'Georgia', serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #1a1a1a;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.5px;
+}
+
+#connections-list h3:first-child {
+  margin-top: 0;
+}
+
+#connections-list p {
+  font-family: 'Georgia', serif;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #4a4a4a;
+  margin-bottom: 1.5rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+#connections-list p::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #999999;
+}
+
+#connections-list p:last-of-type {
+  margin-bottom: 0;
+}
+
+#connections-list a {
+  color: #000000;
+  text-decoration: underline;
+  font-weight: 500;
+  transition: opacity 0.2s ease;
+}
+
+#connections-list a:hover {
+  opacity: 0.7;
 }
 
 @media (max-width: 480px) {
@@ -1572,5 +1634,24 @@ textarea {
   #long-bio img:first-child,
   #long-bio img:not(:first-child) {
     max-width: 100%;
+  }
+
+  #connections-content {
+    padding: 2rem 1.5rem;
+    padding-bottom: var(--space-xl);
+  }
+
+  #connections-list {
+    padding: 2rem 1.5rem;
+  }
+
+  #connections-list h3 {
+    font-size: 1.2rem;
+    margin-top: 2.5rem;
+  }
+
+  #connections-list p {
+    font-size: 0.95rem;
+    padding-left: 1.25rem;
   }
 }

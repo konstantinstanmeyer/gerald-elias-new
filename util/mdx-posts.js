@@ -40,7 +40,7 @@ export const postMetadata = {
     title: "The Most Kindest Cut of All",
     image: "/open-book.jpg"
   },
-  "turkey-in-the-saw-contest": {
+  "turkey-in-the-saw-short-story-contest": {
     title: "TURKEY IN THE SAW SHORT STORY CONTEST",
     date: "2023-11-24",
     image: "/thanksgiving-blog.png"
