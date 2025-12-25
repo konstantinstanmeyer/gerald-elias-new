@@ -906,9 +906,193 @@ textarea {
   object-fit: cover;
 }
 
+#bonbons {
+  margin-top: 0 !important;
+}
+
 #bonbons img {
   width: 250px !important;
   height: 250px !important;
+}
+
+#concerts {
+  width: 100%;
+  background-color: #ffffff;
+}
+
+#concerts-content {
+  padding: 0rem 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: var(--space-2xl);
+}
+
+/* Video Container */
+#play-video-container {
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+#play-video-container > p:first-child {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #333333;
+  margin-bottom: 1.5rem;
+  font-family: 'Georgia', serif;
+  letter-spacing: 0.3px;
+}
+
+#iframe {
+  width: 100%;
+  max-width: 900px;
+  aspect-ratio: 16 / 9;
+  border: 1px solid #e5e5e5;
+  margin: 0 auto;
+  display: block;
+  border-radius: 5px;
+}
+
+#copyright {
+  font-size: 0.8rem;
+  color: #999999;
+  margin-top: 1rem;
+  font-style: normal;
+  letter-spacing: 0.5px;
+}
+
+#concerts-advert {
+  background-color: #fafafa;
+  padding: 2.5rem 3rem;
+  margin: 4rem 0;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+#concerts-advert p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #333333;
+  margin-bottom: 1.5rem;
+  font-family: 'Georgia', serif;
+}
+
+#concerts-advert p:last-child {
+  margin-bottom: 0;
+}
+
+#concerts-advert span {
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+#concerts-advert a {
+  color: #000000;
+  text-decoration: underline;
+  font-weight: 500;
+  transition: opacity 0.2s ease;
+}
+
+#concerts-advert a:hover {
+  opacity: 0.7;
+}
+
+#concerts-content h2 {
+  font-size: 1.75rem;
+  font-weight: 400;
+  color: #1a1a1a;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #d0d0d0;
+  font-family: 'Georgia', serif;
+  letter-spacing: 1px;
+}
+
+#concerts-content h2:first-of-type {
+  margin-top: 4rem;
+}
+
+.concerts-text {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #4a4a4a;
+  margin-bottom: 1.75rem;
+  font-family: 'Georgia', serif;
+}
+
+.concerts-text.italic {
+  font-style: italic;
+  background-color: #f9f9f9;
+  padding: 2rem 2.5rem;
+  border-left: 2px solid #cccccc;
+  margin: 2.5rem 0;
+}
+
+.concerts-text.italic span {
+  font-weight: 600;
+  color: #1a1a1a;
+  font-style: normal;
+}
+
+.concerts-text span {
+  font-weight: 600;
+}
+
+#conducting {
+  width: 100%;
+  background-color: var(--color-cream);
+}
+
+#conducting-content {
+  padding: 0rem 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: var(--space-2xl);
+}
+
+#conducting-content p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #4a4a4a;
+  margin-bottom: 1.75rem;
+  font-family: 'Georgia', serif;
+}
+
+.conducting-quotes {
+  font-style: italic;
+  background-color: #f9f9f9;
+  padding: 2rem 2.5rem;
+  border-left: 2px solid #cccccc;
+  margin: 2.5rem 0 !important;
+  color: #4a4a4a !important;
+}
+
+.conducting-quotes span {
+  font-weight: 600;
+  color: #1a1a1a;
+  font-style: normal;
+}
+
+@media (max-width: 480px) {
+  #concerts-content {
+    padding: 2rem 1rem;
+  }
+
+  #concerts-advert {
+    padding: 1.5rem;
+  }
+
+  #concerts-content h2 {
+    font-size: 1.3rem;
+  }
+
+  .concerts-text.italic {
+    padding: 1.25rem;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -1067,13 +1251,44 @@ textarea {
   .blog-content {
     width: 80%;
   }
+
+  #concerts-content {
+    padding: 3rem 1.5rem;
+  }
+
+  #concerts-advert {
+    padding: 2rem;
+    margin: 3rem 0;
+  }
+
+  #concerts-advert p {
+    font-size: 0.95rem;
+  }
+
+  #concerts-content h2 {
+    font-size: 1.5rem;
+    margin-top: 3.5rem;
+    letter-spacing: 0.5px;
+  }
+
+  .concerts-text {
+    font-size: 0.95rem;
+  }
+
+  .concerts-text.italic {
+    padding: 1.5rem;
+  }
+
+  #play-video-container > p:first-child {
+    font-size: 0.9rem;
+  }
 }
 
-.blog-content {
+/* .blog-content {
   display: flex;
   justify-content: center;
   
-}
+} */
 
 .blog-text {
 

@@ -1,18 +1,20 @@
-import Landing from "../../components/Landing";
-import conducting from "../../util/conducting";
+import Landing from '@/components/Landing';
+import conducting from '@/util/conducting';
 
-export default function Conducting(){
-    return (
-        <div id="conducting">
-            <Landing name="Conducting" imageUrl="conducting-landing.jpg" />
-            <div id="conducting-content">
-                {conducting.textBlocks.map((block, i) => 
-                    <p key={'300' + i}>{block}</p>
-                )}
-                {conducting.quotes.map((quote, i) =>
-                    <p key={'200' + i} className="conducting-quotes">{quote.content}&nbsp;<span>-{quote.author}</span></p>  
-                )}
-            </div>
-        </div>
-    )
+export default function Conducting() {
+  return (
+    <div id="conducting">
+      <Landing name="Conducting" imageUrl="/conducting-landing.jpg" />
+      <div id="conducting-content">
+        {conducting.textBlocks.map((block, index) => (
+          <p key={`text-${index}`}>{block}</p>
+        ))}
+        {conducting.quotes.map((quote, index) => (
+          <p key={`quote-${index}`} className="conducting-quotes">
+            {quote.content} <span>—{quote.author}</span>
+          </p>
+        ))}
+      </div>
+    </div>
+  );
 }
