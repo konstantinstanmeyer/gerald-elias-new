@@ -2191,6 +2191,10 @@ textarea {
     display: none;
   }
 
+  #landing {
+    margin-top: 10vh;
+  }
+
   /* Mobile Nav Container */
   #mobile-nav {
     position: fixed;

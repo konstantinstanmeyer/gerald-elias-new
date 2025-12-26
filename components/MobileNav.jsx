@@ -10,7 +10,6 @@ export default function MobileNav() {
     
     nav?.classList.toggle('active');
     
-    // Toggle body scroll
     if (isActive) {
       document.body.classList.remove('mobile-menu-open');
     } else {
@@ -24,7 +23,6 @@ export default function MobileNav() {
     document.body.classList.remove('mobile-menu-open');
   };
 
-  // Clean up on unmount
   useEffect(() => {
     return () => {
       document.body.classList.remove('mobile-menu-open');
@@ -33,13 +31,10 @@ export default function MobileNav() {
 
   return (
     <div id="mobile-nav">
-      {/* Mobile Nav Header */}
       <div id="mobile-nav-header">
         <Link href="/" onClick={closeMenu}>
           <h3 id="mobile-gerald-elias">GERALD ELIAS</h3>
         </Link>
-
-        {/* Hamburger Menu */}
         <div id="hamburger-container">
           <button
             id="hamburger"
@@ -52,8 +47,6 @@ export default function MobileNav() {
             <span className="bar"></span>
           </button>
         </div>
-
-        {/* Close Button - X icon */}
         <div id="close-menu" onClick={toggleMenu}>
           <svg
             viewBox="0 0 24 24"
@@ -65,10 +58,7 @@ export default function MobileNav() {
           </svg>
         </div>
       </div>
-
-      {/* Mobile Nav Links */}
       <div id="mobile-nav-links">
-        {/* Books Section */}
         <div className="mobile-options">
           <h3>BOOKS</h3>
           <Link href="/books" onClick={closeMenu}>
@@ -78,8 +68,6 @@ export default function MobileNav() {
             Free Story
           </Link>
         </div>
-
-        {/* Music Section */}
         <div className="mobile-options">
           <h3>MUSIC</h3>
           <Link href="/music/concerts-and-recordings" onClick={closeMenu}>
@@ -95,8 +83,6 @@ export default function MobileNav() {
             Teaching
           </Link>
         </div>
-
-        {/* About Section */}
         <div className="mobile-options">
           <h3>ABOUT</h3>
           <Link href="/about/biography" onClick={closeMenu}>
@@ -111,8 +97,6 @@ export default function MobileNav() {
             Goodreads
           </a>
         </div>
-
-        {/* Top-level Links */}
         <h3>
         <Link href="/media-features" onClick={closeMenu}>
           MEDIA FEATURES
