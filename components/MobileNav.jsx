@@ -64,28 +64,28 @@ export default function MobileNav() {
           <Link href="/books" onClick={closeMenu}>
             Books
           </Link>
-          <Link href="/books/free-story" onClick={closeMenu}>
+          <Link href="/free-story" onClick={closeMenu}>
             Free Story
           </Link>
         </div>
         <div className="mobile-options">
           <h3>MUSIC</h3>
-          <Link href="/music/concerts-and-recordings" onClick={closeMenu}>
+          <Link href="/concerts-and-recordings" onClick={closeMenu}>
             Concerts & Recordings
           </Link>
-          <Link href="/music/conducting" onClick={closeMenu}>
+          <Link href="/conducting" onClick={closeMenu}>
             Conducting
           </Link>
-          <Link href="/music/composing" onClick={closeMenu}>
+          <Link href="/composing" onClick={closeMenu}>
             Composing
           </Link>
-          <Link href="/music/teaching" onClick={closeMenu}>
+          <Link href="/teaching" onClick={closeMenu}>
             Teaching
           </Link>
         </div>
         <div className="mobile-options">
           <h3>ABOUT</h3>
-          <Link href="/about/biography" onClick={closeMenu}>
+          <Link href="/biography" onClick={closeMenu}>
             Biography
           </Link>
           <a
