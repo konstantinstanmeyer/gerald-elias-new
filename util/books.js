@@ -347,7 +347,7 @@ export const audiobooks = {
         ],
         links: {
             "Amazon":"https://www.amazon.com/Murder-Royal-Albert-Jacobus-Mysteries/dp/B0CJCK83JZ",
-            "Audible":"https://www.audible.com/pd/Murder-at-the-Royal-Albert-Audiobook",
+            "Audible":"https://www.audible.com/pd/Murder-at-the-Royal-Albert-Audiobook/B0CJCLB4HP?srsltid=AfmBOor2mmV1XAcig2fYCVeJtdEU95iiVr_5comZszKOuCpfCIcEOva-",
         },
         releaseDate: "October 30th, 2023"
     },

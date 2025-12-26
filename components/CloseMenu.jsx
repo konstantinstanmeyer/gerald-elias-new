@@ -1,7 +1,6 @@
 "use client"
 
 export default function CloseMenu(){
-
     const handleClick = (e) => {
         let nav = document.querySelector('#mobile-nav');
         nav.classList.toggle('active');
@@ -10,6 +9,8 @@ export default function CloseMenu(){
     }
 
     return (
-        <p onClick={e => handleClick(e)}>+</p>
+        <div id="close-menu" onClick={e => handleClick(e)}>
+            <p>+</p>
+        </div>
     )
 }

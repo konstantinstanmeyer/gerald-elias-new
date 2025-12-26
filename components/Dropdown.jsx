@@ -6,13 +6,9 @@ import { useState } from "react"
 export default function Dropdown({ name, options }){
     const [isHover, setIsHover] = useState(false);
 
-    // const option = {
-    //     externalLink: false,
-    // }
-
     return (
-        <p id="nav-music" onMouseEnter={() => setIsHover(true)} onMouseLeave={() => setIsHover(false)}>
-            {name}
+        <div id="nav-music" onMouseEnter={() => setIsHover(true)} onMouseLeave={() => setIsHover(false)}>
+            <p>{name}</p>
             {!isHover ? null : 
                 <div id="dropdown-options">
                     {options.map((option, i) => 
@@ -20,6 +16,6 @@ export default function Dropdown({ name, options }){
                     )}
                 </div>
             } 
-        </p>
+        </div>
     )
 }

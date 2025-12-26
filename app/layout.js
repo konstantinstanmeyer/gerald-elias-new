@@ -1,38 +1,12 @@
 import Navbar from '../components/Navbar'
 import Footer from '@/components/Footer'
 import './globals.css'
-import { Outfit, Playfair_Display, Cormorant, Overpass, Red_Hat_Mono, Montserrat, Poppins, Courier_Prime, Quattrocento } from 'next/font/google'
+import { Cormorant, Montserrat, Poppins } from 'next/font/google'
 import MobileNav from '@/components/MobileNav'
 
 export const metadata = {
   title: "Gerald Elias"
 }
-
-const outfit = Outfit({
-  subsets: ['latin'],
-  variable: '--font-outfit'
-})
-
-const playfair_display = Playfair_Display({
-  subsets: ['latin'],
-  weight: ['400'],
-  variable: '--font-playfair-display',
-  styles: ['normal', 'italic']
-})
-
-const quattrocento = Quattrocento({
-  subsets: ['latin'],
-  weight: ['400', '700'],
-  variable: '--font-quattrocento',
-  styles: ['normal', 'italic']
-})
-
-const courier_prime = Courier_Prime({
-  subsets: ['latin'],
-  weight: ['700','400'],
-  style: ['normal', 'italic'],
-  variable: '--font-courier-prime'
-})
 
 const cormorant = Cormorant({
   subsets: ['latin'],
@@ -40,20 +14,6 @@ const cormorant = Cormorant({
   style: ['normal', 'italic'],
   variable: '--font-cormorant'
 });
-
-const overpass = Overpass({
-  subsets: ['latin'],
-  weight: ['400', '700'],
-  style: ['normal', 'italic'],
-  variable: '--font-overpass'
-});
-
-const red_hat_mono = Red_Hat_Mono({
-  subsets: ['latin'],
-  weight: ['300', '400', '600', '700'],
-  variable: '--font-red-hat-mono',
-  style: ['normal', 'italic'],
-})
 
 const montserrat = Montserrat({
   subsets: ['latin'],
@@ -70,7 +30,7 @@ const poppins = Poppins({
 
 export default function RootLayout({ children }) {
   return (
-    <html className={`${outfit.variable} ${playfair_display.variable} ${cormorant.variable} ${overpass.variable} ${courier_prime.variable} ${red_hat_mono.variable} ${montserrat.variable} ${poppins.variable} ${quattrocento.variable}`} lang="en">
+    <html className={`${cormorant.variable} ${montserrat.variable} ${poppins.variable}`} lang="en">
       <body className="">
         <Navbar />
         <MobileNav />
