@@ -959,7 +959,7 @@ textarea {
 }
 
 #play-video-container {
-  margin-bottom: 4rem;
+  margin-bottom: var(--space-md);
   text-align: center;
 }
 
@@ -968,7 +968,7 @@ textarea {
   font-weight: 400;
   color: #333333;
   margin-bottom: 1.5rem;
-  font-family: 'Georgia', serif;
+  font-family: var(--font-display);
   letter-spacing: 0.3px;
 }
 
@@ -993,9 +993,11 @@ textarea {
 #concerts-advert {
   background-color: #fafafa;
   padding: 2.5rem 3rem;
-  margin: 4rem 0;
+  margin: var(--space-sm) 0;
   border-top: 1px solid #e0e0e0;
   border-bottom: 1px solid #e0e0e0;
+  padding: 2rem;
+  margin: 3rem 0;
 }
 
 #concerts-advert p {
@@ -1003,7 +1005,7 @@ textarea {
   line-height: 1.7;
   color: #333333;
   margin-bottom: 1.5rem;
-  font-family: 'Georgia', serif;
+  font-family: var(--font-display);
 }
 
 #concerts-advert p:last-child {
@@ -1030,16 +1032,12 @@ textarea {
   font-size: 1.75rem;
   font-weight: 400;
   color: #1a1a1a;
-  margin-top: 5rem;
+  margin-top: var(--space-sm);
   margin-bottom: 2rem;
   padding-bottom: 0.5rem;
   border-bottom: 1px solid #d0d0d0;
-  font-family: 'Georgia', serif;
+  font-family: var(--font-display);
   letter-spacing: 1px;
-}
-
-#concerts-content h2:first-of-type {
-  margin-top: 4rem;
 }
 
 .concerts-text {
@@ -1047,7 +1045,7 @@ textarea {
   line-height: 1.8;
   color: #4a4a4a;
   margin-bottom: 1.75rem;
-  font-family: 'Georgia', serif;
+  font-family: var(--font-display);
 }
 
 .concerts-text.italic {
@@ -1055,7 +1053,8 @@ textarea {
   background-color: #f9f9f9;
   padding: 2rem 2.5rem;
   border-left: 2px solid #cccccc;
-  margin: 2.5rem 0;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .concerts-text.italic span {
@@ -1074,7 +1073,6 @@ textarea {
 }
 
 #conducting-content {
-  padding: 0rem 2rem;
   max-width: 1100px;
   margin: 0 auto;
   display: flex;
@@ -1087,7 +1085,7 @@ textarea {
   line-height: 1.8;
   color: #4a4a4a;
   margin-bottom: 1.75rem;
-  font-family: 'Georgia', serif;
+  font-family: var(--font-display);
 }
 
 .conducting-quotes {
@@ -1125,7 +1123,7 @@ textarea {
 }
 
 .composition-header {
-  font-family: 'Georgia', serif;
+  font-family: var(--font-display);
   font-size: 1.75rem;
   font-weight: 400;
   color: #1a1a1a;
@@ -1135,8 +1133,8 @@ textarea {
 }
 
 .composition-card h5 {
-  font-family: 'Georgia', serif;
-  font-size: 0.95rem;
+  font-family: var(--font-display);
+  font-size: 1.2rem;
   font-weight: 400;
   color: #666666;
   font-style: italic;
@@ -1151,8 +1149,8 @@ textarea {
 }
 
 .composition-card h3 {
-  font-family: 'Georgia', serif;
-  font-size: 1.3rem;
+  font-family: var(--font-display);
+  font-size: 1.5rem;
   font-weight: 500;
   color: #1a1a1a;
   margin-top: 3rem;
@@ -1165,9 +1163,9 @@ textarea {
 }
 
 .composition-card p {
-  font-family: 'Georgia', serif;
-  font-size: 1.05rem;
-  line-height: 1.8;
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  line-height: 1.4;
   color: #4a4a4a;
   margin-bottom: 0.75rem;
   padding-left: 1.5rem;
@@ -1207,7 +1205,7 @@ textarea {
 }
 
 #teaching-content p {
-  font-family: 'Georgia', serif;
+  font-family: var(--font-display);
   font-size: 1.05rem;
   line-height: 1.8;
   color: #4a4a4a;
@@ -1234,7 +1232,7 @@ textarea {
 }
 
 #bio-content h2 {
-  font-family: 'Georgia', serif;
+  font-family: var(--font-display);
   font-size: 1.75rem;
   font-weight: 400;
   color: #1a1a1a;
@@ -1267,7 +1265,7 @@ textarea {
 }
 
 #short-bio p {
-  font-family: 'Georgia', serif;
+  font-family: var(--font-display);
   font-size: 1.05rem;
   line-height: 1.8;
   color: #4a4a4a;
@@ -1305,7 +1303,7 @@ textarea {
 }
 
 #long-bio p {
-  font-family: 'Georgia', serif;
+  font-family: var(--font-display);
   font-size: 1.05rem;
   line-height: 1.8;
   color: #4a4a4a;
@@ -1336,7 +1334,7 @@ textarea {
 }
 
 #connections-list h3 {
-  font-family: 'Georgia', serif;
+  font-family: var(--font-display);
   font-size: 1.4rem;
   font-weight: 500;
   color: #1a1a1a;
@@ -1350,7 +1348,7 @@ textarea {
 }
 
 #connections-list p {
-  font-family: 'Georgia', serif;
+  font-family: var(--font-display);
   font-size: 1.05rem;
   line-height: 1.8;
   color: #4a4a4a;
@@ -1394,7 +1392,7 @@ textarea {
 }
 
 #events-container h2 {
-  font-family: 'Georgia', serif;
+  font-family: var(--font-display);
   font-size: 1.75rem;
   font-weight: 400;
   color: #1a1a1a;
@@ -1417,7 +1415,7 @@ textarea {
 }
 
 .empty-state {
-  font-family: 'Georgia', serif;
+  font-family: var(--font-display);
   font-size: 1.05rem;
   color: #999999;
   font-style: italic;
@@ -1463,7 +1461,7 @@ textarea {
 }
 
 .event-card-date {
-  font-family: 'Georgia', serif;
+  font-family: var(--font-display);
   font-size: 0.85rem;
   font-weight: 400;
   color: #999999;
@@ -1472,7 +1470,7 @@ textarea {
 }
 
 .event-card-name {
-  font-family: 'Georgia', serif;
+  font-family: var(--font-display);
   font-size: 1.2rem;
   font-weight: 500;
   color: #1a1a1a;
@@ -1481,7 +1479,7 @@ textarea {
 }
 
 .event-card-location {
-  font-family: 'Georgia', serif;
+  font-family: var(--font-display);
   font-size: 0.95rem;
   color: #4a4a4a;
   margin-bottom: 0.5rem;
@@ -1489,7 +1487,7 @@ textarea {
 }
 
 .event-card-address {
-  font-family: 'Georgia', serif;
+  font-family: var(--font-display);
   font-size: 0.9rem;
   color: #999999;
   margin-bottom: 1rem;
@@ -1497,7 +1495,7 @@ textarea {
 }
 
 .event-card-description {
-  font-family: 'Georgia', serif;
+  font-family: var(--font-display);
   font-size: 0.95rem;
   line-height: 1.7;
   color: #4a4a4a;
@@ -1509,7 +1507,7 @@ textarea {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  font-family: 'Georgia', serif;
+  font-family: var(--font-display);
   font-size: 0.9rem;
   font-weight: 400;
   color: #1a1a1a;
@@ -1789,24 +1787,6 @@ textarea {
   margin-top: -1rem;
 }
 
-@media (max-width: 480px) {
-  #concerts-content {
-    padding: 2rem 1rem;
-  }
-
-  #concerts-advert {
-    padding: 1.5rem;
-  }
-
-  #concerts-content h2 {
-    font-size: 1.3rem;
-  }
-
-  .concerts-text.italic {
-    padding: 1.25rem;
-  }
-}
-
 @media (max-width: 1000px) {
   #navbar {
     display: none;
@@ -1987,22 +1967,12 @@ textarea {
     width: 80%;
   }
 
-  #concerts-content {
-    padding: 3rem 1.5rem;
-  }
-
-  #concerts-advert {
-    padding: 2rem;
-    margin: 3rem 0;
-  }
-
   #concerts-advert p {
     font-size: 0.95rem;
   }
 
   #concerts-content h2 {
     font-size: 1.5rem;
-    margin-top: 3.5rem;
     letter-spacing: 0.5px;
   }
 
@@ -2019,7 +1989,7 @@ textarea {
   }
 
   #conducting-content {
-    padding: 2rem 1.5rem;
+    padding: 0rem 1.5rem;
     padding-bottom: var(--space-xl);
   }
 
