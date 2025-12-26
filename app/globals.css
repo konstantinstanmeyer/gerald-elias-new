@@ -506,17 +506,30 @@ textarea {
 
 #home-books-list {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
   max-width: 1200px;
   margin-bottom: var(--space-lg);
 }
 
+@media (min-width: 1000px) {
+  #home-books-list {
+    flex-wrap: wrap;
+  }
+}
+
 .home-book {
   position: relative;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   height: fit-content;
+  width: 320px;
+  margin-bottom: 1rem;
+}
+
+.home-audiobook img {
+  height: 320px !important; 
+  width: 320px !important;
+  object-fit:cover;
 }
 
 .home-book:hover {
@@ -526,8 +539,9 @@ textarea {
 
 .home-book img {
   width: 100%;
-  height: fit-content;
-  display: block
+  height: auto;
+  object-fit: cover;
+  display: block;
 }
 
 #all-books {
@@ -1835,12 +1849,14 @@ textarea {
   }
 
   #home-books-list {
+    flex-direction: column;
     gap: 1.5rem;
+    align-items: center;
   }
 
-  .home-book {
+  /* .home-book {
     width: 45%;
-  }
+  } */
 
   #about {
     flex-direction: column;
@@ -1945,6 +1961,10 @@ textarea {
 
   .home-book {
     width: 80%;
+  }
+
+  .home-audiobook {
+    width: 80% !important;
   }
 
   #breaking-news-text h2 {

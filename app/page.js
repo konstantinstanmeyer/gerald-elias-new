@@ -98,7 +98,6 @@ export default function Home() {
               alt="Symphonies and Scorpions"
               width={220}
               height={350}
-              style={{height: "480px", width: "320px"}}
             />
           </Link>
           <Link className="home-book" href="/books/roundtree-days">
@@ -107,20 +106,19 @@ export default function Home() {
               alt="Roundtree Days"
               width={220}
               height={350}
-              style={{height: "480px", width: "320px"}}
             />
           </Link>
           <Link
             className="home-book"
             href="/books/audiobooks/murder-at-the-royal-albert"
-            style={{display: "flex", justifyContent: "center", height: "350px", width: "350px"}}
+            style={{display: "flex", justifyContent: "center", height: "320px", width: "320px"}}
+            id="home-audiobook"
           >
             <Image
               src="/albert-audiobook-transparent.png"
               alt="Murder at the Royal Albert Audiobook"
               width={220}
               height={220}
-              style={{height: "350px", width: "350px", objectFit: "cover"}}
             />
           </Link>
         </div>
