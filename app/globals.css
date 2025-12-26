@@ -1139,6 +1139,10 @@ textarea {
   padding: 3rem;
 }
 
+.composition-card:first-of-type {
+  padding: 0rem 3rem 3rem 3rem;
+}
+
 .composition-header {
   font-family: var(--font-display);
   font-size: 1.75rem;
