@@ -146,7 +146,7 @@ const AUDIOBOOKS = [
 
 function BookCard({ href, src, alt, audiobook = false }){
     return (
-        <a href={href}>
+        <a className="book-card" href={href}>
             <Image
                 height={audiobook ? 200 : 280}
                 width={200}
