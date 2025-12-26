@@ -97,11 +97,9 @@ export default function MobileNav() {
             Goodreads
           </a>
         </div>
-        <h3>
         <Link href="/media-features" onClick={closeMenu}>
           MEDIA FEATURES
         </Link>
-        </h3>
         <Link href="/events" onClick={closeMenu}>
           EVENTS
         </Link>
