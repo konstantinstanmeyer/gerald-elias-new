@@ -2141,7 +2141,7 @@ textarea {
 
   #contact {
     padding: 3rem 1.5rem;
-    margin-top: var(--space-xl);
+    margin-top: var(--space-2xl);
   }
 
   #contact > h2 {
