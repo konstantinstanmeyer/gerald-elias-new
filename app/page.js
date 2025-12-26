@@ -115,7 +115,7 @@ export default function Home() {
             id="home-audiobook"
           >
             <Image
-              src="/albert-audiobook-transparent.png"
+              src="/murder-at-the-royal-albert-audiobook.jpeg"
               alt="Murder at the Royal Albert Audiobook"
               width={220}
               height={220}

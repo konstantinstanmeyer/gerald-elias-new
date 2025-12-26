@@ -9,7 +9,7 @@ const FEATURED_BOOKS = [
     },
     {
         href: "/books/audiobooks/murder-at-the-royal-albert",
-        src: "/albert-audiobook-transparent.png",
+        src: "/murder-at-the-royal-albert-audiobook.jpeg",
         alt: "Murder at the Royal Albert Audiobook",
     },
     {
@@ -148,8 +148,8 @@ function BookCard({ href, src, alt, audiobook = false }){
     return (
         <a className="book-card" href={href}>
             <Image
-                height={audiobook ? 200 : 280}
-                width={200}
+                height={audiobook ? 220 : 320}
+                width={220}
                 src={src}
                 alt={alt}
                 loading="lazy"
