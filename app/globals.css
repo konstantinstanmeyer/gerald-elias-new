@@ -419,6 +419,19 @@ textarea {
   max-width: 450px;
   height: auto;
   object-fit: cover;
+  position: relative;
+}
+
+#landing-image-container::before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  right: -12px;
+  bottom: -12px;
+  border: 1px solid var(--color-gold);
+  opacity: 0.4;
+  pointer-events: none;
 }
 
 #landing-image-mobile {
