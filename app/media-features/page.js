@@ -28,7 +28,7 @@ export default function MediaFeatures() {
                 </p>
                 <h3>January 2024</h3>
                 <p>
-                    d Gerald's blog post for #WriterWednesday on author Heather Weidner's website.&nbsp;
+                    Read Gerald's blog post for #WriterWednesday on author Heather Weidner's website.&nbsp;
                     <a 
                         target="_blank" 
                         rel="noopener noreferrer" 
