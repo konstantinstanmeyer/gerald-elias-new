@@ -48,8 +48,11 @@ body {
 
 button,
 input {
-  appearance: none;
   -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  appearance: none !important;
+  box-shadow: none !important;
+  outline: none !important;
 }
 
 textarea:focus,
