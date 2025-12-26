@@ -667,6 +667,7 @@ textarea {
   font-weight: 600;
   font-size: 1rem;
   width: 75px;
+  color: var(--color-charcoal) !important;
 }
 
 #socials-images {
