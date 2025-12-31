@@ -1,4 +1,4 @@
-import { Schema, models } from "mongoose";
+import mongoose, { Schema, models } from "mongoose";
 import Reply from "./reply"
 
 const userSchema = new Schema(
