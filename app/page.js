@@ -4,19 +4,28 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main id="home">
-      {/* Hero / Landing Section */}
       <section id="landing">
         <div id="landing-text">
           <div id="subtext-container">
+            <span id="subtext">AUTHOR • VIOLINIST</span>
             <div id="line" />
           </div>
           <h1 id="landing-title">
             <strong>Gerald Elias</strong> proudly performs on violins made by
             his son, <strong className="gold-accent">Jacob</strong>
           </h1>
+          <div id="landing-image-container-mobile">
+            <Image
+              id="landing-image-mobile"
+              src="/new-violins.jpg"
+              alt="Violins crafted by Jacob Elias"
+              width={600}
+              height={450}
+              priority
+            />
+          </div>
           <p id="landing-description">
-            Bespoke violins handcrafted in Brooktondale, NY — where traditional
-            craftsmanship meets innovative artistry.
+            Handcrafted, bespoke violins from Brooktondale, NY — craftsmanship meets innovative artistry.
           </p>
           <div className="button-container">
             <a href="mailto:eliasviolins@gmail.com" className="btn-primary">
@@ -33,18 +42,16 @@ export default function Home() {
           </div>
         </div>
         <div id="landing-image-container">
-          {/* <Image
+          <Image
             id="landing-image"
             src="/new-violins.jpg"
             alt="Violins crafted by Jacob Elias"
             width={600}
             height={450}
             priority
-          /> */}
+          />
         </div>
       </section>
-
-      {/* Breaking News Section */}
       <section id="breaking-news">
         <div id="breaking-news-container">
           <div id="breaking-news-image">
@@ -74,8 +81,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* Featured Books Section */}
       <section id="home-books-container">
         <div id="home-books-list">
           <h2 id="home-books-header">Featured Titles</h2>
@@ -83,25 +88,6 @@ export default function Home() {
             <Image
               src="/book-murder-at-the-royal-albert.jpg"
               alt="Murder at the Royal Albert"
-              width={220}
-              height={350}
-            />
-          </Link>
-          <Link
-            className="home-book"
-            href="/books/audiobooks/murder-at-the-royal-albert"
-          >
-            <Image
-              src="/albert-audiobook-landing.png"
-              alt="Murder at the Royal Albert Audiobook"
-              width={220}
-              height={350}
-            />
-          </Link>
-          <Link className="home-book" href="/books/roundtree-days">
-            <Image
-              src="/roundtree-days.jpg"
-              alt="Roundtree Days"
               width={220}
               height={350}
             />
@@ -114,13 +100,32 @@ export default function Home() {
               height={350}
             />
           </Link>
+          <Link className="home-book" href="/books/roundtree-days">
+            <Image
+              src="/roundtree-days.jpg"
+              alt="Roundtree Days"
+              width={220}
+              height={350}
+            />
+          </Link>
+          <Link
+            className="home-book"
+            href="/books/audiobooks/murder-at-the-royal-albert"
+            style={{display: "flex", justifyContent: "center", height: "320px", width: "320px"}}
+            id="home-audiobook"
+          >
+            <Image
+              src="/murder-at-the-royal-albert-audiobook.jpeg"
+              alt="Murder at the Royal Albert Audiobook"
+              width={220}
+              height={220}
+            />
+          </Link>
         </div>
         <Link id="all-books" href="/books">
           View All Books
         </Link>
       </section>
-
-      {/* About Section */}
       <section id="about">
         <Image
           src="/gerald-elias-statues.jpeg"
@@ -145,8 +150,6 @@ export default function Home() {
             Read Full Biography
           </Link>
         </div>
-
-        {/* Mobile About */}
         <div id="about-mobile">
           <Image
             id="about-mobile-img"

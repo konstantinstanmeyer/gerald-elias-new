@@ -1,57 +1,75 @@
-import NewPost from "@/components/NewPost";
 import NotFound from "@/components/NotFound";
-import Contest from "@/components/Contest";
-import posts from "@/util/posts";
-import Lacrymosa from "@/components/Lacrymosa";
-import Tchaikovsky from "@/components/Tchaikovsky";
-import MostKindest from "@/components/MostKindest";
-import AI from "@/components/AI";
+import { postMetadata, postExists } from "@/util/mdx-posts";
 
-export async function generateMetadata({ params, searchParams }){
-    if(params?.name === "Tchaikovsky%20and%20the%20Future%20of%20Contemporary%20Music"){
-        return {
-            openGraph: {
-              title: "Tchaikovsky and the Future of Contemporary Music",
-              images: "/selfie.png",
-            },
-        }
-    }
+async function getMdxContent(slug) {
+  try {
+    const mdxModule = await import(`@/markdown/blog-posts/${slug}.mdx`);
+    return mdxModule.default;
+  } catch (error) {
+    console.error(`Error loading MDX file: ${slug}`, error);
+    return null;
+  }
 }
 
-export default async function BlogByName({ params }){
-    console.log("hello")
-    let { name = undefined } = await params;
-    name = name?.replaceAll("%2C", ",")
-    const post = posts.blogsContent[decodeURI(name?.replace("%3A", ":"))];
+export async function generateMetadata({ params }) {
+  const { name } = await params;
+  
+  if (!name || !postExists(name)) return;
+  
+  const metadata = postMetadata[name];
+  
+  return {
+    title: metadata.title,
+    description: metadata.description || `Read ${metadata.title} by Gerald Elias`,
+    openGraph: {
+      title: metadata.title,
+      description: metadata.description || `Read ${metadata.title} by Gerald Elias`,
+      images: metadata.image ? [metadata.image] : ['/open-book.jpg'],
+      type: 'article',
+      publishedTime: metadata.date,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: metadata.title,
+      description: metadata.description || `Read ${metadata.title} by Gerald Elias`,
+      images: metadata.image ? [metadata.image] : ['/open-book.jpg'],
+    },
+  };
+}
 
+// Main page component
+export default async function BlogByName({ params }) {
+    const { name } = await params;
     
-    if (name === "A%20Strange%20and%20Wonderful%20Concert") return <div className={post?.image ? "thanksgiving-font" : ""} id="blog-post"><NewPost /></div>;
-    if (name === "Lacrymosa,%20and%20the%20Triumph%20of%20Constanze%20Mozart") return <div id="blog-post"><Lacrymosa /></div>;
-    if (name === "Tchaikovsky%20and%20the%20Future%20of%20Contemporary%20Music") return <div id="blog-post"><Tchaikovsky/></div>;
-    if (name === "The%20Most%20Kindest%20Cut%20of%20All") return <div id="blog-post"><MostKindest/></div>;
-    if (name === "Scam,%20AI,%20or%20Am%20I%20Paranoid") return <div className="AI" id="blog-post"><AI/></div>;
+    // Check if post exists
+    if (!name || !postExists(name)) {
+        console.error(`Post not found: ${name}`);
+        return <NotFound />;
+    }
     
-    if(!post) return <NotFound />;
+    // Load the MDX content
+    const MdxContent = await getMdxContent(name);
+    
+    if (!MdxContent) {
+        console.error(`Failed to load MDX file: ${name}.mdx`);
+        return <NotFound />;
+    }
 
     return (
-        <div className={post?.image ? "thanksgiving-font" : ""} id="blog-post">
-            {post?.image ? <div id="blog-post-image-container"><img id="blog-post-image" src={post.image} /></div>  : null}
-            <h2>{post.name}</h2>
-            <h4>{post.date}</h4>
-            {post?.textBlocks?.map((block, i) =>
-                <>
-                    <p id={"123" + i}>{block}</p>
-                    {post?.image && i===4 ? <a style={{marginBottom: "2rem"}} id="thanksgiving-hyperlink" target="_blank" href="https://www.mysteriesandmusic.com/books">{post.textHyperlink}</a>:null}
-                </>
-            )}
-            {post?.advert ? 
-            <div id="post-advert">
-                <p>{post.advert.text1}</p>
-                <a href={post.advert.hyperlink}>{post.advert.hyperlinkText}</a>
-                <p>{post.advert.text2}</p>
-                <img src={post.advert.image} />
-            </div> : null
-            }
-        </div>
+        <main className="blog-post">
+            <section className="blog-content">
+                <MdxContent />
+            </section>
+        </main>
     )
+
 }
+
+// export default async function BlogByName({ params }){
+//     console.log("hello")
+//     let { name = undefined } = await params;
+//     name = name?.replaceAll("%2C", ",");
+//     const post = posts.blogsContent[decodeURI(name?.replace("%3A", ":"))];
+    
+//     if(!post) return <NotFound />;
+// }

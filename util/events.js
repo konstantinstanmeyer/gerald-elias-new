@@ -18,6 +18,9 @@ const events = [
     {
         "date": "Thursday, July 31st, 2025",
         "name": `Fiddlers Four`,
+        "location":"Allen Center at Newton Cultural Alliance",
+        "address":"35 Webster Street, Newton, MA 02465",
+        "description":"Program includes Vivaldi's ever-popular Four Seasons and music by Purcell, Pachelbel, Legrenzi and Telemann",
         "hyperlink":"https://astonmagna.org/summer-festival/",
         "imageUrl":"st-james.jpg",
     },
