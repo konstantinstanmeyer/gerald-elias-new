@@ -11,3 +11,9 @@ export async function GET(request) {
 
     return NextResponse.json(replies);
 }
+
+export async function POST(request) {
+    const { postName, author, content } = await request.json();
+
+    await mongoDBConnection();
+}

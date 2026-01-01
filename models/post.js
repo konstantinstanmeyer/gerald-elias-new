@@ -17,10 +17,10 @@ const userSchema = new Schema(
                     type: String,
                     required: true,
                 },
-                replies: [
+                comments: [
                     {
                         type: Schema.Types.ObjectId,
-                        ref: 'Reply',
+                        ref: 'Comment',
                     }
                 ]
             }

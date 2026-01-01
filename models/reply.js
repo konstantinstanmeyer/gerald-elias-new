@@ -1,7 +1,12 @@
 import mongoose, { Schema, models } from "mongoose";
 
-const replySchema = new Schema(
+const commentSchema = new Schema(
     {
+        postId: {
+            type: Schema.Types.ObjectId,
+            ref: 'Post',
+            required: true,
+        },
         user: {
             name: {
                 type: String,
@@ -9,7 +14,7 @@ const replySchema = new Schema(
             },
             profileImage: {
                 type: String,
-                requierd: true,
+                required: true,
             },
         },
         content: {
@@ -17,10 +22,10 @@ const replySchema = new Schema(
                 type: String,
                 required: true,
             },
-            replies: [
+            comments: [
                 {
                     type: Schema.Types.ObjectId,
-                    ref: 'Reply',
+                    ref: 'Comment',
                 }
             ]
         }
@@ -28,5 +33,5 @@ const replySchema = new Schema(
     { timestamps: true }
 )
 
-const Reply = models.Reply || mongoose.model("Reply", replySchema);
-export default Reply;
+const Comment = models.Comment || mongoose.model("Comment", commentSchema);
+export default Comment;
