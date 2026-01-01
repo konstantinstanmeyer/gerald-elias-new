@@ -49,6 +49,7 @@ export default async function BlogByName({ params }) {
     
     // Load the MDX content
     const MdxContent = await getMdxContent(name);
+    const comments = [];
     
     if (!MdxContent) {
         console.error(`Failed to load MDX file: ${name}.mdx`);
