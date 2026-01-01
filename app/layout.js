@@ -33,6 +33,7 @@ export default function RootLayout({ children }) {
     <html className={`${cormorant.variable} ${montserrat.variable} ${poppins.variable}`} lang="en">
       <body className="">
         <Navbar />
+        <MobileNav />
         {children}
         <Footer />
       </body>
