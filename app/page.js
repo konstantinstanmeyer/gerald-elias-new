@@ -31,14 +31,6 @@ export default function Home() {
             <a href="mailto:eliasviolins@gmail.com" className="btn-primary">
               Contact Jacob Elias
             </a>
-            {/* <a
-              href="https://jacobeliasdotart.wordpress.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-secondary"
-            >
-              Learn More
-            </a> */}
           </div>
         </div>
         <div id="landing-image-container">
