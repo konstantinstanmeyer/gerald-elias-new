@@ -7,6 +7,10 @@ export async function POST(request) {
 
   const { name, email, provider } = await request.json();
 
+  console.log("name: ", name);
+  console.log("email: ", email);
+  console.log("provider: ", provider);
+
   console.log("hello there")
 
   await mongoDBConnection();

@@ -1,4 +1,5 @@
 import NotFound from "@/components/NotFound";
+import SignIn from "@/components/SignIn";
 import { postMetadata, postExists } from "@/util/mdx-posts";
 import Image from "next/image";
 
@@ -12,16 +13,16 @@ async function getMdxContent(slug) {
   }
 }
 
-async function getComments(postName) {
-    const comments = await fetch(`../api/comments`, {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ postName }),
-    });
-    return await comments.json();
-}
+// async function getComments(postName) {
+//     const comments = await fetch(`../api/comments`, {
+//         method: "POST",
+//         headers: {
+//             "Content-Type": "application/json",
+//         },
+//         body: JSON.stringify({ postName }),
+//     });
+//     return await comments.json();
+// }
 
 export async function generateMetadata({ params }) {
   const { name } = await params;
@@ -61,7 +62,7 @@ export default async function BlogByName({ params }) {
     
     // Load the MDX content
     const MdxContent = await getMdxContent(name);
-    const comments = await getComments(name);
+    // const comments = await getComments(name);
     
     if (!MdxContent) {
         console.error(`Failed to load MDX file: ${name}.mdx`);
@@ -75,13 +76,15 @@ export default async function BlogByName({ params }) {
             </section>
             <section className="comments-section">
                 <h2>Discussion</h2>
-                {comments.map((comment) => (
+                
+                {/* {comments.map((comment) => (
                     <div key={"comment" + comment._id} className="comment">
                         <Image height={50} width={50} src={comment.user.profileImage} alt={comment.user.name} />
                         <h4>{comment.user.name}</h4>
                         <p>{comment.content.text}</p>
                     </div>
-                ))}
+                ))} */}
+                <SignIn />
             </section>
         </main>
     )
