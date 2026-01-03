@@ -27,11 +27,19 @@ export default function Home() {
           <p id="landing-description">
             Handcrafted, bespoke violins from Brooktondale, NY — craftsmanship meets innovative artistry.
           </p>
-          <div className="button-container">
+          {/* <div className="button-container">
             <a href="mailto:eliasviolins@gmail.com" className="btn-primary">
               Contact Jacob Elias
             </a>
-          </div>
+            <a
+              href="https://jacobeliasdotart.wordpress.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-secondary"
+            >
+              Learn More
+            </a>
+          </div> */}
         </div>
         <div id="landing-image-container">
           <Image
