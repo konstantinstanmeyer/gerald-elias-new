@@ -971,23 +971,23 @@ textarea {
   margin-bottom: var(--space-sm);
   color: #222;
   border-bottom: 2px solid #ddd;
-  padding-bottom: 16px;
+  padding-bottom: 14px;
   font-family: var(--font-display);
 }
 
 .comments-subtitle {
-  font-size: 16px;
-  color: #666;
-  margin-bottom: 40px;
-  font-style: italic;
+  font-size: 0.9rem;
+  margin-bottom: var(--space-md);
+  font-weight: 300;
+  margin-top: var(--space-md)
 }
 
 .comments-list {
-  margin-bottom: var(--space-lg);
+  margin-bottom: var(--space-md);
 }
 
 .comment {
-  margin-bottom: 20px;
+  margin-bottom: var(--space-md);
   position: relative;
 }
 
@@ -1013,23 +1013,23 @@ textarea {
 }
 
 .comment.depth-1 {
-  margin-left: 20px;
+  margin-left: var(--space-md);
 }
 
 .comment.depth-2 {
-  margin-left: 20px;
+  margin-left: var(--space-md);
 }
 
 .comment.depth-3 {
-  margin-left: 20px;
+  margin-left: var(--space-md);
 }
 
 .comment.depth-4 {
-  margin-left: 20px;
+  margin-left: var(--space-md);
 }
 
 .comment.depth-5 {
-  margin-left: 20px;
+  margin-left: var(--space-md);
 }
 
 .comment.depth-1::before,
@@ -1071,14 +1071,14 @@ textarea {
 }
 
 .replies {
-  margin-top: 16px;
+  margin-top: var(--space-md);
 }
 
 .comment-header {
   display: flex;
   align-items: center;
   gap: 12px;
-  margin-bottom: 16px;
+  margin-bottom: var(--space-md);
 }
 
 .comment-avatar {
@@ -1093,14 +1093,14 @@ textarea {
 }
 
 .comment-author {
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: normal;
   margin: 0;
   color: #222;
 }
 
 .comment-date {
-  font-size: 14px;
+  font-size: 0.75rem;
   color: #888;
 }
 
@@ -1112,7 +1112,7 @@ textarea {
 
 .reply-button {
   font-family: var(--font-body);
-  font-size: 14px;
+  font-size: 0.8rem;
   color: #555;
   background: none;
   border: none;
@@ -1137,19 +1137,19 @@ textarea {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 16px;
+  margin-bottom: var(--space-md);
 }
 
 .reply-message,
 .reply-signin-message {
-  font-size: 15px;
+  font-size: 0.8rem;
   color: #555;
   margin: 0;
 }
 
 .cancel-reply-button {
   font-family: var(--font-body);
-  font-size: 14px;
+  font-size: 0.8rem;
   color: #888;
   background: none;
   border: none;
@@ -1167,7 +1167,7 @@ textarea {
   width: 100%;
   padding: 12px;
   font-family: var(--font-body);
-  font-size: 15px;
+  font-size: 0.9rem;
   line-height: 1.6;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -1185,7 +1185,7 @@ textarea {
 .submit-reply-button,
 .submit-comment-button {
   font-family: var(--font-body);
-  font-size: 15px;
+  font-size: 0.9rem;
   padding: 10px 20px;
   background-color: #333;
   color: #fff;
@@ -1207,15 +1207,15 @@ textarea {
 }
 
 .new-comment-section {
-  padding: 2rem;
+  padding: 1.1rem 1.5rem 1.1rem 1.5rem;
   border: 1px solid #ddd;
   border-radius: 4px;
   background-color: #fff;
-  margin-top: var(--space-lg)
+  margin-top: var(--space-md)
 }
 
 .new-comment-title {
-  font-size: 1  rem;
+  font-size: 1rem;
   font-weight: normal;
   margin-bottom: 8px;
   color: #222;

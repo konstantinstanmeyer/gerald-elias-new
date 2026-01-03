@@ -77,6 +77,7 @@ commentSchema.statics.getCommentsWithReplies = async function(postName) {
     return await populateReplies(topLevelComments);
 };
 
+// semantic refactor for readability
 commentSchema.methods.addReply = async function(replyData) {
     const Comment = this.constructor;
     
