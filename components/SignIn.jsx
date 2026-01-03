@@ -2,8 +2,11 @@
 
 import { signIn } from "next-auth/react";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 
 export default function SignIn() {
+    const pathname = usePathname();
+
     const providers = [
         { 
             id: "google", 
@@ -14,9 +17,16 @@ export default function SignIn() {
 
     const handleSignIn = async (providerId) => {
         try {
-            await signIn(providerId);
+            const scrollY = window.scrollY;
+            const hash = `#scroll-${scrollY}`;
+
+            sessionStorage.setItem('scrollPosition', scrollY.toString());
+
+            await signIn(providerId, { 
+                callbackUrl: `${pathname}${hash}`
+            });
         } catch (error) {
-            console.error(`Failed to sign in with ${providerId}:`, error);
+            console.error(`sign in failed with ${providerId}: `, error);
         }
     };
 
