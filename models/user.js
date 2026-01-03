@@ -1,5 +1,4 @@
 import mongoose, { Schema, models } from "mongoose";
-import Post from "./post"
 
 const userSchema = new Schema(
     {
@@ -14,13 +13,7 @@ const userSchema = new Schema(
         provider: {
             type: String,
             required: true,
-        },
-        posts: [
-            {
-                type: Schema.Types.ObjectId,
-                ref: 'Post'
-            }
-        ],
+        }
     },
     { timestamps: true }
 );

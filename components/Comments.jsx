@@ -1,112 +1,134 @@
 "use client"
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useSession } from "next-auth/react";
 import Image from "next/image";
 import SignIn from "@/components/SignIn";
 
-// Fake comments with nested replies for demonstration
-const FAKE_COMMENTS = [
-    {
-        _id: "1",
-        user: {
-            name: "Sarah Mitchell",
-            profileImage: "/avatars/sarah.jpg"
-        },
-        content: {
-            text: "This is a wonderful piece. The way you've explored the themes of memory and time really resonates with my own experiences. I've been thinking about these ideas for years, and your perspective adds a fresh dimension to the conversation."
-        },
-        date: "2 days ago",
-        replies: [
-            {
-                _id: "1-1",
-                user: {
-                    name: "Michael Torres",
-                    profileImage: "/avatars/michael.jpg"
-                },
-                content: {
-                    text: "I completely agree with your take on this. The memory aspect is particularly fascinating."
-                },
-                date: "1 day ago",
-                replies: [
-                    {
-                        _id: "1-1-1",
-                        user: {
-                            name: "Sarah Mitchell",
-                            profileImage: "/avatars/sarah.jpg"
-                        },
-                        content: {
-                            text: "Thanks Michael! I'd love to hear more about what specific parts resonated with you."
-                        },
-                        date: "1 day ago",
-                        replies: [
-                            {
-                                _id: "1-1-1-1",
-                                user: {
-                                    name: "Emily Rodriguez",
-                                    profileImage: "/avatars/emily.jpg"
-                                },
-                                content: {
-                                    text: "This thread is getting deep! I'm learning so much from all of you."
-                                },
-                                date: "12 hours ago",
-                                replies: []
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                _id: "1-2",
-                user: {
-                    name: "Alex Kim",
-                    profileImage: "/avatars/alex.jpg"
-                },
-                content: {
-                    text: "Have you read the work by Dr. Peterson on this topic? It might add to your perspective."
-                },
-                date: "1 day ago",
-                replies: []
-            }
-        ]
-    },
-    {
-        _id: "2",
-        user: {
-            name: "James Chen",
-            profileImage: "/avatars/james.jpg"
-        },
-        content: {
-            text: "I appreciate the depth of research that went into this article. The historical context you provided really helps frame the current situation. Looking forward to reading more of your work."
-        },
-        date: "5 days ago",
-        replies: []
-    }
-];
-
-function Comment({ comment, depth = 0, onReply }) {
+function Comment({ comment, postName, depth = 0, onCommentUpdate }) {
     const { data: session } = useSession();
-    const [replyingTo, setReplyingTo] = useState(null);
+    const [replyingTo, setReplyingTo] = useState(false);
+    const [editing, setEditing] = useState(false);
     const [replyText, setReplyText] = useState("");
+    const [editText, setEditText] = useState(comment.content.text);
+    const [isSubmitting, setIsSubmitting] = useState(false);
+
+    const isOwner = session?.user?.email === comment.user.email;
 
     const handleReplyClick = () => {
-        setReplyingTo(comment._id);
+        setReplyingTo(true);
         setReplyText("");
     };
 
     const handleCancelReply = () => {
-        setReplyingTo(null);
+        setReplyingTo(false);
         setReplyText("");
     };
 
+    const handleEditClick = () => {
+        setEditing(true);
+        setEditText(comment.content.text);
+    };
+
+    const handleCancelEdit = () => {
+        setEditing(false);
+        setEditText(comment.content.text);
+    };
+
     const handleSubmitReply = async () => {
-        // TODO: Implement reply submission logic
-        console.log("Submitting reply to comment:", comment._id);
-        console.log("Reply text:", replyText);
+        if (!replyText.trim() || isSubmitting) return;
         
-        // Reset after submission
-        setReplyText("");
-        setReplyingTo(null);
+        setIsSubmitting(true);
+        try {
+            const response = await fetch('/api/comment', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    postName,
+                    text: replyText,
+                    parentCommentId: comment._id,
+                }),
+            });
+
+            if (!response.ok) {
+                throw new Error('Failed to submit reply');
+            }
+
+            setReplyText("");
+            setReplyingTo(false);
+            onCommentUpdate(); // refresh
+        } catch (error) {
+            console.error("Error submitting reply:", error);
+            alert("Failed to submit reply. Please try again.");
+        } finally {
+            setIsSubmitting(false);
+        }
+    };
+
+    const handleSubmitEdit = async () => {
+        if (!editText.trim() || isSubmitting) return;
+        
+        setIsSubmitting(true);
+        try {
+            const response = await fetch('/api/comment', {
+                method: 'PUT',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    commentId: comment._id,
+                    text: editText,
+                }),
+            });
+
+            if (!response.ok) {
+                throw new Error('Failed to update comment');
+            }
+
+            setEditing(false);
+            onCommentUpdate(); // refresh
+        } catch (error) {
+            console.error("Error updating comment:", error);
+            alert("Failed to update comment. Please try again.");
+        } finally {
+            setIsSubmitting(false);
+        }
+    };
+
+    const handleDelete = async () => {
+        if (!confirm("Are you sure you want to delete this comment? This will also delete all replies.")) {
+            return;
+        }
+
+        setIsSubmitting(true);
+        try {
+            const response = await fetch(`/api/comment?commentId=${comment._id}`, {
+                method: 'DELETE',
+            });
+
+            if (!response.ok) {
+                throw new Error('Failed to delete comment');
+            }
+
+            onCommentUpdate(); // refresh
+        } catch (error) {
+            console.error("Error deleting comment:", error);
+            alert("Failed to delete comment. Please try again.");
+        } finally {
+            setIsSubmitting(false);
+        }
+    };
+
+    const formatDate = (dateString) => {
+        const date = new Date(dateString);
+        const now = new Date();
+        const diffInMs = now - date;
+        const diffInHours = Math.floor(diffInMs / (1000 * 60 * 60));
+        const diffInDays = Math.floor(diffInHours / 24);
+
+        if (diffInHours < 1) return "just now";
+        if (diffInHours < 24) return `${diffInHours} hour${diffInHours > 1 ? 's' : ''} ago`;
+        if (diffInDays < 7) return `${diffInDays} day${diffInDays > 1 ? 's' : ''} ago`;
+        
+        return date.toLocaleDateString();
     };
 
     return (
@@ -122,20 +144,69 @@ function Comment({ comment, depth = 0, onReply }) {
                     />
                     <div className="comment-meta">
                         <h4 className="comment-author">{comment.user.name}</h4>
-                        <span className="comment-date">{comment.date}</span>
+                        <span className="comment-date">{formatDate(comment.createdAt)}</span>
                     </div>
                 </div>
                 
-                <p className="comment-text">{comment.content.text}</p>
+                {editing ? (
+                    <div className="edit-container">
+                        <textarea
+                            className="reply-textarea"
+                            value={editText}
+                            onChange={(e) => setEditText(e.target.value)}
+                            rows={4}
+                        />
+                        <div className="edit-actions">
+                            <button
+                                className="submit-reply-button"
+                                onClick={handleSubmitEdit}
+                                disabled={!editText.trim() || isSubmitting}
+                            >
+                                {isSubmitting ? 'Saving...' : 'Save'}
+                            </button>
+                            <button
+                                className="cancel-reply-button"
+                                onClick={handleCancelEdit}
+                                disabled={isSubmitting}
+                            >
+                                Cancel
+                            </button>
+                        </div>
+                    </div>
+                ) : (
+                    <p className="comment-text">{comment.content.text}</p>
+                )}
                 
-                <button 
-                    className="reply-button"
-                    onClick={handleReplyClick}
-                >
-                    Reply
-                </button>
+                <div className="comment-actions">
+                    <button 
+                        className="reply-button"
+                        onClick={handleReplyClick}
+                        disabled={isSubmitting}
+                    >
+                        Reply
+                    </button>
+                    
+                    {isOwner && !editing && (
+                        <>
+                            <button
+                                className="reply-button"
+                                onClick={handleEditClick}
+                                disabled={isSubmitting}
+                            >
+                                Edit
+                            </button>
+                            <button
+                                className="reply-button delete-button"
+                                onClick={handleDelete}
+                                disabled={isSubmitting}
+                            >
+                                Delete
+                            </button>
+                        </>
+                    )}
+                </div>
 
-                {replyingTo === comment._id && (
+                {replyingTo && (
                     <div className="reply-container">
                         {session ? (
                             <>
@@ -146,6 +217,7 @@ function Comment({ comment, depth = 0, onReply }) {
                                     <button 
                                         className="cancel-reply-button"
                                         onClick={handleCancelReply}
+                                        disabled={isSubmitting}
                                     >
                                         Cancel
                                     </button>
@@ -160,9 +232,9 @@ function Comment({ comment, depth = 0, onReply }) {
                                 <button
                                     className="submit-reply-button"
                                     onClick={handleSubmitReply}
-                                    disabled={!replyText.trim()}
+                                    disabled={!replyText.trim() || isSubmitting}
                                 >
-                                    Submit Reply
+                                    {isSubmitting ? 'Submitting...' : 'Submit Reply'}
                                 </button>
                             </>
                         ) : (
@@ -191,8 +263,9 @@ function Comment({ comment, depth = 0, onReply }) {
                         <Comment 
                             key={reply._id} 
                             comment={reply} 
+                            postName={postName}
                             depth={depth + 1}
-                            onReply={onReply}
+                            onCommentUpdate={onCommentUpdate}
                         />
                     ))}
                 </div>
@@ -203,33 +276,101 @@ function Comment({ comment, depth = 0, onReply }) {
 
 export default function CommentsSection({ postName }) {
     const { data: session } = useSession();
+    const [comments, setComments] = useState([]);
     const [newCommentText, setNewCommentText] = useState("");
+    const [isLoading, setIsLoading] = useState(true);
+    const [isSubmitting, setIsSubmitting] = useState(false);
+    const [error, setError] = useState(null);
+
+    const fetchComments = async () => {
+        try {
+            setError(null);
+            const response = await fetch(`/api/comment?postName=${postName}`);
+            
+            if (!response.ok) {
+                throw new Error('Failed to fetch comments');
+            }
+
+            const data = await response.json();
+            setComments(data);
+        } catch (error) {
+            console.error("Error fetching comments:", error);
+            setError("Failed to load comments. Please try again later.");
+        } finally {
+            setIsLoading(false);
+        }
+    };
+
+    useEffect(() => {
+        fetchComments();
+    }, [postName]);
 
     const handleSubmitComment = async () => {
-        // TODO: Implement new comment submission logic
-        console.log("Submitting new comment");
-        console.log("Comment text:", newCommentText);
+        if (!newCommentText.trim() || isSubmitting) return;
         
-        // Reset after submission
-        setNewCommentText("");
+        setIsSubmitting(true);
+        try {
+            const response = await fetch('/api/comment', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    postName,
+                    text: newCommentText,
+                }),
+            });
+
+            if (!response.ok) {
+                throw new Error('Failed to submit comment');
+            }
+
+            setNewCommentText("");
+            await fetchComments(); // refresh
+        } catch (error) {
+            console.error("Error submitting comment:", error);
+            alert("Failed to submit comment. Please try again.");
+        } finally {
+            setIsSubmitting(false);
+        }
     };
 
     return (
         <section className="comments-section">
             <h2 className="comments-title">Discussion</h2>
-            <p className="comments-subtitle">
-                Join the conversation {!session && "by signing in below"}
-            </p>
             
-            <div className="comments-list">
-                {FAKE_COMMENTS.map((comment) => (
-                    <Comment 
-                        key={comment._id} 
-                        comment={comment} 
-                        depth={0}
-                    />
-                ))}
-            </div>
+            {isLoading ? (
+                <p className="loading-message">Loading comments...</p>
+            ) : error ? (
+                <div className="error-container">
+                    <p className="error-message">{error}</p>
+                    <button 
+                        className="retry-button"
+                        onClick={fetchComments}
+                    >
+                        Try Again
+                    </button>
+                </div>
+            ) : (
+                <>
+                    {comments.length > 0  && (
+                        <>
+                            <p className="comments-subtitle">
+                                {comments.length} {comments.length === 1 ? 'comment' : 'comments'}
+                            </p>
+                            <div className="comments-list">
+                                {comments.map((comment) => (
+                                    <Comment 
+                                        key={comment._id} 
+                                        comment={comment} 
+                                        postName={postName}
+                                        depth={0}
+                                        onCommentUpdate={fetchComments}
+                                    />
+                                ))}
+                            </div>
+                        </>
+                    )}
+                </>
+            )}
 
             <div className="new-comment-section">
                 <h3 className="new-comment-title">Leave a comment</h3>
@@ -241,13 +382,14 @@ export default function CommentsSection({ postName }) {
                             value={newCommentText}
                             onChange={(e) => setNewCommentText(e.target.value)}
                             rows={5}
+                            disabled={isSubmitting}
                         />
                         <button
                             className="submit-comment-button"
                             onClick={handleSubmitComment}
-                            disabled={!newCommentText.trim()}
+                            disabled={!newCommentText.trim() || isSubmitting}
                         >
-                            Post Comment
+                            {isSubmitting ? 'Posting...' : 'Post Comment'}
                         </button>
                     </>
                 ) : (
