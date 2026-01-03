@@ -963,6 +963,44 @@ textarea {
   object-fit: cover;
 }
 
+.signin-container {
+  font-family: Georgia, serif;
+}
+
+.provider-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.provider-button {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.2s, border-color 0.2s;
+  font-family: var(--font-body);
+  width: 100%;
+}
+
+.provider-button:hover {
+    background-color: #f5f5f5;
+    border-color: #999;
+}
+
+.provider-icon {
+    flex-shrink: 0;
+}
+
+.provider-text {
+    font-size: 15px;
+    color: #333;
+}
+
 .comments-section {
   width: 40%;
   font-family: var(--font-body);
