@@ -3,6 +3,7 @@ import Footer from '@/components/Footer'
 import './globals.css'
 import { Cormorant, Montserrat, Poppins } from 'next/font/google'
 import MobileNav from '@/components/MobileNav'
+import NextAuthProvider from './providers'
 
 export const metadata = {
   title: "Gerald Elias"
@@ -31,12 +32,14 @@ const poppins = Poppins({
 export default function RootLayout({ children }) {
   return (
     <html className={`${cormorant.variable} ${montserrat.variable} ${poppins.variable}`} lang="en">
-      <body className="">
-        <Navbar />
-        <MobileNav />
-        {children}
-        <Footer />
-      </body>
+      <NextAuthProvider>
+        <body className="">
+          <Navbar />
+          <MobileNav />
+          {children}
+          <Footer />
+        </body>
+      </NextAuthProvider>
     </html>
   )
 }

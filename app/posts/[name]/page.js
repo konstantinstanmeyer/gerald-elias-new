@@ -1,7 +1,6 @@
+import CommentsSection from "@/components/Comments";
 import NotFound from "@/components/NotFound";
-import SignIn from "@/components/SignIn";
 import { postMetadata, postExists } from "@/util/mdx-posts";
-import Image from "next/image";
 
 async function getMdxContent(slug) {
   try {
@@ -54,7 +53,6 @@ export async function generateMetadata({ params }) {
 export default async function BlogByName({ params }) {
     const { name } = await params;
     
-    // Check if post exists
     if (!name || !postExists(name)) {
         console.error(`Post not found: ${name}`);
         return <NotFound />;
@@ -71,21 +69,17 @@ export default async function BlogByName({ params }) {
 
     return (
         <main className="blog-post">
-            <section className="blog-content">
+            <section className="blog-content has-comments">
                 <MdxContent />
             </section>
-            <section className="comments-section">
-                <h2>Discussion</h2>
-                
-                {/* {comments.map((comment) => (
-                    <div key={"comment" + comment._id} className="comment">
-                        <Image height={50} width={50} src={comment.user.profileImage} alt={comment.user.name} />
-                        <h4>{comment.user.name}</h4>
-                        <p>{comment.content.text}</p>
-                    </div>
-                ))} */}
-                <SignIn />
-            </section>
+              <CommentsSection postName={name} />
+              {/* {comments.map((comment) => (
+                  <div key={"comment" + comment._id} className="comment">
+                      <Image height={50} width={50} src={comment.user.profileImage} alt={comment.user.name} />
+                      <h4>{comment.user.name}</h4>
+                      <p>{comment.content.text}</p>
+                  </div>
+              ))} */}
         </main>
     )
 
