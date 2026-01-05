@@ -1,5 +1,14 @@
 const events = [
     {
+        "date":"Sunday, March 15th, 2026 @ 3:00-5:00PM",
+        "name":"John Come Kiss Me Now: Fantasies for Unaccompanied Violin",
+        "location": "Folio: The Seattle Athenaeum",
+        "address": "93 Pike St #307, Seattle, WA 98101",
+        "description":"A recital of rarely heard Baroque fantasies for solo violin, including a half-hour pre-concert talk about the music. Performed on a new Nicolo Amati-inspired violin made by Jacob Elias.",
+        "imageUrl":"folio-2026.png",
+        "hyperlink": "https://www.folioseattle.org/event-details/john-come-kiss-me-now-fantasies-for-unaccompanied-violin"
+    },
+    {
         "date": "Tuesday, September 9th, 2025",
         "name": `"In the Mood"`,
         "description":`Release date of my quirky short story, "In the Mood," in Crimeucopia's mystery magazine, What the Butler Didn't See, published by Murderous Ink Press.`,
