@@ -14,6 +14,10 @@ const music = [
     {
         name: 'TEACHING',
         url: '/teaching'
+    },
+    {
+        name: 'MUSIC MUSINGS',
+        url: '/music-musings'
     }
 ]
 

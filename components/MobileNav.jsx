@@ -90,6 +90,9 @@ export default function MobileNav() {
           <Link href="/teaching" onClick={closeMenu}>
             Teaching
           </Link>
+          <Link href="/music-musings" onClick={closeMenu}>
+            Music Musings
+          </Link>
         </div>
         <div className="mobile-options">
           <h3>ABOUT</h3>
