@@ -1,5 +1,6 @@
 import { postMetadata, postExists } from "@/util/mdx-posts";
 import { ResolveScroll } from "@/util/resolveScroll";
+import CommentsSection from "@/components/Comments";
 
 async function getMdxContent(slug) {
   try {
@@ -59,6 +60,7 @@ export default async function MusicMusingsByName({ params }){
           <section className="blog-content has-comments">
             <MdxContent />
           </section>
+          <CommentsSection postName={name} />
         </main>
       </>
     )

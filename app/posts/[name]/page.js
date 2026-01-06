@@ -74,14 +74,14 @@ export default async function BlogByName({ params }) {
           <section className="blog-content has-comments">
               <MdxContent />
           </section>
-            <CommentsSection postName={name} />
-            {/* {comments.map((comment) => (
-                <div key={"comment" + comment._id} className="comment">
-                    <Image height={50} width={50} src={comment.user.profileImage} alt={comment.user.name} />
-                    <h4>{comment.user.name}</h4>
-                    <p>{comment.content.text}</p>
-                </div>
-            ))} */}
+          <CommentsSection postName={name} />
+          {/* {comments.map((comment) => (
+              <div key={"comment" + comment._id} className="comment">
+                  <Image height={50} width={50} src={comment.user.profileImage} alt={comment.user.name} />
+                  <h4>{comment.user.name}</h4>
+                  <p>{comment.content.text}</p>
+              </div>
+          ))} */}
       </main>
     </>
   )
