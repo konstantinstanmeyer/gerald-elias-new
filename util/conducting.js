@@ -8,11 +8,11 @@ const conducting = {
     quotes: [
         {
             content: `“What stood out in Elias' conducting was a keen sense and a wonderful understanding of the music. His interpretive talents are remarkable. He knows what he wants and he conveys that to the orchestra. And the musicians delivered…Elias managed to bring excitement to this well-known work (Beethoven 5) that even the most jaded listener would find intriguing. He wasn't afraid to bring romantic passion to his interpretation, and the result was an exhilarating performance that was intense, electrifying and boldly dynamic and vibrant.”`,
-            author: `Deseret News, 4/22/08`
+            author: `Deseret News`
         },
         {
             content: `“The concert opened with Vivaldi's Sinfonia 'Alla Rustica' in G major, op. 51, no. 4. The 15-member ensemble played the short three-movement work with robust vitality under Elias' capable direction. The only other ensemble piece at Saturday's concert was Bach's Brandenburg Concerto No. 3 in G major. Elias chose brisk tempos, and it worked marvelously, with the ensemble playing with virtuosic flair.”`,
-            author: `Deseret News, 12/11/06`
+            author: `Deseret News`
         }
     ]
 }
