@@ -67,6 +67,14 @@ export default function MobileNav() {
           <Link href="/free-story" onClick={closeMenu}>
             Free Story
           </Link>
+          <a
+            href="https://www.goodreads.com/goodreadscomauthorgeraldelias"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={closeMenu}
+          >
+            Goodreads
+          </a>
         </div>
         <div className="mobile-options">
           <h3>MUSIC</h3>
@@ -88,14 +96,6 @@ export default function MobileNav() {
           <Link href="/biography" onClick={closeMenu}>
             Biography
           </Link>
-          <a
-            href="https://www.goodreads.com/goodreadscomauthorgeraldelias"
-            target="_blank"
-            rel="noopener noreferrer"
-            onClick={closeMenu}
-          >
-            Goodreads
-          </a>
         </div>
         <Link href="/media-features" onClick={closeMenu}>
           MEDIA FEATURES

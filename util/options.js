@@ -22,11 +22,6 @@ const about = [
         name: 'BIOGRAPHY',
         url: '/biography'
     },
-    {
-        name: 'GOODREADS',
-        url: 'https://www.goodreads.com/goodreadscomauthorgeraldelias',
-        externalLink: true,
-    },
 ]
 
 const books = [
@@ -37,7 +32,12 @@ const books = [
     {
         name: 'FREE STORY',
         url: '/free-story'
-    }
+    },
+    {
+        name: 'GOODREADS',
+        url: 'https://www.goodreads.com/goodreadscomauthorgeraldelias',
+        externalLink: true,
+    },
 ]
 
 const options = [music, about, books];
