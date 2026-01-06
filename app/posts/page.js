@@ -60,13 +60,13 @@ export default function Blog(){
                             {posts.map(({ href, title, external }) => (
                             <li key={href}>
                                 <Link
-                                href={href}
-                                {...(external && {
-                                    target: "_blank",
-                                    rel: "noopener noreferrer",
-                                })}
+                                  href={href}
+                                  {...(external && {
+                                      target: "_blank",
+                                      rel: "noopener noreferrer",
+                                  })}
                                 >
-                                {title}
+                                  {title}
                                 </Link>
                             </li>
                             ))}

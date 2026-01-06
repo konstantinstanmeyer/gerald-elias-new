@@ -54,6 +54,9 @@ export const postMetadata = {
     title: "You're not bad, for a Democrat",
     date: "2023-12-15",
     image: "/donkey.png"
+  },
+  "a-case-for-quality": {
+    title: "A Case for Quality",
   }
 };
 
