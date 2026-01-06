@@ -70,10 +70,13 @@ export default function Home() {
             </h2>
             <div className="accent-line" />
             <p>
-              Gerald Elias and White City Press have announced an exciting new
+              {/* Gerald Elias and White City Press have announced an exciting new
               partnership. Keep your eyes out for{" "}
               <strong>NYPD Chief Maury Gross</strong> and Western lawman{" "}
-              <strong>Jefferson Dance</strong> in 2026.
+              <strong>Jefferson Dance</strong> in 2026. */}
+              Gerald Elias and White City Press have announced an exciting new partnership. 
+              Keep your eyes out in 2026 for two short crime fiction collections, <i>Murder on Vacation</i> and <i>Murder Goes Abroad</i>, featuring the likeable, retired <strong>NYPD Police Chief Maury Gross</strong>; 
+              a new edition of Roundtree Days featuring Western hero, <strong>Jefferson Dance</strong>, and an as-yet-unnamed sequel. Propose a title and I'll consider it!
             </p>
             <Link href="/books" className="text-link">
               Explore All Books <span className="arrow">→</span>
