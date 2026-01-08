@@ -34,8 +34,8 @@ const books = [
         url: '/books'
     },
     {
-        name: 'FREE STORY',
-        url: '/free-story'
+        name: 'FLASH FICTION',
+        url: '/flash-fiction'
     },
     {
         name: 'GOODREADS',

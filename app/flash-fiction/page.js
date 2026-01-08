@@ -3,10 +3,10 @@
 import Landing from "@/components/Landing"
 import MDX from '@/markdown/free-story.mdx'
 
-export default function FreeStory(){
+export default function FlashFiction(){
     return (
       <main className="blog-post" id="free-story">
-        <Landing imageUrl='/open-book.jpg' />
+        <Landing name="Flash Fiction" imageUrl='/open-book.jpg' />
         <section id="bonbons" className="blog-content">
           <MDX />
         </section>

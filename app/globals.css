@@ -319,9 +319,6 @@ textarea {
   flex-direction: column;
 }
 
-/* ==========================================================================
-   Landing / Hero Section
-   ========================================================================== */
 #landing {
   width: 100vw;
   min-height: 100vh;
@@ -2253,9 +2250,6 @@ button:disabled {
   margin-top: -1rem;
 }
 
-/* ==========================================================================
-   Media Queries
-   ========================================================================== */
 @media (max-width: 1000px) {
   #navbar {
     display: none;
@@ -2266,6 +2260,10 @@ button:disabled {
     padding: 12vh 6% 6vh;
     gap: var(--space-xl);
     min-height: auto;
+  }
+
+  #free-story .general-landing {
+    height: 30vh;
   }
 
   #landing-text {

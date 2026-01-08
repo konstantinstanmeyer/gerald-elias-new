@@ -64,8 +64,8 @@ export default function MobileNav() {
           <Link href="/books" onClick={closeMenu}>
             Books
           </Link>
-          <Link href="/free-story" onClick={closeMenu}>
-            Free Story
+          <Link href="/flash-fiction" onClick={closeMenu}>
+            Flash Fiction
           </Link>
           <a
             href="https://www.goodreads.com/goodreadscomauthorgeraldelias"
