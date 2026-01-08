@@ -56,7 +56,7 @@ export default async function MusicMusingsByName({ params }){
     return (
       <>
         <ResolveScroll />
-        <main id="music-musings" className="blog-post has-comments-container">
+        <main id="music-musings-story" className="blog-post has-comments-container">
           <section className="blog-content has-comments">
             <MdxContent />
           </section>
