@@ -1652,6 +1652,10 @@ button:disabled {
   align-items: center;
 }
 
+#music-musings h1 {
+  margin-bottom: var(--space-xl);
+}
+
 #music-musings-content {
   display: flex;
   flex-direction: column;
