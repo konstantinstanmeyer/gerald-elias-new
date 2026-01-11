@@ -11,7 +11,7 @@ const POSTS = [
 export default function MusicMusings(){
     return (
         <main id="music-musings">
-            <Landing name="Music Musings" imageUrl="/gerald-elias-statues.jpeg" />
+            <Landing name="Music Musings" imageUrl="/music-musings.jpg" />
             <div id="music-musings-content">
                 <h2>These essays, archived from years of writing about music, have been gently updated. Your comments are most welcome!</h2>
                 <ul>

@@ -44,7 +44,7 @@ export default function Home() {
         <div id="landing-image-container">
           <Image
             id="landing-image"
-            src="/new-violins.jpg"
+            src="/jerry-and-jacob.jpg"
             alt="Violins crafted by Jacob Elias"
             width={600}
             height={450}
