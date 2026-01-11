@@ -75,6 +75,7 @@ export default function MobileNav() {
             </Link>
           )}
         </div>
+        <div className="mobile-nav-divider" />
         <div className="mobile-options">
           <h3>MUSIC</h3>
           {music.map((page, i) => 
@@ -88,6 +89,7 @@ export default function MobileNav() {
             </Link>
           )}
         </div>
+        <div className="mobile-nav-divider" />
         <div className="mobile-options">
           <h3>ABOUT</h3>
           {about.map((page, i) => 
@@ -101,15 +103,19 @@ export default function MobileNav() {
             </Link>
           )}
         </div>
+        <div className="mobile-nav-divider" />
         <Link href="/media-features" onClick={closeMenu}>
           MEDIA FEATURES
         </Link>
+        <div className="mobile-nav-divider" />
         <Link href="/events" onClick={closeMenu}>
           EVENTS
         </Link>
+        <div className="mobile-nav-divider" />
         <Link href="/posts" onClick={closeMenu}>
           POSTS
         </Link>
+        <div className="mobile-nav-divider" />
         <Link href="/contact" onClick={closeMenu}>
           CONTACT
         </Link>
