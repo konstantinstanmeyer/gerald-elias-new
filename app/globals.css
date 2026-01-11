@@ -2146,7 +2146,7 @@ button:disabled {
 
 #contact {
   width: 100%;
-  max-width: 400px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 6rem 2rem;
   background-color: var(--color-cream);
@@ -2155,25 +2155,45 @@ button:disabled {
 
 #contact > h2 {
   font-family: var(--font-display);
-  font-size: 1.5rem;
-  font-weight: 400;
+  font-size: 2.5rem;
+  font-weight: 300;
   color: #1a1a1a;
   text-align: center;
-  margin-bottom: 3rem;
-  letter-spacing: 1px;
+  margin-bottom: 1rem;
+  letter-spacing: 0.5px;
+}
+
+#contact > p {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  color: #777777;
+  text-align: center;
+  margin-bottom: 3.5rem;
+  line-height: 1.6;
+  font-style: italic;
 }
 
 #contact-form {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  background-color: white;
+  padding: 4rem 4rem 4.5rem;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
+  position: relative;
+  overflow: hidden;
+}
+
+#contact-form > div {
+  position: relative;
 }
 
 #contact-form h6 {
-  font-family: var(--font-accent);
-  font-size: 0.85rem;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
   font-weight: 400;
-  color: #1a1a1a;
+  color: #555555;
+  letter-spacing: 0.3px;
   margin-bottom: 0.5rem;
 }
 
@@ -2181,78 +2201,114 @@ button:disabled {
 #contact-form textarea {
   width: 100%;
   font-family: var(--font-body);
-  font-size: 0.9rem;
-  color: #1a1a1a;
-  background: none;
+  font-size: 1.05rem;
+  color: #2a2a2a;
+  background: transparent;
   border: none;
-  border-bottom: 1.5px solid #1a1a1a;
-  padding: 0.5rem 0;
+  border-bottom: 1.5px solid #cccccc;
+  padding: 0.75rem 0;
   outline: none;
-  transition: border-color 0.2s ease;
+  transition: all 0.3s ease;
 }
 
 #contact-form input:focus,
 #contact-form textarea:focus {
-  border-bottom-color: #4a4a4a;
+  border-bottom-color: #555555;
+}
+
+#contact-form input::placeholder,
+#contact-form textarea::placeholder {
+  color: #999999;
 }
 
 #contact-form textarea {
-  min-height: 150px;
+  min-height: 140px;
   resize: vertical;
-  border: 1.5px solid #1a1a1a;
+  border: 1.5px solid #cccccc;
   padding: 0.75rem;
-  margin-top: 0.5rem;
+  margin-top: 0;
+  line-height: 1.7;
 }
 
 #contact-form textarea:focus {
-  border-color: #4a4a4a;
+  border-color: #555555;
 }
 
 #contact-form button {
   width: fit-content;
-  font-family: var(--font-accent);
-  font-size: 0.85rem;
-  font-weight: 500;
-  letter-spacing: 2px;
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  font-weight: 400;
+  letter-spacing: 0.3px;
   color: #1a1a1a;
-  background: none;
-  border: 1.5px solid #1a1a1a;
-  padding: 0.65rem 2rem;
+  background: transparent;
+  border: none;
+  border-bottom: 1.5px solid #1a1a1a;
+  padding: 0.5rem 0;
   cursor: pointer;
-  transition: all 0.2s ease;
-  margin-top: 0.75rem;
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#contact-form button::after {
+  content: '→';
+  font-size: 1.2rem;
+  transition: transform 0.3s ease;
 }
 
 #contact-form button:hover:not(:disabled) {
-  background-color: #1a1a1a;
-  color: white;
+  color: #555555;
+  border-bottom-color: #555555;
+}
+
+#contact-form button:hover:not(:disabled)::after {
+  transform: translateX(4px);
+}
+
+#contact-form button:active:not(:disabled) {
+  transform: translateY(0);
 }
 
 #contact-form button:disabled {
-  opacity: 0.5;
+  opacity: 0.4;
   cursor: not-allowed;
 }
 
-/* Status Messages */
+#contact-form button:disabled::after {
+  transform: none;
+}
+
 #contact-form .error {
   font-family: var(--font-body);
-  font-size: 0.8rem;
-  color: #d32f2f;
-  margin-top: -1rem;
+  font-size: 0.9rem;
+  color: #c62828;
+  margin-top: 0.75rem;
+  font-style: italic;
 }
 
 #contact-form .success {
   font-family: var(--font-body);
-  font-size: 0.8rem;
-  color: #388e3c;
-  margin-top: -1rem;
+  font-size: 0.9rem;
+  color: #2e7d32;
+  margin-top: 0.75rem;
+  font-style: italic;
 }
 
 #contact-form span:not(.error):not(.success) {
   font-family: var(--font-body);
-  font-size: 0.8rem;
-  color: #666666;
-  margin-top: -1rem;
+  font-size: 0.9rem;
+  color: #777777;
+  margin-top: 0.75rem;
+  display: block;
+  font-style: italic;
+}
+
+#contact-form span:not(.error):not(.success) {
+  opacity: 0.7;
 }
 
 @media (max-width: 1000px) {
@@ -2421,6 +2477,50 @@ button:disabled {
 
   #preview-text-col {
     max-width: 100%;
+  }
+
+  #contact {
+    padding: 4rem 1rem;
+    margin-top: var(--space-xl);
+  }
+
+  #contact > h2 {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+  }
+
+  #contact > p {
+    font-size: 0.95rem;
+    margin-bottom: 3rem;
+  }
+
+  #contact-form {
+    gap: 1.75rem;
+    padding: 2.5rem 2rem 3rem;
+  }
+
+  #contact-form h6 {
+    font-size: 0.85rem;
+  }
+
+  #contact-form input,
+  #contact-form textarea {
+    font-size: 1rem;
+    padding: 0.65rem 0;
+  }
+
+  #contact-form textarea {
+    min-height: 120px;
+  }
+
+  #contact-form button {
+    font-size: 1rem;
+  }
+
+  #contact-form .error,
+  #contact-form .success,
+  #contact-form span:not(.error):not(.success) {
+    font-size: 0.85rem;
   }
 }
 
@@ -2630,36 +2730,21 @@ button:disabled {
   }
 
   #contact {
-    padding: 3rem 1.5rem;
-    margin-top: var(--space-2xl);
+    padding: 3rem 0.75rem;
   }
 
   #contact > h2 {
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
+    font-size: 1.75rem;
   }
 
   #contact-form {
-    gap: 1.75rem;
-  }
-
-  #contact-form h6 {
-    font-size: 0.8rem;
+    gap: 1.5rem;
+    padding: 2rem 1.5rem 2.5rem;
   }
 
   #contact-form input,
   #contact-form textarea {
-    font-size: 0.85rem;
-  }
-
-  #contact-form textarea {
-    min-height: 120px;
-  }
-
-  #contact-form button {
-    width: 100%;
-    text-align: center;
-    font-size: 0.8rem;
+    font-size: 0.95rem;
   }
 }
 
@@ -2672,7 +2757,6 @@ button:disabled {
     margin-top: 80px;
   }
 
-  /* Mobile Nav Container */
   #mobile-nav {
     position: fixed;
     top: 0;
@@ -2692,7 +2776,6 @@ button:disabled {
     z-index: 200;
   }
 
-  /* Mobile Nav Header */
   #mobile-nav-header {
     display: flex;
     align-items: center;
@@ -2752,7 +2835,6 @@ button:disabled {
     transition: all 0.3s ease;
   }
 
-  /* Close Button */
   #close-menu {
     display: none;
     width: 40px;
@@ -2776,7 +2858,6 @@ button:disabled {
     stroke-width: 2.5;
   }
 
-  /* Mobile Nav Links Container */
   #mobile-nav-links {
     display: none;
     width: 100%;
@@ -2793,7 +2874,6 @@ button:disabled {
     animation: fadeIn 0.3s ease forwards;
   }
 
-  /* Menu Sections */
   .mobile-options {
     display: flex;
     flex-direction: column;
