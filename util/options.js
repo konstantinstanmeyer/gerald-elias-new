@@ -15,10 +15,6 @@ const music = [
         name: 'TEACHING',
         url: '/teaching'
     },
-    {
-        name: 'MUSIC MUSINGS',
-        url: '/music-musings'
-    }
 ]
 
 const about = [
@@ -28,10 +24,14 @@ const about = [
     },
 ]
 
-const books = [
+const writing = [
     {
         name: 'BOOKS',
         url: '/books'
+    },
+    {
+        name: 'MUSIC MUSINGS',
+        url: '/music-musings'
     },
     {
         name: 'FLASH FICTION',
@@ -44,6 +44,6 @@ const books = [
     },
 ]
 
-const options = [music, about, books];
+const options = { music, about, writing };
 
 export default options;

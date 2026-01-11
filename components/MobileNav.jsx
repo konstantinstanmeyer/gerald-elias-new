@@ -2,8 +2,11 @@
 
 import { useEffect } from 'react';
 import Link from 'next/link';
+import options from '@/util/options';
 
 export default function MobileNav() {
+  const { writing, music, about } = options;
+
   const toggleMenu = () => {
     const nav = document.querySelector('#mobile-nav');
     const isActive = nav?.classList.contains('active');
@@ -60,45 +63,43 @@ export default function MobileNav() {
       </div>
       <div id="mobile-nav-links">
         <div className="mobile-options">
-          <h3>BOOKS</h3>
-          <Link href="/books" onClick={closeMenu}>
-            Books
-          </Link>
-          <Link href="/flash-fiction" onClick={closeMenu}>
-            Flash Fiction
-          </Link>
-          <a
-            href="https://www.goodreads.com/goodreadscomauthorgeraldelias"
-            target="_blank"
-            rel="noopener noreferrer"
-            onClick={closeMenu}
-          >
-            Goodreads
-          </a>
+          <h3>WRITING</h3>
+          {writing.map((page, i) => 
+            <Link 
+              key={"writingLink-" + i} 
+              href={page.url} 
+              onClick={closeMenu}
+              target={page?.externalLink ? "_blank" : null} 
+            >
+              {page.name}
+            </Link>
+          )}
         </div>
         <div className="mobile-options">
           <h3>MUSIC</h3>
-          <Link href="/concerts-and-recordings" onClick={closeMenu}>
-            Concerts & Recordings
-          </Link>
-          <Link href="/conducting" onClick={closeMenu}>
-            Conducting
-          </Link>
-          <Link href="/composing" onClick={closeMenu}>
-            Composing
-          </Link>
-          <Link href="/teaching" onClick={closeMenu}>
-            Teaching
-          </Link>
-          <Link href="/music-musings" onClick={closeMenu}>
-            Music Musings
-          </Link>
+          {music.map((page, i) => 
+            <Link 
+              key={"musicLink-" + i} 
+              href={page.url} 
+              onClick={closeMenu}
+              target={page?.externalLink ? "_blank" : null} 
+            >
+              {page.name}
+            </Link>
+          )}
         </div>
         <div className="mobile-options">
           <h3>ABOUT</h3>
-          <Link href="/biography" onClick={closeMenu}>
-            Biography
-          </Link>
+          {about.map((page, i) => 
+            <Link 
+              key={"aboutLink-" + i} 
+              href={page.url} 
+              onClick={closeMenu}
+              target={page?.externalLink ? "_blank" : null} 
+            >
+              {page.name}
+            </Link>
+          )}
         </div>
         <Link href="/media-features" onClick={closeMenu}>
           MEDIA FEATURES

@@ -3,6 +3,8 @@ import options from "@/util/options"
 import Hamburger from "./Hamburger"
 
 export default function Navbar(){
+    const { writing, music, about } = options;
+
     return (
         <div id="navbar">
             <a href="/">
@@ -10,10 +12,9 @@ export default function Navbar(){
             </a>
             <Hamburger />
             <ul id="nav-links">
-                
-                <Dropdown name={'BOOKS'} options={options[2]} />
-                <Dropdown name={'MUSIC'} options={options[0]} />
-                <Dropdown name={'ABOUT'} options={options[1]} />
+                <Dropdown name={'WRITING'} options={writing} />
+                <Dropdown name={'MUSIC'} options={music} />
+                <Dropdown name={'ABOUT'} options={about} />
                 <a href="/media-features">MEDIA FEATURES</a>
                 <a href="/events">EVENTS</a>
                 <a href="/posts">POSTS</a>

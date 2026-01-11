@@ -1,5 +1,6 @@
 "use client"
 
+import Link from "next/link";
 import { useState } from "react"
 
 // options are 3 in length, ending on an index of 2
@@ -12,7 +13,7 @@ export default function Dropdown({ name, options }){
             {!isHover ? null : 
                 <div id="dropdown-options">
                     {options.map((option, i) => 
-                       <a key={"drop" + i} href={option.url} target={option?.externalLink ? "_blank" : null} className="option">{option.name}</a>
+                       <Link key={"drop" + i} href={option.url} target={option?.externalLink ? "_blank" : null} className="option">{option.name}</Link>
                     )}
                 </div>
             } 
