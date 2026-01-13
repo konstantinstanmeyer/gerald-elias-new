@@ -1799,7 +1799,7 @@ button:disabled {
 
 #connections-list {
   background-color: #fafafa;
-  padding: 3rem;
+  padding: 2rem 3rem;
 }
 
 #connections-list h3 {
@@ -1807,8 +1807,8 @@ button:disabled {
   font-size: 1.4rem;
   font-weight: 500;
   color: #1a1a1a;
-  margin-top: 3rem;
-  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
   letter-spacing: 0.5px;
 }
 
@@ -1821,7 +1821,7 @@ button:disabled {
   font-size: 1.05rem;
   line-height: 1.8;
   color: #4a4a4a;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.5rem;
   padding-left: 1.5rem;
   position: relative;
 }
@@ -2669,17 +2669,17 @@ button:disabled {
   }
 
   #connections-content {
-    padding: 2rem 1.5rem;
+    padding: 1rem 1.5rem;
     padding-bottom: var(--space-xl);
   }
 
   #connections-list {
-    padding: 2rem 1.5rem;
+    padding: 1rem 1.5rem;
   }
 
   #connections-list h3 {
     font-size: 1.2rem;
-    margin-top: 2.5rem;
+    margin-top: 1rem;
   }
 
   #connections-list p {

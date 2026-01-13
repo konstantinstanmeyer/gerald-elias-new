@@ -104,8 +104,8 @@ export default function MobileNav() {
           )}
         </div>
         <div className="mobile-nav-divider" />
-        <Link href="/media-features" onClick={closeMenu}>
-          MEDIA FEATURES
+        <Link href="/media" onClick={closeMenu}>
+          MEDIA
         </Link>
         <div className="mobile-nav-divider" />
         <Link href="/events" onClick={closeMenu}>

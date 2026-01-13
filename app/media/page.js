@@ -3,7 +3,7 @@ import Landing from '@/components/Landing';
 export default function MediaFeatures() {
   return (
     <main id="connections">
-        <Landing name="Media Features" imageUrl="/snow.jpg" />
+        <Landing name="Media" imageUrl="/snow.jpg" />
         <section id="connections-content">
             <div id="connections-list">
                 <h3>October 2025</h3>

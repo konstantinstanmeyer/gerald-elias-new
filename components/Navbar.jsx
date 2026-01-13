@@ -15,7 +15,7 @@ export default function Navbar(){
                 <Dropdown name={'WRITING'} options={writing} />
                 <Dropdown name={'MUSIC'} options={music} />
                 <Dropdown name={'ABOUT'} options={about} />
-                <a href="/media-features">MEDIA FEATURES</a>
+                <a href="/media">MEDIA</a>
                 <a href="/events">EVENTS</a>
                 <a href="/posts">POSTS</a>
                 <a href="/contact">CONTACT</a>
