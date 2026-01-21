@@ -79,7 +79,7 @@ export default function Home() {
           <h2 id="home-books-header">Featured Titles</h2>
           <Link className="home-book" href="/books/murder-at-the-royal-albert">
             <Image
-              src="/book-murder-at-the-royal-albert.jpg"
+              src="/books/murder-at-the-royal-albert.webp"
               alt="Murder at the Royal Albert"
               width={220}
               height={350}
@@ -87,7 +87,7 @@ export default function Home() {
           </Link>
           <Link className="home-book" href="/books/symphonies-&-scorpions">
             <Image
-              src="/book-symphonies-and-scorpions.jpg"
+              src="/books/symphonies-and-scorpions.webp"
               alt="Symphonies and Scorpions"
               width={220}
               height={350}
@@ -95,7 +95,7 @@ export default function Home() {
           </Link>
           <Link className="home-book" href="/books/roundtree-days">
             <Image
-              src="/roundtree-days.jpg"
+              src="/books/roundtree-days.webp"
               alt="Roundtree Days"
               width={220}
               height={350}
