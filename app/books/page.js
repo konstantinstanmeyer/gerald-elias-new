@@ -4,22 +4,22 @@ import Image from "next/image";
 const FEATURED_BOOKS = [
     {
         href: "/books/murder-at-the-royal-albert",
-        src: "/book-murder-at-the-royal-albert.jpg",
+        src: "/books/murder-at-the-royal-albert.webp",
         alt: "Murder at the Royal Albert",
     },
     {
         href: "/books/audiobooks/murder-at-the-royal-albert",
-        src: "/murder-at-the-royal-albert-audiobook.jpeg",
+        src: "/books/albert-audiobook-vertical.webp",
         alt: "Murder at the Royal Albert Audiobook",
     },
     {
         href: "/books/roundtree-days",
-        src: "/roundtree-days.jpg",
+        src: "/books/roundtree-days.webp",
         alt: "Roundtree Days",
     },
     {
         href: "/books/symphonies-&-scorpions",
-        src: "/book-symphonies-and-scorpions.jpg",
+        src: "/books/symphonies-and-scorpions.webp",
         alt: "Symphonies & Scorpions",
     },
 ]
@@ -27,42 +27,42 @@ const FEATURED_BOOKS = [
 const JACOBUS_BOOKS = [
     {
         href: "/books/devil's-trill",
-        src: "/book-devil's-trill.jpg",
+        src: "/books/devil's-trill.webp",
         alt: "Devil's Trill",
     },
     {
         href: "/books/danse-macabre",
-        src: "/book-danse-macabre.jpg",
+        src: "/books/danse-macabre.webp",
         alt: "Danse Macabre",
     },
     {
         href: "/books/death-and-the-maiden",
-        src: "/book-death-and-the-maiden.jpg",
+        src: "/books/death-and-the-maiden.webp",
         alt: "Death and the Maiden",
     },
     {
         href: "/books/death-and-disfiguration",
-        src: "/book-death-and-disfiguration.jpg",
+        src: "/books/death-and-disfiguration.webp",
         alt: "Death and Disfiguration",
     },
     {
         href: "/books/playing-with-fire",
-        src: "/book-playing-with-fire.jpg",
+        src: "/books/playing-with-fire.webp",
         alt: "Playing with Fire",
     },
     {
         href: "/books/spring-break",
-        src: "/book-spring-break.jpg",
+        src: "/books/spring-break.webp",
         alt: "Spring Break",
     },
     {
         href: "/books/cloudy-with-a-chance-of-murder",
-        src: "/book-cloudy-with-a-chance-of-murder.jpg",
+        src: "/books/cloudy-with-a-chance-of-murder.webp",
         alt: "Cloudy with a Chance of Murder",
     },
     {
         href: "/books/murder-at-the-royal-albert",
-        src: "/book-murder-at-the-royal-albert.jpg",
+        src: "/books/murder-at-the-royal-albert.webp",
         alt: "Murder at the Royal Albert",
     },
 ]
@@ -70,37 +70,37 @@ const JACOBUS_BOOKS = [
 const MORE_BOOKS = [
     {
         href: "/books/roundtree-days",
-        src: "/roundtree-days.jpg",
+        src: "/books/roundtree-days.webp",
         alt: "Roundtree Days",
     },
     {
         href: "/books/it's-a-crime",
-        src: "/book-its-a-crime.jpg",
+        src: "/books/its-a-crime.webp",
         alt: "It's a Crime",
     },
     {
         href: "/books/the-beethoven-sequence",
-        src: "/the-beethoven-sequence-book.jpg",
+        src: "/books/the-beethoven-sequence.webp",
         alt: "The Beethoven Sequence",
     },
     {
         href: "/books/symphonies-&-scorpions",
-        src: "/book-symphonies-and-scorpions.jpg",
+        src: "/books/symphonies-and-scorpions.webp",
         alt: "Symphonies & Scorpions",
     },
     {
         href: "/books/getting-through",
-        src: "/book-getting-through.jpeg",
+        src: "/books/getting-through.webp",
         alt: "Getting Through",
     },
     {
         href: "/books/maestro-the-potbellied-pig",
-        src: "/book-maestro.jpg",
+        src: "/books/maestro.webp",
         alt: "Maestro the Potbellied Pig",
     },
     {
         href: "/books/maestro-the-potbellied-pig-es",
-        src: "/book-maestro-es.jpg",
+        src: "/books/maestro-es.webp",
         alt: "Maestro the Potbellied Pig (Spanish)",
     },
 ];
@@ -108,37 +108,37 @@ const MORE_BOOKS = [
 const AUDIOBOOKS = [
     {
         href: "/books/audiobooks/devil's-trill",
-        src: "/audiobook-devil's-trill.jpeg",
+        src: "/books/audiobook-devil's-trill.webp",
         alt: "Devil's Trill Audiobook",
         audiobook: true
     },
     {
         href: "/books/audiobooks/danse-macabre",
-        src: "/audiobook-danse-macabre.jpeg",
+        src: "/books/audiobook-danse-macabre.webp",
         alt: "Danse Macabre Audiobook",
         audiobook: true
     },
     {
         href: "/books/audiobooks/dances-with-death",
-        src: "/audiobook-dances-with-death.jpeg",
+        src: "/books/audiobook-dances-with-death.webp",
         alt: "Dances with Death Audiobook",
         audiobook: true
     },
     {
         href: "/books/audiobooks/murder-at-the-royal-albert",
-        src: "/murder-at-the-royal-albert-audiobook.jpeg",
+        src: "/books/audiobook-murder-at-the-royal-albert.webp",
         alt: "Murder at the Royal Albert Audiobook",
         audiobook: true
     },
     {
         href: "/books/audiobooks/maestro-the-potbellied-pig",
-        src: "/audiobook-maestro.jpeg",
+        src: "/books/audiobook-maestro.webp",
         alt: "Maestro the Potbellied Pig Audiobook",
         audiobook: true
     },
     {
         href: "/books/audiobooks/maestro-the-potbellied-pig-es",
-        src: "/audiobook-maestro-es.jpeg",
+        src: "/books/audiobook-maestro-es.webp",
         alt: "Maestro the Potbellied Pig (Spanish) Audiobook",
         audiobook: true
     },
@@ -180,10 +180,10 @@ function BookSection({ name, books }){
 export default function Books(){
     return(
         <main id="books">
-            <Landing name="Books & Audiobooks" imageUrl="/books-landing.jpg" />
+            <Landing name="Books & Audiobooks" imageUrl="/general/books-landing.webp" />
             <div id="books-content">
                 <div id="book-award">
-                    <Image alt="KILLER NASHVILLE SILVER FALCHION AWARD" width={300} height={225} src="/insignia.png" />
+                    <Image alt="KILLER NASHVILLE SILVER FALCHION AWARD" width={300} height={225} src="/icons/insignia.webp" />
                 </div>
                 <BookSection 
                     name="Featured Titles"
@@ -205,104 +205,3 @@ export default function Books(){
         </main>
     )
 }
-
-// return(
-//         <div id="books">
-//             <Landing name="Books & Audiobooks" imageUrl="/books-landing.jpg" />
-//             <div id="award">
-//                 <img src="/insignia.png" />
-//             </div>
-//             <div id="hint-container">
-//                 <h5>click covers for more info</h5>
-//                 &nbsp;
-//                 <img src="/cursor.png" />
-//             </div>
-//             <h2 id="featured-titles-header">Featured Titles</h2>
-//             <div className="books-list">
-//                 <a className="book" href="/books/murder-at-the-royal-albert">
-//                     <img src="/book-murder-at-the-royal-albert.jpg" />
-//                 </a>
-//                 <a className="book" href="/books/audiobooks/murder-at-the-royal-albert">
-//                     <img src="/albert-audiobook-transparent.png" />
-//                 </a>
-//                 <a className="book" href="/books/roundtree-days">
-//                     <img src="/roundtree-days.jpg" />
-//                 </a>
-//                 <a className="book" href="/books/symphonies-&-scorpions">
-//                     <img src="/book-symphonies-and-scorpions.jpg" />
-//                 </a>
-//             </div>
-//             <h2 id="daniel-j-header">Daniel Jacobus Mysteries</h2>
-//             <div className="books-list">
-//                 <a className="book" href="/books/devil's-trill">
-//                     <img src="/book-devil's-trill.jpg" />
-//                 </a>
-//                 <a className="book" href="/books/danse-macabre">
-//                     <img src="/book-danse-macabre.jpg" />
-//                 </a>
-//                 <a className="book" href="/books/death-and-the-maiden">
-//                     <img src="/book-death-and-the-maiden.jpg" />
-//                 </a>
-//                 <a className="book" href="/books/death-and-disfiguration">
-//                     <img src="/book-death-and-disfiguration.jpg" />
-//                 </a>
-//                 <a className="book" href="/books/playing-with-fire">
-//                     <img src="/book-playing-with-fire.jpg" />
-//                 </a>
-//                 <a className="book" href="/books/spring-break">
-//                     <img src="/book-spring-break.jpg" />
-//                 </a>
-//                 <a className="book" href="/books/cloudy-with-a-chance-of-murder">
-//                     <img src="/book-cloudy-with-a-chance-of-murder.jpg" />
-//                 </a>
-//                 <a className="book" href="/books/murder-at-the-royal-albert">
-//                     <img src="/book-murder-at-the-royal-albert.jpg" />
-//                 </a>
-//             </div>
-//             <h2 id="more-books-header">More books by Gerald Elias</h2>
-//             <div className="books-list">
-//                 <a className="book" href="/books/roundtree-days">
-//                     <img src="/roundtree-days.jpg" />
-//                 </a>
-//                 <a className="book" href="/books/it's-a-crime">
-//                     <img src="/book-its-a-crime.jpg" />
-//                 </a>
-//                 <a className="book" href="/books/the-beethoven-sequence">
-//                     <img src="/the-beethoven-sequence-book.jpg" />
-//                 </a>
-//                 <a className="book" href="/books/symphonies-&-scorpions">
-//                     <img src="/book-symphonies-and-scorpions.jpg" />
-//                 </a>
-//                 <a className="book" href="/books/getting-through">
-//                     <img src="/book-getting-through.jpeg" />
-//                 </a>
-//                 <a className="book" href="/books/maestro-the-potbellied-pig">
-//                     <img src="/book-maestro.jpg" />
-//                 </a>
-//                 <a className="book" href="/books/maestro-the-potbellied-pig-es">
-//                     <img src="/book-maestro-es.jpg" />
-//                 </a>
-//             </div>
-//             <h2 id="audiobooks-header">Audiobooks</h2>
-//             <div className="books-list">
-//                 <a className="audiobook" href="/books/audiobooks/devil's-trill">
-//                     <img src="/audiobook-devil's-trill.jpeg" />
-//                 </a>
-//                 <a className="audiobook" href="/books/audiobooks/danse-macabre">
-//                     <img src="/audiobook-danse-macabre.jpeg" />
-//                 </a>
-//                 <a className="audiobook" href="/books/audiobooks/dances-with-death">
-//                     <img src="/audiobook-dances-with-death.jpeg" />
-//                 </a>
-//                 <a className="audiobook" href="/books/audiobooks/murder-at-the-royal-albert">
-//                     <img src="/murder-at-the-royal-albert-audiobook.jpeg" />
-//                 </a>
-//                 <a className="audiobook" href="/books/audiobooks/maestro-the-potbellied-pig">
-//                     <img src="/audiobook-maestro.jpeg" />
-//                 </a>
-//                 <a className="audiobook" href="/books/audiobooks/maestro-the-potbellied-pig-es">
-//                     <img src="/audiobook-maestro-es.jpeg" />
-//                 </a>
-//             </div>
-//         </div>
-//     )

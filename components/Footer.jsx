@@ -8,13 +8,13 @@ export default function Footer(){
                     <h3>FOLLOW <span>GERALD</span></h3>
                     <div id="socials-images">
                         <a target="_blank" href="https://www.facebook.com/EliasBooks/">
-                            <img src="/facebook.png" />
+                            <img src="/icons/facebook.webp" />
                         </a>
                         <a target="_blank" href="https://www.instagram.com/geraldelias504">
-                            <img src="/instagram.png" />
+                            <img src="/icons/instagram.webp" />
                         </a>
                         <a target="_blank" href="https://www.linkedin.com/in/gerald-elias-6a67a0157/">
-                            <img src="/linkedin.png" />
+                            <img src="/icons/linkedin.webp" />
                         </a>
                     </div>
                 </div>

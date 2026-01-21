@@ -25,7 +25,7 @@ export async function generateMetadata({ params }) {
     openGraph: {
       title: metadata.title,
       description: metadata.description || `Read ${metadata.title} by Gerald Elias`,
-      images: metadata.image ? [metadata.image] : ['/open-book.jpg'],
+      images: metadata.image ? [metadata.image] : ['/general/open-book.webp'],
       type: 'article',
       publishedTime: metadata.date,
     },
@@ -33,7 +33,7 @@ export async function generateMetadata({ params }) {
       card: 'summary_large_image',
       title: metadata.title,
       description: metadata.description || `Read ${metadata.title} by Gerald Elias`,
-      images: metadata.image ? [metadata.image] : ['/open-book.jpg'],
+      images: metadata.image ? [metadata.image] : ['/general/open-book.webp'],
     },
   };
 }

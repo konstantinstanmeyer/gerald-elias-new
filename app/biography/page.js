@@ -5,12 +5,12 @@ import biography from '@/util/biography';
 export default function Biography() {
     return (
         <main id="biography">
-            <Landing imageUrl="/biography-landing.jpg" name="Biography" />
+            <Landing imageUrl="/general/biography-landing.webp" name="Biography" />
             <section id="bio-content">
                 <h2>Short Bio</h2>
                 <div id="short-bio">
                     <Image 
-                        src="/gerald-headshot.jpg"
+                        src="/general/gerald-headshot.webp"
                         alt="Gerald Elias Headshot"
                         width={280}
                         height={373}
@@ -24,7 +24,7 @@ export default function Biography() {
                 <h2>Long Bio</h2>
                 <div id="long-bio">
                     <Image 
-                        src="/long-bio.jpeg"
+                        src="/general/long-bio.webp"
                         alt="Gerald Elias"
                         width={280}
                         height={373}
@@ -34,7 +34,7 @@ export default function Biography() {
                         <div key={`long-bio-${index}`}>
                             {index === 4 && (
                                 <Image 
-                                    src="/gerald-elias-profile.jpg"
+                                    src="/general/gerald-elias-profile.webp"
                                     alt="Gerald Elias Profile"
                                     width={280}
                                     height={373}

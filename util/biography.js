@@ -8,7 +8,7 @@ const biography = {
             `In 2009, my first mystery novel, Devil's Trill, was published and was a Barnes and Noble Discover Great New Writers selection. That has been followed by seven additional novels in the Daniel Jacobus series, and numerous other fiction and nonfiction books.`,
             `In 2021, my wife and I relocated from Salt Lake City to Seattle in order to be hands-on grandparents to our two darling grandchildren, and have loved every minute of it.`
         ],
-        image: `short-bio.png`,
+        image: `general/short-bio.png`,
     },
     longBio: {
         textBlocks: [
@@ -24,7 +24,7 @@ const biography = {
             `In 2021, I relocated to Seattle, where I have begun to connect with multifaceted cultural scene, performing on a Baroque violin in addition to a beautiful violin my son, Jacob, made for me, and meeting with book clubs and doing book events. I look forward to continue to expand my music and literary horizons both in Seattle and in our little cottage in the woods in western Massachusetts.`,
             `~ Jerry`
         ],
-        image: 'long-bio.jpeg',
+        image: 'general/long-bio.jpeg',
     }
 }
 

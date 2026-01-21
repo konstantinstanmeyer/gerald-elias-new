@@ -323,7 +323,7 @@ textarea {
   width: 100vw;
   min-height: 100vh;
   background: linear-gradient(135deg, rgba(26, 26, 26, 0.8) 0%, rgba(26, 26, 26, 0.65) 100%),
-    url("../public/landing-background.jpg");
+    url("../public/general/landing-background.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

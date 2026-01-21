@@ -18,7 +18,7 @@ export default function EventCard({ event }) {
             <div className="event-card-image-wrapper">
                 {imageUrl ? (
                     <Image
-                        src={`/${imageUrl}`}
+                        src={imageUrl}
                         alt={name}
                         fill
                         className="event-card-image"

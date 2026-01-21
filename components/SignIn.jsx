@@ -11,7 +11,7 @@ export default function SignIn() {
         { 
             id: "google", 
             name: "Google", 
-            icon: "/google.webp" 
+            icon: "/icons/google.webp" 
         },
     ];
 

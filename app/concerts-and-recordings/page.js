@@ -4,7 +4,7 @@ import concerts from "@/util/concerts";
 export default function Performances(){
     return (
         <main id="concerts">
-            <Landing name="Concerts & Recordings" imageUrl="/concerts-landing.jpeg" />
+            <Landing name="Concerts & Recordings" imageUrl="/general/concerts-landing.webp" />
             <section id="concerts-content">
                 <div id="play-video-container">
                     <p>Gerald Elias with Pamela Palmer-Jones and Noriko Kishi</p>

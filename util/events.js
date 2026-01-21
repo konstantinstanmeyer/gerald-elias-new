@@ -5,14 +5,14 @@ const events = [
         "location": "Folio: The Seattle Athenaeum",
         "address": "93 Pike St #307, Seattle, WA 98101",
         "description":"A recital of rarely heard Baroque fantasies for solo violin, including a half-hour pre-concert talk about the music. Performed on a new Nicolo Amati-inspired violin made by Jacob Elias.",
-        "imageUrl":"folio-2026.png",
+        "imageUrl":"/events/folio-2026.webp",
         "hyperlink": "https://www.folioseattle.org/event-details/john-come-kiss-me-now-fantasies-for-unaccompanied-violin"
     },
     {
         "date": "Tuesday, September 9th, 2025",
         "name": `"In the Mood"`,
         "description":`Release date of my quirky short story, "In the Mood," in Crimeucopia's mystery magazine, What the Butler Didn't See, published by Murderous Ink Press.`,
-        "imageUrl":"crimeuc.png",
+        "imageUrl":"/events/crimeuc.webp",
         "hyperlink":"https://www.amazon.com/Crimeucopia-What-Butler-Didnt-See/dp/190949870X/ref=sr_1_1?crid=KCSIMNAZBOF2&dib=eyJ2IjoiMSJ9.wcV0bbR5PTa2sBOAgJ8tRaZJa2vDTPp9fIa1kscJBYg.mj_dpOO2RdLU1LSxxVYGOrvl55L3RqsKBnYe4FtjzIA&dib_tag=se&keywords=what+the+butler+didn%27t+see&qid=1755653856&s=books&sprefix=what+the+butler+didn%27t+see%2Cstripbooks%2C139&sr=1-1"
     },
     {
@@ -21,7 +21,7 @@ const events = [
         "location":"Concert at First United Methodist Church",
         "address":"203 South 200 East, Salt Lake City",
         "description":`Presented by Utah Global Diplomacy, Gerald Elias returns to conduct the premier Baroque music series in Salt Lake City in a diverse and unusual program.`,
-        "imageUrl":"vivaldi-2025.jpg",
+        "imageUrl":"/events/vivaldi-2025.webp",
         "hyperlink":"https://utahglobaldiplomacy.org/events/vivaldi"
     },
     {
@@ -31,7 +31,7 @@ const events = [
         "address":"35 Webster Street, Newton, MA 02465",
         "description":"Program includes Vivaldi's ever-popular Four Seasons and music by Purcell, Pachelbel, Legrenzi and Telemann",
         "hyperlink":"https://astonmagna.org/summer-festival/",
-        "imageUrl":"st-james.jpg",
+        "imageUrl":"/events/st-james.webp",
     },
     {
         "date": "Sunday, July 27th, 2025",
@@ -39,7 +39,7 @@ const events = [
         "location":"Great Barrington Public Theater, Daniel Arts Center located at Bard College at Simon’s Rock",
         "address":"84 Alford Rd, Great Barrington, MA 01230",
         "description":"A stage adaptation of an Elias short story by playwright Anne Undeland of the miraculous achievement of Constanze Mozart to have her husband's final work, the immortal Requiem, completed and performed.",
-        "imageUrl":"MadameMozart.png",
+        "imageUrl":"/events/MadameMozart.webp",
         "hyperlink":"https://berkshireonstage.blog/2025/04/25/great-barrington-public-theater-announces-cast-for-madame-mozart-the-lacrimosa/"
     },
     {
@@ -47,7 +47,7 @@ const events = [
         "name":"Händel and Friends: A Baroque Tapestry",
         "location":"The Seattle Athenaeum",
         "description": "Join Gerald Elias and cellist Meeka Quan DiLorenzo at the Seattle Athenaeum for a captivating recital celebrating the brilliance and lasting influence of Georg Frideric Händel.",
-        "imageUrl":"folio2.jpeg",
+        "imageUrl":"/events/folio2.webp",
         "hyperlink":"https://www.folioseattle.org/event-details/handel-and-friends-a-baroque-tapestry"
     },
     {
@@ -55,7 +55,7 @@ const events = [
         "name": `Violin Recital, "A Classical Kaleidoscope"`,
         "location":"Folio Anthenaeum Library, 93 Park St. #307, Seattle, WA",
         "description":"Joined by pianist Michelle Huang. A selection of virtuoso violin repertoire found in Elias's Daniel Jacobus mystery series",
-        "imageUrl":"kaleidoscope.png",
+        "imageUrl":"/events/kaleidoscope.webp",
         "hyperlink":"https://www.folioseattle.org/event-details/a-classical-kaleidoscope"
     },
     {
@@ -64,7 +64,7 @@ const events = [
         "location":"The Seattle Public Library - West Seattle",
         "address":"2306 42nd Ave SW, Seattle, WA 98116",
         "description":"Joined by authors Erica Miner and Charles Philipp Martin. A discussion and music about the authors' recently released mysteries",
-        "imageUrl":"west-seattle.jpeg",
+        "imageUrl":"/events/west-seattle.webp",
         "hyperlink":"https://www.spl.org/hours-and-locations/west-seattle-branch"
     },
     {
@@ -72,7 +72,7 @@ const events = [
         "name":"Interview and Performance on Northwest Focus",
         "location":"KING-FM Radio, Seattle, WA",
         "description":"Discussion with host Dave Beck about Elias's music and literary career, including performance of selections from his upcoming violin recitals.",
-        "imageUrl":"king-fm.png",
+        "imageUrl":"/king-fm.png",
     },
     {
         "date": "Wednesday, August 14th, 2024 @ 4:00-6:00PM",
@@ -80,7 +80,7 @@ const events = [
         "location":"West Stockbridge Old Town Hall",
         "address":"9 Main St, West Stockbridge, MA 01266",
         "description":"Daniel Jacobus series and Murder on Vacation presented by Friends of the Library. Reception and book signing afterwards!",
-        "imageUrl":"west-stockbridge-event.png",
+        "imageUrl":"/events/west-stockbridge-event.webp",
         "hyperlink":"https://weststockbridgepl.org/about-us/"
     },
     {
@@ -88,7 +88,7 @@ const events = [
         "name":"Joint Book Presentation with author, Carol Goodman Kaufman",
         "location":"The Bookstore in Lenox",
         "address":"11 Housatonic Street, Lenox, MA",
-        "imageUrl":"the-bookstore.png",
+        "imageUrl":"/events/the-bookstore.webp",
         "description":"In conversation with Kaufman about her novel, The First Murder and Elias's most recent Daniel Jacobus mystery, Murder at the Royal Albert.",
         "hyperlink":"https://www.bookstoreinlenox.com/events/"
     },
@@ -97,7 +97,7 @@ const events = [
         "name":"Book presentation with music, Murder at the Royal Albert",
         "location":"Inglewood Golf Club (WA)",
         "address":"900 Bellevue Way NE, Bellevue, WA 98004",
-        "imageUrl":"inglewood-golf-club.jpeg",
+        "imageUrl":"/events/inglewood-golf-club.webp",
         "hyperlink":"https://leftcoastcrime.org/2024/index.html"
     },
     {
@@ -105,7 +105,7 @@ const events = [
         "name":"Mystery & Music at Oak Harbor Library",
         "location":"Oak Harbor Library",
         "address":"1000 SE Regatta Dr, Oak Harbor, WA 98277",
-        "imageUrl":"IG-MysteryAndMusic.jpg",
+        "imageUrl":"/events/IG-MysteryAndMusic.webp",
         "description":"Critically acclaimed author and musician Gerald Elias blends music and mystery for a presentation to indulge the senses! He will discuss his books and play snippets of pieces featured in his novels.",
         "hyperlink":"https://sno-isle.bibliocommons.com/events/6579ff940825261328f3514c"
     },
@@ -114,7 +114,7 @@ const events = [
         "name":"Left Coast Crime 2024: Seattle Shakedown mystery book convention",
         "location":"Hyatt Regency Bellevue",
         "address":"900 Bellevue Way NE, Bellevue, WA 98004",
-        "imageUrl":"left-coast-crime.png",
+        "imageUrl":"/events/left-coast-crime.webp",
         "hyperlink":"https://leftcoastcrime.org/2024/index.html"
     },
     {
@@ -122,7 +122,7 @@ const events = [
         "name":"Noir at the Bar Radio, Episode 6, with Allen Warren",
         "location":"Skyline Retirement Community",
         "address":"725 9th Ave, Seattle, WA 98104",
-        "imageUrl":"noir-at-the-bar.jpg",
+        "imageUrl":"/events/noir-at-the-bar.webp",
         "description":"Episode also airs on KKNY Radio @ 1150AM",
         "hyperlink":"https://www.alanrwarren.com/noir-at-the-bar-radioshow"
     },
@@ -131,7 +131,7 @@ const events = [
         "name":"Vivaldi violin sonata recital & book talk",
         "location":"Skyline Retirement Community",
         "address":"725 9th Ave, Seattle, WA 98104",
-        "imageUrl":"event-seattle.jpeg",
+        "imageUrl":"/events/seattle.webp",
         "description":"Joined by Gus Denhard on theorbo.",
     },
     {
@@ -139,7 +139,7 @@ const events = [
         "name":"House of Mystery",
         "location":"ABC News Radio",
         "description": "Radio Interview and Podcast with Alan R. Warren.",
-        "imageUrl":"house-of-mystery.png",
+        "imageUrl":"/events/house-of-mystery.webp",
         "hyperlink":"https://www.alanrwarren.com/house-of-mystery-radioshow"
     },
     {
@@ -147,7 +147,7 @@ const events = [
         "name":"AUTHOR EVENT WITH STITCH",
         "location":"Online Event",
         "description": "Stitch is the world's largest companionship community created by members, for members, creating community and companionship for anyone over 50. Meet Gerald Elias and learn about writing mysteries, his writing process, and his books.",
-        "imageUrl":"stitch.png",
+        "imageUrl":"/events/stitch.webp",
         "hyperlink":"https://www.stitch.net/app/event/486764/united-states-crown-hill/author-eventgerald-elias"
     },
     {
@@ -155,14 +155,14 @@ const events = [
         "name":"Conducting the annual Vivaldi by Candlelight Concert",
         "location":"First Presbyterian Church of Salt Lake City",
         "address":"12 C St E, Salt Lake City, UT 84103",
-        "imageUrl":"vivaldi.jpeg",
+        "imageUrl":"/events/vivaldi.webp",
         "hyperlink":"https://utahglobaldiplomacy.org/events/vivaldi"
     },
     {
         "date":"Friday, December 1st, 2023",
         "name":"Let It Snow",
         "location":"Online Event",
-        "imageUrl":"let-it-snow.jpeg",
+        "imageUrl":"/events/let-it-snow.webp",
         "description":"A select group of authors joins forces with Uvi Poznansky to bring you amazing audiobooks!",
         "hyperlink":"https://www.facebook.com/events/821999746332037/"
     },
@@ -171,13 +171,13 @@ const events = [
         "name":"Author Roundtable",
         "location":"Folio Library",
         "address":"93 Pike St #307, Seattle, WA 98101",
-        "imageUrl":"folio.jpeg",
+        "imageUrl":"/events/folio.webp",
         "hyperlink":"https://www.folioseattle.org/event-details/musical-murder-mystery-an-author-roundtable"
     },
     {
         "date":"Monday, October 30th, 2023",
         "name":"AUDIOBOOK RELEASE! Murder at the Royal Albert",
-        "imageUrl":"murder-at-the-royal-albert-audiobook.jpeg",
+        "imageUrl":"/books/audiobook-murder-at-the-royal-albert.webp",
         "description":`Step into the world of intrigue and suspense with Gerald Elias' latest audiobook, 'Murder at the Royal Albert,' expertly narrated by Alison Larkin. A musical mystery masterpiece awaits your ears! Click "learn more" to pre-order!`,
         "hyperlink":"/books/audiobooks/murder-at-the-royal-albert"
     },
@@ -186,7 +186,7 @@ const events = [
         "name":"Annual Vivaldi by Candlelight concert",
         "location":"First Presbyterian Church of Salt Lake City",
         "address":"12 C St E, Salt Lake City, UT 84103",
-        "imageUrl":"vivaldi.jpeg",
+        "imageUrl":"/events/vivaldi.webp",
         "hyperlink":"https://utahglobaldiplomacy.org/events/vivaldi"
     },
 ];

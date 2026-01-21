@@ -14,16 +14,6 @@ export default function Home() {
             <strong>Gerald Elias</strong> proudly performs on violins made by
             his son, <strong className="gold-accent">Jacob</strong>
           </h1>
-          <div id="landing-image-container-mobile">
-            <Image
-              id="landing-image-mobile"
-              src="/new-violins.jpg"
-              alt="Violins crafted by Jacob Elias"
-              width={600}
-              height={450}
-              priority
-            />
-          </div>
           <p id="landing-description">
             Handcrafted, bespoke violins from Brooktondale, NY — craftsmanship meets innovative artistry.
           </p>
@@ -44,7 +34,7 @@ export default function Home() {
         <div id="landing-image-container">
           <Image
             id="landing-image"
-            src="/jerry-and-jacob.jpg"
+            src="/general/jerry-and-jacob.webp"
             alt="Violins crafted by Jacob Elias"
             width={600}
             height={450}
@@ -56,7 +46,7 @@ export default function Home() {
         <div id="breaking-news-container">
           <div id="breaking-news-image">
             <Image
-              src="/publishers-marketplace.jpg"
+              src="/general/publishers-marketplace.webp"
               alt="Publishers Marketplace announcement"
               width={500}
               height={350}
@@ -118,7 +108,7 @@ export default function Home() {
             id="home-audiobook"
           >
             <Image
-              src="/murder-at-the-royal-albert-audiobook.jpeg"
+              src="/books/audiobook-murder-at-the-royal-albert.webp"
               alt="Murder at the Royal Albert Audiobook"
               width={220}
               height={220}
@@ -131,7 +121,7 @@ export default function Home() {
       </section>
       <section id="about">
         <Image
-          src="/gerald-elias-statues.jpeg"
+          src="/general/gerald-elias-statues.webp"
           id="about-image"
           alt="Gerald Elias"
           fill
@@ -156,7 +146,7 @@ export default function Home() {
         <div id="about-mobile">
           <Image
             id="about-mobile-img"
-            src="/about-mobile.jpeg"
+            src="/general/about-mobile.webp"
             alt="Gerald Elias"
             width={200}
             height={280}

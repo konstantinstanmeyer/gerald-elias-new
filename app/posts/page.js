@@ -50,7 +50,7 @@ export default function Blog(){
 
     return(
         <main id="posts">
-            <Landing name="Posts" imageUrl="/blog-landing.jpg" />
+            <Landing name="Posts" imageUrl="/general/blog-landing.webp" />
             <section id="posts-container">
                 <div id="posts-content">
                 {POSTS_BY_YEAR.map(({ year, posts }) => (

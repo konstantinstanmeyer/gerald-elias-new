@@ -4,7 +4,7 @@ import conducting from '@/util/conducting';
 export default function Conducting() {
   return (
     <main id="conducting">
-      <Landing name="Conducting" imageUrl="/conducting-landing.jpg" />
+      <Landing name="Conducting" imageUrl="/general/conducting-landing.webp" />
       <section id="conducting-content">
         {conducting.textBlocks.map((block, index) => (
           <p key={`text-${index}`}>{block}</p>

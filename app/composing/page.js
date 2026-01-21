@@ -4,7 +4,7 @@ import Landing from "@/components/Landing";
 export default function Composing(){
     return (
         <main id="composing">
-            <Landing name="Composing" imageUrl="/composing.jpeg" />
+            <Landing name="Composing" imageUrl="/general/composing-landing.webp" />
         
             <section id="composing-content">
                 <div className="composition-card">

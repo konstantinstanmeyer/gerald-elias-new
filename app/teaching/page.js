@@ -5,11 +5,11 @@ import textArr from '@/util/teaching';
 export default function Teaching() {
   return (
     <main id="teaching">
-        <Landing name="Teaching" imageUrl="/teaching.jpg" />
+        <Landing name="Teaching" imageUrl="/general/teaching-landing.webp" />
         <section id="teaching-content">
         <Image 
             id="teaching-image" 
-            src="/teaching-profile.jpg" 
+            src="/general/teaching-profile.webp" 
             alt="Gerald Elias Teaching"
             width={280}
             height={373}

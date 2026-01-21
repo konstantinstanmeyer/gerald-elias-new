@@ -13,7 +13,7 @@ export default function Events() {
 
   return (
     <main id="events">
-        <Landing name="Events" imageUrl="/events-landing.jpg" />
+        <Landing name="Events" imageUrl="/general/events-landing.webp" />
       
         <section id="events-container">
             <h2>Upcoming Events</h2>
