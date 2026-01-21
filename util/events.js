@@ -72,7 +72,7 @@ const events = [
         "name":"Interview and Performance on Northwest Focus",
         "location":"KING-FM Radio, Seattle, WA",
         "description":"Discussion with host Dave Beck about Elias's music and literary career, including performance of selections from his upcoming violin recitals.",
-        "imageUrl":"/king-fm.png",
+        "imageUrl":"/events/king-fm.webp",
     },
     {
         "date": "Wednesday, August 14th, 2024 @ 4:00-6:00PM",
