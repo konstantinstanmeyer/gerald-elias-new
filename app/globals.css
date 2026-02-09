@@ -520,6 +520,73 @@ textarea {
   position: relative;
 }
 
+#upcoming-release {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  max-width: 800px;
+  margin-bottom: var(--space-xl);
+}
+
+.upcoming-release-cover {
+  width: 100%;
+  max-width: 280px;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.upcoming-release-cover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.18);
+}
+
+#upcoming-release-text {
+  flex: 1;
+}
+
+#upcoming-release-text h3 {
+  font-family: var(--font-display);
+  font-size: clamp(1.4rem, 2.5vw, 1.8rem);
+  font-weight: 400;
+  color: var(--color-charcoal);
+  margin-bottom: var(--space-md);
+  font-style: italic;
+}
+
+#upcoming-release-text p {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.8;
+  color: var(--color-warm-gray);
+  margin-bottom: var(--space-sm);
+}
+
+.release-details {
+  font-family: var(--font-accent);
+  font-size: 0.8rem !important;
+  font-weight: 500 !important;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--color-gold) !important;
+  margin-top: var(--space-md) !important;
+}
+
+@media (max-width: 768px) {
+  #upcoming-release {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .upcoming-release-cover {
+    max-width: 220px;
+  }
+}
+
 #home-books-list {
   display: flex;
   justify-content: center;
@@ -1682,6 +1749,11 @@ button:disabled {
   color: black;
   font-family: var(--font-display);
   font-size: 1.2rem;
+  margin-bottom: 3rem !important;
+}
+
+#music-musings-content li {
+  margin-bottom: 0.5rem;
 }
 
 #music-musings-content li:before {

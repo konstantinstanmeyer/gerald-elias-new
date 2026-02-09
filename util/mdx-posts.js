@@ -57,6 +57,9 @@ export const postMetadata = {
   },
   "a-case-for-quality": {
     title: "A Case for Quality",
+  },
+  "about-time": {
+    title: "About Time",
   }
 };
 

@@ -76,48 +76,31 @@ export default function Home() {
       </section>
       <section id="home-books-container">
         <div id="home-books-list">
-          <h2 id="home-books-header">Featured Titles</h2>
-          <Link className="home-book" href="/books/murder-at-the-royal-albert">
-            <Image
-              src="/books/murder-at-the-royal-albert.webp"
-              alt="Murder at the Royal Albert"
-              width={220}
-              height={350}
-            />
-          </Link>
-          <Link className="home-book" href="/books/symphonies-&-scorpions">
-            <Image
-              src="/books/symphonies-and-scorpions.webp"
-              alt="Symphonies and Scorpions"
-              width={220}
-              height={350}
-            />
-          </Link>
-          <Link className="home-book" href="/books/roundtree-days">
-            <Image
-              src="/books/roundtree-days.webp"
-              alt="Roundtree Days"
-              width={220}
-              height={350}
-            />
-          </Link>
-          <Link
-            className="home-book"
-            href="/books/audiobooks/murder-at-the-royal-albert"
-            style={{display: "flex", justifyContent: "center", height: "320px", width: "320px"}}
-            id="home-audiobook"
-          >
-            <Image
-              src="/books/audiobook-murder-at-the-royal-albert.webp"
-              alt="Murder at the Royal Albert Audiobook"
-              width={220}
-              height={220}
-            />
-          </Link>
+          <h2 id="home-books-header">Upcoming Releases</h2>
         </div>
-        <Link id="all-books" href="/books">
-          View All Books
-        </Link>
+        <div id="upcoming-release">
+          <Image
+            className="upcoming-release-cover"
+            src="/books/coterie.webp"
+            alt="Crimeucopia: A Coterie of Dicks"
+            width={320}
+            height={480}
+          />
+          <div id="upcoming-release-text">
+            <h3>And the Skies Are Not Cloudy All Day</h3>
+            <p>
+              A <strong>Jefferson Dance</strong> short mystery, appearing in an
+              upcoming <em>Crimeucopia</em> anthology,{" "}
+              <em className="gold-accent">A Coterie of Dicks</em>.
+            </p>
+            <p className="release-details">
+              Murderous Ink Press · March 10 release
+            </p>
+          </div>
+        </div>
+  <Link id="all-books" href="/books">
+    View All Books
+  </Link>
       </section>
       <section id="about">
         <Image

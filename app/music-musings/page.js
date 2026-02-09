@@ -3,8 +3,12 @@ import Link from "next/link"
 
 const POSTS = [
     {
-      href: "/music-musings/a-case-for-quality",
-      title: "A Case for Quality"
+        href: "/music-musings/a-case-for-quality",
+        title: "A Case for Quality"
+    },
+    {
+        href:"/music-musings/about-time",
+        title: "About Time"
     }
 ]
 

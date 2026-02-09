@@ -17,7 +17,6 @@ const POSTS_BY_YEAR = [
         { href: "/posts/the-most-kindest-cut-of-all", title: "The Most Kindest Cut of All" },
         { href: "/posts/tchaikovsky-and-the-future-of-contemporary-music", title: "Tchaikovsky and the Future of Contemporary Music" },
         { href: "/posts/lacrymosa-and-the-triumph-of-constanze-mozart", title: "Lacrymosa, and the Triumph of Constanze Mozart" },
-        { href: "/posts/a-strange-and-wonderful-concert", title: "A Strange and Wonderful Concert" },
       ],
     },
     {
