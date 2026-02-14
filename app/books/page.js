@@ -185,10 +185,34 @@ export default function Books(){
                 <div id="book-award">
                     <Image alt="KILLER NASHVILLE SILVER FALCHION AWARD" width={300} height={225} src="/icons/insignia.webp" />
                 </div>
-                <BookSection 
-                    name="Featured Titles"
-                    books={FEATURED_BOOKS}
-                />
+                <div className="cursor-hint">
+                    <p>click covers for more info</p>
+                    &nbsp;
+                    <Image height={15} width={15} src="/general/cursor.png" />
+                </div>
+                <section className="books-page-section upcoming-release-section">
+                    <h3>Upcoming Release</h3>
+                    <div id="books-upcoming">
+                        <Image
+                            className="books-upcoming-cover"
+                            src="/books/coterie.webp"
+                            alt="Crimeucopia: A Coterie of Dicks"
+                            width={280}
+                            height={420}
+                        />
+                        <div id="books-upcoming-text">
+                        <h4>&ldquo;And the Skies Are Not Cloudy All Day&rdquo;</h4>
+                        <p>
+                            A <strong>Jefferson Dance</strong> short mystery, appearing in an
+                            upcoming <em>Crimeucopia</em> anthology,{" "}
+                            <em className="gold-accent">A Coterie of Dicks</em>.
+                        </p>
+                        <p className="release-details">
+                            Murderous Ink Press · March 10 Release
+                        </p>
+                        </div>
+                    </div>
+                </section>
                 <BookSection 
                     name="Daniel Jacobus Mysteries"
                     books={JACOBUS_BOOKS}

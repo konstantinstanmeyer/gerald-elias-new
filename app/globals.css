@@ -891,6 +891,92 @@ textarea {
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 }
 
+.cursor-hint {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  filter: opacity(0.5);
+  font-family: var(--font-accent);
+  font-size: 0.9rem;
+}
+
+/* ── Upcoming Release: Books Page ── */
+
+#books-upcoming {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  max-width: 750px;
+  margin-bottom: var(--space-lg);
+}
+
+.books-upcoming-cover {
+  max-width: 280px;
+  width: 100%;
+  height: auto;
+  display: block;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.books-upcoming-cover:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.18);
+}
+
+#books-upcoming-text {
+  flex: 1;
+  text-align: left;
+}
+
+#books-upcoming-text h4 {
+  font-family: var(--font-display);
+  font-size: clamp(1.3rem, 2.5vw, 1.7rem);
+  font-weight: 400;
+  font-style: italic;
+  color: var(--color-charcoal);
+  margin-bottom: var(--space-md);
+}
+
+#books-upcoming-text p {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.8;
+  color: var(--color-warm-gray);
+  margin-bottom: var(--space-sm);
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+#books-upcoming-text .release-details {
+  font-family: var(--font-accent);
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--color-gold);
+  margin-top: var(--space-md);
+}
+
+@media (max-width: 768px) {
+  #books-upcoming {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .books-upcoming-cover {
+    max-width: 220px;
+  }
+
+  #books-upcoming-text {
+    text-align: center;
+  }
+}
+
 .book-card {
   aspect-ratio: 1/0.63
 }
@@ -3020,4 +3106,9 @@ button:disabled {
       opacity: 1;
     }
   }
+}
+
+.upcoming-release-section {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
 }
