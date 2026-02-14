@@ -900,6 +900,7 @@ textarea {
   filter: opacity(0.5);
   font-family: var(--font-accent);
   font-size: 0.9rem;
+  margin-bottom: 2rem;
 }
 
 /* ── Upcoming Release: Books Page ── */
@@ -3109,6 +3110,6 @@ button:disabled {
 }
 
 .upcoming-release-section {
-  margin-top: 3rem;
-  margin-bottom: 4rem;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
 }

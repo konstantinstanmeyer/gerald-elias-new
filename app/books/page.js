@@ -185,11 +185,6 @@ export default function Books(){
                 <div id="book-award">
                     <Image alt="KILLER NASHVILLE SILVER FALCHION AWARD" width={300} height={225} src="/icons/insignia.webp" />
                 </div>
-                <div className="cursor-hint">
-                    <p>click covers for more info</p>
-                    &nbsp;
-                    <Image height={15} width={15} src="/general/cursor.png" />
-                </div>
                 <section className="books-page-section upcoming-release-section">
                     <h3>Upcoming Release</h3>
                     <div id="books-upcoming">
@@ -213,6 +208,11 @@ export default function Books(){
                         </div>
                     </div>
                 </section>
+                <div className="cursor-hint">
+                    <p>click covers for more info</p>
+                    &nbsp;
+                    <Image height={15} width={15} src="/general/cursor.png" alt="more-info" />
+                </div>
                 <BookSection 
                     name="Daniel Jacobus Mysteries"
                     books={JACOBUS_BOOKS}
