@@ -60,6 +60,10 @@ export const postMetadata = {
   },
   "about-time": {
     title: "About Time",
+  },
+  "the-black-mozart": {
+    title: "The Black Mozart",
+    image: "/posts/black-mozart.webp",
   }
 };
 

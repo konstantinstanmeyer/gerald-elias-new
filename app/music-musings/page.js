@@ -9,6 +9,10 @@ const POSTS = [
     {
         href:"/music-musings/about-time",
         title: "About Time"
+    },
+    {
+        href: "/music-musings/the-black-mozart",
+        title: "The Black Mozart"
     }
 ]
 
