@@ -18,6 +18,8 @@ export async function generateMetadata({ params }) {
   if (!name || !postExists(name)) return;
   
   const metadata = postMetadata[name];
+
+  console.log(metadata.image);
   
   return {
     title: metadata.title,

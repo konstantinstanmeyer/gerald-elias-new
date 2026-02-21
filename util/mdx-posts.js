@@ -63,7 +63,7 @@ export const postMetadata = {
   },
   "the-black-mozart": {
     title: "The Black Mozart",
-    image: "/posts/black-mozart.webp",
+    image: "/posts/black-mozart.jpg",
   }
 };
 
