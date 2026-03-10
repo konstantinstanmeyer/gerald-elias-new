@@ -3,6 +3,10 @@ import Link from "next/link"
 
 const POSTS = [
     {
+        href:"/music-musings/an-earthquake-rattles-boston",
+        title: "An Earthquake Rattles Boston"
+    },
+    {
         href: "/music-musings/a-case-for-quality",
         title: "A Case for Quality"
     },
@@ -13,7 +17,7 @@ const POSTS = [
     {
         href: "/music-musings/the-black-mozart",
         title: "The Black Mozart"
-    }
+    },
 ]
 
 export default function MusicMusings(){

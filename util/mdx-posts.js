@@ -64,6 +64,10 @@ export const postMetadata = {
   "the-black-mozart": {
     title: "The Black Mozart",
     image: "/posts/black-mozart.jpg",
+  },
+  "an-earthquake-rattles-boston": {
+    title: "An Earthquake Rattles Boston",
+    image: "/posts/BSO.jpg",
   }
 };
 
