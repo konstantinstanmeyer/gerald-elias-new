@@ -67,7 +67,7 @@ export const postMetadata = {
   },
   "an-earthquake-rattles-boston": {
     title: "An Earthquake Rattles Boston",
-    image: "/posts/BSO.jpg",
+    image: "/posts/bso.jpg",
   }
 };
 
