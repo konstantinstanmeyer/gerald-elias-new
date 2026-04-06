@@ -64,9 +64,9 @@ export default function Home() {
               partnership. Keep your eyes out for{" "}
               <strong>NYPD Chief Maury Gross</strong> and Western lawman{" "}
               <strong>Jefferson Dance</strong> in 2026. */}
-              The April issue of the prestigious international music journal, <i>The Strad</i>, has published Gerald Elias's article about the December 2025 
-              Vivaldi by Candlelight performance and the first recording of the rarely heard Viola Concerto in E-flat by German composer <strong>Mark Heinrich Graul</strong>. 
-              The article, entitled <i>Back to Life: An 18th-Century Viola Concerto Rediscovered</i>, is available to all subscribers of <i>The Strad</i>.
+              The April issue of the prestigious international music journal, The Strad, has published an article I wrote about our December 2025 
+              Vivaldi by Candlelight performance and first recording of the rarely heard Viola Concerto in E-flat by the German composer, <strong>Mark Heinrich Graul</strong>. 
+              Access to the article, entitled <i>Back to Life: An 18th-Century Viola Concerto Rediscovered</i>, is available to all subscribers of The Strad.
             </p>
             <Link href="https://www.thestrad.com/for-subscribers/back-to-life-an-18th-century-viola-concerto-rediscovered/21043.article" target="_blank" className="text-link">
               Read in The Strad <span className="arrow">→</span>
