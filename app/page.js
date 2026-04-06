@@ -21,14 +21,14 @@ export default function Home() {
             <a href="mailto:eliasviolins@gmail.com" className="btn-primary">
               Contact Jacob Elias
             </a>
-            {/* <a
-              href="https://jacobeliasdotart.wordpress.com/"
+            <a
+              href="https://www.eliasviolins.com"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-secondary"
             >
               Learn More
-            </a> */}
+            </a>
           </div>
         </div>
         <div id="landing-image-container">
@@ -46,7 +46,7 @@ export default function Home() {
         <div id="breaking-news-container">
           <div id="breaking-news-image">
             <Image
-              src="/general/publishers-marketplace.webp"
+              src="/general/the-strad.png"
               alt="Publishers Marketplace announcement"
               width={500}
               height={350}
@@ -55,8 +55,8 @@ export default function Home() {
           <div id="breaking-news-text">
             <span className="section-label">Breaking News</span>
             <h2>
-              A New Four-Book Deal with{" "}
-              <em className="gold-accent">White City Press</em>
+              A New Feature in{" "}
+              <em className="gold-accent">The Strad</em>
             </h2>
             <div className="accent-line" />
             <p>
@@ -64,12 +64,12 @@ export default function Home() {
               partnership. Keep your eyes out for{" "}
               <strong>NYPD Chief Maury Gross</strong> and Western lawman{" "}
               <strong>Jefferson Dance</strong> in 2026. */}
-              Gerald Elias and White City Press have announced an exciting new partnership. 
-              Keep your eyes out in 2026 for two short crime fiction collections, <i>Murder on Vacation</i> and <i>Murder Goes Abroad</i>, featuring the likeable, retired <strong>NYPD Police Chief Maury Gross</strong>; 
-              a new edition of <i>Roundtree Days</i> featuring Western hero, <strong>Jefferson Dance</strong>, and an as-yet-unnamed sequel. Propose a title and I'll consider it!
+              The April issue of the prestigious international music journal, <i>The Strad</i>, has published Gerald Elias's article about the December 2025 
+              Vivaldi by Candlelight performance and the first recording of the rarely heard Viola Concerto in E-flat by German composer <strong>Mark Heinrich Graul</strong>. 
+              The article, entitled <i>Back to Life: An 18th-Century Viola Concerto Rediscovered</i>, is available to all subscribers of <i>The Strad</i>.
             </p>
-            <Link href="/books" className="text-link">
-              Explore All Books <span className="arrow">→</span>
+            <Link href="https://www.thestrad.com/for-subscribers/back-to-life-an-18th-century-viola-concerto-rediscovered/21043.article" target="_blank" className="text-link">
+              Read in The Strad <span className="arrow">→</span>
             </Link>
           </div>
         </div>

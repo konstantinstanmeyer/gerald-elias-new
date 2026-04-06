@@ -3,6 +3,15 @@ import Link from "next/link";
 
 const POSTS_BY_YEAR = [
     {
+      year: 2026,
+      posts: [
+        {
+          href: "/posts/troll-caption-contest",
+          title: "Troll Caption Contest",
+        },
+      ],
+    },
+    {
       year: 2025,
       posts: [
         {
