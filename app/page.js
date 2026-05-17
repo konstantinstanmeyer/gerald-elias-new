@@ -42,6 +42,35 @@ export default function Home() {
           />
         </div>
       </section>
+      <section id="home-books-container">
+        <div id="home-books-list">
+          <h2 id="home-books-header">Upcoming Releases</h2>
+        </div>
+        <div id="upcoming-release">
+          <Image
+            className="upcoming-release-cover"
+            src="/books/coterie.webp"
+            alt="Crimeucopia: A Coterie of Dicks"
+            width={320}
+            height={480}
+          />
+          <div id="upcoming-release-text">
+            <h3>And the Skies Are Not Cloudy All Day</h3>
+            <p>
+              A <strong>Jefferson Dance</strong> short mystery, appearing in an
+              upcoming <em>Crimeucopia</em> anthology,{" "}
+              <em className="gold-accent">A Coterie of Dicks</em>.
+            </p>
+            <p className="release-details">
+              Murderous Ink Press · March 10 release
+            </p>
+          </div>
+        </div>
+  
+  <Link id="all-books" href="/books">
+    View All Books
+  </Link>
+      </section>
       <section id="breaking-news">
         <div id="breaking-news-container">
           <div id="breaking-news-image">
@@ -92,34 +121,6 @@ export default function Home() {
             <p className="breaking-news-quote">-- Gary Phillips, Anthony Award-winning author of <i>Ash Dark as Night</i></p>
           </div>
         </div>
-      </section>
-      <section id="home-books-container">
-        <div id="home-books-list">
-          <h2 id="home-books-header">Upcoming Releases</h2>
-        </div>
-        <div id="upcoming-release">
-          <Image
-            className="upcoming-release-cover"
-            src="/books/coterie.webp"
-            alt="Crimeucopia: A Coterie of Dicks"
-            width={320}
-            height={480}
-          />
-          <div id="upcoming-release-text">
-            <h3>And the Skies Are Not Cloudy All Day</h3>
-            <p>
-              A <strong>Jefferson Dance</strong> short mystery, appearing in an
-              upcoming <em>Crimeucopia</em> anthology,{" "}
-              <em className="gold-accent">A Coterie of Dicks</em>.
-            </p>
-            <p className="release-details">
-              Murderous Ink Press · March 10 release
-            </p>
-          </div>
-        </div>
-  <Link id="all-books" href="/books">
-    View All Books
-  </Link>
       </section>
       <section id="about">
         <Image
