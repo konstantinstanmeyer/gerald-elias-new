@@ -470,8 +470,27 @@ textarea {
   background-color: white;
 }
 
+.breaking-news-quote {
+  margin-top: 1.9rem;
+  font-size: 0.9rem !important;
+}
+
 #breaking-news-text {
   flex: 1;
+}
+
+#breaking-news-text a:nth-of-type(1) {
+  text-underline-offset: 3px;
+  font-weight: 400;
+  color: black !important;
+}
+
+#breaking-accent-link {
+  font-size: 0.95rem;
+  text-underline-offset: 7px !important;
+  line-height: 1rem;
+  font-family: var(--font-accent);
+  text-decoration-thickness: 1px;
 }
 
 #breaking-news-text h2 {
