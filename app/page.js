@@ -85,7 +85,7 @@ export default function Home() {
               If you preorder the ebook version for only $4.99, it will be delivered to the email address on the order.
             </p>
             {/* <div className="accent-line" /> */}
-            <Link href="https://www.thestrad.com/for-subscribers/back-to-life-an-18th-century-viola-concerto-rediscovered/21043.article" target="_blank" className="text-link">
+            <Link href="https://whitecitypress.com/product/mov/WCP/49/" target="_blank" className="text-link">
               Here's the link! <span className="arrow">→</span>
             </Link>
             <p className="breaking-news-quote"><i>Wry, twisty, laced with humor and well-executed.</i></p>
