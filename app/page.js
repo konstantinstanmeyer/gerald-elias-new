@@ -42,41 +42,12 @@ export default function Home() {
           />
         </div>
       </section>
-      <section id="home-books-container">
-        <div id="home-books-list">
-          <h2 id="home-books-header">Upcoming Releases</h2>
-        </div>
-        <div id="upcoming-release">
-          <Image
-            className="upcoming-release-cover"
-            src="/books/coterie.webp"
-            alt="Crimeucopia: A Coterie of Dicks"
-            width={320}
-            height={480}
-          />
-          <div id="upcoming-release-text">
-            <h3>And the Skies Are Not Cloudy All Day</h3>
-            <p>
-              A <strong>Jefferson Dance</strong> short mystery, appearing in an
-              upcoming <em>Crimeucopia</em> anthology,{" "}
-              <em className="gold-accent">A Coterie of Dicks</em>.
-            </p>
-            <p className="release-details">
-              Murderous Ink Press · March 10 release
-            </p>
-          </div>
-        </div>
-  
-  <Link id="all-books" href="/books">
-    View All Books
-  </Link>
-      </section>
-      <section id="breaking-news">
+      {/* <section id="breaking-news">
         <div id="breaking-news-container">
           <div id="breaking-news-image">
             <Image
-              src="/general/murder-on-vacation-breaking.webp"
-              alt="Publishers Marketplace announcement"
+              src="/general/strad-back-to-life.webp"
+              alt="The Strad — Back to Life article"
               width={500}
               height={350}
             />
@@ -85,42 +56,67 @@ export default function Home() {
             <span className="section-label">Breaking News</span>
             <h2>
               A New Feature in{" "}
-              <em className="gold-accent">Behold, A New Hero!</em>
+              <em className="gold-accent">The Strad</em>
             </h2>
             <div className="accent-line" />
             <p>
-              {/* Gerald Elias and White City Press have announced an exciting new
-              partnership. Keep your eyes out for{" "}
-              <strong>NYPD Chief Maury Gross</strong> and Western lawman{" "}
-              <strong>Jefferson Dance</strong> in 2026. */}
+              The April issue of the prestigious international music journal, The Strad, has published an article I wrote about our December 2025 Vivaldi by Candlelight performance and first recording of the rarely heard Viola Concerto in E-flat by the German composer, <strong>Mark Heinrich Graul</strong>. Access to the article, entitled <em>Back to Life: An 18th-Century Viola Concerto Rediscovered</em>, is available to all subscribers of The Strad.
+            </p>
+            <Link href="https://www.thestrad.com" target="_blank" className="text-link">
+              Read in The Strad <span className="arrow">→</span>
+            </Link>
+          </div>
+        </div>
+      </section> */}
+      <section id="home-books-container">
+        <div id="home-books-list">
+          <h2 id="home-books-header">Upcoming Releases</h2>
+        </div>
+        <div id="upcoming-release">
+          <Image
+            className="upcoming-release-cover"
+            src="/general/murder-on-vacation-breaking.webp"
+            alt="Murder on Vacation"
+            width={320}
+            height={480}
+          />
+          <div id="upcoming-release-text">
+            <h3>
+              A New Feature in{" "}
+              <em className="gold-accent">Behold, A New Hero!</em>
+            </h3>
+            <p>
               First there was Hercule Poirot. Then came Sam Spade. Now, get ready for…Maury Gross.
             </p>
             <p>
               You heard right. Maury Gross, a retired, Jewish NYPD police chief: part cop, part philosopher, and if one is totally honest, part nebbish who could stand to lose a few pounds and who would like nothing better to do than lie on his couch in Queens with a nice sandwich and watch the Mets on TV.
             </p>
             <p>
-              In <a href="https://whitecitypress.com/product/mov/WCP/49/ " target="_blank" rel="">MURDER ON VACATION</a>, a collection of 16 delectable short crime stories, Maury’s wife, Bobbi, takes (i.e. drags) the two of them to many of America’s favorite holiday destinations, from headlands of the California coast to the headstones of Boston’s historic burial grounds and all points in between. Unfortunately for Maury, his stellar reputation precedes him everywhere he tries to go for a little R&R and, when a baffling heist or murder is committed, the local constabulary imposes upon him to solve it. Sometimes, for Maury, that means looking the other way when he has greater sympathy for the perp than the victim, but let’s leave it at that for the moment.
+              In <a href="https://whitecitypress.com/product/mov/WCP/49/" target="_blank" rel="">MURDER ON VACATION</a>, a collection of 16 delectable short crime stories, Maury&apos;s wife, Bobbi, takes (i.e. drags) the two of them to many of America&apos;s favorite holiday destinations, from headlands of the California coast to the headstones of Boston&apos;s historic burial grounds and all points in between. Unfortunately for Maury, his stellar reputation precedes him everywhere he tries to go for a little R&amp;R and, when a baffling heist or murder is committed, the local constabulary imposes upon him to solve it. Sometimes, for Maury, that means looking the other way when he has greater sympathy for the perp than the victim, but let&apos;s leave it at that for the moment.
             </p>
             <p>
-              Like Nick and Nora Charles in Dashiell Hammett’s classic The Thin Man series, Maury and Bobbi are a loveable and inseparable crime-solving team, providing plentiful laughs as they inevitably bring every ne’er-do-well to justice.
+              Like Nick and Nora Charles in Dashiell Hammett&apos;s classic The Thin Man series, Maury and Bobbi are a loveable and inseparable crime-solving team, providing plentiful laughs as they inevitably bring every ne&apos;er-do-well to justice.
             </p>
             <p>
               <strong><a id="breaking-accent-link" href="https://whitecitypress.com/product/mov/WCP/49/" target="_blank" rel="noopener noreferrer">MURDER ON VACATION, a perfect choice for your summer reading list, is now available for preorder from White City Press!</a></strong>
             </p>
             <p>
-              Preorder from White City Press before May 19 and you’ll receive the paperback for only $16. After the 19th it will be $18, still a lower price than at any retail outlet. Plus, White City Press provides FREE SHIPPING, ANYWHERE!
+              Preorder from White City Press before May 19 and you&apos;ll receive the paperback for only $16. After the 19th it will be $18, still a lower price than at any retail outlet. Plus, White City Press provides FREE SHIPPING, ANYWHERE!
             </p>
             <p>
               If you preorder the ebook version for only $4.99, it will be delivered to the email address on the order.
             </p>
-            {/* <div className="accent-line" /> */}
             <Link href="https://whitecitypress.com/product/mov/WCP/49/" target="_blank" className="text-link">
-              Here's the link! <span className="arrow">→</span>
+              Here&apos;s the link! <span className="arrow">→</span>
             </Link>
             <p className="breaking-news-quote"><i>Wry, twisty, laced with humor and well-executed.</i></p>
             <p className="breaking-news-quote">-- Gary Phillips, Anthony Award-winning author of <i>Ash Dark as Night</i></p>
           </div>
         </div>
+
+        <Link id="all-books" href="/books">
+          View All Books
+        </Link>
       </section>
       <section id="about">
         <Image
