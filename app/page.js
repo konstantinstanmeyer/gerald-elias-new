@@ -42,51 +42,26 @@ export default function Home() {
           />
         </div>
       </section>
-      {/* <section id="breaking-news">
+      <section id="breaking-news">
         <div id="breaking-news-container">
           <div id="breaking-news-image">
             <Image
-              src="/general/strad-back-to-life.webp"
+              src="/general/murder-on-vacation-breaking.webp"
               alt="The Strad — Back to Life article"
               width={500}
               height={350}
             />
           </div>
           <div id="breaking-news-text">
-            <span className="section-label">Breaking News</span>
-            <h2>
-              A New Feature in{" "}
-              <em className="gold-accent">The Strad</em>
-            </h2>
+            <span className="section-label">Upcoming Releases</span>
             <div className="accent-line" />
-            <p>
-              The April issue of the prestigious international music journal, The Strad, has published an article I wrote about our December 2025 Vivaldi by Candlelight performance and first recording of the rarely heard Viola Concerto in E-flat by the German composer, <strong>Mark Heinrich Graul</strong>. Access to the article, entitled <em>Back to Life: An 18th-Century Viola Concerto Rediscovered</em>, is available to all subscribers of The Strad.
-            </p>
-            <Link href="https://www.thestrad.com" target="_blank" className="text-link">
-              Read in The Strad <span className="arrow">→</span>
-            </Link>
-          </div>
-        </div>
-      </section> */}
-      <section id="home-books-container">
-        <div id="home-books-list">
-          <h2 id="home-books-header">Upcoming Releases</h2>
-        </div>
-        <div id="upcoming-release">
-          <Image
-            className="upcoming-release-cover"
-            src="/general/murder-on-vacation-breaking.webp"
-            alt="Murder on Vacation"
-            width={320}
-            height={480}
-          />
-          <div id="upcoming-release-text">
+            <div id="upcoming-release-text">
             <h3>
               A New Feature in{" "}
               <em className="gold-accent">Behold, A New Hero!</em>
             </h3>
             <p>
-              First there was Hercule Poirot. Then came Sam Spade. Now, get ready for…Maury Gross.
+              First there was Hercule Poirot. Then came Sam Spade. Now, get ready for… Maury Gross.
             </p>
             <p>
               You heard right. Maury Gross, a retired, Jewish NYPD police chief: part cop, part philosopher, and if one is totally honest, part nebbish who could stand to lose a few pounds and who would like nothing better to do than lie on his couch in Queens with a nice sandwich and watch the Mets on TV.
@@ -98,7 +73,7 @@ export default function Home() {
               Like Nick and Nora Charles in Dashiell Hammett&apos;s classic The Thin Man series, Maury and Bobbi are a loveable and inseparable crime-solving team, providing plentiful laughs as they inevitably bring every ne&apos;er-do-well to justice.
             </p>
             <p>
-              <strong><a id="breaking-accent-link" href="https://whitecitypress.com/product/mov/WCP/49/" target="_blank" rel="noopener noreferrer">MURDER ON VACATION, a perfect choice for your summer reading list, is now available for preorder from White City Press!</a></strong>
+              <strong><a className="black" id="breaking-accent-link" href="https://whitecitypress.com/product/mov/WCP/49/" target="_blank" rel="noopener noreferrer">MURDER ON VACATION, a perfect choice for your summer reading list, is now available for preorder from White City Press!</a></strong>
             </p>
             <p>
               Preorder from White City Press before May 19 and you&apos;ll receive the paperback for only $16. After the 19th it will be $18, still a lower price than at any retail outlet. Plus, White City Press provides FREE SHIPPING, ANYWHERE!
@@ -106,18 +81,33 @@ export default function Home() {
             <p>
               If you preorder the ebook version for only $4.99, it will be delivered to the email address on the order.
             </p>
-            <Link href="https://whitecitypress.com/product/mov/WCP/49/" target="_blank" className="text-link">
+            <Link href="https://whitecitypress.com/product/mov/WCP/49/" target="_blank" className="text-link black">
               Here&apos;s the link! <span className="arrow">→</span>
             </Link>
             <p className="breaking-news-quote"><i>Wry, twisty, laced with humor and well-executed.</i></p>
             <p className="breaking-news-quote">-- Gary Phillips, Anthony Award-winning author of <i>Ash Dark as Night</i></p>
           </div>
+          </div>
+        </div>
+      </section>
+      {/* <section id="home-books-container">
+        <div id="home-books-list">
+          <h2 id="home-books-header">Upcoming Releases</h2>
+        </div>
+        <div id="upcoming-release">
+          <Image
+            className="upcoming-release-cover"
+            src="/general/murder-on-vacation-breaking.webp"
+            alt="Murder on Vacation"
+            width={320}
+            height={480}
+          />
         </div>
 
         <Link id="all-books" href="/books">
           View All Books
         </Link>
-      </section>
+      </section> */}
       <section id="about">
         <Image
           src="/general/gerald-elias-statues.webp"
