@@ -21,7 +21,7 @@ const events = [
         "location": "Pizzeria 22",
         "address": "4213 SW College St., Seattle, WA 98116",
         "description": "Please contact me directly if you'd like to attend!",
-        "imageUrl":"",
+        "imageUrl":"/events/pizza.webp",
         "hyperlink": "https://www.folioseattle.org/event-details/john-come-kiss-me-now-fantasies-for-unaccompanied-violin"
     },
     {
