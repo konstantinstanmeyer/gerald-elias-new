@@ -22,7 +22,6 @@ const events = [
         "address": "4213 SW College St., Seattle, WA 98116",
         "description": "Please contact me directly if you'd like to attend!",
         "imageUrl":"/events/pizza.webp",
-        "hyperlink": "https://www.folioseattle.org/event-details/john-come-kiss-me-now-fantasies-for-unaccompanied-violin"
     },
     {
         "date":"Sunday, March 15th, 2026 @ 3:00-5:00PM",
