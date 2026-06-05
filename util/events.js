@@ -1,5 +1,30 @@
 const events = [
     {
+        "date":"Friday, August 7th, 2026 @ TBD",
+        "name":"Book Talk and Signing for Mystery on Vacation",
+        "location": "West Stockbridge Library",
+        "address": "21 State Line Rd, West Stockbridge, MA 01266",
+        "imageUrl":"/events/west-stockbridge-library.webp",
+    },
+    {
+        "date":"Tuesday, July 7th, 2026 @ 7:00-8:30PM EDT",
+        "name":"Fantasies for Unaccompanied Violin",
+        "location": "Saint James Place",
+        "address": "352 Main St, Great Barrington, MA 01230",
+        "description":"Benefit Recital for the Stockbridge Sinfonia.",
+        "imageUrl":"/events/st-james-place.webp",
+        "hyperlink": "https://saintjamesplace.net/event/benefit-for-stockbridge-sinfonia/"
+    },
+    {
+        "date":"Sunday, June 18th, 2026 @ 6:00-8:00PM PDT",
+        "name":"Launch Party for Murder on Vacation",
+        "location": "Pizzeria 22",
+        "address": "4213 SW College St., Seattle, WA 98116",
+        "description": "Please contact me directly if you'd like to attend!",
+        "imageUrl":"",
+        "hyperlink": "https://www.folioseattle.org/event-details/john-come-kiss-me-now-fantasies-for-unaccompanied-violin"
+    },
+    {
         "date":"Sunday, March 15th, 2026 @ 3:00-5:00PM",
         "name":"John Come Kiss Me Now: Fantasies for Unaccompanied Violin",
         "location": "Folio: The Seattle Athenaeum",
