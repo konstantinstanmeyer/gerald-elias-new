@@ -6,10 +6,31 @@ export default function MediaFeatures() {
         <Landing name="Media" imageUrl="/general/media-landing.webp" />
         <section id="connections-content">
             <div id="connections-list">
+                <h3>June 2026</h3>
+                <p>
+                    Guest post on "Kevin's Corner" mystery blog.&nbsp;
+                    <a 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        href="https://kevintipplescorner.blogspot.com/2026/06/guest-post-inspiration-behind-murder-on.html?m=1&fbclid=IwY2xjawSSw0ZleHRuA2FlbQIxMQBzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeXT9up54sBRDddtE3RAFSd7_TroP7Zdaqlr2p-7iJXyJRZ0VLZIOWth1TuIE_aem_0Mhtorph7CI6oTNH7J77VQ"
+                    >
+                        here
+                    </a>
+                </p>
+                <h3>May 2026</h3>
+                <p>
+                    A YouTube interview with Misti Media publisher, Jay Hartman.&nbsp;
+                    <a 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        href="https://www.youtube.com/watch?v=MRJG4cvxSx4&t=63s"
+                    >
+                        here
+                    </a>
+                </p>
                 <h3>October 2025</h3>
                 <p>
-                    A podcast with Gerald Elias about the role of music as an instrument of 
-                    international diplomacy.&nbsp;
+                    Guest post on "Kevin's Corner" mystery blog.&nbsp;
                     <a target="_blank" rel="noopener noreferrer" href="/media-features/music-diplomacy-podcast">
                         here
                     </a>
