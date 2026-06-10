@@ -1,6 +1,6 @@
 const events = [
     {
-        "date":"Friday, August 7th, 2026 @ TBD",
+        "date":"Friday, August 7th, 2026 @ 4:00-6:00PM EDT",
         "name":"Book Talk and Signing for Mystery on Vacation",
         "location": "West Stockbridge Library",
         "address": "21 State Line Rd, West Stockbridge, MA 01266",
