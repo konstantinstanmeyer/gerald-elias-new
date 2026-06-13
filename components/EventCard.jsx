@@ -11,8 +11,6 @@ export default function EventCard({ event }) {
     hyperlink
     } = event;
 
-    const displayDate = date.split('@')[0].trim();
-
     return (
         <article className="event-card">
             <div className="event-card-image-wrapper">
@@ -29,7 +27,7 @@ export default function EventCard({ event }) {
                 )}
             </div>
             <div className="event-card-content">
-                <div className="event-card-date">{displayDate}</div>
+                <div className="event-card-date">{date}</div>
                 <h3 className="event-card-name">{name}</h3>
                 {location && (
                     <div className="event-card-location">
