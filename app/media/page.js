@@ -8,6 +8,16 @@ export default function MediaFeatures() {
             <div id="connections-list">
                 <h3>June 2026</h3>
                 <p>
+                    Guest article in Kings River Life Magazine.&nbsp;
+                    <a 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        href="https://kingsriverlife.com/06/10/when-at-first-you-dont-succeed/"
+                    >
+                        here
+                    </a>
+                </p>
+                <p>
                     Guest post on "Kevin's Corner" mystery blog.&nbsp;
                     <a 
                         target="_blank" 
