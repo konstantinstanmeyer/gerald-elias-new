@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
 export async function POST(req){
     const { email } = await req.json();
 
-    console.log(email);
+    // console.log(email);
 
     const response = await fetch(process.env.CONTACT_URI, {
         method: 'POST',
@@ -12,9 +12,9 @@ export async function POST(req){
         })
     });
 
-    console.log(process.env.CONTACT_URI);
+    // console.log(process.env.CONTACT_URI);
 
-    console.log(response);
+    // console.log(response);
 
     if (response.status === 200){
         return NextResponse.json({message: 'success'}, { status: 200 });

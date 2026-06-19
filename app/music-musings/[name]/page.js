@@ -19,7 +19,7 @@ export async function generateMetadata({ params }) {
   
   const metadata = postMetadata[name];
 
-  console.log(metadata.image);
+  // console.log(metadata.image);
   
   return {
     title: metadata.title,
