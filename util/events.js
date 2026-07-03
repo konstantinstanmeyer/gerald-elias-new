@@ -1,8 +1,15 @@
 const events = [
     {
+        "date":"Wednesday, August 19th, 2026 @ 5:00-7:00PM EDT",
+        "name":"Murder on Vacation, Book Conversation & Signing with fellow author, Carol Goodman Kaufman.",
+        "location": "The Bookstore in Lenox",
+        "address": "11 Housatonic St, Lenox, MA 01240",
+        "imageUrl":"/events/the-bookstore-lenox.webp",
+    },
+    {
         "date":"Friday, August 7th, 2026 @ 4:00-6:00PM EDT",
-        "name":"Book Talk and Signing for Mystery on Vacation",
-        "location": "West Stockbridge Library",
+        "name":"Book Talk and Signing for Murder on Vacation",
+        "location": "Community Room, New Town Hall, West Stockbridge MA",
         "address": "21 State Line Rd, West Stockbridge, MA 01266",
         "imageUrl":"/events/west-stockbridge-library.webp",
     },
