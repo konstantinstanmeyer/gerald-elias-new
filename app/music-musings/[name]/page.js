@@ -20,7 +20,7 @@ export async function generateMetadata({ params }) {
   const metadata = postMetadata[name];
 
   // console.log(metadata.image);
-  
+
   return {
     title: metadata.title,
     description: metadata.description || `Read ${metadata.title} by Gerald Elias`,

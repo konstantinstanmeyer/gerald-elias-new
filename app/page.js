@@ -45,19 +45,18 @@ export default function Home() {
       <section id="breaking-news">
         <div id="breaking-news-container">
           <div id="breaking-news-image">
-            <Image
-              src="/general/murder-on-vacation-breaking.webp"
-              alt="The Strad — Back to Life article"
-              width={500}
-              height={350}
-            />
+            <a href="https://whitecitypress.com/product/mov/WCP/49/" target="_blank" rel="noopener noreferrer">
+              <Image
+                src="/general/murder-on-vacation-breaking.webp"
+                alt="The Strad — Back to Life article"
+                width={500}
+                height={350}
+              />
+            </a>
           </div>
           <div id="breaking-news-text">
-            <span className="section-label">Upcoming Releases</span>
-            <div className="accent-line" />
             <div id="upcoming-release-text">
             <h3>
-              A New Feature in{" "}
               <em className="gold-accent">Behold, A New Hero!</em>
             </h3>
             <p>
@@ -73,13 +72,7 @@ export default function Home() {
               Like Nick and Nora Charles in Dashiell Hammett&apos;s classic The Thin Man series, Maury and Bobbi are a loveable and inseparable crime-solving team, providing plentiful laughs as they inevitably bring every ne&apos;er-do-well to justice.
             </p>
             <p>
-              <strong><a className="black" id="breaking-accent-link" href="https://whitecitypress.com/product/mov/WCP/49/" target="_blank" rel="noopener noreferrer">MURDER ON VACATION, a perfect choice for your summer reading list, is now available for preorder from White City Press!</a></strong>
-            </p>
-            <p>
-              Preorder from White City Press before May 19 and you&apos;ll receive the paperback for only $16. After the 19th it will be $18, still a lower price than at any retail outlet. Plus, White City Press provides FREE SHIPPING, ANYWHERE!
-            </p>
-            <p>
-              If you preorder the ebook version for only $4.99, it will be delivered to the email address on the order.
+              White City Press provides FREE SHIPPING, ANYWHERE!
             </p>
             <Link href="https://whitecitypress.com/product/mov/WCP/49/" target="_blank" className="text-link black">
               Here&apos;s the link! <span className="arrow">→</span>
