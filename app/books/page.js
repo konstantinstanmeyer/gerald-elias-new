@@ -69,6 +69,11 @@ const JACOBUS_BOOKS = [
 
 const MORE_BOOKS = [
     {
+        href:"/books/coterie-of-dicks",
+        src: "/books/coterie.webp",
+        alt: "Crimeucopia: A Coterie of Dicks"
+    },
+    {
         href: "/books/roundtree-days",
         src: "/books/roundtree-days.webp",
         alt: "Roundtree Days",
@@ -186,25 +191,27 @@ export default function Books(){
                     <Image alt="KILLER NASHVILLE SILVER FALCHION AWARD" width={300} height={225} src="/icons/insignia.webp" />
                 </div>
                 <section className="books-page-section upcoming-release-section">
-                    <h3>Upcoming Release</h3>
+                    <h3>New Release</h3>
                     <div id="books-upcoming">
-                        <Image
-                            className="books-upcoming-cover"
-                            src="/books/coterie.webp"
-                            alt="Crimeucopia: A Coterie of Dicks"
-                            width={280}
-                            height={420}
-                        />
+                        <a href="https://whitecitypress.com/product/mov/WCP/49/" target="_blank" rel="noopener noreferrer">
+                            <Image
+                                className="books-upcoming-cover"
+                                src="/books/murder-on-vacation.webp"
+                                alt="Murder on Vacation"
+                                width={280}
+                                height={420}
+                            />
+                        </a>
                         <div id="books-upcoming-text">
-                        <h4>&ldquo;And the Skies Are Not Cloudy All Day&rdquo;</h4>
-                        <p>
-                            A <strong>Jefferson Dance</strong> short mystery, appearing in an
-                            upcoming <em>Crimeucopia</em> anthology,{" "}
-                            <em className="gold-accent">A Coterie of Dicks</em>.
-                        </p>
-                        <p className="release-details">
-                            Murderous Ink Press · March 10 Release
-                        </p>
+                            <h4>Sun, sand…and suspicious circumstances.</h4>
+                            <p>
+                                Retirement was supposed to be easy for former NYPD Chief Maury Gross—good food, baseball, and maybe a little peace and quiet. But thanks to his spirited wife Bobbi and her taste for “vacations to die for,” relaxation is the one thing that never makes the itinerary.
+                            </p>
+                            <a className="release-link" href="https://whitecitypress.com/product/mov/WCP/49/" target="_blank" rel="noopener noreferrer">
+                                <p className="release-details">
+                                    Purchase Now
+                                </p>
+                            </a>
                         </div>
                     </div>
                 </section>

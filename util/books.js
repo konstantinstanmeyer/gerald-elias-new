@@ -233,6 +233,30 @@ export const books = {
         },
         releaseDate: "2020"
     },
+    "coterie-of-dicks":{
+        name: "Crimeucopia: A Coterie of Dicks",
+        imageUrl: "/books/coterie.webp",
+        description: [
+            `It’s a Hell of a Job, But Someone Has to Do It`,
+            `Jon Matthew Farber, Dan Leicht, Daniel C. Bartlett, Rod A. White, Jim Guigli, J.W. Wood, M.E. Proctor, Russell Epp-Leppel, Matt McGee, Robb White, Glenn Francis Faelnar, Josh Pachter, Jon Fain, Gerald Elias, Ron Clyburn, Michael Wiley and Mark Coggins.`
+        ],
+        links: {
+            "Amazon": "https://www.amazon.com/Crimeucopia-Coterie-Dicks-Various-Authors/dp/1909498769/ref=tmm_pap_swatch_0",
+        }
+    },
+    "murder-on-vacation": {
+        name: "Murder on Vacation",
+        imageUrl: "/books/murder-on-vacation.webp",
+        description: [
+            `Retirement was supposed to be easy for former NYPD Chief Maury Gross—good food, baseball, and maybe a little peace and quiet. But thanks to his spirited wife Bobbi and her taste for “vacations to die for,” relaxation is the one thing that never makes the itinerary.`,
+            `In this collection of short crime stories, Maury and Bobbi crisscross the country in search of scenic views, fine dining, and a well-earned break from the past. Instead, they keep stumbling into trouble—dead bodies, shady characters, and mysteries that refuse to stay buried. Fortunately, Maury hasn’t lost his touch. With a sharp mind, a dry wit, and a healthy appreciation for a good sandwich, he tackles each case with the instincts of a seasoned detective and the bemused patience of a husband along for the ride.`,
+            `From seaside inns to mountain retreats, from wine country to small-town hideaways, no destination is safe from mischief—or from Maury’s uncanny ability to spot what others miss. Along the way, the banter between Maury and Bobbi sparkles with humor and heart, turning every investigation into an adventure as entertaining as it is suspenseful.`,
+            `Packed with clever twists, memorable characters, and a generous helping of laugh-out-loud moments, Murder on Vacation is the perfect  read for mystery lovers who like their crime served with a side of charm.`
+        ],
+        links: {
+            "White City Press": "https://whitecitypress.com/product/mov/"
+        }
+    }
     // "murder-on-vacation":{
     //     name: "Murder On Vacation",
     //     imageUrl: "/murder-on-vacation.jpg",

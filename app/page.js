@@ -74,7 +74,7 @@ export default function Home() {
             <p>
               White City Press provides FREE SHIPPING, ANYWHERE!
             </p>
-            <Link href="https://whitecitypress.com/product/mov/WCP/49/" target="_blank" className="text-link black">
+            <Link href="https://whitecitypress.com/product/mov/WCP/49/" target="_blank" className="text-link">
               Here&apos;s the link! <span className="arrow">→</span>
             </Link>
             <p className="breaking-news-quote"><i>Wry, twisty, laced with humor and well-executed.</i></p>

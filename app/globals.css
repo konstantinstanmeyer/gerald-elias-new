@@ -193,10 +193,10 @@ textarea {
   font-size: 0.85rem;
   font-weight: 500;
   letter-spacing: 1px;
-  color: var(--color-charcoal);
+  color: var(--color-gold);
   text-decoration: none;
   padding-bottom: 0.25rem;
-  border-bottom: 1px solid var(--color-charcoal);
+  border-bottom: 1px solid var(--color-gold);
   transition: all 0.3s ease;
   margin-top: 1rem;
 }
@@ -605,7 +605,17 @@ textarea {
   margin-top: var(--space-md) !important;
 }
 
+.release-link {
+  text-decoration-color: var(--color-gold) !important;
+  text-underline-offset: 3px;
+}
+
 @media (max-width: 768px) {
+  #books-upcoming-text p {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
   #upcoming-release {
     flex-direction: column;
     text-align: center;
@@ -978,8 +988,8 @@ textarea {
   line-height: 1.8;
   color: var(--color-warm-gray);
   margin-bottom: var(--space-sm);
-  margin-left: 2rem;
-  margin-right: 2rem;
+  /* margin-left: 2rem;
+  margin-right: 2rem; */
 }
 
 #books-upcoming-text .release-details {
@@ -2724,6 +2734,11 @@ button:disabled {
 }
 
 @media (max-width: 600px) {
+  #books-upcoming-text p {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
   #landing-title {
     font-size: 1.8rem;
   }
