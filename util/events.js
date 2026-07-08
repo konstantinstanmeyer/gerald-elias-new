@@ -5,6 +5,7 @@ const events = [
         "location": "The Bookstore in Lenox",
         "address": "11 Housatonic St, Lenox, MA 01240",
         "imageUrl":"/events/the-bookstore-lenox.webp",
+        "hyperlink":"https://www.bookstoreinlenox.com/events/"
     },
     {
         "date":"Friday, August 7th, 2026 @ 4:00-6:00PM EDT",
