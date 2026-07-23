@@ -15,7 +15,7 @@ const events = [
         "imageUrl":"/events/third-place-books.webp",
     },
     {
-        "date":"Thursday, November 5th, 2026",
+        "date":"Thursday, November 5th, 2026 @ 6:00-8:00PM PST",
         "name":"Folio: The Seattle Athenaeum",
         "description":"Book discussion, reading, and signing, joined by fellow Seattle authors Kate Jackson and Charles Philipp Martin",
         "address": "93 Pike Street, #307, Seattle, WA",
