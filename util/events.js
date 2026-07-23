@@ -1,10 +1,40 @@
 const events = [
     {
+        "date":"Saturday, December 5th, 2026 @ 7:00PM MST",
+        "name":"Vivaldi by Candlelight concert: Titans of the Baroque",
+        "location":"First United Methodist Church",
+        "address": "203 South 200 East, Salt Lake City, UT",
+        "imageUrl":"/events/vivaldi-2025.webp",
+        "hyperlink":"https://www.utahglobaldiplomacy.org/events/vivaldi"
+    },
+    {
+        "date":"Tuesday, November 17th, 2026",
+        "name":"Book discussion, reading, and signing",
+        "location":"Third Place Books",
+        "address": "17171 Bothell Way NE, #A101, Lake Forest Park, WA",
+        "imageUrl":"/events/third-place-books.webp",
+    },
+    {
+        "date":"Thursday, November 5th, 2026",
+        "name":"Folio: The Seattle Athenaeum",
+        "description":"Book discussion, reading, and signing, joined by fellow Seattle authors Kate Jackson and Charles Philipp Martin",
+        "address": "93 Pike Street, #307, Seattle, WA",
+        "imageUrl":"/events/folio.webp",
+    },
+    {
         "date":"Wednesday, August 19th, 2026 @ 5:00-7:00PM EDT",
         "name":"Murder on Vacation, Book Conversation & Signing with fellow author, Carol Goodman Kaufman.",
         "location": "The Bookstore in Lenox",
         "address": "11 Housatonic St, Lenox, MA 01240",
         "imageUrl":"/events/the-bookstore-lenox.webp",
+        "hyperlink":"https://www.bookstoreinlenox.com/events/"
+    },
+    {
+        "date":"Tuesday, August 18th, 2026 @ 1:00-2:00PM EDT",
+        "name":"Gourmet Book Talk",
+        "location": "Bizalion's Fine Foods",
+        "address": "684 Main Street, Great Barrington, MA 02130",
+        "imageUrl":"/events/gourmet.webp",
         "hyperlink":"https://www.bookstoreinlenox.com/events/"
     },
     {
