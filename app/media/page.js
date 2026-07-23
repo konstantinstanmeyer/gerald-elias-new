@@ -6,6 +6,11 @@ export default function MediaFeatures() {
         <Landing name="Media" imageUrl="/general/media-landing.webp" />
         <section id="connections-content">
             <div id="connections-list">
+                
+                <h3>July 2026</h3>
+                <p>
+                    Guest "defense attorney" on Reels of Justice podcast: "We put movies on trial."&nbsp;
+                </p>
                 <h3>June 2026</h3>
                 <p>
                     Guest article in Kings River Life Magazine.&nbsp;
