@@ -12,7 +12,8 @@ const events = [
         "name":"Book Talk and Signing for Murder on Vacation",
         "location": "Community Room, New Town Hall, West Stockbridge MA",
         "address": "21 State Line Rd, West Stockbridge, MA 01266",
-        "imageUrl":"/events/west-stockbridge-library.webp",
+        "imageUrl":"/events/west-stockbridge.webp",
+        "hyperlink":"https://weststockbridgepl.org/"
     },
     {
         "date":"Tuesday, July 7th, 2026 @ 7:00-8:30PM EDT",
