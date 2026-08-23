@@ -7,9 +7,38 @@ export default function MediaFeatures() {
         <section id="connections-content">
             <div id="connections-list">
                 
+                <h3>August 2026</h3>
+                <p>
+                    Interview with blogger Moriah Jackson on WTFMoriah.&nbsp;
+                    <a 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        href="https://youtu.be/zEMcIKvbmMU?is=5uXynflwfoZM-RBU"
+                    >
+                        here
+                    </a>
+                </p>
+                <h3>June 2026</h3>
+                <p>
+                    Guest article in Kings River Life Magazine.&nbsp;
+                    <a 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        href="https://kingsriverlife.com/06/10/when-at-first-you-dont-succeed/"
+                    >
+                        here
+                    </a>
+                </p>
                 <h3>July 2026</h3>
                 <p>
                     Guest "defense attorney" on Reels of Justice podcast: "We put movies on trial."&nbsp;
+                    <a 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        href="https://reelsofjustice.buzzsprout.com/1154249/episodes/19536094-roj-607-the-people-vs-diva-with-gerald-elias"
+                    >
+                        here
+                    </a>
                 </p>
                 <h3>June 2026</h3>
                 <p>
