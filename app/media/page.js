@@ -8,7 +8,7 @@ export default function MediaFeatures() {
             <div id="connections-list">
                 <h3>August 2026</h3>
                 <p>
-                    Gerald Elias: Where Music Meets Mystery. An author spotlight by Moriah Jackson&nbsp;
+                    Gerald Elias: Where Music Meets Mystery. An author spotlight by Moriah Jackson.&nbsp;
                     <a 
                         target="_blank" 
                         rel="noopener noreferrer" 
