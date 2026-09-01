@@ -20,6 +20,15 @@ const events = [
         "description":"Book discussion, reading, and signing, joined by fellow Seattle authors Kate Jackson and Charles Philipp Martin",
         "address": "93 Pike Street, #307, Seattle, WA",
         "imageUrl":"/events/folio.webp",
+        "hyperlink":"https://www.folioseattle.org/event-details/murder-and-mayhem-with-gerald-elias-kate-jackson-and-charles-philipp-martin"
+    },
+    {
+        "date":"Saturday, September 12th, 2026 @ 1:00-3:00PM EDT",
+        "name":'"Second Saturday" Book signing with 3 other local authors!',
+        "location":"Lakeville Books",
+        "address": "63 State Rd., Great Barrington, MA",
+        "imageUrl":"/events/lakeview.webp",
+        "hyperlink":"https://lakevillebooks.com/events/6168620260912"
     },
     {
         "date":"Wednesday, August 19th, 2026 @ 5:00-7:00PM EDT",

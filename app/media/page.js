@@ -6,8 +6,17 @@ export default function MediaFeatures() {
         <Landing name="Media" imageUrl="/general/media-landing.webp" />
         <section id="connections-content">
             <div id="connections-list">
-                
                 <h3>August 2026</h3>
+                <p>
+                    Gerald Elias: Where Music Meets Mystery. An author spotlight by Moriah Jackson&nbsp;
+                    <a 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        href="https://www.facebook.com/story.php?story_fbid=122125928277357660&id=61590729802753&mibextid=wwXIfr&rdid=Z9kik0kerPxy7XEU"
+                    >
+                        here
+                    </a>
+                </p>
                 <p>
                     Interview with blogger Moriah Jackson on WTFMoriah.&nbsp;
                     <a 
