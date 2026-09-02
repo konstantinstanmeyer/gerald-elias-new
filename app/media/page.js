@@ -18,7 +18,7 @@ export default function MediaFeatures() {
                     </a>
                 </p>
                 <p>
-                    Interview with blogger Moriah Jackson on WTFMoriah.&nbsp;
+                    YouTube interview, on WTFMoriah.&nbsp;
                     <a 
                         target="_blank" 
                         rel="noopener noreferrer" 
